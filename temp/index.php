@@ -2,14 +2,16 @@
 		
 		<section class = "welcome">
 			<inner-column>
-			
+				<?php include("modules/introduction.php");?>
 			</inner-column>
+			<div></div>
 		</section>
 
 		<section class = "about">
 			<inner-column>
-			
+			<?php include("modules/about.php");?>
 			</inner-column>
+			<div></div>
 		</section>
 		
 		<section class = "writing">

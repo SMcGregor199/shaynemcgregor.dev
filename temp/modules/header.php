@@ -8,7 +8,13 @@
 <body>
 	<header class= "site-header">
 		<inner-column>
-			
+			<nav class = "site-nav">
+				<a class = "base-voice" href="">Home</a>
+				<a class = "base-voice" href="">About</a>
+				<a class = "base-voice"href="">Projects</a>
+				<a class = "base-voice"href="">Writing</a>
+				<a class = "base-voice"href="">Playlist</a>
+			</nav>
 		</inner-column>
 	</header>
 

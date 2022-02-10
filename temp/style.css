@@ -6,11 +6,23 @@
 
 
 /*MODULES*/
-@import "modules-css/header.css";
-@import "modules-css/footer.css";
+@import "css/modules-css/header.css";
+@import "css/modules-css/footer.css";
+@import "css/modules-css/introduction.css";
+@import "css/modules-css/about.css";
 
 
 
+
+/*TROUBLE SHOOTING*/
+body * {
+	/*border:  1px solid red;*/
+}
+
+div {
+	height: 25px;
+	background-color: black;
+}
 
 
 

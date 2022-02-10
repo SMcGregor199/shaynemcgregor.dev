@@ -3,11 +3,21 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	min-height: 100vh;
+}
+
+main {
+	flex-grow:  1; /* push the footer down */
 }
 
 inner-column {
 	display: block;
+	max-width: 1100px; /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 14px; /* a default */
 }
 
 a {
@@ -32,4 +42,9 @@ img {
 	height: auto;
 }
 
+svg {
+  display: block;
+  width: 100%;
+  /* may need height: 100%; Check all browsers */
+}
 

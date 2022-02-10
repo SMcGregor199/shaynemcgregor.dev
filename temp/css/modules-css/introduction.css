@@ -1,0 +1,17 @@
+introduction {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+introduction h1 {
+	padding-bottom: 3.125rem;
+} 
+
+introduction h2:nth-of-type(1) {
+	text-align: center;
+	padding-bottom: 1.25rem;
+}
+
