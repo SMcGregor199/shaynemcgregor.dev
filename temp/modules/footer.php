@@ -9,6 +9,14 @@
 		</inner-column>
 	</footer>
 
+	<script>
+		var page = document.querySelector("body");
+		var button = document.querySelector("button");
+		button.addEventListener("click",function(event){
+			page.classList.toggle("menu-open");
+			// alert("hello");
+		});
+	</script>
 </body>
 
 </html>

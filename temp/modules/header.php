@@ -6,25 +6,26 @@
 <?php include("head.php");?>
 
 <body>
-	<header class= "site-header">
+	<header class ="site-header">
 		<inner-column>
-			<nav class = "site-nav">
+<!-- 			<input id="toggle" type="checkbox">
+			<label for="toggle">☰</label> -->
+			<nav class="site-nav">
 			
-				<label>
-  					☰<input type="checkbox">
-				</label>
-
-				<span></span><span></span>
 				
-					<a class = "base-voice" href="">Home</a>
-					<a class = "base-voice" href="">About</a>
-					<a class = "base-voice" href="">Writing</a>
-					<a class = "base-voice" href="">Projects</a>
-					<a class = "base-voice" href="">Playlist</a>	
+  		
 				
-
+				
+				<a class="base-voice" href="">Home</a>
+				<a class="base-voice" href="">About</a>
+				<a class="base-voice" href="">Writing</a>
+				<a class="base-voice" href="">Projects</a>
+				<a class="base-voice" href="#">Playlist</a>	
+				
+				
 						
 			</nav>
+			<button>☰</button>
 		</inner-column>
 	</header>
 

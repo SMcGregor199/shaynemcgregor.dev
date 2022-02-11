@@ -16,12 +16,15 @@
 @import "css/modules-css/playlist-intro.css";
 
 
-
+body {
+	/*overflow: hidden;*/
+}
 
 
 /*TROUBLE SHOOTING*/
 body * {
-	border:  1px solid red;
+	/*border:  1px solid red;*/
+
 }
 
 div {
