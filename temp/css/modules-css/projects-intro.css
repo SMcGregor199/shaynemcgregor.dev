@@ -1,16 +1,16 @@
-blog-intro {
+projects-intro {
 	display: block;
 }
 
-blog-grid {
+projects-grid {
 	display: block;
 }
 
-blog-intro h1 {
+projects-intro h1 {
 	
 	margin-bottom: 1.5rem;
 }
 
-blog-intro p {
+projects-intro p {
 	line-height: 1.5rem;
 }

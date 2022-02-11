@@ -1,16 +1,14 @@
-blog-intro {
+playlist-intro {
 	display: block;
 }
-
-blog-grid {
+playlist {
 	display: block;
 }
-
-blog-intro h1 {
+playlist-intro h1 {
 	
 	margin-bottom: 1.5rem;
 }
 
-blog-intro p {
+playlist-intro p {
 	line-height: 1.5rem;
 }

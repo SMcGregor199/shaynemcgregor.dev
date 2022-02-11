@@ -22,13 +22,13 @@
 		
 		<section class = "projects">
 			<inner-column>
-			
+				<?php include("modules/projects-intro.php");?>
 			</inner-column>
 		</section>
 		
 		<section class= "playlist">
 			<inner-column>
-			
+				<?php include("modules/playlist-intro.php");?>
 			</inner-column>
 		</section>
 		
