@@ -1,13 +1,33 @@
-
 .site-nav {
-	/*display: none;*/
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
 }
-
 .site-nav a {
 	font-family: 'Red Hat Display';
 	font-size: 16px;
 	margin-right: 1.875rem;
 }
+.site-nav label {
+	font-size: 40px;
+}
+
+.site-nav label input {
+	/*opacity: 0;*/
+}
+
+input:checked ~ a {
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+
+ 

@@ -10,13 +10,16 @@
 @import "css/modules-css/footer.css";
 @import "css/modules-css/introduction.css";
 @import "css/modules-css/about.css";
+@import "css/modules-css/blog-card.css";
+@import "css/modules-css/blog-intro.css";
+
 
 
 
 
 /*TROUBLE SHOOTING*/
 body * {
-	/*border:  1px solid red;*/
+	border:  1px solid red;
 }
 
 div {

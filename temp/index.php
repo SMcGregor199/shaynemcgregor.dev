@@ -9,14 +9,14 @@
 
 		<section class = "about">
 			<inner-column>
-			<?php include("modules/about.php");?>
+				<?php include("modules/about.php");?>
 			</inner-column>
 			<div></div>
 		</section>
 		
 		<section class = "writing">
 			<inner-column>
-			
+				<?php include("modules/blog-intro.php");?>
 			</inner-column>
 		</section>
 		
