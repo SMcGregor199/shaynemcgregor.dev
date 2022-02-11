@@ -5,10 +5,10 @@
 
 	<playlist>
 		<picture class = "thumbnail">
-			<img src="">
+			<img src="modules/images/playlist-pic.jpeg">
 		</picture>
 
-		<h1 class = "important-voice">Gritty Internet Hip Hop Vibes</h1>
+		<a href=""><h1 class = "important-voice">Gritty Internet Hip Hop Vibes</h1></a>
 	</playlist>
  	
 </playlist-intro>

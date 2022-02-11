@@ -3,9 +3,9 @@
 ?>
 
 <blog-card>
-	<picture>
-		<img src='<?=$database["thumbnail"]?>'>
+	<picture class = "thumbnail">
+		<img src='<?=$blog["thumbnail"]?>'>
 	</picture>
 
-	<p class = "important-voice"><?=$database["title"]?></p>
+	<p class = "important-voice"><?=$blog["title"]?></p>
 </blog-card>

@@ -4,12 +4,12 @@ $database = [
 
 	[
 		"title" => "How Power Rangers Taught me PHP",
-		"thumbnail" => "images/red-ranger.jpeg"
+		"thumbnail" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbtgPXBLdjL2nrimDSh8jM3z77SdMEDiRlwA&usqp=CAU"
 	],
 
 	[
 		"title" => "This is a Collaborative Environment",
-		"thumbnail" => "images/collaboration.jpeg"
+		"thumbnail" => "modules/images/collaboration.jpeg"
 	],
 
 

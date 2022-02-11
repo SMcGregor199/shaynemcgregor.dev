@@ -1,8 +1,13 @@
 playlist-intro {
 	display: block;
 }
+
 playlist {
 	display: block;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
 }
 playlist-intro h1 {
 	
@@ -11,4 +16,9 @@ playlist-intro h1 {
 
 playlist-intro p {
 	line-height: 1.5rem;
+}
+
+playlist .thumbnail {
+	max-width: 100px;
+
 }
