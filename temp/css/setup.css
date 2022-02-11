@@ -26,11 +26,11 @@ a {
 	color: inherit;
 }
 
-p a {
+/*p a {
 	display: inline;
 	color: blue;
 	text-decoration: underline;
-}
+}*/
 
 picture {
 	display: block;

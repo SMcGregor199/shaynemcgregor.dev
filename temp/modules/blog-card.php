@@ -7,5 +7,5 @@
 		<img src='<?=$blog["thumbnail"]?>'>
 	</picture>
 
-	<p class = "important-voice"><?=$blog["title"]?></p>
+	<a href=""><p class = "important-voice"><?=$blog["title"]?></a></p>
 </blog-card>

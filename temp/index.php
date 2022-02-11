@@ -18,6 +18,7 @@
 			<inner-column>
 				<?php include("modules/blog-intro.php");?>
 			</inner-column>
+			<div></div>
 		</section>
 		
 		<section class = "projects">
