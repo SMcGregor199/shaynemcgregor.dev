@@ -25,12 +25,14 @@
 			<inner-column>
 				<?php include("modules/projects-intro.php");?>
 			</inner-column>
+			<div></div>
 		</section>
 		
 		<section class= "playlist">
 			<inner-column>
 				<?php include("modules/playlist-intro.php");?>
 			</inner-column>
+			<div></div>
 		</section>
 		
 <?php include("modules/footer.php");?>

@@ -6,13 +6,11 @@ playlist {
 	display: block;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	gap: 10px;
 }
-playlist-intro h1 {
-	
-	margin-bottom: 1.5rem;
-}
+
 
 playlist-intro p {
 	line-height: 1.5rem;
@@ -20,5 +18,7 @@ playlist-intro p {
 
 playlist .thumbnail {
 	max-width: 100px;
-
+	border: 1px solid black;
+	border-radius: 50%; 
+	overflow: hidden;
 }

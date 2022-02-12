@@ -2,11 +2,15 @@ blog-card {
 	display: block;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	gap: 10px;
 }
 
 blog-card .thumbnail {
 	max-width: 100px;
+	border: 1px solid black;
+	border-radius: 50%; 
+	overflow: hidden;
 
 }
