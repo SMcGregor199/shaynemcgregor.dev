@@ -18,6 +18,15 @@
 
 body {
 	/*overflow: hidden;*/
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.menu-open {
+	overflow: hidden;
+}
+main {
+	flex-grow:  1;
 }
 
 
