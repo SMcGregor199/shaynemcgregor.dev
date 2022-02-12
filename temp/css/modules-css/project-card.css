@@ -1,3 +1,33 @@
 project-card {
 	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+project-card project-heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	padding-bottom: 15px;
+}
+
+project-info {
+	display: block;
+	display: flex;
+	flex-direction: column;
+}
+project-info p + span {
+	padding-top: 20px;
+}
+
+
+
+project-card .thumbnail {
+	max-width: 100px;
+	border: 1px solid black;
+	border-radius: 50%; 
+	overflow: hidden;
 }

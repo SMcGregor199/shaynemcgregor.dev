@@ -13,11 +13,12 @@
 @import "css/modules-css/blog-card.css";
 @import "css/modules-css/blog-intro.css";
 @import "css/modules-css/projects-intro.css";
+@import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
 
 
 body {
-	/*overflow: hidden;*/
+	
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -32,7 +33,7 @@ main {
 
 /*TROUBLE SHOOTING*/
 body * {
-	border:  1px solid red;
+	/*border:  1px solid red;*/
 
 }
 
