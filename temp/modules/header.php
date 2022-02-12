@@ -11,21 +11,14 @@
 <!-- 			<input id="toggle" type="checkbox">
 			<label for="toggle">☰</label> -->
 			<nav class="site-nav">
-			
 				
-  		
-				
-				
-				<a class="base-voice" href="">Home</a>
-				<a class="base-voice" href="">About</a>
-				<a class="base-voice" href="">Writing</a>
-				<a class="base-voice" href="">Projects</a>
-				<a class="base-voice" href="#">Playlist</a>	
-				
-				
-						
+				<a class="base-voice" rel='toggle' href="#home">Home</a>
+				<a class="base-voice" rel='toggle' href="#about">About</a>
+				<a class="base-voice" rel='toggle' href="#writing">Writing</a>
+				<a class="base-voice" rel='toggle' href="#projects">Projects</a>
+				<a class="base-voice" rel='toggle' href="#playlist">Playlist</a>		
 			</nav>
-			<button>☰</button>
+			<button rel='toggle'>☰</button>
 		</inner-column>
 	</header>
 

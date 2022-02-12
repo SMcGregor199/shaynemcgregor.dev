@@ -1,34 +1,34 @@
 <?php include("modules/header.php");?>
 		
-		<section class = "welcome">
+		<section id="home" class = "welcome">
 			<inner-column>
 				<?php include("modules/introduction.php");?>
 			</inner-column>
 			<div></div>
 		</section>
 
-		<section class = "about">
+		<section id="about" class = "about">
 			<inner-column>
 				<?php include("modules/about.php");?>
 			</inner-column>
 			<div></div>
 		</section>
 		
-		<section class = "writing">
+		<section id="writing" class = "writing">
 			<inner-column>
 				<?php include("modules/blog-intro.php");?>
 			</inner-column>
 			<div></div>
 		</section>
 		
-		<section class = "projects">
+		<section id="projects" class = "projects">
 			<inner-column>
 				<?php include("modules/projects-intro.php");?>
 			</inner-column>
 			<div></div>
 		</section>
 		
-		<section class= "playlist">
+		<section id="playlist" class= "playlist">
 			<inner-column>
 				<?php include("modules/playlist-intro.php");?>
 			</inner-column>

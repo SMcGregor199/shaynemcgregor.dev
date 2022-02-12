@@ -11,10 +11,15 @@
 
 	<script>
 		var page = document.querySelector("body");
+		var toggle = document.querySelector('[rel="toggle"]');
 		var button = document.querySelector("button");
+
 		button.addEventListener("click",function(event){
-			page.classList.toggle("menu-open");
-			// alert("hello");
+			page.classList.toggle("menu-open");		
+		});
+
+		toggle.addEventListener("click",function(event){
+			page.classList.toggle("menu-open");	
 		});
 	</script>
 </body>
