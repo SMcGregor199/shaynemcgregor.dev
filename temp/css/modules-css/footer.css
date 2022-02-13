@@ -16,6 +16,10 @@
 	border:  none;
 }
 
+.site-footer p a {
+	font-weight: 700;
+}
+
 .site-footer p + p {
 	margin-top: 1.5rem;
 }

@@ -4,7 +4,7 @@
 			<img src='<?=$project["thumbnail"]?>'>
 		</picture>
 
-		<a href=""><p class = "important-voice"><?=$project["title"]?></a></p>
+		<a href="<?=$project['link']?>" target="<?=$project['title']?>"><p class="important-voice"><?=$project["title"]?></a></p>
 	</project-heading>
 
 	<project-info>
