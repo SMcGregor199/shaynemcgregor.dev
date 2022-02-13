@@ -12,11 +12,11 @@
 			<label for="toggle">☰</label> -->
 			<nav class="site-nav">
 				
-				<a class="base-voice" rel="toggle" href="#home">Home</a>
-				<a class="base-voice" rel="toggle" href="#about">About</a>
-				<a class="base-voice" rel="toggle" href="#writing">Writing</a>
-				<a class="base-voice" rel="toggle" href="#projects">Projects</a>
-				<a class="base-voice" rel="toggle" href="#playlist">Playlist</a>		
+				<a class="base-voice" rel="home" href="#home">Home</a>
+				<a class="base-voice" rel="about" href="#about">About</a>
+				<a class="base-voice" rel="writing" href="#writing">Writing</a>
+				<a class="base-voice" rel="projects" href="#projects">Projects</a>
+				<a class="base-voice" rel="playlist" href="#playlist">Playlist</a>		
 			</nav>
 			<button rel="toggle">☰</button>
 		</inner-column>
