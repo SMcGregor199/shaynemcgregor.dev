@@ -11,12 +11,8 @@
 
 	<script>
 		var page = document.querySelector("body");
-		var toggle = document.querySelector('[rel="toggle"]');
-		var button = document.querySelector("button");
 
-		button.addEventListener("click",function(event){
-			page.classList.toggle("menu-open");		
-		});
+		var toggle = document.querySelector('[rel="toggle"]');
 
 		toggle.addEventListener("click",function(event){
 			page.classList.toggle("menu-open");	
@@ -25,3 +21,9 @@
 </body>
 
 </html>
+
+		// var button = document.querySelector("button");
+
+		// button.addEventListener("click",function(event){
+		// 	page.classList.toggle("menu-open");		
+		// });
