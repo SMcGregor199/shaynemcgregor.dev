@@ -12,6 +12,7 @@ project-card project-heading {
 	align-items: center;
 	gap: 10px;
 	padding-bottom: 15px;
+	padding-top: 25px;
 }
 
 project-info {
