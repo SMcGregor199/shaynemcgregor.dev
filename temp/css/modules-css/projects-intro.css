@@ -8,14 +8,16 @@ projects-grid {
 
 projects-intro h1 {
 	
-	margin-bottom: 1.5rem;
-}
-
-projects-intro p {
-	line-height: 1.5rem;
-}
-
-project-card {
 	padding-top: 25px;
+	padding-bottom: 25px;
 }
+
+projects-intro p.intro-voice {
+	line-height: 1.5rem;
+	padding-bottom: 50px;
+}
+
+/*project-card {
+	padding-top: 25px;
+}*/
 

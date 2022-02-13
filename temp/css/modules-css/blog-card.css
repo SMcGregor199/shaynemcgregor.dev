@@ -5,6 +5,7 @@ blog-card {
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
+	padding-top: 25px;
 }
 
 blog-card .thumbnail {

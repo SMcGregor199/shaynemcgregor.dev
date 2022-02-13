@@ -12,6 +12,12 @@ $database = [
 		"thumbnail" => "modules/images/collaboration.jpg"
 	],
 
+	[
+		"title" => "What I'm learning about .svg files",
+		"thumbnail" => "modules/images/shape-store.jpg"
+
+	],
+
 
 ];
 

@@ -1,9 +1,9 @@
 about {
 	display: block;
 }
-
-about h1 + p, p + h1 {
-	margin-top: 1.5rem;
+about h1 {
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 about p {
@@ -11,5 +11,5 @@ about p {
 }
 
 about p:last-of-type {
-	margin-bottom: 3.125rem;
+	margin-bottom: 50px;
 }
