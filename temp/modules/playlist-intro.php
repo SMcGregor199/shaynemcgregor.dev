@@ -8,7 +8,7 @@
 			<img src="modules/images/hip-hop-vibes.jpg">
 		</picture>
 
-		<a href=""><h1 class = "important-voice">Gritty Internet Hip Hop Vibes</h1></a>
+		<a href="https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to" target="playlist"><h1 class = "important-voice">Gritty Internet Hip Hop Vibes</h1></a>
 	</playlist>
  	
 </playlist-intro>

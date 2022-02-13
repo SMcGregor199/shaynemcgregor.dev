@@ -22,8 +22,3 @@
 
 </html>
 
-		// var button = document.querySelector("button");
-
-		// button.addEventListener("click",function(event){
-		// 	page.classList.toggle("menu-open");		
-		// });
