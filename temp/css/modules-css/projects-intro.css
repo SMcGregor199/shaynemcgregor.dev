@@ -17,7 +17,14 @@ projects-intro p.intro-voice {
 	padding-bottom: 50px;
 }
 
-/*project-card {
-	padding-top: 25px;
-}*/
+@media(min-width: 500px) {
+	project-grid {
+		 display: grid;
+  		 grid-template-columns: repeat(2, 1fr);
+  		 grid-gap: 1em;
+	}
+	project-grid * {
+		flex-grow: 1;
+	}
+}
 
