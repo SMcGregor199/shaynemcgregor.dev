@@ -1,6 +1,9 @@
 playlist-intro {
 	display: block;
 }
+playlist-heading {
+	display: block;
+}
 
 playlist {
 	display: block;
@@ -26,4 +29,20 @@ playlist .thumbnail {
 	border: 1px solid black;
 	border-radius: 50%; 
 	overflow: hidden;
+}
+
+@media(min-width: 500px) {
+	playlist-intro {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+	}
+
+	playlist-heading {
+		display: flex;
+		flex-direction: column;
+	}
+	playlist-heading p {
+		max-width: 32ch;
+	}
 }

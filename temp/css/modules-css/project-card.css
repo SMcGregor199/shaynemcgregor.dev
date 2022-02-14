@@ -5,6 +5,10 @@ project-card {
 	justify-content: flex-start;
 }
 
+project-heading {
+	display: block;
+}
+
 project-card project-heading {
 	display: flex;
 	flex-direction: row;
@@ -23,8 +27,6 @@ project-info {
 project-info p + span {
 	padding-top: 20px;
 }
-
-
 
 project-card .thumbnail {
 	max-width: 100px;
