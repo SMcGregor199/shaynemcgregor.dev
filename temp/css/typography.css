@@ -12,6 +12,25 @@
 	font-weight: 700;
 }
 
+@media(min-width: 500px) {
+	introduction h1.attention-voice {
+		font-size: 36px;
+	}
+	introduction h2.attention-sub-voice {
+		font-size: 24px;
+	}
+}
+
+@media(min-width: 1000px) {
+	introduction h1.attention-voice {
+		font-size: 48px;
+	}
+
+	introduction h2.attention-sub-voice {
+		font-size: 30px;
+	}
+}
+
 .base-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
