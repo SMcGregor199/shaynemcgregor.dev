@@ -31,12 +31,17 @@ blog-intro p {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
+		align-items: flex-start;
 		flex-basis: 50%;
+		gap: 20px;
 	}
 
 	blog-heading {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+	}
+	blog-heading p {
+		max-width: 35ch;
 	}
 }

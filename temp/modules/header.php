@@ -8,8 +8,7 @@
 <body>
 	<header class ="site-header">
 		<inner-column>
-<!-- 			<input id="toggle" type="checkbox">
-			<label for="toggle">☰</label> -->
+
 			<nav class="site-nav">
 				
 				<a class="base-voice" rel="home" href="#home">Home</a>
