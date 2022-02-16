@@ -5,6 +5,10 @@ body {
 	background-color: lightyellow;
 }
 
+body * {
+	padding: 10px;
+}
+
 nav {
 	display: flex;
 }
@@ -15,4 +19,12 @@ nav a {
 
 h1 {
 	font-size: 35px;
+}
+
+book-card {
+	display: block;
+}
+
+book-card .book-cover {
+	max-width: 100px;
 }

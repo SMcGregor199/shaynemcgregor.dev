@@ -39,6 +39,9 @@
 				if ($page == "list" ) {
 					include ('books.php');
 				}
+				if ($page == "detail" ) {
+					include('book-detail.php');
+				}
 			?>
 		</main>
 
