@@ -1,3 +1,18 @@
+@import'meyer-reset.css';
+@import'setup.css';
+
 body {
 	background-color: lightyellow;
+}
+
+nav {
+	display: flex;
+}
+nav a {
+	text-decoration: underline;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 35px;
 }
