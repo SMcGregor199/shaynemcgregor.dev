@@ -33,7 +33,8 @@
 		$noun = empty($_POST["noun"]) ? "[noun]" : $_POST["noun"];
 		
 		$message = "Do you $verb your $adjective $noun $adverb? That's hilarious!";
-	} else {
+	} 
+	else {
 		$message = "Input different words, and we'll create a madlib";
 	}
 
