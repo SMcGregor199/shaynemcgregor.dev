@@ -4,22 +4,24 @@
 
 	$current_book_id = $_GET["book"];
 
-	function getBookById($books,$id) {
-		foreach($books as $book) {
-			if($book["id"] == $id) {
-				return $book;
-			}
-		}
-	} 
-
-	// foreach ($records as $record) {
-	// 	if($current_book_id == $record["id"]) {
-			
-	// 		$current_book = $record;
+	// function getBookById($books,$id) {
+	// 	foreach($books as $book) {
+	// 		if($book["id"] == $id) {
+	// 			return $book;
+	// 		}
 	// 	}
 	// } 
 
-	$book = getBookById($records,$current_book_id);
+	foreach ($records as $record) {
+		if($current_book_id == $record["id"]) {
+			
+			$current_book = $record;
+		}
+	} 
+
+	$book = $current_book;
+
+	// getBookById($records,$current_book_id);
 ?>
 
 <h1><?=$book['title']?></h1>
