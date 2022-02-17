@@ -27,6 +27,7 @@
 		<header>
 			<nav class="site-nav">
 				<a href="?page=home">Home</a>
+				<a href="?page=genrelist">Browse Genres</a>
 				<a href="?page=list">Books</a>
 			</nav>
 		</header>
@@ -36,6 +37,11 @@
 				if ($page == "home") {
 					include('home.php');
 				}
+
+				if($page == "genrelist") {
+					include('genre-list.php');
+				}
+
 				if ($page == "list" ) {
 					include ('books.php');
 				}

@@ -1,12 +1,23 @@
 [
 	{
 		"id":0,
-		"name":"non-fiction",
+		"name":"biography & memoir"
 
 	},
 
 	{
 		"id":1,
-		"name":"ficton",
+		"name":"literary fiction"
+	},
+
+	{
+		"id":2,
+		"name":"classics"
+	},
+
+	{
+		"id":3,
+		"name":"mystery"
 	}
+
 ]
