@@ -7,7 +7,7 @@
 <ul>
 	<li>
 		<?php foreach($genres as $genre) { ?>
-			<a href=""><?=$genre['name']?></a>
+			<a href="?page=genre&genreID=<?=$genre['id']?>"><?=$genre['name']?></a>
 		<?php } ?>
 	</li>
 </ul>

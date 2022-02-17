@@ -42,6 +42,10 @@
 					include('genre-list.php');
 				}
 
+				if($page == "genre") {
+					include('book-list.php');
+				}
+
 				if ($page == "list" ) {
 					include ('books.php');
 				}
