@@ -24,6 +24,9 @@ project-info {
 	display: flex;
 	flex-direction: column;
 }
+project-info p {
+	line-height: 1.5;
+}
 project-info p + span {
 	padding-top: 20px;
 }
