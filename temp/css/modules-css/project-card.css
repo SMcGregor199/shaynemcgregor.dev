@@ -34,3 +34,10 @@ project-card .thumbnail {
 	border-radius: 50%; 
 	overflow: hidden;
 }
+
+@media (min-width: 1000px) {
+	project-card {
+		flex-basis: 33%;
+	}
+
+}

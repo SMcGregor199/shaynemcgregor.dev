@@ -30,7 +30,7 @@ blog-intro p {
 	blog-intro {
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-start;
+		justify-content: space-between;
 		align-items: flex-start;
 		flex-basis: 50%;
 		gap: 20px;

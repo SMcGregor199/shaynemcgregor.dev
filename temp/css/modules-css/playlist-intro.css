@@ -34,7 +34,8 @@ playlist .thumbnail {
 @media(min-width: 500px) {
 	playlist-intro {
 		display: flex;
-		flex-direction: row;
+		flex-direction:row;
+		justify-content: space-between;
 		gap: 20px;
 	}
 

@@ -1,6 +1,9 @@
 projects-intro {
 	display: block;
 }
+project-heading {
+	display: block;
+}
 
 projects-grid {
 	display: block;
@@ -23,8 +26,32 @@ projects-intro p.intro-voice {
   		 grid-template-columns: repeat(2, 1fr);
   		 grid-gap: 1em;
 	}
-	project-grid * {
-		flex-grow: 1;
-	}
 }
 
+@media(min-width: 1000px) {
+	projects-intro {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	project-heading {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	project-heading h1 {
+		text-align: center;
+	}
+
+	project-heading p {
+		max-width: 70ch;
+	}
+
+	project-grid {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
