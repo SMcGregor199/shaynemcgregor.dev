@@ -7,24 +7,82 @@ body {
 
 body * {
 	padding: 10px;
+	border:  1px solid red;
+}
+/*main*/
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-nav {
+/*nav settings*/
+header nav {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-nav a {
+
+header nav a {
 	text-decoration: underline;
 	padding: 10px;
 }
 
-h1 {
-	font-size: 35px;
+/*home settings*/
+.welcome {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
 }
 
+.welcome h1 {
+	font-size: 36px;
+}
+
+@media(min-width: 600px) {
+	.welcome h1 {
+	font-size: 47px;
+	}
+}
+
+@media(min-width: 1000px) {
+	.welcome h1 {
+	font-size: 60px;
+	}
+}
+
+/*Genre List*/
+.genre-list li a {
+	padding: 40px;
+}
+
+/*book card*/
 book-card {
 	display: block;
+	display: flex;
+	flex-direction: column;
+}
+
+@media(min-width: 500px) {
+	book-card {
+	flex-direction: row;
+	align-items: center;
+	}
+}
+
+book-card .book-info h2 {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 400;
 }
 
 book-card .book-cover {
-	max-width: 100px;
+	max-width: 200px;
+}
+
+book-card a {
+	text-decoration: underline;
 }

@@ -3,11 +3,12 @@
 	$genres = json_decode($genre_json,true);
 
 ?>
-
-<ul>
+<section class="genre-list">
+	<ul>
 	<li>
 		<?php foreach($genres as $genre) { ?>
 			<a href="?page=genre&genreID=<?=$genre['id']?>"><?=$genre['name']?></a>
 		<?php } ?>
 	</li>
 </ul>
+</section>

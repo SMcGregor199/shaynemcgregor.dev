@@ -22,15 +22,20 @@ inner-column {
 
 a {
 	display: block;
-	text-decoration: none;
+	text-decoration: underline;
 	color: inherit;
 }
 
-/*p a {
+a:hover {
+	color: #0088D1;
+}
+
+p a {
 	display: inline;
 	color: blue;
 	text-decoration: underline;
-}*/
+}
+
 
 picture {
 	display: block;

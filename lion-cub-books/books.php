@@ -2,13 +2,11 @@
 	$books_json = file_get_contents("book-database.json");
 	$books = json_decode($books_json,true);
 ?>
-
-<h1>Lion Cub Books List Page</h1>
-
-<ul>
-	<li>
+<inner-column>
+	<ul>
 		<?php foreach($books as $book) { ?>
-			<?php include("book-card.php");?>
+			<li><?php include("book-card.php");?></li>
 		<?php } ?>
-	</li>
-</ul>
+
+	</ul>
+</inner-column>

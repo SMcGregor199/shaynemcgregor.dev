@@ -28,7 +28,7 @@
 			<nav class="site-nav">
 				<a href="?page=home">Home</a>
 				<a href="?page=genrelist">Browse Genres</a>
-				<a href="?page=list">Books</a>
+				<a href="?page=list">All Books</a>
 			</nav>
 		</header>
 
