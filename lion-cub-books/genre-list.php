@@ -4,11 +4,13 @@
 
 ?>
 <section class="genre-list">
-	<ul>
-	<li>
-		<?php foreach($genres as $genre) { ?>
-			<a href="?page=genre&genreID=<?=$genre['id']?>"><?=$genre['name']?></a>
-		<?php } ?>
-	</li>
-</ul>
+	<inner-column>
+		<ul>
+			<li>
+				<?php foreach($genres as $genre) { ?>
+					<a href="?page=genre&genreID=<?=$genre['id']?>"><?=$genre['name']?></a>
+				<?php } ?>
+			</li>
+		</ul>
+	</inner-column>
 </section>
