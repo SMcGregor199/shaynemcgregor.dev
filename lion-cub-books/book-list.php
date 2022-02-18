@@ -4,11 +4,14 @@
 
 	$current_genre_id = $_GET["genreID"];
 ?>
-
+<inner-column>
 <?php	foreach($books as $book) { ?>
 
 <?php	if($current_genre_id == $book["genre"]) { ?>
-		<h1><?=$book['title'];?></h1><p>by <?=$book['author'];?></p>
+
+		<li><?php include("book-card.php");?></li>
+		<!-- <h1><?=$book['title'];?></h1><p>by <?=$book['author'];?></p> -->
 		
 	<?php	} ?>
 <?php } ?>
+</inner-column>

@@ -79,6 +79,17 @@ book-card .book-info h2 {
 	font-weight: 400;
 }
 
+book-card .book-info address {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+book-card .book-info p {
+	font-size: 18px;
+	line-height: 1.5;
+	max-width: 60ch;
+}
+
 book-card .book-cover {
 	max-width: 200px;
 }
