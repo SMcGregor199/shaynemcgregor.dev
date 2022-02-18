@@ -5,6 +5,7 @@
 	$current_genre_id = $_GET["genreID"];
 ?>
 <inner-column>
+	<ul>
 <?php	foreach($books as $book) { ?>
 
 <?php	if($current_genre_id == $book["genre"]) { ?>
@@ -14,4 +15,5 @@
 		
 	<?php	} ?>
 <?php } ?>
+	</ul>
 </inner-column>
