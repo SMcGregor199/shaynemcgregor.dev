@@ -16,6 +16,9 @@
 @import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
 
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	
@@ -23,8 +26,13 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
-.menu-open {
-	overflow: hidden;
+
+
+@media(max-width: 499px) {
+	.menu-open {
+		overflow: hidden;
+}
+
 }
 main {
 	flex-grow:  1;

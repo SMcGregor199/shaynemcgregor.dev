@@ -1,6 +1,13 @@
 blog-intro {
 	display: block;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 1.5rem;
+	gap: 50px;
+}
+
+blog-intro * {
+	border: 3px solid blue;
 }
 
 blog-heading {
@@ -11,17 +18,12 @@ blog-intro h1 {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-blog-intro p.intro-voice {
-	padding-bottom: 50px;
-}
 
 blog-grid {
-	display: block;
+	display: grid;
+	gap: 20px;
 }
 
-blog-intro blog-card:nth-last-of-type(1) {
-	padding-bottom: 20px;
-}
 blog-intro p {
 	line-height: 1.5rem;
 }
@@ -51,7 +53,9 @@ blog-intro p {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		gap: 50px;
 	}
+
 	blog-heading {
 		flex-direction: column;
 		align-items: center;

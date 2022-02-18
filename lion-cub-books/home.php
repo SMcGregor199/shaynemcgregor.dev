@@ -1,5 +1,5 @@
-<section class="welcome">
-	<innercolumn>
+<section class="welcome test">
+	<inner-column>
 		<h1>Lion Cub Books Home Page</h1>
-	</innercolumn>
+	</inner-column>
 </section>

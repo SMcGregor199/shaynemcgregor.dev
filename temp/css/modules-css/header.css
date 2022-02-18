@@ -36,6 +36,13 @@ button {
 	background-color: white;
 }
 
+@media(max-width: 499px) {
+	.menu-open {
+		overflow: hidden;
+	}
+
+}
+
 @media(min-width:500px) {
 	.site-nav {
 		display: flex;

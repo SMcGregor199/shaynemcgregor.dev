@@ -5,11 +5,11 @@ project-card {
 	justify-content: flex-start;
 }
 
-project-heading {
+project-card heading {
 	display: block;
 }
 
-project-card project-heading {
+project-card heading {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;

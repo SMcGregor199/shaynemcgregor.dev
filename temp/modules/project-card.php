@@ -1,11 +1,11 @@
 <project-card>
-	<project-heading>
+	<heading>
 		<picture class = "thumbnail">
 			<img src='<?=$project["thumbnail"]?>'>
 		</picture>
 
 		<a href="<?=$project['link']?>" target="<?=$project['title']?>"><p class="important-voice"><?=$project["title"]?></a></p>
-	</project-heading>
+	</heading>
 
 	<project-info>
 		<span class="important-voice">Goal:</span><p class="base-voice"><?=$project["goal"]?></p>

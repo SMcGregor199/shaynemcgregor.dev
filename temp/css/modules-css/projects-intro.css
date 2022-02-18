@@ -1,6 +1,12 @@
 projects-intro {
 	display: block;
+	display: grid;
+	gap: 50px;
 }
+projects-intro * {
+	border: 3px solid blue;
+}
+
 project-heading {
 	display: block;
 }
