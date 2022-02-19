@@ -30,6 +30,7 @@
 				<a href="?page=genrelist">Browse Genres</a>
 				<a href="?page=list">All Books</a>
 			</nav>
+			<?php include("add-book.php");?>
 		</header>
 
 		<main>
