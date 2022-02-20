@@ -109,3 +109,14 @@ book-card .book-cover {
 book-card a {
 	text-decoration: underline;
 }
+
+form {
+	min-width: 400px;
+}
+
+div :is(label,input) {
+	display: block;
+}
+button {
+	display: block;
+}

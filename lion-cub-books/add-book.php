@@ -5,9 +5,22 @@
 
 	if($submitted) {
 
-		$genre = $_POST["genre"];
+		if( isset($_POST['title']) ){
+			$title = $_POST["title"];
+		}
+	
+		if( isset($_POST['author']) ){
+			$author = $_POST["author"];
+		}
 
-		echo $genre;
+		if( isset($_POST['blurb']) ){
+			$blurb = $_POST["blurb"];
+		}
+
+		if( isset($_POST['genre']) ){
+			$genre = $_POST["genre"];
+		}
+		
 	}
 ?>
 
@@ -17,17 +30,17 @@
 
 	<div class="field">
 		<label>Book Title</label>
-		<input type="text" name="title" value="" placeholder="...">
+		<input name="title" value="" placeholder="...">
 	</div>
 
 	<div class="field">
 		<label>Author Name</label>
-		<input type="text" name="author" value="" placeholder="...">
+		<input name="author" value="" placeholder="...">
 	</div>
 
 	<div class="field">
 		<label>Blurb</label>
-		<input type="text" name="blurb" value="" placeholder="...">
+		<input name="blurb" value="" placeholder="...">
 	</div>
 
 	<div class="field">
