@@ -1,5 +1,6 @@
 @import'meyer-reset.css';
 @import'setup.css';
+@import'lion-svg.css';
 
 body {
 	background-color: lightyellow;
