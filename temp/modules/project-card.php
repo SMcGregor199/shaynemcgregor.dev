@@ -8,10 +8,10 @@
 	</heading>
 
 	<project-info>
-		<span class="important-voice">Goal:</span><p class="base-voice"><?=$project["goal"]?></p>
+		<span class="important-voice">Goal:</span><p class="intro-voice"><?=$project["goal"]?></p>
 
-		<span class="important-voice">Description:</span><p class="base-voice"><?=$project["description"]?></p>
+		<span class="important-voice">Description:</span><p class="intro-voice"><?=$project["description"]?></p>
 
-		<span class="important-voice">Process:</span><p class="base-voice"><?=$project["process"]?></p>
+		<span class="important-voice">Process:</span><p class="intro-voice"><?=$project["process"]?></p>
 	<project-info>
 </project-card>
