@@ -73,5 +73,14 @@
 		"blurb":"1993. Houston. Dr. Wale Olufunmi, lunar rock geologist, has a life most Nigerian immigrants would kill for, but then most Nigerians aren’t Wale—-a great scientific mind in exile with galactic ambitions. Then comes an outlandish order: steal a piece of the moon. With both personal and national glory at stake, Wale manages to pull off the near impossible, setting out on a journey back to Nigeria that leads anywhere but home. Compelled by Wale’s impulsive act, Nigerians traces arcs in time and space from Houston to Stockholm, from Cape Town to Bulawayo, picking up on the intersecting lives of a South African abalone smuggler, a freedom fighter’s young daughter, and Wale’s own ambitious son. Deji Bryce Olukotun’s debut novel defies categorization—-a story of international intrigue that tackles deeper questions about exile, identity, and the need to answer an elusive question: what exactly is brain gain?",
 		"book-cover":"https://peprojects.dev/images/portrait.jpg",
 		"genre":3
+	},
+
+	{
+		"id":8,
+		"title":"Heavenly Bodies",
+		"author":"Imani Erriu",
+		"blurb":"In a world where no entities exist but the Stars, cruel and merciless gods that watch over the world, Elara has been cursed by fate. A prophecy that promises she will fall for a Star, and it will kill them both.",
+		"book-cover":"https://peprojects.dev/images/portrait.jpg",
+		"genre":"4"
 	}
 ]
