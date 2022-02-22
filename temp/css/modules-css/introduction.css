@@ -2,21 +2,24 @@ introduction {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	padding-bottom: 50px;
 }
 
-introduction h1 {
-	padding-top: 50px;
-	padding-bottom: 50px;
-} 
+introduction * {
+	padding: 10px;
+}
+.test {
+	border: 3px solid blue;
+}
+
+.test * {
+	border: 1px solid green;
+}
+
 
 introduction h2 + h2 {
 	padding-top: 10px;
 } 
-introduction h2:nth-of-type(1) {
-	text-align: center;
-}
+
 
 
