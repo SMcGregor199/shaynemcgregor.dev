@@ -7,5 +7,8 @@
 		<img src='<?=$blog["thumbnail"]?>'>
 	</picture>
 
-	<a href="<?=$blog['link']?>" target="<?=$blog['target']?>"><p class = "important-voice"><?=$blog["title"]?></a></p>
+	<blog-card-text>	
+		<p class="important-voice"><?=$blog["title"]?></p>
+		<a href="<?=$blog['link']?>" target="<?=$blog['target']?>" class="intro-voice">Read</a>
+	</blog-card-text>
 </blog-card>

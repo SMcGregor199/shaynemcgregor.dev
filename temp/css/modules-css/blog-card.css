@@ -24,3 +24,7 @@ blog-card .thumbnail {
 	}
 	
 }
+
+blog-card-text {
+	display: block;
+}

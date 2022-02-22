@@ -18,7 +18,7 @@ $database = [
 
 	[
 		"title" => "What I'm learning about .svg&nbsp;files",
-		"thumbnail" => "modules/images/shape-store.jpg",
+		"thumbnail" => "modules/images/lion.jpg",
 		"link" => "https://shaynemcgregor.substack.com/p/what-im-learning-about-svg-files",
 		"target" => "What I'm learning about .svg files",
 
