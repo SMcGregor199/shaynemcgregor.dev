@@ -3,27 +3,18 @@ projects-intro {
 	display: grid;
 	gap: 50px;
 }
-projects-intro * {
-	/*border: 3px solid blue;*/
-}
 
 project-heading {
 	display: block;
 }
 
-projects-grid {
+project-grid {
 	display: block;
 }
 
-projects-intro h1 {
-	
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 
 projects-intro p.intro-voice {
 	line-height: 1.5rem;
-	padding-bottom: 50px;
 }
 
 @media(min-width: 500px) {
@@ -37,7 +28,7 @@ projects-intro p.intro-voice {
 @media(min-width: 1000px) {
 	projects-intro {
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 	}
 	project-heading {
