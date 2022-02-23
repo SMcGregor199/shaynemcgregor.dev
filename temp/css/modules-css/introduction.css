@@ -3,10 +3,11 @@ introduction {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 20px;
 }
 
 introduction * {
-	padding: 10px;
+	padding: 15px;
 }
 .test {
 	border: 3px solid blue;

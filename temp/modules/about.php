@@ -1,4 +1,4 @@
-<about>
+<about class="test">
 	<article>
 		<h1 class = "attention-voice">Who I Am</h1>
 

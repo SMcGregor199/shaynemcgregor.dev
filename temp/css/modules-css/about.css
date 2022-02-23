@@ -1,17 +1,9 @@
 about {
 	display: block;
 }
-about h1 {
-/*padding-top: 25px;*/
-padding-bottom: 25px;
-}
 
 about p {
 	line-height: 1.875rem;
-}
-
-about p:last-of-type {
-	margin-bottom: 50px;
 }
 
 @media (min-width: 500px) {
@@ -38,6 +30,7 @@ about p:last-of-type {
 	article {
 		display: flex;
 		flex-direction: column;
+		gap: 25px;
 	}
 	article:nth-of-type(1) {
 		padding-left: 50px;
