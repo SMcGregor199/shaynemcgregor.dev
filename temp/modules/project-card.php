@@ -15,7 +15,7 @@
 		</picture>
 		<nav class="project-links">
 			<a href="<?=$project['link']?>" target="<?=$project['title']?>" class="intro-voice">Check Out the Project!</a>
-			<a href="">Check Out the Case Study</a>
+			<a href="" class="intro-voice">Check Out the Case Study</a>
 		</nav>
 	</thumbnail-link>
 	

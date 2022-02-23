@@ -39,6 +39,11 @@
 
 a.intro-voice {
 	font-weight: 700;
+	text-decoration: underline;
+}
+
+h1.important-voice {
+	font-size: 32px;
 }
 
 .important-voice {

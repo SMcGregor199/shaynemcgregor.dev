@@ -11,11 +11,9 @@ blog-intro * {
 
 blog-heading {
 	display: block;
-}
-
-blog-intro h1 {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 blog-grid {

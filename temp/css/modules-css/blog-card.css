@@ -4,7 +4,7 @@ blog-card {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 30px;
 }
 
 blog-card .thumbnail {

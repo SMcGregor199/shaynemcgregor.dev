@@ -6,10 +6,16 @@ projects-intro {
 
 project-heading {
 	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 project-grid {
 	display: block;
+	display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 
 
