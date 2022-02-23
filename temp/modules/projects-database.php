@@ -2,7 +2,7 @@
 
 $projects_database = [
 	[	"thumbnail" => "modules/images/popcorn.jpg",
-		"title" => "Responsive Layout Website",
+		"title" => "Responsive Layout",
 		"category" => "HTML, CSS",
 		"description" => "This is a site for fans of popcorn in all its deliciousness. It contains a header, a welcome section, some profile cards, and a footer",
 		"goal" => "The goal was to  create a website that looks good and is responsive on every viewport size",
@@ -11,7 +11,7 @@ $projects_database = [
 	],
 
 	[	"thumbnail" => "modules/images/tech-site.jpg",
-		"title" => "Tech Brochure Website",
+		"title" => "Tech Brochure",
 		"category" => "HTML, CSS",
 		"description" => "This is a brochure website for a life-style VR tech device. It's responsive at every viewport and contains buttons and links with hover states. ",
 		"goal" => "The goal was to style a website utilizing a prebuilt base code without changing the HTML. ",
