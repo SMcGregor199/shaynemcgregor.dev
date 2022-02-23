@@ -14,14 +14,9 @@ playlist {
 	gap: 10px;
 }
 
-playlist-intro h1 {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 
 playlist-intro p {
 	line-height: 1.5rem;
-	padding-bottom: 25px;
 }
 
 playlist .thumbnail {

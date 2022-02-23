@@ -17,17 +17,14 @@ project-grid {
    flex-direction: column;
    gap: 20px;
 }
-
+project-grid p {
+		max-width: 28ch;
+	}
 
 projects-intro p.intro-voice {
 	line-height: 1.5rem;
 }
 
-@media(min-width: 500px) {
-	project-grid {
-		
-	}
-}
 
 @media(min-width: 1000px) {
 	projects-intro {

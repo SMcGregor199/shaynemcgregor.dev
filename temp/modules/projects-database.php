@@ -2,7 +2,7 @@
 
 $projects_database = [
 	[	"thumbnail" => "modules/images/popcorn.jpg",
-		"title" => "Responsive Layout Popcorn Website",
+		"title" => "Responsive Layout Website",
 		"category" => "HTML, CSS",
 		"description" => "This is a site for fans of popcorn in all its deliciousness. It contains a header, a welcome section, some profile cards, and a footer",
 		"goal" => "The goal was to  create a website that looks good and is responsive on every viewport size",
