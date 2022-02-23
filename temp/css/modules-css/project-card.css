@@ -12,7 +12,7 @@ project-card heading {
 project-card heading {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	gap: 15px;
 	padding: 15px;
 }
@@ -30,8 +30,9 @@ description {
 	padding: 15px;
 	gap: 15px;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
+	gap: 30px;
 }
 
 project-info {

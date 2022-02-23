@@ -31,12 +31,12 @@ playlist .thumbnail {
 	overflow: hidden;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 600px) {
 	playlist-intro {
 		display: flex;
 		flex-direction:row;
 		justify-content: space-between;
-		gap: 20px;
+		gap: 60px;
 	}
 
 	playlist-heading {

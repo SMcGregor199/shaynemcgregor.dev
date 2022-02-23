@@ -37,6 +37,10 @@
 	font-weight: 300;
 }
 
+a.intro-voice {
+	font-weight: 700;
+}
+
 .important-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;

@@ -1,4 +1,4 @@
-<project-card class="test">
+<project-card>
 
 	<heading>
 		<h1 class="important-voice"><?=$project["title"]?></h1>
@@ -13,8 +13,10 @@
 		<picture class = "thumbnail">
 			<img src='<?=$project["thumbnail"]?>'>
 		</picture>
-
-		<a href="<?=$project['link']?>" target="<?=$project['title']?>" class="intro-voice">Check It Out!</a>
+		<nav class="project-links">
+			<a href="<?=$project['link']?>" target="<?=$project['title']?>" class="intro-voice">Check Out the Project!</a>
+			<a href="">Check Out the Case Study</a>
+		</nav>
 	</thumbnail-link>
 	
 

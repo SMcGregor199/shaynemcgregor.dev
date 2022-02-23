@@ -19,9 +19,7 @@ projects-intro p.intro-voice {
 
 @media(min-width: 500px) {
 	project-grid {
-		 display: grid;
-  		 grid-template-columns: repeat(2, 1fr);
-  		 grid-gap: 1em;
+		
 	}
 }
 
