@@ -18,15 +18,16 @@
 	<header class ="site-header">
 		<inner-column>
 
-			<nav class="site-nav">
-				
-				<a class="intro-voice" href="?page=home">Home</a>
-				<a class="intro-voice" rel="about" href="#about">About</a>
-				<a class="intro-voice" rel="writing" href="#writing">Writing</a>
-				<a class="intro-voice" rel="projects" href="#projects">Projects</a>
-				<a class="intro-voice" rel="playlist" href="#playlist">Playlist</a>		
+			<nav class="site-nav" rel="toggle">
+				<a href="?page=home" rel="toggle">Home</a>
+				<a href="#about" rel="toggle">About</a>
+				<a href="#writing" rel="toggle">Writing</a>
+				<a href="#projects" rel="toggle">Projects</a>
+				<a href="#playlist" rel="toggle">Playlist</a>		
 			</nav>
+
 			<button rel="toggle">☰</button>
+			
 		</inner-column>
 	</header>
 

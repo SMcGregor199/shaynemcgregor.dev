@@ -61,7 +61,7 @@ project-card .thumbnail {
 }
 @media(min-width: 600px) {
 	project-card {
-		align-items: center;
+		align-items: stretch;
 	}
 
 }

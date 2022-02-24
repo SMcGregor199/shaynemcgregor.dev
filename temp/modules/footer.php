@@ -10,35 +10,15 @@
 	</footer>
 
 	<script>
-		var page = document.querySelector("body");
-
-		var home = document.querySelector('[rel="home"]');
-		var about = document.querySelector('[rel="about"]');
-		var writing = document.querySelector('[rel="writing"]');
-		var projects = document.querySelector('[rel="projects"]');
-		var playlist = document.querySelector('[rel="playlist"]');
-
-		var button = document.querySelector('button');
-
-			button.addEventListener("click",function(event){
-			page.classList.toggle("menu-open");	
-			});
-
-			about.addEventListener("click", function(event){
-				page.classList.toggle("menu-open");
-			});
-			
-			writing.addEventListener("click", function(event){
-				page.classList.toggle("menu-open");
-			});
-			
-			projects.addEventListener("click", function(event){
-				page.classList.toggle("menu-open");
-			});
-			
-			playlist.addEventListener("click", function(event){
-				page.classList.toggle("menu-open");
-			});
+		var page = document.querySelector('body');
+		console.log("hello",page);
+		window.addEventListener('click', function(event){
+			if(event.target.matches('[rel="toggle"]')) {
+				page.classList.toggle('menu-open');
+				console.log('menu-toggled');
+			}
+			console.log(event.target);
+		} );
 
 	</script>
 </body>
