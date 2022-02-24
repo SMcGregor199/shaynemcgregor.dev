@@ -24,10 +24,6 @@
 			page.classList.toggle("menu-open");	
 			});
 
-			home.addEventListener("click", function(event){
-				page.classList.toggle("menu-open");
-			});
-
 			about.addEventListener("click", function(event){
 				page.classList.toggle("menu-open");
 			});
