@@ -1,6 +1,15 @@
 
 
 <!doctype html> 
+<?php 
+	/* router */
+	$page = null;
+	if( isset($_GET["page"]) ) {
+		$page = $_GET["page"];
+	} else {
+		$page = "home";
+	} 
+?>
 <html lang="en">
 
 <?php include("head.php");?>
@@ -11,7 +20,7 @@
 
 			<nav class="site-nav">
 				
-				<a class="intro-voice" rel="home" href="#home">Home</a>
+				<a class="intro-voice" href="?page=home">Home</a>
 				<a class="intro-voice" rel="about" href="#about">About</a>
 				<a class="intro-voice" rel="writing" href="#writing">Writing</a>
 				<a class="intro-voice" rel="projects" href="#projects">Projects</a>

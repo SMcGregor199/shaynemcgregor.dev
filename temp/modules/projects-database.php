@@ -8,6 +8,7 @@ $projects_database = [
 		"goal" => "The goal was to  create a website that looks good and is responsive on every viewport size",
 		"process" => "Used the flex box layout module and changed its property values at different viewport sizes using media queries",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
+		"caseStudy" => "?page=popcorn",
 	],
 
 	[	"thumbnail" => "modules/images/tech-site.jpg",
@@ -17,6 +18,7 @@ $projects_database = [
 		"goal" => "The goal was to style a website utilizing a prebuilt base code without changing the HTML. ",
 		"process" => "Using CSS and PHP (the base code is a collection of php modules) I  navigated through multiple files to style the basecode without touching the HTML. I kept track of all my changes by using comments and writing my code at the bottome of the main css document.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/tech-brochure-version-3/",
+		"caseStudy" => "?page=vr-headset",
 	],
 
 	[	"thumbnail" => "modules/images/exercises.jpg",
@@ -26,6 +28,7 @@ $projects_database = [
 		"goal" => "The goal was to get practice with php by creating simple programs based on the exercises from Brian Hogan's Exercises for Programmers (2015)",
 		"process" => "I combined PHP and HTML to produce a form that on submission produces a series of outputs based on conditional php statements",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/php/forms/",
+		"caseStudy" => "?page=form-exercises",
 	],
 
 ]; ?>

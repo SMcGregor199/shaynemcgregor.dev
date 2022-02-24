@@ -1,16 +1,27 @@
 about {
 	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
-about p {
+about article {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+about article p {
 	line-height: 1.875rem;
 }
+
 
 @media (min-width: 500px) {
 	about {
 		display: flex;
 		flex-direction: column;
-		align-items: center;		
+		align-items: center;	
+		gap: 20px;	
 	}
 
 	about p {
@@ -32,6 +43,7 @@ about p {
 		flex-direction: column;
 		gap: 25px;
 	}
+
 	article:nth-of-type(1) {
 		padding-left: 50px;
 	}
