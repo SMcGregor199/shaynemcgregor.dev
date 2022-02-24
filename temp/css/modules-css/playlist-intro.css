@@ -1,8 +1,14 @@
 playlist-intro {
 	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
 playlist-heading {
 	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 playlist {
@@ -38,8 +44,13 @@ playlist .thumbnail {
 		display: flex;
 		flex-direction: column;
 	}
+
 	playlist-heading p {
 		max-width: 32ch;
+	}
+
+	playlist {
+		gap: 30px;
 	}
 }
 
@@ -53,7 +64,6 @@ playlist .thumbnail {
 	}
 	playlist-intro playlist-heading p {
 		max-width: 70ch;
-		padding-bottom: 50px;
 	}
 
 }

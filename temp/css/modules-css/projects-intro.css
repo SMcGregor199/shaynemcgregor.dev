@@ -24,9 +24,13 @@ project-grid p {
 projects-intro p.intro-voice {
 	line-height: 1.5rem;
 }
+@media(min-width: 650px) {
+	project-grid {
+		align-items: center;
+	}
+}
 
-
-@media(min-width: 1000px) {
+@media(min-width: 1018px) {
 	projects-intro {
 		flex-direction: column;
 		justify-content: center;

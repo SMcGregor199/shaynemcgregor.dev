@@ -17,8 +17,9 @@ blog-heading {
 }
 
 blog-grid {
-	display: grid;
-	gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 
 blog-intro p {

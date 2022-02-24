@@ -3,6 +3,7 @@ project-card {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 project-card heading {
@@ -57,6 +58,12 @@ project-card .thumbnail {
 	border: 1px solid black;
 	border-radius: 50%; 
 	overflow: hidden;
+}
+@media(min-width: 600px) {
+	project-card {
+		align-items: center;
+	}
+
 }
 
 @media (min-width: 1000px) {
