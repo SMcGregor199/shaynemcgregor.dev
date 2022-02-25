@@ -12,6 +12,10 @@ case-study {
 	gap: 30px;
 }
 
+case-study h1.attention-voice {
+	text-align: center;
+}
+
 .screenshot {
 	max-width: 200px;
 }

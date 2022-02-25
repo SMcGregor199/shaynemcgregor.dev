@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <?php include('modules/projects-database.php'); ?>
 <?php $current_projectid = $_GET['projectID'];?>
 <section class="case-study">
@@ -5,7 +6,8 @@
 	<?php foreach($projects_database as $project) { ?>
 
 		<?php if($current_projectid == $project['id']){ ?>
-			<case-study class="test">
+			<case-study>
+				<h1 class="attention-voice"><?=$project['title']?></h1>
 				<article>
 					<h1 class="important-voice"><?=$project['goal']?></h1>
 					<picture class="screenshot">
