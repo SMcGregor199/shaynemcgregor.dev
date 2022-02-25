@@ -11,12 +11,15 @@
 
 	<script>
 		var page = document.querySelector('body');
+		var nav = document.querySelector('header.site-header');
 		console.log("hello",page);
+
 		window.addEventListener('click', function(event){
 			if(event.target.matches('[rel="toggle"]')) {
 				page.classList.toggle('menu-open');
 				console.log('menu-toggled');
 			}
+
 			console.log(event.target);
 		} );
 

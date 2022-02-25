@@ -1,5 +1,10 @@
-.site-header {
+.menu-open .site-header {
 	display: none;
+}
+.case-study inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 
 case-study {

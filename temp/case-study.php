@@ -1,6 +1,6 @@
 <?php include('modules/projects-database.php'); ?>
 <?php $current_projectid = $_GET['projectID'];?>
-<section>
+<section class="case-study">
 	<inner-column>
 	<?php foreach($projects_database as $project) { ?>
 
@@ -22,6 +22,8 @@
 				</article>
 				
 			</case-study>
+
+			<a href="?page=home" class="intro-voice" rel="toggle">Go Back to Home</a>
 
 	<?php	} ?>
 		
