@@ -47,8 +47,9 @@ div {
 	background-color: black;
 }
 
-/*FONT OVERIDES*/
-
+a {
+	text-decoration: underline;
+}
 
 
 

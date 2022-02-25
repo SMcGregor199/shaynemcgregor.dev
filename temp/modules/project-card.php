@@ -14,7 +14,7 @@
 			<img src='<?=$project["thumbnail"]?>'>
 		</picture>
 		<nav class="project-links">
-			<a href="<?=$project['link']?>" target="<?=$project['title']?>" class="intro-voice">Project</a>
+			<!-- <a href="<?=$project['link']?>" target="<?=$project['title']?>" class="intro-voice">Project</a> -->
 			<a href="<?=$project['caseStudy']?>&projectID=<?=$project['id']?>" class="intro-voice">Case Study</a>
 		</nav>
 	</thumbnail-link>
