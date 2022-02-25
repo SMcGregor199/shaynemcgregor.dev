@@ -28,7 +28,7 @@ projects-intro p.intro-voice {
 @media(min-width: 650px) {
 	projects-intro {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	project-grid {
 		flex-direction: row;
