@@ -25,8 +25,15 @@ projects-intro p.intro-voice {
 	line-height: 1.5rem;
 }
 @media(min-width: 650px) {
+	projects-intro {
+		display: flex;
+		flex-direction: row;
+	}
 	project-grid {
-		align-items: center;
+		flex-direction: row;
+	}
+	project-heading p {
+		max-width: 32ch;
 	}
 }
 

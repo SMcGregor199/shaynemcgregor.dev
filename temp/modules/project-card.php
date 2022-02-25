@@ -3,11 +3,11 @@
 	<heading>
 		<h1 class="important-voice"><?=$project["title"]?></h1>
 		<p class="intro-voice"><?=$project["category"]?></p>
+		<description>
+			<p class="intro-voice"><?=$project["description"]?></p>
+		</description>
 	</heading>
 
-	<description>
-		<p class="intro-voice"><?=$project["description"]?></p>
-	</description>
 
 	<thumbnail-link>
 		<picture class = "thumbnail">

@@ -2,8 +2,9 @@ project-card {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: flex-start;
+	gap: 30px;
 }
 
 project-card heading {
@@ -15,19 +16,16 @@ project-card heading {
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 15px;
-	padding: 15px;
 }
 
 
 description {
 	display: block;
-	padding: 15px;
 }
 
  thumbnail-link {
 	display: block;
 	display: flex;
-	padding: 15px;
 	gap: 15px;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -59,16 +57,25 @@ project-card .thumbnail {
 	border-radius: 50%; 
 	overflow: hidden;
 }
-@media(min-width: 600px) {
+@media(min-width: 650px) {
 	project-card {
 		align-items: stretch;
+
 	}
+	thumbnail-link {
+		flex-direction: column-reverse;
+	}
+
 
 }
 
 @media (min-width: 1000px) {
 	project-card {
 		flex-basis: 33%;
+	}
+
+	thumbnail-link {
+		flex-direction: row;
 	}
 
 }
