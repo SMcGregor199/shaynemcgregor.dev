@@ -42,7 +42,7 @@ projects-intro p.intro-voice {
 	projects-intro {
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: initial;
 	}
 	project-heading {
 		display: flex;

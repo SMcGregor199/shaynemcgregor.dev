@@ -1,4 +1,4 @@
-<projects-intro>
+<projects-intro class="test">
 	<project-heading>
 		<h1 class = "attention-voice">Featured Projects & Exercises</h1>
 
