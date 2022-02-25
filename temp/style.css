@@ -28,8 +28,14 @@ body {
 	min-height: 100vh;
 	
 }
+.welcome inner-column {
+/*	display: flex;
+	flex-direction: row;*/
+}
 
-
+.polygon {
+	max-width: 300px;
+}
 @media(max-width: 499px) {
 	.menu-open {
 		overflow: hidden;
