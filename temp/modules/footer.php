@@ -11,7 +11,6 @@
 
 	<script>
 		var page = document.querySelector('body');
-		var nav = document.querySelector('header.site-header');
 		console.log("hello",page);
 
 		window.addEventListener('click', function(event){
