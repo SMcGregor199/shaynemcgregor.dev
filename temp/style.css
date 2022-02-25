@@ -37,9 +37,7 @@ body {
 	flex-direction: row;*/
 }
 
-.polygon {
-	max-width: 300px;
-}
+
 @media(max-width: 499px) {
 	.menu-open {
 		overflow: hidden;
@@ -56,6 +54,10 @@ main {
 div {
 	height: 25px;
 	background-color: black;
+}
+
+thumbnail-link a {
+	font-weight: 700;
 }
 
 a {

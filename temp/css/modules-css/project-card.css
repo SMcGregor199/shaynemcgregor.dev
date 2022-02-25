@@ -33,6 +33,10 @@ description {
 	gap: 30px;
 }
 
+thumbnail-link a {
+	font-weight: 700;
+}
+
 .project-links {
 	display: flex;
 	flex-direction: column;

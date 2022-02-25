@@ -36,11 +36,13 @@
 	font-size: 16px;
 	font-weight: 300;
 }
-
+a.intro-voice {
+	font-weight: 700;
+}
 
 h1.important-voice {
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 playlist h1.important-voice {
