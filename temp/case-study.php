@@ -9,7 +9,7 @@
 			<case-study>
 				<h1 class="attention-voice"><?=$project['title']?></h1>
 				<article>
-					<h1 class="important-voice"><?=$project['goal']?></h1>
+					<p class="intro-voice"><?=$project['goal']?></p>
 					<picture class="screenshot">
 						<img src="https://peprojects.dev/images/portrait.jpg">
 					</picture>
@@ -20,7 +20,7 @@
 						<img src="https://peprojects.dev/images/portrait.jpg">
 					</picture>
 
-					<h1 class="important-voice"><?=$project['process']?></h1>
+					<p class="intro-voice"><?=$project['process']?></p>
 				</article>
 				
 			</case-study>

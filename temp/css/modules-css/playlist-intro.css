@@ -20,6 +20,10 @@ playlist {
 	gap: 10px;
 }
 
+playlist h1.important-voice {
+	font-size: 16px;
+	font-weight: 700;
+}
 
 playlist-intro p {
 	line-height: 1.5rem;

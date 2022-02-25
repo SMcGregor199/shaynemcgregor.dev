@@ -35,19 +35,15 @@
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
+	line-height: 1.5;
 }
-a.intro-voice {
-	font-weight: 700;
-}
+
 
 h1.important-voice {
 	font-size: 22px;
-	font-weight: 700;
+	
 }
 
-playlist h1.important-voice {
-	font-size: 16px;
-}
 
 .important-voice {
 	font-family: 'Red Hat Display', sans-serif;
