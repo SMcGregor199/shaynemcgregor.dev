@@ -15,6 +15,7 @@
 @import "css/modules-css/projects-intro.css";
 @import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
+@import "css/modules-css/case-study.css";
 
 html {
 	scroll-behavior: smooth;

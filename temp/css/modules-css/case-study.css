@@ -1,0 +1,24 @@
+.site-header {
+	display: none;
+}
+
+case-study {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.screenshot {
+	max-width: 200px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+article + article {
+	display: flex;
+}

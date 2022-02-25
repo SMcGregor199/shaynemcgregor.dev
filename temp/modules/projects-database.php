@@ -8,7 +8,7 @@ $projects_database = [
 		"title" => "Responsive Layout",
 		"category" => "HTML, CSS",
 		"description" => "This is a site for fans of popcorn in all its deliciousness. It contains a header, a welcome section, some profile cards, and a footer",
-		"goal" => "The goal was to  create a website that looks good and is responsive on every viewport size",
+		"goal" => "The goal was to  create a website that looks good and is responsive on every sized viewport",
 		"process" => "Used the flex box layout module and changed its property values at different viewport sizes using media queries",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
 		"caseStudy" => "?page=case-study",
