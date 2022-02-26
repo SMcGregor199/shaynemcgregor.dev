@@ -1,4 +1,4 @@
-<blog-intro class="test">
+<blog-intro>
 	<blog-heading>
 		<h1 class = "attention-voice">Writing</h1>
 

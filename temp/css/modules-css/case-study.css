@@ -9,23 +9,45 @@ case-study {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 50px;
 }
 
+case-study article {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+}
+
+case-study article:nth-last-of-type(1) {
+	flex-direction: column-reverse;
+}
 case-study h1.attention-voice {
 	text-align: center;
+}
+
+case-study p.intro-voice {
+	max-width: 32ch;
+}
+
+@media(min-width:500px) {
+	case-study article {
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 30px;
+}
+case-study article:nth-last-of-type(1) {
+	flex-direction: row;
+}
+
+article + article {
+	display: flex;
+}
+
 }
 
 .screenshot {
 	max-width: 200px;
 }
 
-article {
-	display: flex;
-	flex-direction: row;
-	gap: 30px;
-}
-
-article + article {
-	display: flex;
-}
