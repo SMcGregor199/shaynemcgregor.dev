@@ -19,7 +19,7 @@ $projects_database = [
 	],
 
 	[	"id" => 1,
-		"thumbnail" => "modules/images/tech-site.jpg",
+		"thumbnail" => "images/vr-thumbnail.png",
 		"title" => "Tech Brochure",
 		"category" => "HTML, CSS",
 		"description" => "This is a brochure website for a life-style VR tech device. It's responsive at every viewport and contains buttons and links with hover states. ",
@@ -34,7 +34,7 @@ $projects_database = [
 	],
 
 	[	"id" => 2,
-		"thumbnail" => "modules/images/exercises.jpg",
+		"thumbnail" => "images/php-exercise.jpg",
 		"title" => "Forms with PHP",
 		"category" => "HTML, PHP",
 		"description" => "This project is a collection of different forms generated using PHP. Some programs will create a madlib. Other forms will display mathmatical calculations. ",
