@@ -48,6 +48,8 @@ article + article {
 }
 
 .screenshot {
-	max-width: 200px;
+	max-width: 300px;
 }
-
+.landscape {
+	max-width: 400px;
+}

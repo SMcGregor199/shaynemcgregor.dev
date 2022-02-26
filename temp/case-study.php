@@ -11,13 +11,23 @@
 				<article>
 					<p class="intro-voice"><?=$project['goal']?></p>
 					<picture class="screenshot">
-						<img src="https://peprojects.dev/images/portrait.jpg">
+						<img src="<?=$project['rectangle-image-1']?>">
+					</picture>
+				</article>
+
+				<article>
+					<picture class="landscape">
+						<img src="<?=$project['horizontal-image-1']?>">
+					</picture>
+
+					<picture class="landscape">
+						<img src="<?=$project['horizontal-image-2']?>">
 					</picture>
 				</article>
 
 				<article>
 					<picture class="screenshot">
-						<img src="https://peprojects.dev/images/portrait.jpg">
+						<img src="<?=$project['rectangle-image-2']?>">
 					</picture>
 
 					<p class="intro-voice"><?=$project['process']?></p>

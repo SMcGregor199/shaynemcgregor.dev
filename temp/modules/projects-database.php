@@ -12,6 +12,10 @@ $projects_database = [
 		"process" => "Used the flex box layout module and changed its property values at different viewport sizes using media queries",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
 		"caseStudy" => "?page=case-study",
+		"rectangle-image-1" =>"images/popcorn-rectangle-1.png",
+		"rectangle-image-2" =>"images/popcorn-rectangle-2.png",
+		"horizontal-image-1" =>"images/popcorn-horizontal-1.png",
+		"horizontal-image-2" =>"images/popcorn-horizontal-2.png",
 	],
 
 	[	"id" => 1,
@@ -23,6 +27,10 @@ $projects_database = [
 		"process" => "Using CSS and PHP (the base code is a collection of php modules) I  navigated through multiple files to style the basecode without touching the HTML. I kept track of all my changes by using comments and writing my code at the bottome of the main css document.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/tech-brochure-version-3/",
 		"caseStudy" => "?page=case-study",
+		"rectangle-image-1" =>"images/tech-rectangle-1.png",
+		"rectangle-image-2" =>"images/tech-rectangle-2.png",
+		"horizontal-image-1" =>"images/tech-horizontal-1.png",
+		"horizontal-image-2" =>"images/tech-horizontal-2.png",
 	],
 
 	[	"id" => 2,
@@ -34,6 +42,10 @@ $projects_database = [
 		"process" => "I combined PHP and HTML to produce a form that on submission produces a series of outputs based on conditional php statements",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/php/forms/",
 		"caseStudy" => "?page=case-study",
+			"rectangle-image-1" =>"images/php-rectangle-1.png",
+		"rectangle-image-2" =>"images/php-rectangle-2.png",
+		"horizontal-image-1" =>"images/php-horizontal-1.png",
+		"horizontal-image-2" =>"images/php-horizontal-2.png",
 	],
 
 ]; ?>
