@@ -11,8 +11,20 @@ $projects_database = [
 		"goal" => "The goal was to  create a website that looks good and is responsive on every sized viewport",
 		"process" => "I used the flex box layout module and changed its property values at different viewport sizes using media queries",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
-		"caseStudy" => "?page=case-study",
 		"rectangle-image-1" =>"images/popcorn-rectangle-1.png",
+		"modules" => [ 
+			
+			[
+				"name" => "standard-text",
+				'heading' => "example standard-text heading",
+				'content' => "example standard-text paragraph",
+
+
+			],
+
+			
+
+		],
 		"rectangle-image-2" =>"images/popcorn-rectangle-2.png",
 		"horizontal-image-1" =>"images/popcorn-horizontal-1.png",
 		"horizontal-image-2" =>"images/popcorn-horizontal-2.png",
@@ -26,7 +38,24 @@ $projects_database = [
 		"goal" => "The goal was to style a website utilizing a prebuilt base code without changing the HTML. ",
 		"process" => "Using CSS and PHP (the base code is a collection of php modules), I  navigated through multiple files to style the basecode without touching the HTML. I kept track of all my changes by using comments and writing my code at the bottom of the main css document.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/tech-brochure-version-3/",
-		"caseStudy" => "?page=case-study",
+		"modules" => [ 
+			[
+				"name" => "standard-text",
+				'heading' => "example standard-text heading",
+				'content' => "example standard-text paragraph",
+
+
+			],
+
+			[
+				"name" => "before-and-after",
+				"heading" => "example before and after",
+				'content' => "example before and after",
+				"before" => "https://peprojects.dev/images/square.jpg",
+				"after" => "https://peprojects.dev/images/square.jpg",
+
+			],
+		],
 		"rectangle-image-1" =>"images/tech-rectangle-1.png",
 		"rectangle-image-2" =>"images/tech-rectangle-2.png",
 		"horizontal-image-1" =>"images/tech-horizontal-1.png",
@@ -41,7 +70,6 @@ $projects_database = [
 		"goal" => "The goal was to practice php by creating simple programs based on the exercises from Brian Hogan's Exercises for Programmers (2015)",
 		"process" => "I combined PHP and HTML to produce a form that on submission produces a series of outputs based on conditional php statements",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/php/forms/",
-		"caseStudy" => "?page=case-study",
 			"rectangle-image-1" =>"images/php-vertical-1.png",
 		"rectangle-image-2" =>"images/php-rectangle-1.png",
 		"horizontal-image-1" =>"images/php-horizontal-1.png",

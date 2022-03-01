@@ -32,6 +32,20 @@
 
 					<p class="intro-voice"><?=$project['process']?></p>
 				</article>
+
+				<?php if(isset($project['modules']) ) {
+		
+					foreach($project['modules'] as $module) {
+						if( $module['name'] == "standard-text") {
+							echo "text";
+						}
+						if($module['name'] == 'before-and-after') {
+							echo "before and after";
+						}
+					}
+				}
+
+				?>
 				
 			</case-study>
 
