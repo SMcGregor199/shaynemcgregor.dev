@@ -25,9 +25,8 @@ $projects_database = [
 			
 
 		],
-		"rectangle-image-2" =>"images/popcorn-rectangle-2.png",
-		"horizontal-image-1" =>"images/popcorn-horizontal-1.png",
-		"horizontal-image-2" =>"images/popcorn-horizontal-2.png",
+		"horizontal-image-1" =>"images/popcorn-small.png",
+		"horizontal-image-2" =>"images/popcorn-large.png",
 	],
 
 	[	"id" => 1,
@@ -35,8 +34,8 @@ $projects_database = [
 		"title" => "Tech Brochure",
 		"category" => "HTML, CSS",
 		"description" => "This is a brochure website for a life-style VR tech device. It's responsive at every viewport and contains buttons and links with hover states. ",
-		"goal" => "The goal was to style a website utilizing a prebuilt base code without changing the HTML. ",
-		"process" => "Using CSS and PHP (the base code is a collection of php modules), I  navigated through multiple files to style the basecode without touching the HTML. I kept track of all my changes by using comments and writing my code at the bottom of the main css document.",
+		"goal" => "The goal was to style a website utilizing a prebuilt base code without changing the HTML. In this particular project, I attempted to style the base code in a way that evokes Meta's website for the Oculus Quest.",
+		"process" => "Using CSS and PHP (the base code is a collection of php modules), I navigated through multiple files to style the base code without touching the HTML. I kept track of all my changes by using comments and writing my code at the bottom of the main css style document.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/tech-brochure-version-3/",
 		"modules" => [ 
 			[
@@ -56,10 +55,8 @@ $projects_database = [
 
 			],
 		],
-		"rectangle-image-1" =>"images/tech-rectangle-1.png",
-		"rectangle-image-2" =>"images/tech-rectangle-2.png",
-		"horizontal-image-1" =>"images/tech-horizontal-1.png",
-		"horizontal-image-2" =>"images/tech-horizontal-2.png",
+		"horizontal-image-1" =>"images/vr-before-small.png",
+		"horizontal-image-2" =>"images/vr-after-small.png",
 	],
 
 	[	"id" => 2,
