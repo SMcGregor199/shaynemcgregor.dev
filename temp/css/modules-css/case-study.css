@@ -1,9 +1,9 @@
-
 .case-study inner-column {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
 }
+
 
 case-study {
 	display: block;
@@ -12,44 +12,34 @@ case-study {
 	gap: 50px;
 }
 
+case-study heading {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+}
+
+
 case-study article {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
-
+	gap: 25px;
 }
 
-case-study article:nth-last-of-type(1) {
-	flex-direction: column-reverse;
-}
-case-study h1.attention-voice {
-	text-align: center;
-}
-
-case-study p.intro-voice {
-	max-width: 32ch;
-}
-
-@media(min-width:500px) {
-	case-study article {
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 30px;
-}
-case-study article:nth-last-of-type(1) {
-	flex-direction: row;
-}
-
-article + article {
-	display: flex;
-}
-
+case-study article p {
+	min-width: 32ch;
 }
 
 .screenshot {
-	max-width: 300px;
+	min-width: 25vh;
+	max-height: 300px;
 }
-.landscape {
-	max-width: 400px;
+
+
+@media(min-width: 742px) {
+	case-study article {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
 }

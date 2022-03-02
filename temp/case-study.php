@@ -9,24 +9,31 @@
 	<?php foreach($projects_database as $project) { ?>
 
 		<?php if($current_projectid == $project['id']){ ?>
-			<case-study>
+			<case-study class="test">
+				<heading>
 
-				<h1 class="attention-voice"><?=$project['title']?></h1>
-
-				<article>
+					<h1 class="attention-voice"><?=$project['title']?></h1>
 					<p class="intro-voice"><?=$project['goal']?></p>
 
-					<picture class="screenshot">
-						<img src="<?=$project['horizontal-image-1']?>">
-					</picture>
-				</article>
+				</heading>
 
 				<article>
+					
+
 					<picture class="screenshot">
-						<img src="<?=$project['horizontal-image-2']?>">
+						<img src="https://peprojects.dev/images/square.jpg">
 					</picture>
 
 					<p class="intro-voice"><?=$project['process']?></p>
+
+					<picture class="screenshot">
+						<img src="https://peprojects.dev/images/square.jpg">
+					</picture>
+
+					<picture class="screenshot">
+						<img src="https://peprojects.dev/images/square.jpg">
+					</picture>
+				
 				</article>
 
 <!-- 				<?php if(isset($project['modules']) ) {
