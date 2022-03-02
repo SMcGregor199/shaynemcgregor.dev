@@ -19,12 +19,11 @@
 
 				<article>
 					
-
+					<p class="intro-voice"><?=$project['process']?></p>
+					
 					<picture class="screenshot pic-1">
 						<img src="https://peprojects.dev/images/square.jpg">
 					</picture>
-
-					<p class="intro-voice"><?=$project['process']?></p>
 
 					<picture class="screenshot pic-2">
 						<img src="https://peprojects.dev/images/square.jpg">

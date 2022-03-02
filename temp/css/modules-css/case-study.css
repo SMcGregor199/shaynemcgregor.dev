@@ -29,12 +29,9 @@ case-study article {
 
 case-study article p {
 	min-width: 32ch;
+	
 }
 
-.screenshot {
-	
-	
-}
 
 
 @media(min-width: 700px) {
