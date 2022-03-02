@@ -20,17 +20,17 @@
 				<article>
 					
 
-					<picture class="screenshot">
+					<picture class="screenshot pic-1">
 						<img src="https://peprojects.dev/images/square.jpg">
 					</picture>
 
 					<p class="intro-voice"><?=$project['process']?></p>
 
-					<picture class="screenshot">
+					<picture class="screenshot pic-2">
 						<img src="https://peprojects.dev/images/square.jpg">
 					</picture>
 
-					<picture class="screenshot">
+					<picture class="screenshot pic-3">
 						<img src="https://peprojects.dev/images/square.jpg">
 					</picture>
 				
