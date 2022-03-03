@@ -11,7 +11,6 @@
 <?php	if($current_genre_id == $book["genre"]) { ?>
 
 		<li><?php include("book-card.php");?></li>
-		<!-- <h1><?=$book['title'];?></h1><p>by <?=$book['author'];?></p> -->
 		
 	<?php	} ?>
 <?php } ?>
