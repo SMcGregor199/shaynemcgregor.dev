@@ -15,16 +15,25 @@
 
 <body>
 	<main>
-		<section class="welcome test">
+		<section class="welcome">
 			<inner-column>
 				<h1>Hello. My name is Shayne</h1>
 			</inner-column>
 		</section>
 		
-
+		<picture>
+			<img src="svg/jagged-border-black.svg">
+		</picture>
 
 		<h2>My website is currently being redesigned.</h2>
 		<p>If you'd like to contact me about web design or just to talk about hip hop, I can be reached at <span>shayne.mcgregor@yale.edu</span></p>
+
+
+		<section class="introduction test">
+			<inner-column>
+				<h1>Text</h1>
+			</inner-column>
+		</section>
 	</main>
 
 </body>

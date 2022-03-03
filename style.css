@@ -7,11 +7,10 @@ body {
 }
 
 main .welcome {
-	background-image: url("svg/jagged-border.svg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-image: url("svg/jagged-border-black.svg");*/
+	background-color: black;
 	height: 25vh;
+	color: white;
 }
 span {
 	font-weight: 700;
@@ -23,4 +22,14 @@ span {
 
 .test * {
 	border: 1px solid blue;
+}
+
+.introduction {
+	height: 20vh;
+	background-image: linear-gradient(red,blue);
+	/*clip-path: url("svg/jagged-border-black.svg");*/
+	-webkit-mask-image: url("svg/jagged-border-black.svg");
+	-webkit-mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+
 }
