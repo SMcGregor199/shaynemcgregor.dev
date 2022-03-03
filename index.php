@@ -15,7 +15,13 @@
 
 <body>
 	<main>
-		<h1>Hello. My name is Shayne</h1>
+		<section class="welcome test">
+			<inner-column>
+				<h1>Hello. My name is Shayne</h1>
+			</inner-column>
+		</section>
+		
+
 
 		<h2>My website is currently being redesigned.</h2>
 		<p>If you'd like to contact me about web design or just to talk about hip hop, I can be reached at <span>shayne.mcgregor@yale.edu</span></p>

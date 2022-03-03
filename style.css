@@ -1,8 +1,26 @@
+@import'meyer-reset.css';
+@import'setup.css';
+
 body {
 	background-color: white;
-
 	color: black;
+}
+
+main .welcome {
+	background-image: url("svg/jagged-border.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
 }
 span {
 	font-weight: 700;
+}
+
+.test {
+	border: 1px solid red;
+}
+
+.test * {
+	border: 1px solid blue;
 }
