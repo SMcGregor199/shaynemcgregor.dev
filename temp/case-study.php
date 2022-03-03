@@ -9,7 +9,7 @@
 	<?php foreach($projects_database as $project) { ?>
 
 		<?php if($current_projectid == $project['id']){ ?>
-			<case-study class="test">
+			<case-study>
 				<heading>
 
 					<h1 class="attention-voice"><?=$project['title']?></h1>
@@ -20,17 +20,17 @@
 				<article>
 					
 					<p class="intro-voice"><?=$project['process']?></p>
-					
+
 					<picture class="screenshot pic-1">
-						<img src="https://peprojects.dev/images/square.jpg">
+						<img src="<?=$project['pic-1']?>">
 					</picture>
 
 					<picture class="screenshot pic-2">
-						<img src="https://peprojects.dev/images/square.jpg">
+						<img src="<?=$project['pic-2']?>">
 					</picture>
 
 					<picture class="screenshot pic-3">
-						<img src="https://peprojects.dev/images/square.jpg">
+						<img src="<?=$project['pic-3']?>">
 					</picture>
 				
 				</article>

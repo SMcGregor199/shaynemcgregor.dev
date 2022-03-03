@@ -8,10 +8,9 @@ $projects_database = [
 		"title" => "Responsive Layout",
 		"category" => "HTML, CSS",
 		"description" => "This is a site for fans of popcorn in all its deliciousness. It contains a header, a welcome section, some profile cards, and a footer",
-		"goal" => "The goal was to  create a website that looks good and is responsive on every sized viewport",
-		"process" => "My process included using the flex box method of organizing website content in combination with media queries that pay attention to the the viewport's min-width. In this way, the site can be viewed on everything from a phone, a tablet, to a large-screen desktop.",
+		"goal" => "The goal was to  create a website that is responsive on every viewport viewport",
+		"process" => "My process was to use the flex box layout modle of organizing website content in combination with media queries that pay attention to the the viewport's min-width. In this way, the site can be viewed on everything from a phone, a tablet, to a large-screen desktop.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
-		"rectangle-image-1" =>"images/popcorn-rectangle-1.png",
 		"modules" => [ 
 			
 			[
@@ -25,8 +24,9 @@ $projects_database = [
 			
 
 		],
-		"horizontal-image-1" =>"images/popcorn-small.png",
-		"horizontal-image-2" =>"images/popcorn-large.png",
+		"pic-1" => "images/popcorn-pic-1.png",
+		"pic-2" => "images/popcorn-pic-2.png",
+		"pic-3" => "images/popcorn-pic-3.png",
 	],
 
 	[	"id" => 1,
@@ -55,8 +55,10 @@ $projects_database = [
 
 			],
 		],
-		"horizontal-image-1" =>"images/vr-before-small.png",
-		"horizontal-image-2" =>"images/vr-after-small.png",
+
+		"pic-1" => "images/tech-pic-1.png",
+		"pic-2" => "images/tech-pic-2.png",
+		"pic-3" => "images/tech-pic-3.png",
 	],
 
 	[	"id" => 2,
@@ -64,13 +66,13 @@ $projects_database = [
 		"title" => "Forms with PHP",
 		"category" => "HTML, PHP",
 		"description" => "This project is a collection of different forms generated using PHP. Some programs will create a madlib. Other forms will display mathmatical calculations. ",
-		"goal" => "The goal was to practice php by creating simple programs based on the exercises from Brian Hogan's Exercises for Programmers (2015)",
+		"goal" => "The goal was to practice php by creating simple programs based on the exercises from Brian Hogan's <em>Exercises for Programmers</em> (2015)",
 		"process" => "I combined PHP and HTML to produce a form that on submission produces a series of outputs based on conditional php statements",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/php/forms/",
-			"rectangle-image-1" =>"images/php-vertical-1.png",
-		"rectangle-image-2" =>"images/php-rectangle-1.png",
-		"horizontal-image-1" =>"images/php-horizontal-1.png",
-		"horizontal-image-2" =>"images/php-horizontal-2.png",
+		"pic-1" => "images/php-pic-1.png",
+		"pic-2" => "images/php-pic-2.png",
+		"pic-3" => "images/php-pic-3.png",
+
 	],
 
 ]; ?>

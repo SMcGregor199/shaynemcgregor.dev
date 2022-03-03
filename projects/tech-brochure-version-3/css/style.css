@@ -112,9 +112,6 @@ html {
 
 /*SHAYNE'S STYLE*/
 
-body * {
-	/*border:  1px solid #ff7600;*/
-}
 .site-header mast-head {
 	display: flex;
 }

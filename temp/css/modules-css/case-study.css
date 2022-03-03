@@ -20,6 +20,9 @@ case-study heading {
 	gap: 25px;
 }
 
+case-study heading p {
+	max-width: 42ch;
+}
 
 case-study article {
 	display: flex;
@@ -29,7 +32,7 @@ case-study article {
 
 case-study article p {
 	min-width: 32ch;
-	
+
 }
 
 
@@ -53,5 +56,27 @@ case-study article p {
 
 	case-study article .pic-3 {
 		grid-column: 3 / 5;
+	}
+}
+
+@media(min-width: 1050px) {
+	case-study article {
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	case-study article p {
+		grid-column: 3 / 7;
+	}
+
+	case-study article .pic-1 {
+		grid-column: 7 / 11;
+	}
+
+	case-study article .pic-2 {
+		grid-column: 7 / 11;
+	}
+
+	case-study article .pic-3 {
+		grid-column: 2 / 9;
 	}
 }
