@@ -11,6 +11,10 @@ html {
 
 /* USAGE */
 
-.thingy {
-	color:  var(--highlight); /* used as variable */
+.test {
+	border: 1px solid var(--highlight); /* used as variable */
+}
+
+.test {
+	border: 1px solid var(--color);
 }
