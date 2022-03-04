@@ -115,7 +115,7 @@
 		<select name="genre">
 			<option disabled>--Please choose an option--</option>
 			<?php foreach ($genres as $id => $genre) { ?>
-				<option value="<?=$genre[$id]?>"><?=$genre['name']?></option>
+				<option value="<?=$id?>"><?=$genre['name']?></option>
 			<?php } ?>
 		</select>
 	</div> 

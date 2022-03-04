@@ -114,6 +114,11 @@ book-card .book-cover {
 	max-width: 200px;
 }
 
+book-card nav {
+	display: flex;
+	flex-direction: row;
+}
+
 book-card a {
 	text-decoration: underline;
 }
