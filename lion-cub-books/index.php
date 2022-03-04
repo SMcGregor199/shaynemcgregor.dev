@@ -59,6 +59,14 @@
 				if ($page == "all-books" ) {
 					include ('all-books.php');
 				}
+
+				if($page == 'update') {
+					include('update.php');
+				}
+
+				if($page == "delete") {
+					include('delete.php');
+				}
 				if ($page == "detail" ) {
 					include('book-detail.php');
 				}
