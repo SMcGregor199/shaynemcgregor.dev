@@ -4,10 +4,10 @@
 
 
 
-<section class='welcome'>
+<section class='layout-01'>
 <inner-column>
 
-	<?php include('modules/graphic-diptych.php'); ?>
+	<?php include('modules/layout-01.php'); ?>
 
 </inner-column>
 </section>
