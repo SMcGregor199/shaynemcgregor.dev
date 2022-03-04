@@ -15,11 +15,11 @@
 
 
 <section class='get-involved'>
-<inner-column>
+	<inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+		<?php include('modules/call-to-action.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 

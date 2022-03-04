@@ -3,6 +3,9 @@
 	$genre_json = file_get_contents("genres.json");
 	$genres = json_decode($genre_json,true);
 
+	$addedBooks_json = file_get_contents("addedBooks.json");
+	$database = json_decode($addedBooks_json,true);
+
 	$submitted = isset($_POST["submitted"]);
 
 	$title = null;
@@ -60,20 +63,25 @@
 			$hasGenre = true;
 		} 
 
-		if ($hasTitle && $hasAuthor &&$hasBlurb &&$hasGenre) {
+		if ($hasTitle 
+			// && $hasAuthor &&$hasBlurb &&$hasGenre
+		) {
 			$book = [
 				"title" => $_POST["title"],
-				"author" => $_POST["author"],
-				"blurb" => $_POST["blurb"],
-				"genre" => intval($_POST["genre"])
+				// "author" => $_POST["author"],
+				// "blurb" => $_POST["blurb"],
+				// "genre" => intval($_POST["genre"])
 
 			];
-			$addedBooksJSON = json_encode($book);
-
-			file_put_contents('addedBooks.json', $addedBooksJSON);
+		
+			$database[uniqid('a')] = $book;
+			$json = json_encode($database);
+			file_put_contents("addedBooks.json", $json);
 			
 		}	
 	}
+
+	
 ?>
 
 
@@ -86,7 +94,7 @@
 			echo $titleError;
 		} ?>
 	</div>
-
+<!-- 
 	<div class="field">
 		<label>Author Name</label>
 		<input name="author" value="<?=$author?>" placeholder="...">
@@ -108,15 +116,10 @@
 		<select name="genre">
 			<option disabled>--Please choose an option--</option>
 			<?php foreach ($genres as $genre) { ?>
-				<option value="<?=$genre['id']?>"><?=$genre['name']?></option>
+				<option value="<?=$genre[$id]?>"><?=$genre['name']?></option>
 			<?php } ?>
-<!-- 			<option value="0">Biography & Memoir</option>
-			<option value="1">Literary Fiction</option>
-			<option value="2">Classics</option>
-			<option value="3">Mystery</option> -->
 		</select>
-		<!-- <input type="text" name="genre" value="" placeholder="..."> -->
-	</div>
+	</div> -->
 
 	<button type='submit' name="submitted">Submit</button>
 

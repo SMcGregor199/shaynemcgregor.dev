@@ -44,6 +44,13 @@ header nav a {
 .welcome h1 {
 	font-size: 36px;
 }
+.show-code {
+	display: block;
+	font-family: monospace;
+	padding: 10px;
+	background-color: #222;
+	color: lime;
+}
 
 @media(min-width: 600px) {
 	.welcome h1 {

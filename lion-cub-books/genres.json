@@ -1,30 +1,23 @@
-[
-	{
-		"id":0,
+{
+	"0": {
 		"name":"Biography & Memoir"
-
+		
 	},
 
-	{
-		"id":1,
+	"1": {
 		"name":"Literary Fiction"
 	},
 
-	{
-		"id":2,
+	"2": {
 		"name":"Classics"
 	},
 
-	{
-		"id":3,
+	"3": {
 		"name":"Mystery"
 	},
 
-	{
-		"id":4,
+	"4": {
 		"name":"Fantasy"
-
 	}
 
-
-]
+}

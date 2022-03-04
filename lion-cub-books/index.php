@@ -9,6 +9,15 @@
 	} else {
 		$page = "home";
 	} 
+
+	function show($things) {
+		echo "<code class='show-code'>";
+		echo '<pre>';
+		print_r($things);
+		echo '</pre>';
+		echo '</code>';
+	
+	} 
 ?>
 <html lang="en">
 
@@ -44,7 +53,7 @@
 				}
 
 				if($page == "genre") {
-					include('book-list.php');
+					include('genre.php');
 				}
 
 				if ($page == "list" ) {

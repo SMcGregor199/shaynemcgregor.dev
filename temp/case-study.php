@@ -18,21 +18,30 @@
 				</heading>
 
 				<article>
-					
 					<p class="intro-voice"><?=$project['process']?></p>
 
-					<picture class="screenshot pic-1">
+					<figure class="screenshot pic-1">
 						<img src="<?=$project['pic-1']?>">
+						<figcaption>the "call-to-action" module in the base code</figcaption>
+					</figure>
+
+					<picture class="arrow">
+						<img src="images/svgs/arrow.svg">
 					</picture>
 
-					<picture class="screenshot pic-2">
+					<figure class="screenshot pic-2">
 						<img src="<?=$project['pic-2']?>">
+						<figcaption>I was able to recreate the module in a way that evokes Meta's Oculus Quest website</figcaption>
+					</figure>
+
+					<picture class="arrow">
+						<img src="images/svgs/arrow.svg">
 					</picture>
 
-					<picture class="screenshot pic-3">
+					<figure class="screenshot pic-3">
 						<img src="<?=$project['pic-3']?>">
-					</picture>
-				
+						<figcaption>after some styling within the specific "call-to-action" css file</figcaption>
+					</figure>
 				</article>
 
 <!-- 				<?php if(isset($project['modules']) ) {

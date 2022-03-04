@@ -35,6 +35,10 @@ case-study article p {
 
 }
 
+case-study article .pic-2 {
+	border: 5px solid black;
+}
+
 
 
 @media(min-width: 700px) {
