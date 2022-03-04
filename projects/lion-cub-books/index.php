@@ -18,6 +18,20 @@
 		echo '</code>';
 	
 	} 
+
+	function getDatabase() {
+			$addedBooks_json = file_get_contents("addedBooks.json");
+			return json_decode($addedBooks_json,true);
+	}
+
+	function getBookById($id) {
+		$books = getDatabase();
+		foreach ($books as $bookId => $bookData) {
+			if($bookId == $id) {
+				return $bookData;
+			}
+		}
+	}
 ?>
 <html lang="en">
 
@@ -38,14 +52,18 @@
 				<a href="?page=home">Home</a>
 				<a href="?page=genrelist">Browse Genres</a>
 				<a href="?page=all-books">All Books</a>
+				<a href="?page=addbook">Add Book</a>
 			</nav>
-			<?php include("add-book.php");?>
 		</header>
 
 		<main>
 			<?php 
 				if ($page == "home") {
 					include('home.php');
+				}
+
+				if($page == "addbook") {
+					include('add-book.php');
 				}
 
 				if($page == "genrelist") {

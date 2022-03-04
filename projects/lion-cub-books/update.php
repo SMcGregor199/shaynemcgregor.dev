@@ -1,1 +1,10 @@
-<h1>this is the update page</h1>
+<?php 
+
+$book = getBookById($_GET['book']);
+show($book);
+
+$title = $book['title'];
+
+include('form.php');
+?>
+

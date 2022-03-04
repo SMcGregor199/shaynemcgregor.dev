@@ -8,7 +8,6 @@ body {
 
 body * {
 	padding: 10px;
-	/*border:  1px solid red;*/
 }
 
 
@@ -125,6 +124,13 @@ book-card a {
 
 form {
 	min-width: 400px;
+}
+form textarea {
+	display: block;
+	min-width: 300px;
+	max-width: 100%;
+	min-height: 150px;
+	border: 1px solid red;
 }
 
 div :is(label,input) {
