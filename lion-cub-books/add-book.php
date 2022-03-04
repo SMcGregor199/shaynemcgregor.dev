@@ -63,14 +63,13 @@
 			$hasGenre = true;
 		} 
 
-		if ($hasTitle 
-			// && $hasAuthor &&$hasBlurb &&$hasGenre
-		) {
+		if ($hasTitle && $hasAuthor &&$hasBlurb &&$hasGenre) {
 			$book = [
 				"title" => $_POST["title"],
-				// "author" => $_POST["author"],
-				// "blurb" => $_POST["blurb"],
-				// "genre" => intval($_POST["genre"])
+				"author" => $_POST["author"],
+				"blurb" => $_POST["blurb"],
+				"genre" => intval($_POST["genre"]),
+				"book-cover" => "https://peprojects.dev/images/portrait.jpg",
 
 			];
 		
@@ -94,7 +93,7 @@
 			echo $titleError;
 		} ?>
 	</div>
-<!-- 
+
 	<div class="field">
 		<label>Author Name</label>
 		<input name="author" value="<?=$author?>" placeholder="...">
@@ -115,11 +114,11 @@
 		<label>Genre</label>
 		<select name="genre">
 			<option disabled>--Please choose an option--</option>
-			<?php foreach ($genres as $genre) { ?>
+			<?php foreach ($genres as $id => $genre) { ?>
 				<option value="<?=$genre[$id]?>"><?=$genre['name']?></option>
 			<?php } ?>
 		</select>
-	</div> -->
+	</div> 
 
 	<button type='submit' name="submitted">Submit</button>
 
