@@ -14,30 +14,30 @@
 
 
 
-<section class='get-involved'>
+<section class='layout-02'>
 	<inner-column>
 
-		<?php include('modules/call-to-action.php'); ?>
+		<?php include('modules/layout-02.php'); ?>
 
 	</inner-column>
 </section>
 
 
 
-<section class='stuff'>
+<section class='layout-03'>
 <inner-column>
 	
-	<?php include('modules/articles-intro.php'); ?>
+	<?php include('modules/layout-03.php'); ?>
 
 </inner-column>
 </section>
 
 
 
-<section class='help-us'>
+<section class='layout-04'>
 <inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+	
 
 </inner-column>
 </section>

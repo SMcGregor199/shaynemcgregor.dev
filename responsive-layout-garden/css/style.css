@@ -26,8 +26,8 @@
 /* MODULES */
 @import 'modules/masthead.css';
 @import 'modules/layout-01.css';
-@import 'modules/call-to-action.css';
-@import 'modules/articles-intro.css';
+@import 'modules/layout-02.css';
+@import 'modules/layout-03.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
 /* should everything/nothing be in it's own file? */
@@ -48,6 +48,15 @@ html {
 
 
 /* SITE SECTIONS */
+section {
+	min-height: 25vh;
+}
+section div {
+	border-radius: 10px;
+}
+section div p {
+	padding: 40px;
+}
 .site-header {
 	/*background-color: #9ec9eb;*/
 	position: sticky;

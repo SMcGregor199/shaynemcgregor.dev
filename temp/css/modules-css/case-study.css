@@ -34,7 +34,9 @@ case-study article p {
 	min-width: 32ch;
 
 }
-
+case-study article .pic-1 {
+	transform: rotate3d(2, -1, -1, 45deg);
+} 
 case-study article .pic-2 {
 	border: 5px solid black;
 }

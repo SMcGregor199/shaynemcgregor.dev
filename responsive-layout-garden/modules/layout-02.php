@@ -1,5 +1,4 @@
-
-<layout-01 class=" container">
+<layout-02 class="container">
 		<div class="blue-box">
 			<p>one</p>
 		</div>
@@ -14,4 +13,4 @@
 		<div class="yellow-box">
 			<p>four</p>
 		</div>
-</layout-01>
+</layout-02>

@@ -14,7 +14,21 @@ html {
 
 
 /* USAGE */
+.blue-box {
+  background-color:var(--blue) ;
+}
 
+.pink-box {
+  background-color:var(--pink) ;
+}
+
+.orange-box {
+  background-color:var(--orange) ;
+}
+
+.yellow-box {
+  background-color:var(--yellow) ;
+}
 .test {
 	border: 1px solid var(--highlight); /* used as variable */
 }

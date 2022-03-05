@@ -23,6 +23,11 @@ picture {
 	display: block;
 }
 
+.container {
+	display: block;
+	display: flex;
+}
+
 img {
 	display: block;
 	width: 100%;

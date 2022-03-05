@@ -1,32 +1,3 @@
-
-layout-01 {
-  display: block;
-}
-layout-01 .container {
-  display: flex;
+layout-01.container {
   flex-direction: row;
-}
-layout-01 .container div {
-  border-radius: 10px;
-  min-height: 25vh;
-}
-
-layout-01 section div p {
-  padding: 40px;
-}
-
-layout-01 .blue-box {
-  background-color:var(--blue) ;
-}
-
-layout-01 .pink-box {
-  background-color:var(--pink) ;
-}
-
-layout-01 .orange-box {
-  background-color:var(--orange) ;
-}
-
-layout-01 .yellow-box {
-  background-color:var(--yellow) ;
 }
