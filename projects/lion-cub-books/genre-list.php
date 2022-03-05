@@ -1,6 +1,5 @@
 <?php
-	$genre_json = file_get_contents("genres.json");
-	$genres = json_decode($genre_json,true);
+	$genres = getGenreDatabase();
 
 ?>
 <section class="genre-list">
