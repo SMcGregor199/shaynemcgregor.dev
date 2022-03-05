@@ -1,10 +1,10 @@
 <section class="welcome test">
 	<inner-column>
-		<h1>Lion Cub Books Home Page</h1>
+		<title-page>
+			<h1>Lion Cub Books Home Page</h1>
+			<?php include('images/svgs/lion.svg');?>
+		</title-page>
 	</inner-column>
-	<?php include('images/svgs/lion.svg');?>
-
-
 </section>
 
 
