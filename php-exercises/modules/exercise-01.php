@@ -1,10 +1,3 @@
-<link rel='stylesheet' href='stylesheet.css'>
-
-
-
-
-
-
 <?php
 // initialize quote variable 
 	$quote = "";
@@ -53,3 +46,4 @@
 	<button type='submit' name="submitted">Submit</button>
 	
 </form>
+
