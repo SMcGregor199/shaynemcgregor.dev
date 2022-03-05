@@ -22,7 +22,7 @@
 		
 		<section id="projects" class = "projects">
 			<inner-column>
-				<?php include("modules/projects-intro.php");?>
+				<?php include("modules/under-construction.php");?>
 			</inner-column>
 			<div></div>
 		</section>
