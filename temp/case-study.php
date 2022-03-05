@@ -22,25 +22,17 @@
 
 					<figure class="screenshot pic-1">
 						<img src="<?=$project['pic-1']?>">
-						<figcaption>the "call-to-action" module in the base code</figcaption>
+						<figcaption class="intro-voice">The "call-to-action" module in the base code</figcaption>
 					</figure>
-
-					<picture class="arrow">
-						<img src="images/svgs/arrow.svg">
-					</picture>
 
 					<figure class="screenshot pic-2">
 						<img src="<?=$project['pic-2']?>">
-						<figcaption>I was able to recreate the module in a way that evokes Meta's Oculus Quest website</figcaption>
+						<figcaption class="intro-voice">After some styling within the specific "call-to-action" css file</figcaption>
 					</figure>
-
-					<picture class="arrow">
-						<img src="images/svgs/arrow.svg">
-					</picture>
 
 					<figure class="screenshot pic-3">
 						<img src="<?=$project['pic-3']?>">
-						<figcaption>after some styling within the specific "call-to-action" css file</figcaption>
+						<figcaption class="intro-voice">I was able to recreate the module in a way that evokes Meta's Oculus Quest website</figcaption>
 					</figure>
 				</article>
 
