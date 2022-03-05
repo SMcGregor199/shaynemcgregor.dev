@@ -29,5 +29,9 @@
 			return json_decode($genre_json,true);
 	}
 
+	function saveDatabase($database) {
+			$json = json_encode($database);
+			file_put_contents("addedBooks.json", $json);
+		}	
 
 ?>

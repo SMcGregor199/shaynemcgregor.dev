@@ -1,26 +1,30 @@
 
 <?php
-	$genre_json = file_get_contents("genres.json");
-	$genres = json_decode($genre_json,true);
+// Pulling in the database
+	$genres = getGenreDatabase();
+	$books = getDatabase();
 
-	$addedBooks_json = file_get_contents("addedBooks.json");
-	$database = json_decode($addedBooks_json,true);
-
-	$submitted = isset($_POST["submitted"]);
-
+	
+	// setting the initial variables within the form to zero to avoid errors
 	$title = null;
 	$author = null;
 	$blurb = null;
 	$genre = null;
 	$bookCover = null;
+
+	//we want these variables to only be true after a certain condition 
 	$hasTitle = false;
 	$hasAuthor = false;
 	$hasBlurb = false;
+	// $hasGenre does not exist because the select element will always have a value
+
+	//settinng these to null at the top of the program will avoid errors within the form
 	$titleError = null;
 	$authorError = null;
 	$blurbError = null;
 	$hasGenre = null;
 
+	$submitted = isset($_POST["submitted"]);
 
 	if($submitted) {
 
@@ -41,9 +45,7 @@
 				$hasAuthor = true;
 			} else {
 				$authorError = "please add the name of the author";
-
 			}
-
 		}
 
 		if( isset($_POST['blurb']) ){
@@ -54,7 +56,6 @@
 				$hasBlurb = true; 
 			}  else {
 				$blurbError = "please add the blurb";
-
 			}
 		}
 
@@ -65,19 +66,18 @@
 
 		if ($hasTitle && $hasAuthor &&$hasBlurb &&$hasGenre) {
 			$book = [
-				"title" => $_POST["title"],
-				"author" => $_POST["author"],
-				"blurb" => $_POST["blurb"],
-				"genre" => intval($_POST["genre"]),
+				"title" => $title,
+				"author" => $author,
+				"blurb" => $blurb,
+				"genre" => $genre,
 				"book-cover" => "https://peprojects.dev/images/portrait.jpg",
-
 			];
 		
-			$database[uniqid('a')] = $book;
-			$json = json_encode($database);
-			file_put_contents("addedBooks.json", $json);
+			$books[uniqid('a')] = $book;
+			saveDatabase($books);
 			
 		}	
+
 	}
 
 	

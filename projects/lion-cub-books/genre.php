@@ -1,6 +1,5 @@
 <?php
-	$books_json = file_get_contents("addedBooks.json");
-	$books = json_decode($books_json,true);
+	$books = getDatabase();
 
 	$current_genre_id = $_GET["genreID"];
 ?>
