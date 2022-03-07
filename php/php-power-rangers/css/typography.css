@@ -1,0 +1,26 @@
+/*HEADING FONTS  */
+.attention-voice {
+	font-size: 36px;
+	font-weight:700;
+	letter-spacing:0.05em;
+	font-family: "futura";
+}
+
+
+/* PARAGRAPH FONTS */
+.calm-voice {
+	font-size:20px;
+	font-weight:300;
+	letter-spacing:0.05em;
+	line-height:1.2;
+	font-family:"times"
+}
+
+/*MARGINAL FONTS  */
+.details-voice {
+	font-size:10px;
+	font-weight:300;
+	letter-spacing:0.05em;
+	line-height:1.2;
+	font-family:helvetica;
+}

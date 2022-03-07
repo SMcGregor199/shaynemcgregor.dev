@@ -1,0 +1,19 @@
+@import "meyer-reset.css";
+@import "setup.css";
+@import"typography.css";
+body * {
+	/*border: 1px solid red;*/
+}
+
+.inner-column {
+	width: 98%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+
+
