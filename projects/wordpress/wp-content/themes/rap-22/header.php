@@ -1,0 +1,20 @@
+<!doctype html> 
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title><?php echo wp_get_document_title(); ?></title>
+		<meta name="description" content="Rap Hall of Fame">
+		<meta property="og:image" content="">
+		<?php wp_head(); ?>
+	</head>
+
+	<body <?php body_class(); ?> >
+
+		<header>
+			<h1>The Header</h1>
+		</header>
+
+		<main>
