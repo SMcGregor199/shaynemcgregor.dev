@@ -8,7 +8,7 @@
 
 	if ( is_page('list') ) {
 		    $args = array(  
-        'post_type' => 'rappers',
+        'post_type' => 'rapper',
     );
 
     $loop = new WP_Query( $args ); 
@@ -21,7 +21,7 @@
     wp_reset_postdata(); 
 	}
 
-	if ( is_singular('rappers') ) {
+	if ( is_singular('rapper') ) {
 		echo "<h1>This is the detail page</h1>";
 	}
 	?>
