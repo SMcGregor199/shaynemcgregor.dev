@@ -14,13 +14,16 @@
     $loop = new WP_Query( $args ); 
         
     while ( $loop->have_posts() ) : $loop->the_post(); 
-        echo "<h2>" . get_the_title() . "</h2>"; 
+        include('templates/components/rapper-card.php');
         the_excerpt(); 
     endwhile;
 
     wp_reset_postdata(); 
 	}
 
+	if ( is_singular('rappers') ) {
+		echo "<h1>This is the detail page</h1>";
+	}
 	?>
 
 <?php get_footer(); ?>
