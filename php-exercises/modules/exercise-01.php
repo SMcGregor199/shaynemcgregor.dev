@@ -4,9 +4,11 @@
 // initialize author variable
 	$author = "";
 // initialize message variable 
-	$message = "input a quote and the author"; 
+	$message = "input a quote and its author"; 
 // check for user input
-	if( isset($_POST["submitted"]) ) {
+	$exercise_01_submitted = isset($_POST["exercise-01-submitted"]);
+
+	if($exercise_01_submitted) {
 		// If input is true... 
 		if( isset($_POST["quote"]) ) {
 			$quote = $_POST["quote"];
@@ -28,7 +30,7 @@
 
 
 
-
+<h1>Quotes and Authors</h1>
 <form method="POST">
 	<p class="message"><?=$message?></p>
 
@@ -43,7 +45,7 @@
 	</div>
 
 
-	<button type='submit' name="submitted">Submit</button>
+	<button type='submit' name="exercise-01-submitted">Submit</button>
 	
 </form>
 

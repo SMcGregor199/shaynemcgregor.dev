@@ -17,7 +17,7 @@
 <section class='get-involved'>
 	<inner-column>
 
-		<?php include('modules/call-to-action.php'); ?>
+		<?php include('modules/exercise-02.php'); ?>
 
 	</inner-column>
 </section>

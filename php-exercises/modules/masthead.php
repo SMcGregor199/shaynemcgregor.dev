@@ -1,26 +1,7 @@
 
 <mast-head>
 
-	<nav class='site-menu'>
-		<a class='logo' href='#'>
-			<img src="images/logo.svg" alt="">
-			<!-- or you could actually use the SVG -->
-		</a>
-
-		<a href='#'>
-			<span>Some page</span>
-		</a>
-
-		<a href='#'>
-			<span>"Masthead"</span>
-		</a>
-	</nav>
-
-
-	<nav class='user-menu'>
-		<a href='#'>
-			<span>Sign-in</span>
-		</a>
-	</nav>
+<h1>PHP Exercises Layout Garden</h1>
+<p>This is where you can see all the mini-projects I've been creating with PHP. All the projects shown here come from Brian's <span>Exercises for Programmers: 57 Challenges to Develop Your Coding Skills</span>(2015)</p>
 
 </mast-head>
