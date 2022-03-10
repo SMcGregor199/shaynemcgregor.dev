@@ -33,5 +33,12 @@
 			$json = json_encode($database);
 			file_put_contents("addedBooks.json", $json);
 		}	
-
+	function isSelected($book_genre,$genre_id) {
+		if ($book_genre == $genre_id) {
+			return "selected";
+		}
+		// get the genre value of the current book 
+		// check the genre value book against current genre ids
+		// if there is a match within the loop then return the string selected
+	}
 ?>
