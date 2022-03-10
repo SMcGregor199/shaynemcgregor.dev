@@ -8,7 +8,7 @@
 
 	if ( is_page('list') ) {
 		    $args = array(  
-        'post_type' => 'rapper',
+        'post_type' => 'album',
     );
 
     $loop = new WP_Query( $args ); 
