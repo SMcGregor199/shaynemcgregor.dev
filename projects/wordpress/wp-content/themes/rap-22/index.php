@@ -3,7 +3,7 @@
 	<?php 
 
 	if ( is_page('home') ) {
-		echo '<h1>home</h1>';
+		include("templates/pages/home.php");
 	}
 
 	if ( is_page('list') ) {
