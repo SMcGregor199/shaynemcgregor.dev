@@ -37,7 +37,7 @@
 <section class='layout-04'>
 <inner-column>
 
-	
+	<?php include('modules/layout-04.php'); ?>
 
 </inner-column>
 </section>

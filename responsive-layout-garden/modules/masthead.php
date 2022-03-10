@@ -1,26 +1,5 @@
 
 <mast-head>
-
-	<nav class='site-menu'>
-		<a class='logo' href='#'>
-			<img src="images/logo.svg" alt="">
-			<!-- or you could actually use the SVG -->
-		</a>
-
-		<a href='#'>
-			<span>Some page</span>
-		</a>
-
-		<a href='#'>
-			<span>"Masthead"</span>
-		</a>
-	</nav>
-
-
-	<nav class='user-menu'>
-		<a href='#'>
-			<span>Sign-in</span>
-		</a>
-	</nav>
-
+	<h1>Responsive Layout Garden</h1>
+	<p>Here is where you'll find me cultivating different layout ideas. At the moment, most of what you'll find here was made using the flexible layout module.</p>
 </mast-head>

@@ -1,5 +1,5 @@
-<h1>Layout-Module 03</h1>
-<layout-03 class="container">
+<h1>Layout-Module 04</h1>
+<layout-04 class="container">
     <div class="blue-box">
       <p>one</p>
     </div>
@@ -14,4 +14,4 @@
     <div class="yellow-box">
       <p>four</p>
     </div>
-</layout-03>
+</layout-04>

@@ -8,6 +8,7 @@ html {
 	--pink: #ff999a;
 	--orange: #ffcc99;
 	--yellow: #ffee99;
+	
 }
 /* you can make more! */
 
@@ -29,10 +30,12 @@ html {
 .yellow-box {
   background-color:var(--yellow) ;
 }
-.test {
-	border: 1px solid var(--highlight); /* used as variable */
-}
+
 
 .test {
-	border: 1px solid var(--color);
+	border: 1px solid var(--yellow); /* used as variable */
+}
+
+.test * {
+	border: 2px solid var(--orange);
 }
