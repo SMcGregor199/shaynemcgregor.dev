@@ -58,16 +58,16 @@
 		// 	}
 		// }
 
-		// if( isset($_POST['blurb']) ){
-		// 	$blurb = $_POST["blurb"];
+		if( isset($_POST['blurb']) ){
+			$blurb = $_POST["blurb"];
 
-		// 	if( strlen($blurb) > 0 ) {
-		// 	//maybe change the string length on this? 
-		// 		$hasBlurb = true; 
-		// 	}  else {
-		// 		$blurbError = "please add the blurb";
-		// 	}
-		// }
+			if( strlen($blurb) > 0 ) {
+			//maybe change the string length on this? 
+				$hasBlurb = true; 
+			}  else {
+				$blurbError = "please add the blurb";
+			}
+		}
 
 		// if( isset($_POST['genre']) ){
 		// 	$genre = intval($_POST["genre"]);

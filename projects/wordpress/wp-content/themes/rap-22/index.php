@@ -14,7 +14,7 @@
     $loop = new WP_Query( $args ); 
         
     while ( $loop->have_posts() ) : $loop->the_post(); 
-        include('templates/components/rapper-card.php');
+        include('templates/components/album-card.php');
         the_excerpt(); 
     endwhile;
 
