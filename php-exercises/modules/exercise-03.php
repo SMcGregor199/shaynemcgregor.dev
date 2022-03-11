@@ -1,10 +1,3 @@
-<link rel='stylesheet' href='stylesheet.css'>
-
-
-
-
-
-
 <?php
 // Initialize variable for the verb
 	$verb = "";
@@ -19,7 +12,7 @@
 // Initialize variable mad-lib 
 	
 // display mad-lib 
-	$submitted = isset($_POST["submitted"]);
+	$submitted = isset($_POST["exercise-03-submitted"]);
 
 	if ($submitted) {
 		$verb = empty($_POST["verb"]) ? "[verb]" : $_POST["verb"];
@@ -45,7 +38,7 @@
 
 
 
-
+<h1>Creating an Madlib</h1>
 <form method="POST">
 	<p class="message"><?=$message?></p>
 
@@ -69,6 +62,6 @@
 		<input name="noun" value="<?=$noun?>" placeholder="...">
 	</div>
 
-	<button type='submit' name="submitted">Submit</button>
+	<button type='submit' name="exercise-03-submitted">Submit</button>
 	
 </form>

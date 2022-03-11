@@ -1,4 +1,4 @@
-<link rel='stylesheet' href='stylesheet.css'>
+
 
 <?php
 // Initialize current age 
@@ -17,7 +17,7 @@ $currentYear = date("Y");
 // Initialize the retirement year 
 $retirementYear = "";
 // Convert age and retirement age inputs to integers using flotval
-$submitted = isset($_POST["submitted"]);
+$submitted = isset($_POST["exercise-04-submitted"]);
 
 if ($submitted) {
 	// Setting variables and checking if fields are populated
@@ -63,7 +63,7 @@ if ($submitted) {
 
 
 
-
+<h1>Retirement Calculator</h1>
 <form method="POST">
 	<p class="message"><?=$message?></p>
 
@@ -78,6 +78,6 @@ if ($submitted) {
 	</div>
 
 
-	<button type='submit' name="submitted">Submit</button>
+	<button type='submit' name="exercise-04-submitted">Submit</button>
 	
 </form>

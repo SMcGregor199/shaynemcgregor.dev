@@ -14,7 +14,7 @@
 
 
 
-<section class='get-involved'>
+<section class='exercise 02'>
 	<inner-column>
 
 		<?php include('modules/exercise-02.php'); ?>
@@ -24,20 +24,20 @@
 
 
 
-<section class='stuff'>
+<section class='exercise 03'>
 <inner-column>
 	
-	<?php include('modules/articles-intro.php'); ?>
+	<?php include('modules/exercise-03.php'); ?>
 
 </inner-column>
 </section>
 
 
 
-<section class='help-us'>
+<section class='exercise 04'>
 <inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+	<?php include('modules/exercise-04.php'); ?>
 
 </inner-column>
 </section>
