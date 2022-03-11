@@ -55,16 +55,19 @@ if ($submitted) {
 			}
 		}
 
-	if ($hasTitle) {
-
-		$books[$current_book_id]['title']= $title;
+	if ($hasTitle && $hasAuthor && $hasBlurb) {
+		$book = [
+			"title" => $_POST['title'],
+			"author" => $_POST['author'],
+			"genre" => $_POST['genre'],
+			"blurb" => trim($_POST['blurb']),
+			"book-cover" => "https://peprojects.dev/images/portrait.jpg"
+		];
 	}
 
-}
-
-	// $books[$current_book_id] = $book;
+	$books[$current_book_id] = $book;
 	saveDatabase($books);
-
+}
 // display what was updated 
 show($book);
 ?>
