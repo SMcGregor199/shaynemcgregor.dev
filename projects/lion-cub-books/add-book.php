@@ -6,6 +6,10 @@
 
 	
 	// setting the initial variables within the form to zero to avoid errors
+	$book['title'] = '';
+	$book['author'] = '';
+	$book['blurb'] = '';
+	$book['genre'] = null;
 	$title = null;
 	$author = null;
 	$blurb = null;
@@ -51,11 +55,12 @@
 		if( isset($_POST['blurb']) ){
 			$blurb = $_POST["blurb"];
 
-			if( strlen($blurb) > 0 ) {
+			if( trim($_POST['blurb']) == "" ) {
 			//maybe change the string length on this? 
-				$hasBlurb = true; 
-			}  else {
 				$blurbError = "please add the blurb";
+			}  else {
+				$hasBlurb = true;
+				
 			}
 		}
 

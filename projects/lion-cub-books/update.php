@@ -10,26 +10,61 @@ $book = getBookById($current_book_id);
 $genre_json = file_get_contents("genres.json");
 $genres = json_decode($genre_json,true);
 
-// show($book);
 
 // see if there was a form submitted
 $submitted = isset($_POST["submitted"]);
+
+$hasTitle = false;
+$hasAuthor = false;
+$hasBlurb = false;
+
 $titleError = "";
 $authorError = "";
 $blurbError = "";
 // 
 
 if ($submitted) {	
+
+	if( isset($_POST['title']) ){
+		$title = $_POST["title"];
+
+		if( strlen($title) > 0 ) {
+			$hasTitle = true;
+			} else {
+			$titleError = "please add the title";
+			}
+	}
+	if( isset($_POST['author']) ){
+		$author = $_POST["author"];
 	
-	$book = [
-		"title" => $_POST['title'],
-		"author" => $_POST['author'],
-		"genre" => $_POST['genre'],
-		"blurb" => $_POST['blurb']
-	];
-	$books[$current_book_id] = $book;
-	saveDatabase($books);
+		if( strlen($author) > 0 ) {
+			$hasAuthor = true;
+		} else {
+			$authorError = "please add the name of the author";
+		}
+	}
+
+	if( isset($_POST['blurb']) ){
+		$blurb = $_POST["blurb"];
+
+		if( trim($blurb) == "" ) {
+		//maybe change the string length on this? 
+			$blurbError = "please add the blurb";
+			}  else {
+				$hasBlurb = true;
+			}
+		}
+
+	if ($hasTitle) {
+
+		$books[$current_book_id]['title']= $title;
+	}
+
 }
+
+	// $books[$current_book_id] = $book;
+	saveDatabase($books);
+
 // display what was updated 
 show($book);
 ?>
