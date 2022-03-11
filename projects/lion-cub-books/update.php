@@ -6,6 +6,7 @@
 $current_book_id = $_GET['book'];
 $books = getDatabase();
 $book = getBookById($current_book_id);
+
 // pulling in genres database
 $genre_json = file_get_contents("genres.json");
 $genres = json_decode($genre_json,true);
@@ -14,14 +15,17 @@ $genres = json_decode($genre_json,true);
 // see if there was a form submitted
 $submitted = isset($_POST["submitted"]);
 
-$hasTitle = false;
-$hasAuthor = false;
-$hasBlurb = false;
 
+// vallidation
+$hasTitle = false;
 $titleError = "";
+$hasAuthor = false;
 $authorError = "";
+$hasBlurb = false;
 $blurbError = "";
-// 
+
+//remove white space from blurb  
+trim($book['blurb']);
 
 if ($submitted) {	
 
@@ -45,7 +49,8 @@ if ($submitted) {
 	}
 
 	if( isset($_POST['blurb']) ){
-		$blurb = $_POST["blurb"];
+
+		$blurb = trim($_POST["blurb"]);
 
 		if( trim($blurb) == "" ) {
 		//maybe change the string length on this? 
@@ -57,8 +62,8 @@ if ($submitted) {
 
 	if ($hasTitle && $hasAuthor && $hasBlurb) {
 		$book = [
-			"title" => $_POST['title'],
-			"author" => $_POST['author'],
+			"title" => $title,
+			"author" => $author,
 			"genre" => $_POST['genre'],
 			"blurb" => trim($_POST['blurb']),
 			"book-cover" => "https://peprojects.dev/images/portrait.jpg"

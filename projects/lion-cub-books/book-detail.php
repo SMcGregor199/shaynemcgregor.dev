@@ -1,4 +1,11 @@
+<?php
+
+	$book = getBookById($_GET['book']);
+	
+
+	echo $book['title'] . " details page";
+	
 
 
-<h1>This is the Book Detail Page. Soon to be constructed</h1>
+?>
 
