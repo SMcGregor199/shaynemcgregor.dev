@@ -1,4 +1,4 @@
-<section class="welcome test">
+<section class="welcome">
 	<inner-column>
 		<title-page>
 			<h1>Lion Cub Books Home Page</h1>
