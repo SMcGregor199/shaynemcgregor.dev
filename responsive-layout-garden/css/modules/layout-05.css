@@ -1,0 +1,10 @@
+layout-05.container {
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  layout-05.container {
+  flex-direction: column;
+  }
+}

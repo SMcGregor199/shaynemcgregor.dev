@@ -29,7 +29,8 @@
 @import 'modules/layout-02.css';
 @import 'modules/layout-03.css';
 @import 'modules/layout-04.css';
-@import 'modules/article-card.css';
+@import 'modules/layout-05.css';
+
 @import 'modules/site-map.css';
 /* should everything/nothing be in it's own file? */
 
@@ -80,26 +81,11 @@ section div p {
   color: var(--white);
 }
 
-.welcome {
-  
-}
 
 
-/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
 
 
-.get-involved {
-  background-color:  var(--highlight);
-  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-} /* interesting way to include the whole image in your CSS */
 
-.get-involved inner-column {
-	/*max-width:  700px;*/
-}
-
-.get-involved call-to-action {
-
-}
 
 
 

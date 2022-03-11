@@ -15,11 +15,11 @@
 
 
 <section class='layout-02'>
-	<inner-column>
+<inner-column>
 
 		<?php include('modules/layout-02.php'); ?>
 
-	</inner-column>
+</inner-column>
 </section>
 
 
@@ -38,6 +38,14 @@
 <inner-column>
 
 	<?php include('modules/layout-04.php'); ?>
+
+</inner-column>
+</section>
+
+<section class='layout-05'>
+<inner-column>
+
+	<?php include('modules/layout-05.php'); ?>
 
 </inner-column>
 </section>
