@@ -42,6 +42,14 @@
 </inner-column>
 </section>
 
+<section class='exercise 05'>
+<inner-column>
+
+	<?php include('modules/exercise-05.php'); ?>
+
+</inner-column>
+</section>
+
 
 
 <?php include('footer.php'); ?>

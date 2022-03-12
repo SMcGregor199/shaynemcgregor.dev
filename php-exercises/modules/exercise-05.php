@@ -1,4 +1,3 @@
-<link rel='stylesheet' href='stylesheet.css'>
 
  <?php
 // Initialize vairable number 1 
@@ -7,8 +6,8 @@
  	$num_2 = "";
 // Initialize variable message 
  	$message = "Enter two numbers and we'll do some calculations";
-
- 	if( isset($_POST["submitted"]) ) {
+ 	$submitted = isset($_POST["exercise-05-submitted"]);
+ 	if($submitted) {
  		
  		if(isset($_POST["num-1"]) ) {
  			$num_1 = $_POST["num-1"];
@@ -32,7 +31,7 @@
  	}
 
 ?>
-
+<h1>Simple Math</h1>
 <form method="POST">
 	<p class="message"><?=$message?></p>
 
@@ -47,6 +46,6 @@
 	</div>
 
 
-	<button type='submit' name="submitted">Submit</button>
+	<button type='submit' name="exercise-05-submitted">Submit</button>
 	
 </form>
