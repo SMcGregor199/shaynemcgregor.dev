@@ -24,6 +24,10 @@
 	if ( is_singular('rapper') ) {
 		echo "<h1>This is the detail page</h1>";
 	}
+
+	if (is_page('months') ) {
+		include('months-list.php');
+	}
 	?>
 
 <?php get_footer(); ?>

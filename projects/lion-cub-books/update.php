@@ -75,6 +75,7 @@ if ($submitted) {
 }
 // display what was updated 
 show($book);
+trim($book['blurb']);
 ?>
 
 
