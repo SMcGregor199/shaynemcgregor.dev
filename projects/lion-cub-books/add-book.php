@@ -1,39 +1,37 @@
-
 <?php
-// Pulling in the database
-	$genres = getGenreDatabase();
+// Pulling in the databases
 	$books = getDatabase();
-
+	$genres = getGenreDatabase();
 	
-	// setting the initial variables within the form to zero to avoid errors
+// These values need to be set initially to avoid errors because they because within the code of the form. They exist because of what update.php will do with them. When the program runs, it doesn't actually use these variables.
 	$book['title'] = '';
 	$book['author'] = '';
 	$book['blurb'] = '';
 	$book['genre'] = null;
-	$title = null;
-	$author = null;
-	$blurb = null;
-	$genre = null;
-	$bookCover = null;
 
-	//we want these variables to only be true after a certain condition 
-	$hasTitle = false;
-	$hasAuthor = false;
-	$hasBlurb = false;
-	// $hasGenre does not exist because the select element will always have a value
 
-	//settinng these to null at the top of the program will avoid errors within the form
+//This is for validation. If the the fields have no input, the program will return these messages. To avoid errors, because they exist within the form, they need to be initialized here.
 	$titleError = null;
 	$authorError = null;
 	$blurbError = null;
-	$hasGenre = null;
+// $genreError does not exist because the select element will always have a value
 
+//This is for validation. We only want these variables to return true if the proper conditions are met after the form is submitted. This is just an extra precaution. Probably don't actually need this.
+	$hasTitle = false;
+	$hasAuthor = false;
+	$hasBlurb = false;
+	$hasGenre = false;
+
+
+
+// A semantically easier way to check if the form is submitted.
 	$submitted = isset($_POST["submitted"]);
 
+// This is what runs when the form is submitted.
 	if($submitted) {
 
 		if( isset($_POST['title']) ){
-			$title = $_POST["title"];
+			$title = trim($_POST["title"]);
 
 			if( strlen($title) > 0 ) {
 				$hasTitle = true;
@@ -43,7 +41,7 @@
 		}
 	
 		if( isset($_POST['author']) ){
-			$author = $_POST["author"];
+			$author = trim($_POST["author"]);
 			
 			if( strlen($author) > 0 ) {
 				$hasAuthor = true;
@@ -53,14 +51,13 @@
 		}
 
 		if( isset($_POST['blurb']) ){
-			$blurb = $_POST["blurb"];
+			$blurb = trim($_POST["blurb"]);
 
-			if( trim($_POST['blurb']) == "" ) {
-			//maybe change the string length on this? 
-				$blurbError = "please add the blurb";
-			}  else {
+			if( strlen($blurb) > 0 ) {
 				$hasBlurb = true;
-				
+			//maybe change the string length on this?	
+			} else {
+				$blurbError = "please add the blurb";
 			}
 		}
 
@@ -69,7 +66,7 @@
 			$hasGenre = true;
 		} 
 
-		if ($hasTitle && $hasAuthor &&$hasBlurb &&$hasGenre) {
+		if ($hasTitle && $hasAuthor && $hasBlurb &&  $hasGenre) {
 			$book = [
 				"title" => $title,
 				"author" => $author,
@@ -80,13 +77,12 @@
 		
 			$books[uniqid('a')] = $book;
 			saveDatabase($books);
+			show($book);
 			
 		}	
 
 	}
-
-	
 ?>
 
-
+<!-- The Form -->
 <?php include('form.php');?>

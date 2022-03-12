@@ -1,81 +1,87 @@
-
-
 <?php
+// Pulling in the databases
+	$books = getDatabase();
+	$genres=getGenreDatabase();
 
-// figure out what page we're on
-$current_book_id = $_GET['book'];
-$books = getDatabase();
-$book = getBookById($current_book_id);
-
-// pulling in genres database
-$genre_json = file_get_contents("genres.json");
-$genres = json_decode($genre_json,true);
+// The update page needs to know what book we're look at. Add-books page does not. 
+	$current_book_id = $_GET['book'];
+	$book = getBookById($current_book_id);
 
 
-// see if there was a form submitted
+
+
+// This is for validation. If the the fields have no input, the program will return these messages. To avoid errors, because they exist within the form, they need to be initialized here.
+	$titleError = null;
+	$authorError = null;
+	$blurbError = null;
+// $genreError does not exist because the select element will always have a value
+
+//This is for validation. We only want these variables to return true if the proper conditions are met after the form is submitted. This is just an extra precaution. Probably don't actually need this.
+	$hasTitle = false;
+	$hasAuthor = false;
+	$hasBlurb = false;
+	$hasGenre = false;
+
+
+
+// A semantically easier way to check if the form is submitted.
 $submitted = isset($_POST["submitted"]);
 
+// This is what runs when the form is submitted.
+	if ($submitted) {	
 
-// vallidation
-$hasTitle = false;
-$titleError = "";
-$hasAuthor = false;
-$authorError = "";
-$hasBlurb = false;
-$blurbError = "";
+		if( isset($_POST['title']) ){
+			$title = trim($_POST["title"]);
 
-//remove white space from blurb  
-trim($book['blurb']);
-
-if ($submitted) {	
-
-	if( isset($_POST['title']) ){
-		$title = $_POST["title"];
-
-		if( strlen($title) > 0 ) {
-			$hasTitle = true;
-			} else {
-			$titleError = "please add the title";
+			if( strlen($title) > 0 ) {
+					$hasTitle = true;
+				} else {
+				$titleError = "please add the title";
+				}
 			}
-	}
-	if( isset($_POST['author']) ){
-		$author = $_POST["author"];
-	
-		if( strlen($author) > 0 ) {
-			$hasAuthor = true;
-		} else {
-			$authorError = "please add the name of the author";
-		}
-	}
+		
+			if( isset($_POST['author']) ){
+				$author = trim($_POST["author"]);
+		
+				if( strlen($author) > 0 ) {
+					$hasAuthor = true;
+				} else {
+					$authorError = "please add the name of the author";
+				}
+			}
 
-	if( isset($_POST['blurb']) ){
+			if( isset($_POST['blurb']) ){
+				$blurb = trim($_POST["blurb"]);
 
-		$blurb = trim($_POST["blurb"]);
+				if( strlen($blurb) > 0 ) {
+					$hasBlurb = true;
+				} else {
+					$blurbError = "please add the blurb";
+				}
+			}
 
-		if( trim($blurb) == "" ) {
-		//maybe change the string length on this? 
-			$blurbError = "please add the blurb";
-			}  else {
-				$hasBlurb = true;
+
+			if( isset($_POST['genre']) ){
+				$genre = intval($_POST["genre"]);
+				$hasGenre = true;
+			} 
+
+			if ($hasTitle && $hasAuthor && $hasBlurb &&$hasGenre) {
+					$book = [
+						"title" => $title,
+						"author" => $author,
+						"genre" => $_POST['genre'],
+						"blurb" => trim($_POST['blurb']),
+						"book-cover" => "https://peprojects.dev/images/portrait.jpg"
+					];
+					$books[$current_book_id] = $book;
+					saveDatabase($books);
+					
 			}
 		}
-
-	if ($hasTitle && $hasAuthor && $hasBlurb) {
-		$book = [
-			"title" => $title,
-			"author" => $author,
-			"genre" => $_POST['genre'],
-			"blurb" => trim($_POST['blurb']),
-			"book-cover" => "https://peprojects.dev/images/portrait.jpg"
-		];
-	}
-
-	$books[$current_book_id] = $book;
-	saveDatabase($books);
-}
 // display what was updated 
 show($book);
-trim($book['blurb']);
+// trim($book['blurb']);
 ?>
 
 
