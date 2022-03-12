@@ -1,3 +1,6 @@
+svg {
+  max-width: 250px;
+}
 
 @keyframes wag {
   50% {
@@ -7,27 +10,27 @@
 
 @keyframes blink2 {
   0%, 48% {
-    transform: scaleX(1);
+    transform: scaleY(1);
   }
 
   50% {
-    transform: scaleX(0.01);
+    transform: scaleY(0.01);
   }
   
   52%, 62% {
-    transform: scaleX(1);
+    transform: scaleY(1);
   }
   
   64% {
-    transform: scaleX(0.01);
+    transform: scaleY(0.01);
   }
   
   68%, 100% {
-    transform: scaleX(1);
+    transform: scaleY(1);
   }
 }
 
-@keyframes blink {
+/* @keyframes blink {
     0%, 48% {
     ry: 73.793;
   }
@@ -47,15 +50,17 @@
   68%, 100% {
     ry: 73.793;
   }
-}
+} */
 
 
-#fur {
-  transform-origin: center center;
+#tail {
+  transform-box: fill-box;
+  transform-origin: bottom right;
   animation: 3s wag infinite ease-in-out;
 }
 
 #eyes ellipse {
-  transform-origin: center center;
+  transform-box: fill-box;
+  transform-origin: center;
   animation: 4s blink2 infinite ;
 }
