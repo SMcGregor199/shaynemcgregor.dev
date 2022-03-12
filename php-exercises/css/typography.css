@@ -1,44 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
 
-.loud-voice	{
-	font-family: sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
+.attention-voice {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 29px;
+	font-weight: 700;
 }
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700;
+
+.attention-sub-voice {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+@media(min-width: 600px) {
+	introduction h1.attention-voice {
+		font-size: 36px;
+	}
+	introduction h2.attention-sub-voice {
+		font-size: 24px;
 	}
 }
 
-.intro-voice	{
-	font-family: sans-serif;
-	font-size: 40px;
+@media(min-width: 1000px) {
+	introduction h1.attention-voice {
+		font-size: 48px;
+	}
+
+	introduction h2.attention-sub-voice {
+		font-size: 30px;
+	}
 }
 
-.attention-voice	{
-	font-family: sans-serif;
-	font-size: 30px;
+.intro-voice {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
-.something-for-site-map-headings {
-	/* */
+
+h1.important-voice {
+	font-size: 22px;
+	
 }
 
-.calm-voice {
-	font-family: sans-serif;
-	font-size: 1rem;
-	line-height: 1.4;
-}
 
-/* these would be scoped to section or to an article element */
-/* this is just a loose setting for now $todo */
-p + p {
-	margin-top: 14px;
-}
-
-h1 + p {
-	margin-top: 20px;
-}
-
-h2 + p {
-	margin-top: 20px;
+.important-voice {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
 }
