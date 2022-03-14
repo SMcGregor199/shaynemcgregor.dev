@@ -16,6 +16,7 @@
 @import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
 @import "css/modules-css/case-study.css";
+@import "css/lion-svg.css";
 
 html {
 	scroll-behavior: smooth;

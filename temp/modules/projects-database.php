@@ -4,29 +4,14 @@ $projects_database = [
 	
 	[	
 		"id" => 0,
-		"thumbnail" => "modules/images/popcorn.jpg",
-		"title" => "Responsive Layout",
-		"category" => "HTML, CSS",
-		"description" => "This is a site for fans of popcorn in all its deliciousness. It contains a header, a welcome section, some profile cards, and a footer",
-		"goal" => "The goal was to  create a website that is responsive on every viewport viewport",
-		"process" => "My process was to use the flex box layout modle of organizing website content in combination with media queries that pay attention to the the viewport's min-width. In this way, the site can be viewed on everything from a phone, a tablet, to a large-screen desktop.",
+		"thumbnail" => "images/lion-cub-thumb.png",
+		"title" => "Lion-Cub Books",
+		"category" => "CRUD",
+		"description" => "This site is organized around the fundamentals of CRUD (create, read, update, delete). In this fictional book store site, user's can add, update, and delete books from the site's json database. All changes are reflected book-cards that appear throughout the site",
+		"goal" => "The goal was to  create a fictional book-store website that is organized around the fundamentals of CRUD.",
+		"process" => "What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.",
 		"link" => "https://peprojects.dev/alpha-3/shayne/projects/responsive-layout/",
-		"modules" => [ 
-			
-			[
-				"name" => "standard-text",
-				'heading' => "example standard-text heading",
-				'content' => "example standard-text paragraph",
-
-
-			],
-
-			
-
-		],
-		"pic-1" => "images/popcorn-pic-1.png",
-		"pic-2" => "images/popcorn-pic-2.png",
-		"pic-3" => "images/popcorn-pic-3.png",
+		"pic-1" => "images/svgs/lion.svg",
 	],
 
 	[	"id" => 1,

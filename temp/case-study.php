@@ -20,35 +20,10 @@
 				<article>
 					<p class="intro-voice"><?=$project['process']?></p>
 
-					<figure class="screenshot pic-1">
-						<img src="<?=$project['pic-1']?>">
-						<figcaption class="intro-voice">The "call-to-action" module in the base code</figcaption>
-					</figure>
+					<?php include('images/svgs/lion.svg'); ?>
 
-					<figure class="screenshot pic-2">
-						<img src="<?=$project['pic-2']?>">
-						<figcaption class="intro-voice">After some styling within the specific "call-to-action" css file</figcaption>
-					</figure>
-
-					<figure class="screenshot pic-3">
-						<img src="<?=$project['pic-3']?>">
-						<figcaption class="intro-voice">I was able to recreate the module in a way that evokes Meta's Oculus Quest website</figcaption>
-					</figure>
 				</article>
 
-<!-- 				<?php if(isset($project['modules']) ) {
-		
-					foreach($project['modules'] as $module) {
-						if( $module['name'] == "standard-text") {
-							echo "text";
-						}
-						if($module['name'] == 'before-and-after') {
-							echo "before and after";
-						}
-					}
-				}
-
-				?> -->
 				
 			</case-study>
 
