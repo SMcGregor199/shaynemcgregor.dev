@@ -18,11 +18,7 @@
 
 	<div class="field">
 		<label>Blurb</label>
-		<textarea name="blurb" placeholder="...">
-			
-			<?=$book['blurb']?>
-				
-		</textarea>
+		<textarea name="blurb" placeholder="..."><?=$book['blurb']?></textarea>
 		<?php if($blurbError) {
 			echo $blurbError;
 		} ?>
