@@ -1,6 +1,16 @@
 <?php
 	$submitted = isset($_POST["submitted"]);
-?>
+
+	if($submitted) {
+		if( isset($_POST['artwork']) ) { 
+			$artwork = $_POST['artwork']?>
+			<picture>
+				<img src="<?=$artwork?>">
+			</picture>
+<?php		} ?>
+
+<?php	} ?>
+
 
 <form method="POST">
 
