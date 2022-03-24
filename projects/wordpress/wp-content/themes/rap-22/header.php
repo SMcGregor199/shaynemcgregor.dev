@@ -16,7 +16,6 @@
 		<header class='site-header'>
 		<inner-column>
 			<?php include('templates/components/site-menu.php'); ?>
-			<h1>The Header</h1>
 		</inner-column>
 		</header>
 
