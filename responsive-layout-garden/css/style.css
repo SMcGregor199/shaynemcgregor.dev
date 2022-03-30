@@ -59,12 +59,7 @@ section div {
 section div p {
 	padding: 40px;
 }
-.site-header {
-	/*background-color: #9ec9eb;*/
-	position: sticky;
-	top: 0;
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
-}
+
 .site-header inner-column {
 	padding: 14px;
 }
@@ -77,8 +72,8 @@ section div p {
 
 /* OK! SITE STYLES! */
 .site-header {
-  background-color: var(--color);
-  color: var(--white);
+
+  color: var(--black);
 }
 
 
