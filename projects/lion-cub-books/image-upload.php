@@ -1,23 +1,20 @@
-<?php
-	$submitted = isset($_POST["submitted"]);
+<?php 
+$submitted = isset($_POST["submitted"]);
 
-	if($submitted) { 
+	if($submitted) {
+		$filepath = "images/" . $_FILES['artwork']['name'];
 
-		if( isset($_POST['artwork']) ) {
-			
-			$artwork = "images/" . $_POST['artwork']; ?>
-			<picture>
-				<img src='<?=$artwork?>'>
-			</picture>
+		if( move_uploaded_file($_FILES['artwork']['tmp_name'], $filepath) ) {
+			echo "<picture>" ;
+				echo "<img src='$filepath'>";
+			echo "<picture>";
 
-<?php	} ?>
-
-<?php	
-  } 
+		}
+	}
 ?>
 
 
-<form enctype="multipart/form-data" action="images.json" method="POST">
+<form enctype="multipart/form-data" method="POST">
 
 	<div class="field">
 		<label>Upload an Image</label>
