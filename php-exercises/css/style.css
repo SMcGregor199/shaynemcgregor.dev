@@ -46,6 +46,7 @@ html {
 	/*background-color: #9ec9eb;*/
 	position: sticky;
 	top: 0;
+	z-index: 5;
 	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
 }
 .site-header inner-column {
