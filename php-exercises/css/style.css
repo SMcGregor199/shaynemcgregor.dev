@@ -25,14 +25,6 @@
 /*FORM STYLE*/
 @import 'form-style.css';
 
-/* MODULES */
-@import 'modules/masthead.css';
-@import 'modules/graphic-diptych.css';
-@import 'modules/call-to-action.css';
-@import 'modules/articles-intro.css';
-@import 'modules/article-card.css';
-@import 'modules/site-map.css';
-/* should everything/nothing be in it's own file? */
 
 
 /* ACTUAL SITE STYLES */

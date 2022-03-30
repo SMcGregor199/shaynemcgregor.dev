@@ -31,21 +31,24 @@
 
 
 <h1>Quotes and Authors</h1>
-<form method="POST">
-	<p class="message"><?=$message?></p>
 
-	<div class="field">
-		<label>Quote</label>
-		<input  name="quote" value="<?=$quote?>" placeholder="...">
-	</div>
+	<form method="POST">
+		<p class="message intro-voice"><?=$message?></p>
 
-	<div class="field">
-		<label>Author</label>
-		<input name="author" value="<?=$author?>" placeholder="...">
-	</div>
+		<div class="field">
+			<label>Quote</label>
+			<input  name="quote" value="<?=$quote?>" placeholder="...">
+		</div>
+
+		<div class="field">
+			<label>Author</label>
+			<input name="author" value="<?=$author?>" placeholder="...">
+		</div>
 
 
-	<button type='submit' name="exercise-01-submitted">Submit</button>
+		<button type='submit' name="exercise-01-submitted">Submit</button>
 	
-</form>
+	</form>
+
+
 
