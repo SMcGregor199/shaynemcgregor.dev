@@ -40,38 +40,38 @@
 		<main>
 			<?php 
 				if ($page == "home") {
-					include('home.php');
+					include('pages/home.php');
 				}
 
 				if($page == "addbook") {
-					include('add-book.php');
+					include('pages/add-book.php');
 				}
 
 				if($page == "genrelist") {
-					include('genre-list.php');
+					include('pages/genre-list.php');
 				}
 
 				if($page == "genre") {
-					include('genre.php');
+					include('pages/genre.php');
 				}
 
 				if ($page == "all-books" ) {
-					include ('all-books.php');
+					include ('pages/all-books.php');
 				}
 
 				if ($page == "image-upload") {
-					include ('image-upload.php');
+					include ('pages/image-upload.php');
 				}
 
 				if($page == 'update') {
-					include('update.php');
+					include('pages/update.php');
 				}
 
 				if($page == "delete") {
-					include('delete.php');
+					include('pages/delete.php');
 				}
 				if ($page == "detail" ) {
-					include('book-detail.php');
+					include('pages/book-detail.php');
 				}
 			?>
 		</main>

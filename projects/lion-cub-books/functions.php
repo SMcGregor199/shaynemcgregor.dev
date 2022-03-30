@@ -25,7 +25,7 @@
 	}
 
 	function getGenreDatabase() {
-			$genre_json = file_get_contents("genres.json");
+			$genre_json = file_get_contents("databases/genres.json");
 			return json_decode($genre_json,true);
 	}
 
