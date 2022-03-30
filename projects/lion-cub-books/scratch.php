@@ -1,3 +1,9 @@
+
+<?php
+//from genre-list.php
+		show($genre); 
+?>
+
 <?php
 
 	$books = getDatabase();

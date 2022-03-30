@@ -30,7 +30,7 @@
 		<header>
 			<nav class="site-nav">
 				<a href="?page=home">Home</a>
-				<a href="?page=genrelist">Browse Genres</a>
+				<a href="?page=genrelist">Browse Categories by Book Title</a>
 				<a href="?page=all-books">All Books</a>
 				<a href="?page=addbook">Add Book</a>
 				<a href="?page=image-upload">Image Upload</a>
