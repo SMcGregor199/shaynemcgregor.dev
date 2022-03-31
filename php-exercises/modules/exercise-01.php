@@ -36,13 +36,13 @@
 		<p class="message intro-voice"><?=$message?></p>
 
 		<div class="field">
-			<label>Quote</label>
-			<input  name="quote" value="<?=$quote?>" placeholder="...">
+			<label class="intro-voice">Quote</label>
+			<input type="text"  name="quote" value="<?=$quote?>" placeholder="...">
 		</div>
 
 		<div class="field">
-			<label>Author</label>
-			<input name="author" value="<?=$author?>" placeholder="...">
+			<label class="intro-voice">Author</label>
+			<input type="text" name="author" value="<?=$author?>" placeholder="...">
 		</div>
 
 

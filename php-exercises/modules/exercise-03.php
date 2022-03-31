@@ -44,22 +44,22 @@
 
 	<div class="field">
 		<label>Verb</label>
-		<input name="verb" value="<?=$verb?>" placeholder="...">
+		<input type="text" name="verb" value="<?=$verb?>" placeholder="...">
 	</div>
 
 	<div class="field">
 		<label>Adjective</label>
-		<input name="adjective" value="<?=$adjective?>" placeholder="...">
+		<input type="text" name="adjective" value="<?=$adjective?>" placeholder="...">
 	</div>
 
 	<div class="field">
 		<label>Adverb</label>
-		<input name="adverb" value="<?=$adverb?>" placeholder="...">
+		<input type="text" name="adverb" value="<?=$adverb?>" placeholder="...">
 	</div>
 
 	<div class="field">
 		<label>Noun</label>
-		<input name="noun" value="<?=$noun?>" placeholder="...">
+		<input type="text" name="noun" value="<?=$noun?>" placeholder="...">
 	</div>
 
 	<button type='submit' name="exercise-03-submitted">Submit</button>
