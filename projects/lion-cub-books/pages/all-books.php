@@ -5,7 +5,7 @@
 <inner-column>
 	<ul>
 		<?php foreach($books as $id => $book) { ?>
-			<li><?php include("book-card.php");?></li>
+			<li><?php include("components/book-card.php");?></li>
 		<?php } ?>
 
 	</ul>

@@ -33,7 +33,6 @@
 				<a href="?page=genrelist">Browse Categories by Book Title</a>
 				<a href="?page=all-books">All Books</a>
 				<a href="?page=addbook">Add Book</a>
-				<a href="?page=image-upload">Image Upload</a>
 			</nav>
 		</header>
 
@@ -57,10 +56,6 @@
 
 				if ($page == "all-books" ) {
 					include ('pages/all-books.php');
-				}
-
-				if ($page == "image-upload") {
-					include ('pages/image-upload.php');
 				}
 
 				if($page == 'update') {

@@ -9,7 +9,7 @@
 
 <?php	if($current_genre_id == $book["genre"]) { ?>
 
-		<li><?php include("book-card.php");?></li>
+		<li><?php include("components/book-card.php");?></li>
 		
 	<?php	} ?>
 <?php } ?>

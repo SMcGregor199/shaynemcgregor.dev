@@ -1,4 +1,4 @@
-<form method="POST">
+<form enctype="multipart/form-data"  method="POST">
 
 	<div class="field">
 		<label>Book Title</label>
@@ -24,6 +24,13 @@
 		} ?>
 	</div>
 
+	<div class="field">
+		<label>Upload the Book Cover</label>
+		<input type="file" name="book-cover" value="<?=$book['book-cover']?>" accept=".jpg,.png,.jpeg">
+		<?php if($book_coverError) {
+			echo $book_coverError;
+		}?>
+	</div>
 
 	<div class="field">
 		<label>Genre</label>
