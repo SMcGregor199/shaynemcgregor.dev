@@ -1,7 +1,7 @@
-	
+
 
 	form * {
-		padding: 10px;
+		padding-left: 35px;
 	}
 	form {
 	position: relative;
@@ -21,6 +21,7 @@
 
 	form p {
 		color: #978374;
+		padding-top: 20px;
 	}
 	
 	div.field {
