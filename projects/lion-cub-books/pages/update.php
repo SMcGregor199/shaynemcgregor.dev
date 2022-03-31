@@ -14,12 +14,14 @@
 	$titleError = null;
 	$authorError = null;
 	$blurbError = null;
+	$book_coverError = null;
 // $genreError does not exist because the select element will always have a value
 
 //This is for validation. We only want these variables to return true if the proper conditions are met after the form is submitted. This is just an extra precaution. Probably don't actually need this.
 	$hasTitle = false;
 	$hasAuthor = false;
 	$hasBlurb = false;
+	$hasBookCover = false;
 	$hasGenre = false;
 
 
@@ -60,13 +62,14 @@ $submitted = isset($_POST["submitted"]);
 				}
 			}
 
-			if (isset($_FILES['book-cover']) ) {
-
+			if ($_FILES['book-cover']['size'] > 0)  {
 				$bookcover_filepath = "images/" . $_FILES['book-cover']['name'];
-				move_uploaded_file($_FILES['book-cover']['tmp_name'], $bookcover_filepath);  
+				move_uploaded_file($_FILES['book-cover']['tmp_name'], $bookcover_filepath);
 				$book_cover = $bookcover_filepath;
-				$hasBookCover=true;
-			} 
+				$hasBookCover = true;
+			}	else {
+					$book_coverError = "please upload the book's cover";
+			}
 
 
 			if( isset($_POST['genre']) ){
@@ -74,7 +77,7 @@ $submitted = isset($_POST["submitted"]);
 				$hasGenre = true;
 			} 
 
-			if ($hasTitle && $hasAuthor && $hasBlurb &&$hasGenre) {
+			if ($hasTitle && $hasAuthor && $hasBlurb && $hasGenre) {
 					$book = [
 						"title" => $title,
 						"author" => $author,
