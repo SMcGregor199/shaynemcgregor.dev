@@ -85,4 +85,4 @@
 ?>
 
 <!-- The Form -->
-<?php include('form.php');?>
+<?php include('components/form.php');?>

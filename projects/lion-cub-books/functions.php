@@ -10,7 +10,7 @@
 	} 
 
 	function getDatabase() {
-		$addedBooks_json = file_get_contents("addedBooks.json");
+		$addedBooks_json = file_get_contents("databases/addedBooks.json");
 		return json_decode($addedBooks_json,true);
 	}
 
@@ -31,7 +31,7 @@
 
 	function saveDatabase($database) {
 			$json = json_encode($database);
-			file_put_contents("addedBooks.json", $json);
+			file_put_contents("databases/addedBooks.json", $json);
 		}	
 	function isSelected($book_genre,$genre_id) {
 		if ($book_genre == $genre_id) {
