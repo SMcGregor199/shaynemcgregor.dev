@@ -5,15 +5,19 @@
 		border: 4px solid black;
 		background-color: #F8F4E4;
 		width: fit-content;
-		
+		box-shadow: 
+			10px 10px 0 0 #ffa580, 
+			10px 10px 0 4px black;
 
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
+	
 	form:after {
 		border-right: 5px solid #FFA580;
+		padding: 20px;
 	}
 
 	form p {
@@ -34,6 +38,7 @@
 		margin-top: 25px;
 		border: 2px solid black;
 		background-color: #ffa580;
+		box-shadow: 2px 2px 0 0 yellow, 2px 2px 0 2px black;
 	}
 	form label {
 		color: #978374;
