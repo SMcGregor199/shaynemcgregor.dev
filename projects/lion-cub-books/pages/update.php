@@ -60,6 +60,14 @@ $submitted = isset($_POST["submitted"]);
 				}
 			}
 
+			if (isset($_FILES['book-cover']) ) {
+
+				$bookcover_filepath = "images/" . $_FILES['book-cover']['name'];
+				move_uploaded_file($_FILES['book-cover']['tmp_name'], $bookcover_filepath);  
+				$book_cover = $bookcover_filepath;
+				$hasBookCover=true;
+			} 
+
 
 			if( isset($_POST['genre']) ){
 				$genre = intval($_POST["genre"]);
@@ -72,7 +80,7 @@ $submitted = isset($_POST["submitted"]);
 						"author" => $author,
 						"genre" => $_POST['genre'],
 						"blurb" => trim($_POST['blurb']),
-						"book-cover" => "https://peprojects.dev/images/portrait.jpg"
+						"book-cover" => $book_cover,
 					];
 					$books[$current_book_id] = $book;
 					saveDatabase($books);

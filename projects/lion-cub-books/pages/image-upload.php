@@ -8,7 +8,6 @@ $submitted = isset($_POST["submitted"]);
 			echo "<picture>" ;
 				echo "<img src='$filepath'>";
 			echo "<picture>";
-
 		}
 	}
 ?>

@@ -8,6 +8,7 @@
 	$book['author'] = '';
 	$book['blurb'] = '';
 	$book['genre'] = null;
+	$book['book-cover'] = '';
 
 
 //This is for validation. If the the fields have no input, the program will return these messages. To avoid errors, because they exist within the form, they need to be initialized here.
@@ -20,7 +21,9 @@
 	$hasTitle = false;
 	$hasAuthor = false;
 	$hasBlurb = false;
+	$hasBookCover = false;
 	$hasGenre = false;
+
 
 
 
@@ -61,18 +64,26 @@
 			}
 		}
 
+		if (isset($_FILES['book-cover']) ) {
+
+			$bookcover_filepath = "images/" . $_FILES['book-cover']['name'];
+			move_uploaded_file($_FILES['book-cover']['tmp_name'], $bookcover_filepath);  
+			$book_cover = $bookcover_filepath;
+			$hasBookCover=true;
+		} 
+
 		if( isset($_POST['genre']) ){
 			$genre = intval($_POST["genre"]);
 			$hasGenre = true;
 		} 
 
-		if ($hasTitle && $hasAuthor && $hasBlurb &&  $hasGenre) {
+		if ($hasTitle && $hasAuthor && $hasBlurb && $hasGenre) {
 			$book = [
 				"title" => $title,
 				"author" => $author,
 				"blurb" => $blurb,
 				"genre" => $genre,
-				"book-cover" => "https://peprojects.dev/images/portrait.jpg",
+				"book-cover" => $book_cover,
 			];
 		
 			$books[uniqid('a')] = $book;
