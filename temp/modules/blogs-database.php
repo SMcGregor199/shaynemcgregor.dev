@@ -17,10 +17,10 @@ $database = [
 	],
 
 	[
-		"title" => "What I'm learning about .svg&nbsp;files",
-		"thumbnail" => "modules/images/lion.jpg",
-		"link" => "https://shaynemcgregor.substack.com/p/what-im-learning-about-svg-files",
-		"target" => "What I'm learning about .svg files",
+		"title" => "Why I love J Cole's let.go.my.hand",
+		"thumbnail" => "images/jcole.png",
+		"link" => "https://shaynemcgregor.substack.com/p/hip-hopwhy-i-love-j-coles-letgomyhand?s=w",
+		"target" => "Why I love J Cole's let.go.my.hand",
 
 	],
 
