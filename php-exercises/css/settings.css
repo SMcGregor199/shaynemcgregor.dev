@@ -4,6 +4,8 @@ html {
 	--white: #FFFFFF;
 	--color: #9ec9eb;
 	--highlight: #aadee9;
+	--yellow: #ffee99;
+	--orange: #ffcc99;
 }
 /* you can make more! */
 
@@ -12,9 +14,10 @@ html {
 /* USAGE */
 
 .test {
-	border: 1px solid var(--highlight); /* used as variable */
+	border: 1px solid var(--yellow); /* used as variable */
 }
 
-.test {
-	border: 1px solid var(--color);
+.test * {
+	border: 2px solid var(--orange);
 }
+

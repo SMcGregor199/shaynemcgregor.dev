@@ -25,7 +25,7 @@
 /*FORM STYLE*/
 @import 'form-style.css';
 
-
+@import 'modules/masthead.css';
 
 /* ACTUAL SITE STYLES */
 html {
@@ -43,61 +43,44 @@ html {
 
 /* SITE SECTIONS */
 .site-header {
-	/*background-color: #9ec9eb;*/
+
 	position: sticky;
 	top: 0;
 	z-index: 5;
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
+
+	background-color: var(--white);
+  color: var(--black);
 }
+
 .site-header inner-column {
 	padding: 14px;
 }
 
 
-
-
-
-
-
-/* OK! SITE STYLES! */
-.site-header {
-  background-color: var(--color);
-  color: var(--white);
+/*nav list styles*/
+main {
+	padding-top: 20px;
+}
+nav {
+	padding: 10px;
+	line-height: 1.5;
 }
 
-.welcome {
-  
-}
-
-
-/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
-
-
-.get-involved {
-  background-color:  var(--highlight);
-  background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-} /* interesting way to include the whole image in your CSS */
-
-.get-involved inner-column {
-	/*max-width:  700px;*/
-}
-
-.get-involved call-to-action {
-
+@media(min-width: 600px) {
+	main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+	}
 }
 
 
-.stuff {
-  
-}
 
-.help-us {
-  
-}
 
 .site-footer {
-	background-color: var(--color);
-	color: var(--white);
+	background-color: var(--white);
+	color: var(--black);
 }
 
 .site-footer .logo {

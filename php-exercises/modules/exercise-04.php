@@ -63,21 +63,21 @@ if ($submitted) {
 
 
 
-<h1>Retirement Calculator</h1>
+
 <form method="POST">
-	<p class="message"><?=$message?></p>
+	<p class="message description-voice"><?=$message?></p>
 
 	<div class="field">
-		<label>How old are you currently?</label>
+		<label class="description-voice">How old are you currently?</label>
 		<input type="number" name="current-age" value="<?=$int_currentAge?>" placeholder="..." min="0">
 	</div>
 
 	<div class="field">
-		<label>At what age do you want to retire?</label>
+		<label class="description-voice">At what age do you want to retire?</label>
 		<input type="number" name="retirement-age" value="<?=$int_retirementAge?>" placeholder="..." min="0">
 	</div>
 
 
-	<button type='submit' name="exercise-04-submitted">Submit</button>
+	<button class="description-voice" type='submit' name="exercise-04-submitted">Submit</button>
 	
 </form>

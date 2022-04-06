@@ -21,16 +21,16 @@
 
 
 
-<h1>Counting Characters</h1>
+
 <form method="POST">
-	<p class="message"><?=$message?></p>
+	<p class="message description-voice"><?=$message?></p>
 
 	<div class="field">
-		<label>Word</label>
+		<label class="description-voice">Word</label>
 		<input type="text" name="word" value="<?=$string?>" placeholder="...">
 	</div>
 
 
-	<button type='submit' name="exercise-02-submitted">Submit</button>
+	<button class="description-voice" type='submit' name="exercise-02-submitted">Submit</button>
 	
 </form>

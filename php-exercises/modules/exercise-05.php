@@ -31,21 +31,21 @@
  	}
 
 ?>
-<h1>Simple Math</h1>
+
 <form method="POST">
-	<p class="message"><?=$message?></p>
+	<p class="message description-voice"><?=$message?></p>
 
 	<div class="field">
-		<label>Number 1</label>
+		<label class="description-voice">Number 1</label>
 		<input type="number" name="num-1" value="<?=$num_1?>" placeholder="..." min="0">
 	</div>
 
 	<div class="field">
-		<label>Number 2</label>
+		<label class="description-voice">Number 2</label>
 		<input type="number" name="num-2" value="<?=$num_2?>" placeholder="..." min="0">
 	</div>
 
 
-	<button type='submit' name="exercise-05-submitted">Submit</button>
+	<button class="description-voice" type='submit' name="exercise-05-submitted">Submit</button>
 	
 </form>

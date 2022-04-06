@@ -30,23 +30,23 @@
 
 
 
-<h1>Quotes and Authors</h1>
+
 
 	<form method="POST">
-		<p class="message intro-voice"><?=$message?></p>
+		<p class="message description-voice"><?=$message?></p>
 
 		<div class="field">
-			<label class="intro-voice">Quote</label>
+			<label class="description-voice">Quote</label>
 			<input type="text"  name="quote" value="<?=$quote?>" placeholder="...">
 		</div>
 
 		<div class="field">
-			<label class="intro-voice">Author</label>
+			<label class="description-voice">Author</label>
 			<input type="text" name="author" value="<?=$author?>" placeholder="...">
 		</div>
 
 
-		<button type='submit' name="exercise-01-submitted">Submit</button>
+		<button class="description-voice" type='submit' name="exercise-01-submitted">Submit</button>
 	
 	</form>
 

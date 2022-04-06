@@ -38,30 +38,30 @@
 
 
 
-<h1>Creating an Madlib</h1>
+
 <form method="POST">
-	<p class="message"><?=$message?></p>
+	<p class="message description-voice"><?=$message?></p>
 
 	<div class="field">
-		<label>Verb</label>
+		<label class="description-voice">Verb</label>
 		<input type="text" name="verb" value="<?=$verb?>" placeholder="...">
 	</div>
 
 	<div class="field">
-		<label>Adjective</label>
+		<label class="description-voice">Adjective</label>
 		<input type="text" name="adjective" value="<?=$adjective?>" placeholder="...">
 	</div>
 
 	<div class="field">
-		<label>Adverb</label>
+		<label class="description-voice">Adverb</label>
 		<input type="text" name="adverb" value="<?=$adverb?>" placeholder="...">
 	</div>
 
 	<div class="field">
-		<label>Noun</label>
+		<label class="description-voice">Noun</label>
 		<input type="text" name="noun" value="<?=$noun?>" placeholder="...">
 	</div>
 
-	<button type='submit' name="exercise-03-submitted">Submit</button>
+	<button class="description-voice" type='submit' name="exercise-03-submitted">Submit</button>
 	
 </form>
