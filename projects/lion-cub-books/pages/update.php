@@ -67,7 +67,11 @@ $submitted = isset($_POST["submitted"]);
 				move_uploaded_file($_FILES['book-cover']['tmp_name'], $bookcover_filepath);
 				$book_cover = $bookcover_filepath;
 				$hasBookCover = true;
-			}	else {
+			}	else if(!empty($book['book-cover'])) {
+				$book_cover = $book['book-cover'];
+				$hasBookCover = true;
+			}
+				else {
 					$book_coverError = "please upload the book's cover";
 			}
 
