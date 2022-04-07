@@ -23,7 +23,11 @@
 			echo $blurbError;
 		} ?>
 	</div>
-
+	<?php if($page =='update') { ?>
+		<picture class="update book-cover">
+			<img src="<?=$book['book-cover']?>">
+		</picture>
+	<?php } else { ?>
 	<div class="field">
 		<label>Upload the Book Cover</label>
 		<input type="file" name="book-cover" value="<?=$book['book-cover']?>" accept=".jpg,.png,.jpeg">
@@ -31,6 +35,7 @@
 			echo $book_coverError;
 		}?>
 	</div>
+	<?php } ?>
 
 	<div class="field">
 		<label>Genre</label>
