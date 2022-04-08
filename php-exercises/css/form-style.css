@@ -56,3 +56,7 @@
 	form label + input {
 		margin-top: 20px;
 	}
+
+	form li {
+		padding: 10px;
+	}
