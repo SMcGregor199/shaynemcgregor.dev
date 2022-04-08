@@ -16,6 +16,7 @@
 		<header class='site-header'>
 		<inner-column>
 			<?php include('templates/components/site-menu.php'); ?>
+			<h1>A Rap Blog</h1>
 			<h2>“All the good writing about rap is right here”</h2>
 		</inner-column>
 		</header>
