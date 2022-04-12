@@ -15,7 +15,7 @@
 		include('home.php');
 		} 
 
-		if($page =="case-study") {
+		if($page == "case-study") {
 			include('case-study.php');
 		}
 

@@ -4,6 +4,18 @@
 	gap: 30px;
 }
 
+study-overview {
+	display: block;
+	display: flex;
+}
+data-considerations {
+	display: block;
+	display: flex;
+}
+form-considerations {
+	display: block;
+	display: flex;
+}
 
 case-study {
 	display: block;

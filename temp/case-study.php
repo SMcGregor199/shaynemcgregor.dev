@@ -6,31 +6,50 @@
 
 <section class="case-study">
 	<inner-column>
-	<?php foreach($projects_database as $project) { ?>
+		<case-study>
+			<heading>
+				<h1>Lion-Cub Books</h1>
+				<p>The goal was to create a fictional book-store website that is organized around the fundamentals of CRUD.</p>
+			</heading>
 
-		<?php if($current_projectid == $project['id']){ ?>
-			<case-study>
-				<heading>
+			<study-overview>
+				<h2>Overview</h2>
 
-					<h1 class="attention-voice"><?=$project['title']?></h1>
-					<p class="intro-voice"><?=$project['goal']?></p>
+				<p>What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.</p>
 
-				</heading>
+				<?php include('images/svgs/lion.svg'); ?>
+			</study-overview>
 
-				<article>
-					<p class="intro-voice"><?=$project['process']?></p>
+			<data-considerations>
+				<h2>Data Considerations</h2>
+				<p>One of the major takeaways from this project was learning the different ways JSON files can be written and utilized. I’m still learning how to articulate the differences in JSON file construction, but something that’s become clear to me is, on the one hand, you can create JSON files as an array that contains several objects. For example. An earlier iteration of the project used the array model to populate the “all books” section of the project’s website.</p>
+			</data-considerations>
 
-					<?php include('images/svgs/lion.svg'); ?>
+			<form-considerations>
+				<h2>PHP Form Considerations</h2>
+				<p> In order to limit the amount of code I was dealing with, as well as limit my room for error, I wanted to use the same form throughout the website. The same form that appears when the user is adding a new book to the database is the same form that appears when the user is updating a book that already exists within the database. The major difference is the logic that is scoped and performed on each page.</p>
+				<picture>
+					<img src="images/form-add-book.jpg">
+				</picture>
+				<picture>
+					<img src="images/form-filled.jpg">
+				</picture>
+				<p>The "add-book" page contains logic that takes in user input, creates an object called "added-book" and then adds that book to the site's database. The "update" page contains logic specific to the book selected for the update. It populates the form's fields with information pulled from the database to allow the user to see what information is already there before they update information related the book. In either case, validation is used  to ensure the fields are filled with valid information once the form is submitted. If not, the form returns an error specific to that field.</p>
+			</form-considerations>
 
-				</article>
+			<study-conclusion>
+				<p>Building lion-cub books was challenging, edifying, and, above all else, fun. Send me an email if you'd like to discuss this project more.</p>
+				<picture>
+					<img src="images/lion-cub-home.jpg">
+				</picture>
+			</study-conclusion>	
 
-				
-			</case-study>
+		</case-study>
 
-			<a href="?page=home" class="intro-voice" rel="toggle">Go Back to Home</a>
+		<a href="?page=home" class="intro-voice" rel="toggle">Go Back to Home</a>
 
-	<?php	} ?>
-		
-<?php } ?>
+
 	</inner-column>
 </section>
+
+	
