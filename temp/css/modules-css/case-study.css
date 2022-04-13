@@ -23,9 +23,8 @@ case-study p {
 	max-width: 42ch;
 }
 case-study picture {
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
 }
 study-overview {
 	padding-top: 32px;
@@ -87,15 +86,43 @@ dc-section-two {
 form-considerations {
 	display: block;
 	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 	
+}
+form-section-one {
+	display: block;
+}
+
+form-gallery {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	gap: 32px;
+}
+
+@media (min-width: 1050px) {
+	form-section-one {
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+	}
 }
 
 
-
-
-
-
-
+study-conclusion {
+	padding-top: 40px;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+@media (min-width: 1050px) {
+	study-conclusion {
+		flex-direction: row;
+	}
+}
 
 
 
