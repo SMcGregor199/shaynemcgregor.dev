@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BlowBrush';
-    src: url('BlowBrush.woff2') format('woff2'),
-        url('BlowBrush.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-

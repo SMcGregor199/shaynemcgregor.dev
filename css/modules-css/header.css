@@ -1,0 +1,71 @@
+.site-header inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.site-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+	transition: 1s;
+}
+
+.menu-open .site-nav {
+	opacity: 1;
+	pointer-events: initial;
+}
+
+.site-nav a {
+	font-family: 'Red Hat Display';
+	font-size: 14px;
+	padding: 12px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+button {
+	padding: 10px;
+	font-size: 20px;
+	background-color: white;
+}
+
+@media(max-width: 499px) {
+	.menu-open {
+		overflow: hidden;
+	}
+
+}
+
+@media(min-width:500px) {
+	.site-nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		opacity: 1;
+		position: static;
+		background-color: inherit;
+		pointer-events: initial;
+	}
+	.site-header button {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+ 

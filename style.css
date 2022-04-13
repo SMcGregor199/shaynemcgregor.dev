@@ -1,35 +1,87 @@
-@import'meyer-reset.css';
-@import'setup.css';
+@import "css/meyer-reset.css";
+@import "css/setup.css";
+@import "css/typography.css";
+@import "fonts/red-hat/stylesheet.css";
+
+
+
+/*MODULES*/
+@import "css/modules-css/header.css";
+@import "css/modules-css/footer.css";
+@import "css/modules-css/introduction.css";
+@import "css/modules-css/about.css";
+@import "css/modules-css/blog-card.css";
+@import "css/modules-css/blog-intro.css";
+@import "css/modules-css/projects-intro.css";
+@import "css/modules-css/project-card.css";
+@import "css/modules-css/playlist-intro.css";
+@import "css/modules-css/case-study.css";
+@import "css/modules-css/php-garden-intro.css";
+@import "css/lion-svg.css";
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
-	background-color: white;
-	color: black;
+	
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	
 }
 
-main .welcome {
-	/*background-image: url("svg/jagged-border-black.svg");*/
-	background-color: black;
-	height: 25vh;
-	color: white;
+
+
+@media(max-width: 499px) {
+	.menu-open {
+		overflow: hidden;
 }
-span {
+
+}
+main {
+	flex-grow:  1;
+}
+
+
+/*TROUBLE SHOOTING*/
+
+div {
+	height: 25px;
+	background-color: black;
+}
+
+thumbnail-link a {
 	font-weight: 700;
 }
 
-.test {
-	border: 1px solid red;
+a {
+	text-decoration: underline;
 }
 
-.test * {
-	border: 1px solid blue;
+a.intro-voice {
+	font-weight: 700;
 }
 
-.introduction {
-	height: 20vh;
-	background-image: linear-gradient(red,blue);
-	/*clip-path: url("svg/jagged-border-black.svg");*/
-	-webkit-mask-image: url("svg/jagged-border-black.svg");
-	-webkit-mask-size: contain;
-	-webkit-mask-repeat: no-repeat;
-
+under-construction h1 {
+	line-height:1.5;
 }
+
+.gardens inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+} 
+
+@media (min-width: 650px) {
+	.gardens inner-column {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+
+
+
+
+
+

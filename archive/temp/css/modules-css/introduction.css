@@ -1,0 +1,26 @@
+introduction {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+introduction * {
+	padding: 15px;
+}
+.test {
+	border: 3px solid blue;
+}
+
+.test * {
+	border: 1px solid green;
+}
+
+
+introduction h2 + h2 {
+	padding-top: 10px;
+} 
+
+
+

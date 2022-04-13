@@ -1,0 +1,73 @@
+playlist-intro {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+playlist-heading {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+playlist {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+playlist h1.important-voice {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+playlist-intro p {
+	line-height: 1.5rem;
+}
+
+playlist .thumbnail {
+	max-width: 100px;
+	border: 1px solid black;
+	border-radius: 50%; 
+	overflow: hidden;
+}
+
+@media(min-width: 600px) {
+	playlist-intro {
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+		gap: 60px;
+	}
+
+	playlist-heading {
+		display: flex;
+		flex-direction: column;
+	}
+
+	playlist-heading p {
+		max-width: 32ch;
+	}
+
+	playlist {
+		gap: 30px;
+	}
+}
+
+@media(min-width: 1000px) {
+	playlist-intro {
+		flex-direction: column;
+		align-items: center;
+	}
+	playlist-intro playlist-heading h1{
+		text-align: center;
+	}
+	playlist-intro playlist-heading p {
+		max-width: 70ch;
+	}
+
+}
