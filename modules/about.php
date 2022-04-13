@@ -16,4 +16,4 @@
 		
 		<p class = "intro-voice">I want to find a company where I can continue to expand my skillset as a developer and designer. I also want to write 50 blog posts by the end of the year.</p>
 	</article>
-<about>
+</about>
