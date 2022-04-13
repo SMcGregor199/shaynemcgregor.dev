@@ -16,6 +16,7 @@
 @import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
 @import "css/modules-css/case-study.css";
+@import "css/modules-css/php-garden-intro.css";
 @import "css/lion-svg.css";
 
 html {
@@ -29,14 +30,7 @@ body {
 	min-height: 100vh;
 	
 }
-.welcome {
-	background-image: url('images/texture-22.jpeg');
-	background-size: cover;
-}
-.welcome inner-column {
-/*	display: flex;
-	flex-direction: row;*/
-}
+
 
 
 @media(max-width: 499px) {
@@ -73,11 +67,18 @@ under-construction h1 {
 	line-height:1.5;
 }
 
+.gardens inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+} 
 
-
-
-
-
+@media (min-width: 650px) {
+	.gardens inner-column {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
 
 
 

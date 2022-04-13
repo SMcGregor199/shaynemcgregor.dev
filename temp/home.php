@@ -26,7 +26,16 @@
 			</inner-column>
 			<div></div>
 		</section>
-		
+
+		<section class="gardens">
+			<inner-column>
+				<?php include("modules/php-garden.php"); ?>
+
+				<?php include("modules/layout-garden.php"); ?>
+			</inner-column>
+			<div></div>
+		</section>
+
 		<section id="playlist" class= "playlist">
 			<inner-column>
 				<?php include("modules/playlist-intro.php");?>
