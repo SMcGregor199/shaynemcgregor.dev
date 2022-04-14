@@ -8,6 +8,8 @@
 
 	<section class="blog">
 		<inner-column>
+			<h1><a href="https://thesource.com/2022/04/14/today-in-hip-hop-history-west-coast-legend-spice-1-dropped-self-titled-debut-lp-30-years-ago/">TODAY IN HIP HOP HISTORY: WEST COAST LEGEND SPICE 1 DROPPED SELF-TITLED DEBUT LP 30 YEARS AGO</a></h1>
+			<p>SHA Be Allah reflects on the legacy of Spice 1 in a piece that recognizes the thirtieth anniversary of his self-titled debut album.</p>
 
 		</inner-column>
 	</section>
