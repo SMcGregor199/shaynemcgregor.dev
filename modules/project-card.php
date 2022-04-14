@@ -2,9 +2,9 @@
 
 	<heading>
 		<h1 class="important-voice"><?=$project["title"]?></h1>
-		<p class="intro-voice"><?=$project["category"]?></p>
+		<p class="paragraph-voice"><?=$project["category"]?></p>
 		<description>
-			<p class="intro-voice"><?=$project["description"]?></p>
+			<p class="paragraph-voice"><?=$project["description"]?></p>
 		</description>
 	</heading>
 
@@ -14,7 +14,7 @@
 			<img src='<?=$project["thumbnail"]?>'>
 		</picture>
 		<nav class="project-links">
-			<a href="?page=case-study&projectID=<?=$project['id']?>" target="testing" class="intro-voice" rel="toggle-site-nav">Case Study</a>
+			<a href="?page=case-study&projectID=<?=$project['id']?>" target="testing" class="paragraph-voice" rel="toggle-site-nav">Case Study</a>
 		</nav>
 	</thumbnail-link>
 

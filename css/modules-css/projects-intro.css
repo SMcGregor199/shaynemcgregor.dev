@@ -22,7 +22,7 @@ project-grid p {
 		max-width: 28ch;
 	}
 
-projects-intro p.intro-voice {
+projects-intro p.paragraph-voice {
 	line-height: 1.5rem;
 }
 @media(min-width: 650px) {

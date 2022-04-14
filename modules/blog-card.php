@@ -9,6 +9,6 @@
 
 	<blog-card-text>	
 		<p class="important-voice"><?=$blog["title"]?></p>
-		<a href="<?=$blog['link']?>" target="<?=$blog['target']?>" class="intro-voice">Read</a>
+		<a href="<?=$blog['link']?>" target="<?=$blog['target']?>" class="paragraph-voice">Read</a>
 	</blog-card-text>
 </blog-card>

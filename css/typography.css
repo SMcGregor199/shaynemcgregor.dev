@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
 
+.title-font {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.sub-title-font {
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
 .attention-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 29px;
 	font-weight: 700;
-	color: var(--black);
 }
 
 .attention-sub-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: var(--black);
 }
 
 .sub-heading-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
-	color: var(--black);
 }
 @media(min-width: 600px) {
 	introduction h1.attention-voice {
@@ -39,19 +47,16 @@
 	}
 }
 
-.intro-voice {
+.paragraph-voice {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5;
-	color: var(--black);
 }
 
 
 h1.important-voice {
 	font-size: 22px;
-	color: var(--black);
-	
 }
 
 
@@ -60,5 +65,4 @@ h1.important-voice {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.5;
-	color: var(--black);
 }
