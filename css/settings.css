@@ -1,0 +1,20 @@
+
+html {
+	--black:#393a35;
+	--white: white;
+	--highlight: #f59b0f;
+	--color: #38e2cc;
+}
+
+
+
+
+/* USAGE */
+
+.test {
+	border: 1px solid var(--highlight); 
+}
+
+.test {
+	border: 1px solid var(--color);
+}

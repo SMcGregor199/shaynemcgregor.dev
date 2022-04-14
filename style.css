@@ -1,5 +1,6 @@
 @import "css/meyer-reset.css";
 @import "css/setup.css";
+@import "css/settings.css";
 @import "css/typography.css";
 @import "fonts/red-hat/stylesheet.css";
 
@@ -21,6 +22,7 @@
 
 html {
 	scroll-behavior: smooth;
+
 }
 
 body {
@@ -28,6 +30,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: var(--white);
 	
 }
 
@@ -48,7 +51,7 @@ main {
 
 div {
 	height: 25px;
-	background-color: black;
+	background-color: var(--black);
 }
 
 thumbnail-link a {
