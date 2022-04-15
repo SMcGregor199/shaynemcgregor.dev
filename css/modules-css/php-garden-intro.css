@@ -1,4 +1,8 @@
-
+gardens {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
 garden-card {
 	display: block;
 	display: flex;
@@ -9,4 +13,9 @@ garden-card {
 
 garden-card p {
 	max-width: 32ch;
+}
+@media (min-width: 650px) {
+	gardens {
+		flex-direction: row;
+	}
 }

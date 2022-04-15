@@ -24,51 +24,54 @@
 		</inner-column>
 	</div>
 
-	<div class="colors">
-		<h2 class="section-heading-font">Colors</h2>
-		<hr>
+	<section class="colors">
 		<inner-column>
-			<div class="black">
-				<p class="paragraph-voice">#000000</p>
-			</div>
+			<h2 class="section-heading-font">Colors</h2>
+			<hr>
 
-			<div class="white">
-				<p class="paragraph-voice">#FFFFFF</p>
-			</div>
+			<colors-to-row>
+				<div class="black">
+					<p class="paragraph-voice">#000000</p>
+				</div>
+
+				<div class="white">
+					<p class="paragraph-voice">#FFFFFF</p>
+				</div>
+			</colors-to-row>
 		</inner-column>
-	</div>
+	</section>
 
-	<div class="links">
-		<h2 class="section-heading-font">Links</h2>
-		<hr>
+	<section class="links">
 		<inner-column>
+			<h2 class="section-heading-font">Links</h2>
+			<hr>
 			<a href="#" class="link-font">Read</a>
 		</inner-column>
-	</div>
+	</section>
 
-	<div class="section-site-header">
-		<h2 class="section-heading-font">Site-Menu</h2>
-		<hr>
+	<section class="section-site-header">
 		<inner-column>
+			<h2 class="section-heading-font">Site-Menu</h2>
+			<hr>
 			<?php include("modules/site-header.php"); ?>
 		</inner-column>
-	</div>
+	</section>
 	
-	<div class="section-heading">
-		<h2 class="section-heading-font">Section-Heading</h2>			
-		<hr>
+	<section class="section-heading">
 		<inner-column>
+			<h2 class="section-heading-font">Section-Heading</h2>			
+			<hr>
 			<?php include("modules/section-heading.php"); ?>
 		</inner-column>
-	</div>
+	</section>
 
-	<div class="gardens garden-card">
-		<h2 class="section-heading-font">Garden Cards</h2>
-		<hr>
+	<section class="gardens garden-card">
 		<inner-column>
+			<h2 class="section-heading-font">Garden Cards</h2>
+			<hr>
 			<?php include("modules/garden.php"); ?>
 		</inner-column>
-	</div>
+	</section>
 
 	<section class="project-card">
 		<inner-column>
@@ -79,4 +82,14 @@
 			</projects-to-row>
 		</inner-column>
 	</section>
+
+	<section class="blog-card">
+		<inner-column>
+			<h2 class="section-heading-font">Blog Cards</h2>
+			<hr>
+			<?php include("modules/base-blog-card.php"); ?>
+		</inner-column>
+	</section>
+
+
 </main>

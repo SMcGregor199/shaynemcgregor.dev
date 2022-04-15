@@ -1,0 +1,16 @@
+base-blog-card {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+base-blog-card h3 {
+	background-color: var(--black);
+	color: var(--white);
+	width: fit-content;
+	padding: 20px;
+}
+
+base-blog-card p {
+	max-width: 32ch;
+}

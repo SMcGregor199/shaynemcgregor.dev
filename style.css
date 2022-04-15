@@ -21,6 +21,7 @@
 @import "css/modules-css/section-heading.css";
 @import "css/modules-css/style-guide.css";
 @import "css/modules-css/base-project-card.css";
+@import "css/modules-css/base-blog-card.css";
 @import "css/lion-svg.css";
 
 html {
@@ -74,18 +75,7 @@ under-construction h1 {
 	line-height:1.5;
 }
 
-.gardens inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-} 
 
-@media (min-width: 650px) {
-	.gardens inner-column {
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-}
 
 
 

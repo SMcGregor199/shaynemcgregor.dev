@@ -13,7 +13,7 @@ hr {
 
 
 
-.colors inner-column {
+.colors colors-to-row {
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
