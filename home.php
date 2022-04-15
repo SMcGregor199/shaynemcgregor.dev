@@ -1,4 +1,3 @@
-<?php include("modules/header.php");?>
 		<section id="home" class="welcome">
 			<inner-column>
 				<?php include("modules/introduction.php");?>

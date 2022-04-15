@@ -1,0 +1,38 @@
+project-card project-card-text {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+project-card p {
+	max-width: 32ch;
+}
+.project-image {
+	display: none;
+	max-width: 200px;
+	max-height: 250px;
+}
+/*This will be removed when placed in the main website. 
+These settings would be placed in the inner-column*/
+projects-to-row { 
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+@media(min-width: 900px) {
+	projects-to-row {
+		flex-direction: row;
+	}
+}
+@media (min-width: 500px) {
+	project-card {
+		display: flex;
+		flex-direction: row;
+		gap: 35px;
+	}
+
+	.project-image {
+		display: block;
+	}
+}
+

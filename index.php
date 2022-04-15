@@ -10,6 +10,8 @@
 	} 
 ?>
 
+<?php include("modules/header.php");?>
+
 <?php	
 		if ($page == "home") {
 		include('home.php');
