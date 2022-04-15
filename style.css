@@ -18,6 +18,8 @@
 @import "css/modules-css/playlist-intro.css";
 @import "css/modules-css/case-study.css";
 @import "css/modules-css/php-garden-intro.css";
+@import "css/modules-css/section-heading.css";
+@import "css/modules-css/style-guide.css";
 @import "css/lion-svg.css";
 
 html {
@@ -49,7 +51,8 @@ main {
 
 /*TROUBLE SHOOTING*/
 
-div {
+space {
+	display: block;
 	height: 25px;
 	background-color: var(--black);
 }

@@ -1,0 +1,16 @@
+section-heading {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+@media (min-width: 600px) {
+	section-heading{
+		align-items: center;
+	}
+	
+}
+
+section-heading p {
+	max-width: 65ch;	
+}

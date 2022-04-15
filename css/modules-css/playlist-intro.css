@@ -5,10 +5,9 @@ playlist-intro {
 	gap: 50px;
 }
 playlist-heading {
-	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 25px;
 }
 
 playlist {
