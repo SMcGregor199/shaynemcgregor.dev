@@ -10,3 +10,25 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+
+
+.colors inner-column {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.black {
+	background-color: var(--black);
+	color: var(--white);
+	width: fit-content;
+	padding: 20px;
+}
+
+.white {
+	background-color: var(--white);
+	color: var(--black);
+	width: fit-content;
+	padding: 20px;
+	border: 1px solid var(--black);
+}

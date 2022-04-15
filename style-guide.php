@@ -5,7 +5,12 @@
 
 	<h2 class="section-heading-font">Fonts</h2>
 	<hr>
-	<p class="paragraph-voice">Red Hat Display</p>
+	<div class="fonts">
+		<inner-column>
+			<p class="paragraph-voice">Red Hat Display</p>
+		</inner-column>
+	</div>
+	
 
 	<h2 class="section-heading-font">Type Patterns</h2>
 	<hr>
@@ -22,7 +27,17 @@
 
 	<h2 class="section-heading-font">Colors</h2>
 	<hr>
+	<div class="colors">
+		<inner-column>
+			<div class="black">
+				<p class="paragraph-voice">#000000</p>
+			</div>
 
+			<div class="white">
+				<p class="paragraph-voice">#FFFFFF</p>
+			</div>
+		</inner-column>
+	</div>
 	<h2 class="section-heading-font">Links</h2>
 	<hr>
 	<div class="links">
@@ -33,6 +48,11 @@
 
 	<h2 class="section-heading-font">Site-Menu</h2>
 	<hr>
+	<div class="section-site-header">
+		<inner-column>
+			<?php include("modules/site-header.php"); ?>
+		</inner-column>
+	</div>
 	
 
 	<h2 class="section-heading-font">Section-Heading</h2>			
