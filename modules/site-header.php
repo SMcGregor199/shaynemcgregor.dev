@@ -1,7 +1,7 @@
 <header class="site-header">
 	<inner-column>
 
-		<nav class="site-nav" rel="toggle">
+		<nav class="link-font site-nav" rel="toggle">
 			<a href="?page=home" rel="toggle">Home</a>
 			<a href="#about" rel="toggle">About</a>
 			<a href="#writing" rel="toggle">Writing</a>

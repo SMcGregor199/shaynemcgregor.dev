@@ -63,4 +63,12 @@
 		</inner-column>
 	</div>
 
+	<h2 class="section-heading-font">Garden Cards</h2>
+	<hr>
+	<div class=" gardens garden-card">
+		<inner-column>
+			<?php include("modules/garden.php"); ?>
+		</inner-column>
+	</div>
+
 </main>
