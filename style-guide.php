@@ -3,18 +3,18 @@
 	<h1 class="page-title title-font">Style Guide</h1>
 	<inner-column>
 
-	<div class="fonts">
+	<section class="fonts">
 		<inner-column>
 			<h2 class="section-heading-font">Fonts</h2>
 			<hr>
 			<p class="paragraph-voice">Red Hat Display</p>
 		</inner-column>
-	</div>
+	</section>
 	
-	<div class="type-patterns">
-		<h2 class="section-heading-font">Type Patterns</h2>
-		<hr>
+	<section class="type-patterns">
 		<inner-column>
+			<h2 class="section-heading-font">Type Patterns</h2>
+			<hr>
 			<h1 class="title-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</h1>
 			<h1 class="title-font">1234567890</h1>
 			<h2 class="section-heading-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</h2>
@@ -22,7 +22,7 @@
 			<p class="paragraph-voice">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
 			<p class="paragraph-voice">1234567890</p>
 		</inner-column>
-	</div>
+	</section>
 
 	<section class="colors">
 		<inner-column>
@@ -65,7 +65,7 @@
 		</inner-column>
 	</section>
 
-	<section class="gardens garden-card">
+	<section class="garden-card">
 		<inner-column>
 			<h2 class="section-heading-font">Garden Cards</h2>
 			<hr>

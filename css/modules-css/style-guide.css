@@ -11,7 +11,9 @@ hr {
 	margin-bottom: 20px;
 }
 
-
+.type-patterns h1+h2, h2+p {
+	margin-top: 20px;
+}
 
 .colors colors-to-row {
 	display: flex;
