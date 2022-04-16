@@ -1,8 +1,8 @@
 		<section id="home" class="welcome">
-<!-- 			<inner-column>
+			<inner-column>
 				<?php include("modules/introduction.php");?>
 			</inner-column>
-			<space></space> -->
+			<space></space> 
 		</section>
 
 		<section id="about" class="about">

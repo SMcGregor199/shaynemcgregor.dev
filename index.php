@@ -21,6 +21,10 @@
 			include('case-study.php');
 		}
 
+		if($page == "style-guide") {
+			include('style-guide.php');
+		}
+
 ?>
 
 		

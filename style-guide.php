@@ -1,5 +1,3 @@
-<?php include("modules/header.php");?>
-<main>
 	<h1 class="page-title title-font">Style Guide</h1>
 	<inner-column>
 
@@ -53,7 +51,7 @@
 		<inner-column>
 			<h2 class="section-heading-font">Site-Menu</h2>
 			<hr>
-			<?php include("modules/site-header.php"); ?>
+			<?php include("modules/style-guide-header.php"); ?>
 		</inner-column>
 	</section>
 	
@@ -92,4 +90,3 @@
 	</section>
 
 
-</main>
