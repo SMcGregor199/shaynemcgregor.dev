@@ -17,5 +17,6 @@ garden-card p {
 @media (min-width: 650px) {
 	gardens {
 		flex-direction: row;
+		justify-content: center;
 	}
 }
