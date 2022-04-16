@@ -13,7 +13,7 @@
 				$linkurl = "../goals";
 				$link = "Goals";
 				?>
-				<?php include("modules/section-article.php");?>
+				<?php include("modules/article.php");?>
 			</inner-column>
 			<space></space>
 		</section>

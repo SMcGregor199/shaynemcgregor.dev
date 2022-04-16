@@ -1,9 +1,9 @@
-<section-article>
+<article>
 	<h2 class="section-heading-font"> <?=$title?> </h2>
 	<p class="paragraph-voice"> <?=$content?> </p>
 	<p class="paragraph-voice"> <?=$contentTwo?> </p>
 	<a href="<?=$linkurl?>" target="goals" class="link-font"> <?=$link?> </a>
-</section-article>
+</article>
 
 
 <!-- Article Title 

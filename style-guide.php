@@ -65,7 +65,7 @@
 
 	<section>
 		<inner-column>
-			<h2 class="section-heading-font">Section-Article</h2>
+			<h2 class="section-heading-font">Article</h2>
 			<hr>
 			<?php 
 				$title = "Article Title";
@@ -74,7 +74,7 @@
 				$linkurl = "#";
 				$link = "Link";
 			?>
-			<?php include("modules/section-article.php"); ?>
+			<?php include("modules/article.php"); ?>
 		</inner-column>
 	</section>
 

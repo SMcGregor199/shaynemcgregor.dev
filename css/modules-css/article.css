@@ -1,16 +1,16 @@
-section-article {
+article {
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
 }
 
 @media (min-width: 600px) {
-	section-article{
+	article{
 		align-items: center;
 	}
 	
 }
 
-section-article p {
+article p {
 	max-width: 65ch;	
 }
