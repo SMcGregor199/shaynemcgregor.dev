@@ -10,7 +10,6 @@
 @import "css/modules-css/header.css";
 @import "css/modules-css/footer.css";
 @import "css/modules-css/introduction.css";
-@import "css/modules-css/about.css";
 @import "css/modules-css/blog-card.css";
 @import "css/modules-css/blog-intro.css";
 @import "css/modules-css/projects-intro.css";
@@ -22,6 +21,7 @@
 @import "css/modules-css/style-guide.css";
 @import "css/modules-css/base-project-card.css";
 @import "css/modules-css/base-blog-card.css";
+@import "css/modules-css/section-article.css";
 @import "css/lion-svg.css";
 
 html {
