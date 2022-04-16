@@ -2,7 +2,6 @@
 			<inner-column>
 				<?php include("modules/introduction.php");?>
 			</inner-column>
-			<space></space> 
 		</section>
 
 		<section id="about" class="about">
@@ -28,9 +27,7 @@
 
 		<section id="gardens" class="gardens">
 			<inner-column>
-				<?php include("modules/php-garden.php"); ?>
-
-				<?php include("modules/layout-garden.php"); ?>
+				<?php include("modules/garden-module.php"); ?>
 			</inner-column>
 			<space></space>
 		</section>
