@@ -33,7 +33,25 @@
 
 		<section id="gardens" class="gardens">
 			<inner-column>
-				<?php include("modules/garden-module.php"); ?>
+			<?php
+			$phpGarden = [
+				"title" => "PHP Garden",
+				"content" => "PHP is a server-size scripting language that's important for stitching files together and creating forms that receive user input. Click below to see the cool forms I've been creating with PHP.",
+				"link" => "#",
+				"linkText" => "Click Here",
+				];
+			$layoutGarden = [
+				"title" => "Layout Garden",
+				"content" => "Positioning elements on a webpage is a critical part of making webpages readable. Click below to check out my cool responsive layout skills",
+				"link" => "#",
+				"linkText" => "Click Here",
+			];
+
+			$gardens = [$phpGarden, $layoutGarden];
+
+			?>
+			
+			<?php	include("modules/garden-card.php"); ?>	 
 			</inner-column>
 			<space></space>
 		</section>
