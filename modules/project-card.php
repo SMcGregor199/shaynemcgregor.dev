@@ -1,23 +1,12 @@
 <project-card>
+	<picture class="project-image">
+		<img src="<?=$image?>">
+	</picture>
 
-	<heading>
-		<h1 class="important-voice"><?=$project["title"]?></h1>
-		<p class="paragraph-voice"><?=$project["category"]?></p>
-		<description>
-			<p class="paragraph-voice"><?=$project["description"]?></p>
-		</description>
-	</heading>
-
-
-	<thumbnail-link>
-		<picture class = "thumbnail">
-			<img src='<?=$project["thumbnail"]?>'>
-		</picture>
-		<nav class="project-links">
-			<a href="?page=case-study&projectID=<?=$project['id']?>" target="testing" class="paragraph-voice" rel="toggle-site-nav">Case Study</a>
-		</nav>
-	</thumbnail-link>
-
+	<project-card-text>
+		<h3 class="card-title-font"><?=$title?></h3>
+		<p class="paragraph-voice"><?=$content?></p>
+		<a href="<?=$link?>" class="link-font"><?=$linkText?></a>
+	</project-card-text>
 </project-card>
 
-<!-- <?=$project["title"]?> -->

@@ -59,6 +59,10 @@
 		<inner-column>
 			<h2 class="section-heading-font">Section-Heading</h2>			
 			<hr>
+			<?php 
+				$title = "heading level 2";
+				$content = "This is some paragraph text that describes and contextualizes the content below it. Each section, representing a different aspect of the work I've done will prove important for site visitor's to get to know who I am.";
+			?>
 			<?php include("modules/section-heading.php"); ?>
 		</inner-column>
 	</section>
@@ -98,9 +102,16 @@
 		<inner-column>
 			<h2 class="section-heading-font">Project Cards</h2>
 			<hr>
-			<projects-to-row>
-				<?php include("modules/base-project-card.php"); ?>
-			</projects-to-row>
+			<?php 
+				$image = "images/default.jpeg";
+				$title = "Heading Level 3";
+				$content = "This is Paragraph text that gives a brief description of the project. With each description I try my best to make clear the project's primary goal.";
+				$link = "#";
+				$linkTarget = "default";
+				$linkText = "Case Study";
+			?>
+			<?php include("modules/project-card.php"); ?>
+			
 		</inner-column>
 	</section>
 
@@ -108,7 +119,17 @@
 		<inner-column>
 			<h2 class="section-heading-font">Blog Cards</h2>
 			<hr>
-			<?php include("modules/base-blog-card.php"); ?>
+			<?php 
+				$blog = [
+				'title' => "Heading Level 3",
+				'content' => "A Catchy sentence to earn your attention",
+				'link' => "#",
+				'linkTarget' => "default",
+				'linkText' => "Read",
+			];
+
+			?>
+			<?php include("modules/blog-card.php"); ?>
 		</inner-column>
 	</section>
 

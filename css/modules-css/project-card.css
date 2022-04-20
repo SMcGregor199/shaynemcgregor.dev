@@ -1,58 +1,38 @@
-
-project-card heading {
-	display: block;
-}
-
-project-card heading {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	gap: 15px;
-}
-
-
-description {
-	display: block;
-}
-
- thumbnail-link {
-	display: block;
-	display: flex;
-	gap: 15px;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	gap: 30px;
-}
-
-thumbnail-link a {
-	font-weight: 700;
-}
-
-.project-links {
+project-card project-card-text {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
-
-project-info {
-	display: block;
+project-card p {
+	max-width: 32ch;
+}
+.project-image {
+	display: none;
+	max-width: 200px;
+	max-height: 250px;
+}
+/*This will be removed when placed in the main website. 
+These settings would be placed in the inner-column*/
+projects-to-row { 
 	display: flex;
 	flex-direction: column;
-}
-project-info p {
-	line-height: 1.5;
-}
-project-info p + span {
-	padding-top: 20px;
+	gap: 40px;
 }
 
-project-card .thumbnail {
-	max-width: 100px;
-	border: 1px solid black;
-	border-radius: 50%; 
-	overflow: hidden;
+@media(min-width: 900px) {
+	projects-to-row {
+		flex-direction: row;
+	}
 }
+@media (min-width: 500px) {
+	project-card {
+		display: flex;
+		flex-direction: row;
+		gap: 35px;
+	}
 
-
+	.project-image {
+		display: block;
+	}
+}
 

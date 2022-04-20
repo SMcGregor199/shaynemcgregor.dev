@@ -4,24 +4,27 @@ $database = [
 
 	[
 		"title" => "How Power Rangers Taught me&nbsp;PHP",
-		"thumbnail" => "modules/images/red-ranger.jpg",
+		"content" => "It's Morphing Time",
 		"link" => "https://shaynemcgregor.substack.com/p/how-the-power-rangers-taught-me-php",
-		"target" => "Power Rangers",
+		"linkTarget" => "Power Rangers",
+		"linkText" => "Read",
 	],
 
 	[
 		"title" => "This is a Collaborative Environment",
-		"thumbnail" => "modules/images/collaboration.jpg",
+		"content" => "Are you ready to collab?",
 		"link" => "https://shaynemcgregor.substack.com/p/this-is-a-collaborative-environment",
-		"target" => "This is a Collaborative Environment",
+		"linkTarget" => "This is a Collaborative Environment",
+		"linkText" => "Read",
 	],
 
 	[
 		"title" => "Why I love J Cole's let.go.my.hand",
-		"thumbnail" => "images/jcole.png",
+		"content" => "J Cole's The Off Season",
 		"link" => "https://shaynemcgregor.substack.com/p/hip-hopwhy-i-love-j-coles-letgomyhand?s=w",
-		"target" => "Why I love J Cole's let.go.my.hand",
+		"linkTarget" => "Why I love J Cole's let.go.my.hand",
 
+		"linkText" => "Read",
 	],
 
 

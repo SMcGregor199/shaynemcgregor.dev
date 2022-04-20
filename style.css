@@ -12,14 +12,12 @@
 @import "css/modules-css/introduction.css";
 @import "css/modules-css/blog-card.css";
 @import "css/modules-css/blog-intro.css";
-@import "css/modules-css/projects-intro.css";
 @import "css/modules-css/project-card.css";
 @import "css/modules-css/playlist-intro.css";
 @import "css/modules-css/case-study.css";
 @import "css/modules-css/php-garden-intro.css";
 @import "css/modules-css/section-heading.css";
 @import "css/modules-css/style-guide.css";
-@import "css/modules-css/base-project-card.css";
 @import "css/modules-css/base-blog-card.css";
 @import "css/modules-css/article.css";
 @import "css/lion-svg.css";
@@ -66,11 +64,25 @@ thumbnail-link a {
 a {
 	text-decoration: underline;
 }
-
-a.paragraph-voice {
-	font-weight: 700;
+.writing inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+.projects inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+.playlist inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
 }
 
+.playlist a {
+	text-align: center;
+}
 under-construction h1 {
 	line-height:1.5;
 }
