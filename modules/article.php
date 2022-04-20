@@ -1,7 +1,8 @@
 <article>
 	<h2 class="section-heading-font"> <?=$title?> </h2>
-	<p class="paragraph-voice"> <?=$content?> </p>
-	<p class="paragraph-voice"> <?=$contentTwo?> </p>
+	<?php foreach ($contents as $content) { ?>
+		<p class="paragraph-voice"> <?=$content?> </p>
+	<?php } ?>
 	<a href="<?=$linkurl?>" target="goals" class="link-font"> <?=$link?> </a>
 </article>
 
