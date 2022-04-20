@@ -78,10 +78,11 @@
 			<inner-column>
 				<?php 
 					$title = "Playlist";
-					$content = "This is a collection of tracks I've been listening to. It's a dope list of tracks if you're into a mix of lofi, drill, phonk remixes, and '90s era beats. I'm still wrapping my head around how the internet has changed rap music. If you have any thoughts on this topic, comment on my Substack.";
+					$contents = ["This is a collection of tracks I've been listening to. It's a dope list of tracks if you're into a mix of lofi, drill, phonk remixes, and '90s era beats. I'm still wrapping my head around how the internet has changed rap music. If you have any thoughts on this topic, comment on my Substack."];
+					$linkurl = "https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to?s=w";
+					$link = "Gritty Internet Hip-Hop Vibes";
 				?>
-				<?php include("modules/section-heading.php"); ?>
-				<a href="https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to?s=w" class="link-font">Gritty Internet Hip Hop Vibes</a>
+				<?php include("modules/article.php"); ?>
 			</inner-column>
 			<space></space>
 		</section>

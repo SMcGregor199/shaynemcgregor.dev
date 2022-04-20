@@ -74,15 +74,9 @@ a {
 	flex-direction: column;
 	gap: 80px;
 }
-.playlist inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 80px;
-}
 
-.playlist a {
-	text-align: center;
-}
+
+
 under-construction h1 {
 	line-height:1.5;
 }
