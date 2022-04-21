@@ -6,25 +6,27 @@
 <?php foreach($projects_database as $project) { ?>
 	<?php if($current_projectid == $project['id']) { ?>
 
-<section>
+<section class="page-title">
 	<inner-column>
 		<?php 
 			$title = "Lion-Cub Books";
 			$content = "The goal was to create a fictional book-store website that is organized around the fundamentals of CRUD.";
 		?>
 		<?php include("modules/section-heading.php"); ?>
+	</inner-column>
+</section>
+
+<section class="overview">
+	<inner-column>
+		<?php 
+			$title = "Overview";
+			$content = "What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.";	
+		?>
+		<?php include('modules/graphic-diptych.php'); ?>
+	</inner-column>
+</section>
 	
 		
-
-			<study-overview>
-				<overview-heading>
-					<h2 class="section-heading-font">Overview</h2>
-
-					<p class="paragraph-voice">What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.</p>
-				</overview-heading>
-
-				<?php include('images/svgs/lion.svg'); ?>
-			</study-overview>
 
 			<data-considerations>
 				<h2 class="section-heading-font">Data Considerations</h2>

@@ -1,0 +1,18 @@
+graphic-diptych {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+@media(min-width: 650px) {
+	graphic-diptych {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.graphic-image {
+	max-width: 490px;
+	max-height: 570px;
+}
