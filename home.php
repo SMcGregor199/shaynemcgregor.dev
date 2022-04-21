@@ -9,8 +9,8 @@
 				<?php 
 				$title = "My Story";
 				$contents = ["I am a web designer and  hold a Ph.D. in African American Studies and English from Yale University. Thinking about web design through the lens of race and literature, allows me to pursue questions related to user accessibility and legibility.","I want to find a company where I can continue to expand my skillset as a developer and designer. Because writing is such a big part of who I am, I also want to write 50 blog posts by the end of the year. Click below to learn more about my specific goals and stay up-to-date on my progress."];
-				$linkurl = "../goals";
-				$link = "Goals";
+				$link = "../goals";
+				$linkText = "Goals";
 				?>
 				<?php include("modules/article.php");?>
 			</inner-column>
@@ -45,7 +45,6 @@
 				?>
 				<?php include("modules/project-card.php"); ?>
 			</inner-column>
-			</inner-column>
 			<space></space>
 		</section>
 
@@ -79,8 +78,8 @@
 				<?php 
 					$title = "Playlist";
 					$contents = ["This is a collection of tracks I've been listening to. It's a dope list of tracks if you're into a mix of lofi, drill, phonk remixes, and '90s era beats. I'm still wrapping my head around how the internet has changed rap music. If you have any thoughts on this topic, comment on my Substack."];
-					$linkurl = "https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to?s=w";
-					$link = "Gritty Internet Hip-Hop Vibes";
+					$link = "https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to?s=w";
+					$linkText = "Gritty Internet Hip-Hop Vibes";
 				?>
 				<?php include("modules/article.php"); ?>
 			</inner-column>
