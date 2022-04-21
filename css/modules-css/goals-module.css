@@ -1,0 +1,16 @@
+goals-card {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	list-style-type: disc;
+}
+
+ul li {
+	padding-left: 10px
+}

@@ -24,7 +24,9 @@
 		if($page == "style-guide") {
 			include('style-guide.php');
 		}
-
+		if($page == "goals") {
+			include('goals/goals.php');
+		}
 ?>
 
 		

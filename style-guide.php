@@ -133,4 +133,15 @@
 		</inner-column>
 	</section>
 
+	<section class="goals-card">
+		<inner-column>
+			<h2 class="section-heading-font">Goal Cards</h2>
+			<hr>
+			<?php 
+				$priorityLevel = "Priority Level";
+				$goals = ["I will state my goal here","I will state my second goal here","if there's a third goal, I'll state it here. Should these be in a specific order?"];
+			?>
+			<?php include("modules/goals-module.php"); ?>
+		</inner-column>
+	</section>
 

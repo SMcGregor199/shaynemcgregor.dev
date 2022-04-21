@@ -9,9 +9,7 @@
 <body>
 	<?php if($page == "home") { ?>
 		<?php include("modules/site-header.php"); ?>
-	<?php } ?>
-
-	<?php if($page == "style-guide") { ?>
+	<?php } else { ?>
 		<?php include("modules/style-guide-header.php"); ?>
 	<?php } ?>
 
