@@ -1,16 +1,20 @@
 <link rel="stylesheet" href="style.css">
 
 <?php include('modules/projects-database.php'); ?>
+<?php $current_projectid = $_GET['projectID'];?>
 
+<?php foreach($projects_database as $project) { ?>
+	<?php if($current_projectid == $project['id']) { ?>
 
-
-<section class="case-study">
+<section>
 	<inner-column>
-		<case-study>
-			<heading>
-				<h1 class="section-heading-font">Lion-Cub Books</h1>
-				<p class="paragraph-voice">The goal was to create a fictional book-store website that is organized around the fundamentals of CRUD.</p>
-			</heading>
+		<?php 
+			$title = "Lion-Cub Books";
+			$content = "The goal was to create a fictional book-store website that is organized around the fundamentals of CRUD.";
+		?>
+		<?php include("modules/section-heading.php"); ?>
+	
+		
 
 			<study-overview>
 				<overview-heading>
@@ -65,7 +69,7 @@
 				</picture>
 			</study-conclusion>	
 
-		</case-study>
+
 
 		<a href="?page=home" class="link-font" rel="toggle">Go Back to Home</a>
 
@@ -73,4 +77,6 @@
 	</inner-column>
 </section>
 
+	<?php } ?>
+<?php } ?>
 	

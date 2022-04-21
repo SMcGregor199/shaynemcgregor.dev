@@ -40,7 +40,7 @@
 					$image = "images/lion-cub-thumb.png";
 					$title = "Lion-Cub Books";
 					$content = "This site is organized around the fundamentals of CRUD (create, read, update, delete). In this fictional book store site, user's can add, update, and delete books from the site's json database. All changes are reflected book-cards that appear throughout the site";
-					$link = "?page=case-study";
+					$link = "?page=case-study&projectID=0";
 					$linkText = "Case Study";
 				?>
 				<?php include("modules/project-card.php"); ?>
