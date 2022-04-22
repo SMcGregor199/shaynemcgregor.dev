@@ -1,5 +1,4 @@
 	<h1 class="page-title title-font">Style Guide</h1>
-	<inner-column class="guide-spacing">
 
 	<section class="fonts">
 		<inner-column>
@@ -9,7 +8,7 @@
 		</inner-column>
 	</section>
 	
-	<section class="type-patterns">
+	<section class="type-patterns-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Type Patterns</h2>
 			<hr>
@@ -22,7 +21,7 @@
 		</inner-column>
 	</section>
 
-	<section class="colors">
+	<section class="colors-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Colors</h2>
 			<hr>
@@ -39,7 +38,7 @@
 		</inner-column>
 	</section>
 
-	<section class="links">
+	<section class="links-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Links</h2>
 			<hr>
@@ -47,7 +46,7 @@
 		</inner-column>
 	</section>
 
-	<section class="section-site-header">
+	<section class="section-site-header-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Site-Menu</h2>
 			<hr>
@@ -55,19 +54,19 @@
 		</inner-column>
 	</section>
 	
-	<section class="section-heading">
+	<section class="section-heading-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Section-Heading</h2>			
 			<hr>
 			<?php 
-				$title = "heading level 2";
+				$title = "Heading level 2";
 				$content = "This is some paragraph text that describes and contextualizes the content below it. Each section, representing a different aspect of the work I've done will prove important for site visitor's to get to know who I am.";
 			?>
 			<?php include("modules/section-heading.php"); ?>
 		</inner-column>
 	</section>
 
-	<section>
+	<section class="article-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Article</h2>
 			<hr>
@@ -81,13 +80,13 @@
 		</inner-column>
 	</section>
 
-	<section class="garden-card">
+	<section class="garden-card-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Garden Cards</h2>
 			<hr>
 			<?php
 			$defaultGarden = [
-				'title' => 'Header Level 3',
+				'title' => 'Heading Level 3',
 				'content' => "This is a paragraph text that gives a brief overview of its content. It'll be really exciting content so I hope you check it out.",
 				'link' => '#',
 				'linkText' => 'Click Here',
@@ -98,7 +97,7 @@
 		</inner-column>
 	</section>
 
-	<section class="project-card">
+	<section class="project-card-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Project Cards</h2>
 			<hr>
@@ -115,7 +114,7 @@
 		</inner-column>
 	</section>
 
-	<section class="blog-card">
+	<section class="blog-card-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Blog Cards</h2>
 			<hr>
@@ -133,7 +132,7 @@
 		</inner-column>
 	</section>
 
-	<section class="goals-card">
+	<section class="goals-card-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Goal Cards</h2>
 			<hr>
@@ -145,16 +144,17 @@
 		</inner-column>
 	</section>
 
-	<section class="graphic-diptych">
-		<h2 class="section-heading-font">Article W/ Graphic</h2>
+	<section class="graphic-diptych-zone">
+		<inner-column>
+		<h2 class="section-heading-font">Section Heading W/ Graphic</h2>
 		<hr>
 		<?php 
-			$title = "Heading Level 3";
+			$title = "Heading Level 2";
 			$content = "This is some paragraph text that describes and contextualizes the content next and succeeding it. This module will usually be used at the beginning of case studies, and will be used to give an overview of the project.";
 			$link = "images/svgs/lion.svg";
 			
 		?>
 		<?php include("modules/graphic-diptych.php"); ?>
-		
+		</inner-column>
 	</section>
 

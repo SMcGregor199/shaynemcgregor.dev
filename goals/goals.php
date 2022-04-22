@@ -1,5 +1,4 @@
 <h1 class="page-title title-font"> Web Developer Goals</h1>
-	<inner-column class="guide-spacing">
 		<section class="highest-priority">
 			<inner-column>
 				<?php 
@@ -29,7 +28,7 @@
 				<?php include("modules/goals-module.php"); ?>
 			</inner-column>
 		</section>
-	</inner-column>
+
 
 
 
