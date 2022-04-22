@@ -12,7 +12,7 @@ graphic-diptych {
 	}
 }
 
-.graphic-image {
+graphic-diptych .graphic-image {
 	max-width: 490px;
 	max-height: 570px;
 }

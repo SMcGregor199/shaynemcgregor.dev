@@ -21,31 +21,32 @@
 		<?php 
 			$title = "Overview";
 			$content = "What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.";	
+			$linkPath = "images/svgs/lion.svg";
 		?>
 		<?php include('modules/graphic-diptych.php'); ?>
 	</inner-column>
 </section>
 	
+<section class="data-considerations">
+	<inner-column>
+		<?php 
+			$title = "Data Considerations";
+			$content = "What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.";	
+			$linkPath = "images/data-format-one.png";
+		?>
+		<?php include('modules/graphic-diptych.php'); ?>
+
+		<?php 
+			$title = "Data Considerations Cont'd";
+			$content = "In its current iteration the JSON file uses an (object model) to organize its data. The second method of modeling the JSON file was useful because it allowed each object within the file to be associated with a specific “key” that I can later reference to create the CRUD functionality. Notice the use of square versus curly brackets to denote the difference between these two models of data.";
+			$linkPath = "images/data-format-two.png";
+		?>
+		<?php include('modules/graphic-diptych.php'); ?>
+	</inner-column>
+</section>
 		
 
-			<data-considerations>
-				<h2 class="section-heading-font">Data Considerations</h2>
 
-				<dc-section-one>
-					<p class="paragraph-voice">One of the major takeaways from this project was learning the different ways JSON files can be written and utilized. I’m still learning how to articulate the differences in JSON file construction, but something that’s become clear to me is, on the one hand, you can create JSON files as an array that contains several objects. For example. An earlier iteration of the project used the array model to populate the “all books” section of the project’s website.</p>
-					<picture>
-						<img src="images/data-format-one.png">
-					</picture>
-				</dc-section-one>
-
-				<dc-section-two>
-					<p class="paragraph-voice">In its current iteration the JSON file uses an (object model) to organize its data </p>
-					<picture>
-						<img src="images/data-format-two.png">
-					</picture>
-				</dc-section-two>
-				<p class="paragraph-voice">The second method of modeling the JSON file was useful because it allowed each object within the file to be associated with a specific “key” that I can later reference to create the CRUD functionality. Notice the use of square versus curly brackets to denote the difference between these two models of data.</p>
-			</data-considerations>
 
 			<form-considerations>
 				<h2 class="section-heading-font">PHP Form Considerations</h2>

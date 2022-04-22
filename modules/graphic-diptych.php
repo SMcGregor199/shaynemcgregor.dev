@@ -7,7 +7,7 @@
 
 	<picture class="graphic-image">
 
-		<?php if($pathExtension == 'jpeg') { ?>
+		<?php if($pathExtension == 'jpeg' || $pathExtension ==  'png') { ?>
 			<img src="<?=$linkPath?>">
 
 		<?php	} if($pathExtension == 'svg') { ?>

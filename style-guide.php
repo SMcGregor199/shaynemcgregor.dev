@@ -158,3 +158,14 @@
 		</inner-column>
 	</section>
 
+	<section class="bridge-post-zone">
+		<inner-column>
+			<h2 class="section-heading-font">Bridge Post</h2>
+			<hr>
+			<?php
+				$images = ["images/default.jpeg","images/default.jpeg"];
+			 ?>
+			<?php include('modules/bridge-post.php'); ?>
+		</inner-column>
+	</section>
+
