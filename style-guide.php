@@ -151,7 +151,7 @@
 		<?php 
 			$title = "Heading Level 2";
 			$content = "This is some paragraph text that describes and contextualizes the content next and succeeding it. This module will usually be used at the beginning of case studies, and will be used to give an overview of the project.";
-			$link = "images/svgs/lion.svg";
+			$linkPath = "images/default.jpeg";
 			
 		?>
 		<?php include("modules/graphic-diptych.php"); ?>
