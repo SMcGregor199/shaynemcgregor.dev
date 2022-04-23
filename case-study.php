@@ -31,17 +31,11 @@
 	<inner-column>
 		<?php 
 			$title = "Data Considerations";
-			$content = "What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.";	
-			$linkPath = "images/data-format-one.png";
+			$contents = ["What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.", "In its current iteration the JSON file uses an (object model) to organize its data. The second method of modeling the JSON file was useful because it allowed each object within the file to be associated with a specific “key” that I can later reference to create the CRUD functionality. Notice the use of square versus curly brackets to denote the difference between these two models of data."];	
+			$images = ["images/data-format-one.png","images/data-format-two.png"];
 		?>
-		<?php include('modules/graphic-diptych.php'); ?>
+		<?php include('modules/bridge-post.php'); ?>
 
-		<?php 
-			$title = "Data Considerations Cont'd";
-			$content = "In its current iteration the JSON file uses an (object model) to organize its data. The second method of modeling the JSON file was useful because it allowed each object within the file to be associated with a specific “key” that I can later reference to create the CRUD functionality. Notice the use of square versus curly brackets to denote the difference between these two models of data.";
-			$linkPath = "images/data-format-two.png";
-		?>
-		<?php include('modules/graphic-diptych.php'); ?>
 	</inner-column>
 </section>
 		

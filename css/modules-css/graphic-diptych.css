@@ -2,7 +2,7 @@ graphic-diptych {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 40px;
 }
 
 @media(min-width: 650px) {

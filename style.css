@@ -58,12 +58,9 @@ space {
 	background-color: var(--black);
 }
 
-thumbnail-link a {
-	font-weight: 700;
-}
 
-a {
-	text-decoration: underline;
+section {
+	min-height: 30vh;
 }
 .writing inner-column {
 	display: flex;

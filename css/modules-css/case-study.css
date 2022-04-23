@@ -1,128 +1,17 @@
-.case-study inner-column {
+data-considerations inner-column {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 40px;
 }
 
-case-study {
-	display: block;
-	display: flex;
+data-considerations inner-column image-pillars {
 	flex-direction: column;
-}
-
-case-study heading {
-	display: block;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	gap: 16px;
-}
-
-case-study p {
-	max-width: 42ch;
 }
 case-study picture {
 	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
 	box-shadow: 5px 5px 15px 5px #000000;
 }
-study-overview {
-	padding-top: 32px;
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-}
 
-overview-heading {
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-}
-
-@media (min-width: 630px) {
-	study-overview {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-}
-
-data-considerations {
-	padding-top: 40px;
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-}
-
-dc-section-one {
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-
-}
-
-dc-section-two {
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-}
-
-@media (min-width: 1050px) {
-	dc-section-one {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-	dc-section-two {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-}
-
-
-form-considerations {
-	display: block;
-	padding-top: 40px;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-	
-}
-form-section-one {
-	display: block;
-}
-
-form-gallery {
-	display: block;
-	display: flex;
-	flex-direction: row;
-	gap: 32px;
-}
-
-@media (min-width: 1050px) {
-	form-section-one {
-		display: flex;
-		flex-direction: row;
-		gap: 40px;
-	}
-}
-
-
-study-conclusion {
-	padding-top: 40px;
-	display: block;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-}
-@media (min-width: 1050px) {
-	study-conclusion {
-		flex-direction: row;
-	}
-}
 
 
 
