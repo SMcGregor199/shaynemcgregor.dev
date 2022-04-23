@@ -34,7 +34,7 @@
 		}
 
 			if($page == '01') {
-				include("modules/forms/exercise-01.php");
+				include("modules/forms/hello-world.php");
 			}
 
 			if($page == '02') {
