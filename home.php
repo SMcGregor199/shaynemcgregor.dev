@@ -1,8 +1,3 @@
-		<section id="home" class="welcome">
-			<inner-column>
-				
-			</inner-column>
-		</section>
 
 		<section id="about" class="about">
 			<inner-column>
@@ -54,7 +49,7 @@
 			$phpGarden = [
 				"title" => "PHP Garden",
 				"content" => "PHP is a server-size scripting language that's important for stitching files together and creating forms that receive user input. Click below to see the cool forms I've been creating with PHP.",
-				"link" => "../php-exercises",
+				"link" => "?page=php-exercises",
 				"linkText" => "Click Here",
 				];
 			$layoutGarden = [

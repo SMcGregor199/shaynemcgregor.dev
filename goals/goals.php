@@ -9,7 +9,7 @@
 			</inner-column>
 		</section>
 
-		<section class="highest-priority">
+		<section class="high-priority">
 			<inner-column>
 				<?php 
 					$priorityLevel = "High Priority";
