@@ -1,3 +1,11 @@
+<?php 
+	if($horizontalImages = true) {
+		$columnImages = "column-true";
+	} else {
+		$columnImages = null;
+	}
+	
+?>
 <bridge-post>
 	<article>
 		<h2 class="section-heading-font"> <?=$title?> </h2>
@@ -6,7 +14,7 @@
 		<?php } ?>
 	</article>
 
-	<image-pillars>
+	<image-pillars class="<?=$columnImages?>" >
 
 		<?php foreach($images as $linkPath) { ?>
 			<?php $pathExtension = pathinfo($linkPath, PATHINFO_EXTENSION); ?>

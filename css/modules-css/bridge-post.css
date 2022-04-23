@@ -18,6 +18,12 @@ image-pillars {
 	flex-direction: row;
 	gap: 20px;
 }
+image-pillars.column-true {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
 bridge-post .graphic-image {
 	max-width: 440px;
 	max-height: 830px;
