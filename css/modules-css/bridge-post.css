@@ -6,7 +6,7 @@ bridge-post {
 	gap: 40px;
 }
 
-@media(min-width: 700px) {
+@media(min-width: 850px) {
 	bridge-post {
 		flex-direction: row;
 		align-items: flex-start;

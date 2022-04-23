@@ -1,5 +1,5 @@
 <?php 
-	if($horizontalImages = true) {
+	if($horizontalImages == true) {
 		$columnImages = "column-true";
 	} else {
 		$columnImages = null;

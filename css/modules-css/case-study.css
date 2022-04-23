@@ -1,8 +1,3 @@
-data-considerations inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-}
 
 data-considerations inner-column image-pillars {
 	flex-direction: column;
