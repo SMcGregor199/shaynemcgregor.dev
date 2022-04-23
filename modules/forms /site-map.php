@@ -1,6 +1,0 @@
-
-<site-map>
-
-
-
-</site-map>

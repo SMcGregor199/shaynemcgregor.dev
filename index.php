@@ -32,7 +32,7 @@
 		if($page == 'php-exercises') {
 			include('php-exercises.php');
 		}
-		
+
 			if($page == '01') {
 				include("modules/forms/exercise-01.php");
 			}
