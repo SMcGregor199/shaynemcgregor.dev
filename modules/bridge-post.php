@@ -1,13 +1,28 @@
-<?php $pathExtension = pathinfo($linkPath, PATHINFO_EXTENSION); ?>
 <bridge-post>
-	<?php include('modules/section-heading.php'); ?>
+	<article>
+		<h2 class="section-heading-font"> <?=$title?> </h2>
+		<?php foreach ($contents as $content) { ?>
+			<p class="paragraph-voice"> <?=$content?> </p>
+		<?php } ?>
+	</article>
 
 	<image-pillars>
-		<?php foreach($images as $image) { ?>
-			<picture class="graphic-image">
-				<img src="<?=$linkPath?>">
-			</picture>
+
+		<?php foreach($images as $linkPath) { ?>
+			<?php $pathExtension = pathinfo($linkPath, PATHINFO_EXTENSION); ?>
+
+			<?php if($pathExtension == 'jpeg' || $pathExtension ==  'png') { ?>
+				<picture class="graphic-image">
+					<img src="<?=$linkPath?>">
+				</picture>
+			<?php }	
+
+					if($pathExtension == 'svg') {?>
+					<?php include($linkPath); ?>
+				<?php } ?>
+
 		<?php	} ?>
+
 	</image-pillars>
 
 </bridge-post>
