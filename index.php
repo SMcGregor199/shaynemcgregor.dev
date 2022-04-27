@@ -33,25 +33,25 @@
 			include('php-exercises.php');
 		}
 
-			if($page == '01') {
-				include("modules/forms/hello-world.php");
-			}
+		if($page == '01') {
+			include("modules/forms/hello-world.php");
+		}
 
-			if($page == '02') {
-				include("modules/forms/exercise-02.php");
-			}
+		if($page == '02') {
+			include("modules/forms/exercise-02.php");
+		}
 
-			if($page == '03') {
-				include("modules/forms/exercise-03.php");
-			}
+		if($page == '03') {
+			include("modules/forms/exercise-03.php");
+		}
 
-			if($page == '04') {
-				include("modules/forms/exercise-04.php");
-			}
+		if($page == '04') {
+			include("modules/forms/exercise-04.php");
+		}
 
-			if($page == '05') {
-				include("modules/forms/exercise-05.php");
-			}
+		if($page == '05') {
+			include("modules/forms/exercise-05.php");
+		}
 
 
 ?>
