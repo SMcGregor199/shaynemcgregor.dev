@@ -7,11 +7,11 @@ include('modules/section-heading.php');
 
 <nav>
 	<ul>
-		<li><a class="paragraph-voice" href="modules/exercise-01.php">Quotes and Authors</a></li>
-		<li><a class="paragraph-voice" href="modules/exercise-02.php">Counting Characters</a></li>
-		<li><a class="paragraph-voice" href="modules/exercise-03.php">Creating a Madlib</a></li>
-		<li><a class="paragraph-voice" href="modules/exercise-04.php">Retirement Calculator</a></li>
-		<li><a class="paragraph-voice" href="modules/exercise-05.php">Simple Math</a></li>
+		<li><a class="link-font" href="modules/exercise-01.php">Quotes and Authors</a></li>
+		<li><a class="link-font" href="modules/exercise-02.php">Counting Characters</a></li>
+		<li><a class="link-font" href="modules/exercise-03.php">Creating a Madlib</a></li>
+		<li><a class="link-font" href="modules/exercise-04.php">Retirement Calculator</a></li>
+		<li><a class="link-font" href="modules/exercise-05.php">Simple Math</a></li>
 	</ul>
 </nav>
 

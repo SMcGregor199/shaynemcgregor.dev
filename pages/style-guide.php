@@ -4,7 +4,7 @@
 		<inner-column>
 			<h2 class="section-heading-font">Fonts</h2>
 			<hr>
-			<p class="paragraph-voice">Red Hat Display</p>
+			<p class="paragraph-font">Red Hat Display</p>
 		</inner-column>
 	</section>
 	
@@ -16,8 +16,8 @@
 			<h1 class="title-font">1234567890</h1>
 			<h2 class="section-heading-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</h2>
 			<h2 class="section-heading-font">1234567890</h2>
-			<p class="paragraph-voice">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-			<p class="paragraph-voice">1234567890</p>
+			<p class="paragraph-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+			<p class="paragraph-font">1234567890</p>
 		</inner-column>
 	</section>
 
@@ -28,11 +28,11 @@
 
 			<colors-to-row>
 				<div class="black">
-					<p class="paragraph-voice">#000000</p>
+					<p class="paragraph-font">#000000</p>
 				</div>
 
 				<div class="white">
-					<p class="paragraph-voice">#FFFFFF</p>
+					<p class="paragraph-font">#FFFFFF</p>
 				</div>
 			</colors-to-row>
 		</inner-column>
