@@ -4,7 +4,7 @@
 
 	<title>Shayne McGregor's Developer Website</title>
 	<meta name="description" content="This is site features the work of Shayne McGregor">
-	<meta property="og:image" content="images/shayne-pic.jpg">
+	<meta property="og:image" content="images/shayne.jpg">
 
 	<link rel="stylesheet" href="style.css">
 </head>
