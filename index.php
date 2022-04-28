@@ -14,23 +14,23 @@
 
 <?php	
 		if ($page == "home") {
-		include('home.php');
+		include('pages/home.php');
 		} 
 
 		if($page == "case-study") {
-			include('case-study.php');
+			include('pages/case-study.php');
 		}
 
 		if($page == "style-guide") {
-			include('style-guide.php');
+			include('pages/style-guide.php');
 		}
 
 		if($page == "goals") {
-			include('goals/goals.php');
+			include('pages/goals.php');
 		}
 
 		if($page == 'php-exercises') {
-			include('php-exercises.php');
+			include('pages/php-exercises.php');
 		}
 
 
