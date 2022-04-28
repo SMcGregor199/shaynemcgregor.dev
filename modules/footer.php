@@ -11,7 +11,7 @@
 
 	<script>
 		var page = document.querySelector('body');
-		console.log("hello",page);
+		
 
 		window.addEventListener('click', function(event){
 			if(event.target.matches('[rel="toggle"]')) {
