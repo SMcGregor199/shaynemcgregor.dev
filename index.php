@@ -32,8 +32,6 @@
 		if($page == 'php-exercises') {
 			include('pages/php-exercises.php');
 		}
-
-
 ?>
 
 		

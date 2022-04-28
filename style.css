@@ -2,7 +2,7 @@
 @import "css/setup.css";
 @import "css/settings.css";
 @import "css/typography.css";
-@import "fonts/red-hat/stylesheet.css";
+@import "fonts/philly-sans/stylesheet.css";
 
 
 
@@ -11,9 +11,9 @@
 @import "css/modules-css/footer.css";
 @import "css/modules-css/introduction.css";
 @import "css/modules-css/blog-card.css";
-@import "css/modules-css/project-card.css";
+@import "css/modules-css/project-gallery.css";
 @import "css/modules-css/case-study.css";
-@import "css/modules-css/php-garden-intro.css";
+@import "css/modules-css/gardens-gallery.css";
 @import "css/modules-css/section-heading.css";
 @import "css/modules-css/style-guide.css";
 @import "css/modules-css/base-blog-card.css";
@@ -38,23 +38,25 @@ body {
 }
 
 
-
+/*HOME AND GENERAL HEADER*/
 @media(max-width: 499px) {
+	
 	.menu-open {
 		overflow: hidden;
-}
+	}
 
 }
-main {
-	flex-grow:  1;
-}
+
+	main {
+		flex-grow:  1;
+	}
 
 
 /*TROUBLE SHOOTING*/
 
 space {
 	display: block;
-	height: 25px;
+	height: 12px;
 	background-color: var(--black);
 }
 
