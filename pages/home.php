@@ -73,7 +73,7 @@
 		];
 
 		$gardens = [$phpGarden, $layoutGarden];
-		
+
 		$gardensJson = json_encode($gardens);
 		file_put_contents('data/gardens.json', $gardensJson);
 	?>

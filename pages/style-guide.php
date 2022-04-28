@@ -93,7 +93,7 @@
 			];
 				$gardens = [$defaultGarden,];
 			?>
-			<?php include("modules/garden-card.php"); ?>
+			<?php include("modules/garden-gallery.php"); ?>
 		</inner-column>
 	</section>
 
@@ -102,14 +102,16 @@
 			<h2 class="section-heading-font">Project Cards</h2>
 			<hr>
 			<?php 
-				$image = "images/default.jpeg";
-				$title = "Heading Level 3";
-				$content = "This is Paragraph text that gives a brief description of the project. With each description I try my best to make clear the project's primary goal.";
-				$link = "#";
-				$linkTarget = "default";
-				$linkText = "Case Study";
+				$defaultProject = [
+					"title" => 'Heading Level 3',
+					'image' => 'images/default.jpeg',
+					'content' => "This is Paragraph text that gives a brief description of the project. With each description I try my best to make clear the project's primary goal.",
+					"link" => "#",
+					"linkText" => "Case Study"
+					];
+				$projects = [$defaultProject];
 			?>
-			<?php include("modules/project-card.php"); ?>
+			<?php include("modules/project-gallery.php"); ?>
 			
 		</inner-column>
 	</section>
