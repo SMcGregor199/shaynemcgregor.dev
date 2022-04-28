@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="home-header">
 	<inner-column>
 		<nav class="link-font site-nav" rel="toggle">
 			<a href="?page=home" rel="toggle">Home</a>

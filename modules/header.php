@@ -8,9 +8,9 @@
 
 <body>
 	<?php if($page == "home") { ?>
-		<?php include("modules/site-header.php"); ?>
+		<?php include("modules/home-header.php"); ?>
 	<?php } else { ?>
-		<?php include("modules/style-guide-header.php"); ?>
+		<?php include("modules/general-site-header.php"); ?>
 	<?php } ?>
 
 	<main>

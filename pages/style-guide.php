@@ -46,11 +46,11 @@
 		</inner-column>
 	</section>
 
-	<section class="section-site-header-zone">
+	<section class="section-home-header-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Site-Menu</h2>
 			<hr>
-			<?php include("modules/style-guide-header.php"); ?>
+			<?php include("modules/general-site-header.php"); ?>
 		</inner-column>
 	</section>
 	

@@ -2,9 +2,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Shayne's Portoflio Site</title>
-	<meta name="description" content="This is Shayne McGregor's Portfolio Site">
-	<meta property="og:image" content="images/shayne-pic.jpeg">
+	<title>Shayne McGregor's Developer Website</title>
+	<meta name="description" content="This is site features the work of Shayne McGregor">
+	<meta property="og:image" content="images/shayne-pic.jpg">
 
 	<link rel="stylesheet" href="style.css">
 </head>

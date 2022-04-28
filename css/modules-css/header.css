@@ -1,4 +1,4 @@
-.site-header inner-column {
+.home-header inner-column {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -51,7 +51,7 @@ button {
 		background-color: inherit;
 		pointer-events: initial;
 	}
-	.site-header button {
+	.home-header button {
 		display: none;
 	}
 }
