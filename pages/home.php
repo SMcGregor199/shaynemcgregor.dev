@@ -62,22 +62,8 @@
 		?>
 		<?php include("modules/section-heading.php"); ?>
 		<?php 
-			$image = "images/lion-cub-thumb.png";
-			$title = "Lion-Cub Books";
-			$content = "This site is organized around the fundamentals of CRUD (create, read, update, delete). In this fictional book store site, user's can add, update, and delete books from the site's json database. All changes are reflected book-cards that appear throughout the site";
-			$link = "?page=case-study";
-			$linkText = "Case Study";
-		?>
-		<?php 
-			$project1 = [
-				"title" => "Lion-Cub Books",
-				"image" => "images/lion-cub-thumb.png",
-				"content" => "This site is organized around the fundamentals of CRUD (create, read, update, delete). In this fictional book store site, user's can add, update, and delete books from the site's json database. All changes are reflected book-cards that appear throughout the site",
-				"link" => "?page=case-study&projectID=0",
-				"linkText" => "Case Study",
-			];
-
-			$projects = [$project1];
+			$projectsJson = file_get_contents("data/projects.json");
+			$projects = json_decode($projectsJson, true);
 		 ?>
 		<?php include("modules/project-gallery.php"); ?>
 	</inner-column>
