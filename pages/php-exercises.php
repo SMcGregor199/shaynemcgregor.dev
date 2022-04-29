@@ -1,8 +1,8 @@
 
 <?php
-$title = "PHP Exercises Layout Garden";
-$content = "This is where you can see all the mini-projects I've been creating with PHP. All the projects shown here come from Brian's Exercises for Programmers: 57 Challenges to Develop Your Coding Skills(2015)";
-include('modules/section-heading.php'); 
+	$title = "PHP Exercises Layout Garden";
+	$content = "This is where you can see all the mini-projects I've been creating with PHP. All the projects shown here come from Brian's Exercises for Programmers: 57 Challenges to Develop Your Coding Skills(2015)";
+	include('modules/section-heading.php'); 
 ?>
 
 <nav>

@@ -32,6 +32,9 @@
 		if($page == 'php-exercises') {
 			include('pages/php-exercises.php');
 		}
+		if($page == 'responsive-layout') {
+			include('pages/responsive-layout.php');
+		}
 ?>
 
 		
