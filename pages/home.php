@@ -65,7 +65,7 @@
 			$image = "images/lion-cub-thumb.png";
 			$title = "Lion-Cub Books";
 			$content = "This site is organized around the fundamentals of CRUD (create, read, update, delete). In this fictional book store site, user's can add, update, and delete books from the site's json database. All changes are reflected book-cards that appear throughout the site";
-			$link = "?page=case-study&projectID=0";
+			$link = "?page=case-study";
 			$linkText = "Case Study";
 		?>
 		<?php 
@@ -78,9 +78,6 @@
 			];
 
 			$projects = [$project1];
-
-			$projectsJson = json_encode($project1);
-			file_put_contents("data/projects.json", $projectsJson);
 		 ?>
 		<?php include("modules/project-gallery.php"); ?>
 	</inner-column>
@@ -112,9 +109,6 @@
 			];
 
 			$gardens = [$phpGarden, $layoutGarden];
-
-			$gardensJson = json_encode($gardens);
-			file_put_contents('data/gardens.json', $gardensJson);
 		?>
 
 		<?php	include("modules/garden-gallery.php"); ?>	 
