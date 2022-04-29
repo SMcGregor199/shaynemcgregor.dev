@@ -46,6 +46,7 @@
 				"link" => "?page=case-study&projectID=0",
 				"linkText" => "Case Study",
 			];
+
 			$projects = [$project1];
 
 			$projectsJson = json_encode($project1);
@@ -58,27 +59,35 @@
 
 <section id="gardens" class="gardens">
 	<inner-column>
-	<?php
-		$phpGarden = [
-			"title" => "PHP Garden",
-			"content" => "PHP is a server-size scripting language that's important for stitching files together and creating forms that receive user input. Click below to see the cool forms I've been creating with PHP.",
-			"link" => "?page=php-exercises",
-			"linkText" => "Click Here",
+		<?php 
+			$title = "Programming Gardens";
+			$content = "They’re not projects in the sense that they have a definitive end goal. These “gardens,” like their real life counterparts, are places that I manage, curate, and exercise my programming skills. At the moment, I have two gardens. One shows off the work I’ve been doing developing forms with PHP while the other shows off my work with the flexible layout module. More gardens are soon to come. ";
+		?>
+
+		<?php include("modules/section-heading.php"); ?>
+
+		<?php
+
+			$phpGarden = [
+				"title" => "PHP Garden",
+				"content" => "PHP is a server-size scripting language that's important for stitching files together and creating forms that receive user input. Click below to see the cool forms I've been creating with PHP.",
+				"link" => "?page=php-exercises",
+				"linkText" => "Click Here",
+				];
+			$layoutGarden = [
+				"title" => "Layout Garden",
+				"content" => "Positioning elements on a webpage is a critical part of making webpages readable. Click below to check out my cool responsive layout skills",
+				"link" => "../responsive-layout-garden",
+				"linkText" => "Click Here",
 			];
-		$layoutGarden = [
-			"title" => "Layout Garden",
-			"content" => "Positioning elements on a webpage is a critical part of making webpages readable. Click below to check out my cool responsive layout skills",
-			"link" => "../responsive-layout-garden",
-			"linkText" => "Click Here",
-		];
 
-		$gardens = [$phpGarden, $layoutGarden];
+			$gardens = [$phpGarden, $layoutGarden];
 
-		$gardensJson = json_encode($gardens);
-		file_put_contents('data/gardens.json', $gardensJson);
-	?>
+			$gardensJson = json_encode($gardens);
+			file_put_contents('data/gardens.json', $gardensJson);
+		?>
 
-	<?php	include("modules/garden-gallery.php"); ?>	 
+		<?php	include("modules/garden-gallery.php"); ?>	 
 	</inner-column>
 	<space></space>
 </section>
