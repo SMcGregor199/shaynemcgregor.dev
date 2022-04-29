@@ -1,3 +1,16 @@
+<?php $pageJson = file_get_contents('data/home.json');
+		$page = json_decode($pageJson, true);
+		$sections = $page['sections'];
+ ?>
+<?php foreach($sections as $section) { ?>
+<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
+	<inner-column>
+	<?php echo $section['title']; ?>
+		<?php// include("modules/.php");?>
+	</inner-column>
+	<space></space>
+</section>
+<?php } ?>
 
 <section id="about" class="about">
 	<inner-column>

@@ -1,0 +1,24 @@
+{
+	"pageTitle":"Shayne's home page",
+	"sections":[
+		{
+			"title":"About Me",
+			"module":"article",
+			"slug":"about"
+		},
+
+		{	"slug":"writing",
+			"title":"writing",
+			"module":"section-heading"
+			
+		},
+
+		{	"title":"Featured Projects & Exercises",
+			"module":"section-heading",
+			"slug":"projects"
+
+		}
+	]
+
+}
+
