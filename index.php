@@ -17,7 +17,7 @@
 		include('pages/home.php');
 		} 
 
-		if($page == "case-study&projectID=0") {
+		if($page == "case-study") {
 			include('pages/case-study.php');
 		}
 
