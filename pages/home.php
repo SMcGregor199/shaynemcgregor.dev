@@ -19,7 +19,7 @@
 			$content = "I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music.";
 		?>
 		<?php include("modules/section-heading.php"); ?>
-		<?php include("modules/blog-card.php") ?>
+		<?php include("modules/blog-gallery.php") ?>
 	</inner-column>
 	<space></space>
 </section>

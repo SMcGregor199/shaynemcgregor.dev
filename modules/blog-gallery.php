@@ -1,4 +1,4 @@
-<card-gallery>
+<blog-gallery>
 	<?php include("modules/blogs-database.php"); ?>
 	<?php foreach ($database as $blog) {   ?>
 		<base-blog-card>
@@ -7,7 +7,7 @@
 			<a href="<?=$blog['link']?>" target="<?=$blog['linkTarget']?>" class="link-font"><?=$blog['linkText']?></a>
 		</base-blog-card>
 	<?php	} ?>
-</card-gallery>
+</blog-gallery>
 
 
 	

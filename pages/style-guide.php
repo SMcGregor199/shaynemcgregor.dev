@@ -130,7 +130,7 @@
 			];
 
 			?>
-			<?php include("modules/blog-card.php"); ?>
+			<?php include("modules/blog-gallery.php"); ?>
 		</inner-column>
 	</section>
 
