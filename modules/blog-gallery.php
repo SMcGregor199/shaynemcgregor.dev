@@ -1,6 +1,5 @@
 <blog-gallery>
-	<?php include("modules/blogs-database.php"); ?>
-	<?php foreach ($database as $blog) {   ?>
+	<?php foreach ($blogs as $blog) {   ?>
 		<base-blog-card>
 			<h3 class="card-title-font"><?=$blog['title']?></h3>
 			<p class="paragraph-font"><?=$blog['content']?></p>

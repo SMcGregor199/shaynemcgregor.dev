@@ -108,7 +108,7 @@
 					'content' => "This is Paragraph text that gives a brief description of the project. With each description I try my best to make clear the project's primary goal.",
 					"link" => "#",
 					"linkText" => "Case Study"
-					];
+				];
 				$projects = [$defaultProject];
 			?>
 			<?php include("modules/project-gallery.php"); ?>
@@ -121,13 +121,14 @@
 			<h2 class="section-heading-font">Blog Cards</h2>
 			<hr>
 			<?php 
-				$blog = [
-				'title' => "Heading Level 3",
-				'content' => "A Catchy sentence to earn your attention",
-				'link' => "#",
-				'linkTarget' => "default",
-				'linkText' => "Read",
-			];
+				$defaultBlog = [
+					'title' => "Heading Level 3",
+					'content' => "A Catchy sentence to earn your attention",
+					'link' => "#",
+					'linkTarget' => "default",
+					'linkText' => "Read",
+				];
+				$blogs = [$defaultBlog];
 
 			?>
 			<?php include("modules/blog-gallery.php"); ?>
