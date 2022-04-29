@@ -1,10 +1,11 @@
-<link rel="stylesheet" href="style.css">
-
-<?php include('modules/projects-database.php'); ?>
+<?php 
+	$projectsJson = file_get_contents("data/projects.json");
+	$projects = json_decode($projectsJson, true);
+ ?>
 <?php $current_projectid = $_GET['projectID'];?>
 
-<?php foreach($projects_database as $project) { ?>
-	<?php if($current_projectid == $project['id']) { ?>
+<?php foreach($projects as $projectID => $project) { ?>
+	<?php if($current_projectid == $projectID) { ?>
 
 <section class="page-title">
 	<inner-column>
