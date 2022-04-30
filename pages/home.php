@@ -1,12 +1,11 @@
-<?php $pageJson = file_get_contents('data/home.json');
-		$page = json_decode($pageJson, true);
-		$sections = $page['sections'];
+<?php $homePageJson = file_get_contents('data/home.json');
+		$homePage = json_decode($homePageJson, true);
+		$sections = $homePage['sections'];
  ?>
 <?php foreach($sections as $section) { ?>
 <section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
 	<inner-column>
-	<?php echo $section['title']; ?>
-		<?php// include("modules/.php");?>
+		<?php include($section['module']); ?>
 	</inner-column>
 	<space></space>
 </section>

@@ -1,8 +1,6 @@
 <list-card>
-	<h2 class="section-heading-font"><?=$priorityLevel?></h2>
+	<h2 class="section-heading-font"><?=$goals['goalTitle']?></h2>
 	<ul class="paragraph-font">
-	<?php foreach($goals as $goal) { ?>
-		<li><?=$goal?></li>
-	<?php } ?>
+		<li><?=$goalItem?></li>
 	</ul>
 </list-card>

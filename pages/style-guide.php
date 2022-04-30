@@ -140,7 +140,7 @@
 			<h2 class="section-heading-font">Lists</h2>
 			<hr>
 			<?php 
-				$priorityLevel = "List Name";
+				$title = "List Name";
 				$goals = ["I will state the first item here","I will state the second item here","if there's a third item, I'll state it here. Should these be in a specific order?"];
 			?>
 			<?php include("modules/list-module.php"); ?>
