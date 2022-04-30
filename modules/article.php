@@ -3,7 +3,7 @@
 	<?php foreach ($section['contents'] as $content) { ?>
 		<p class="paragraph-font"> <?=$content?> </p>
 	<?php } ?>
-	<a href="<?=$section['moduleLink']?>" target="goals" class="link-font"> <?=$section['moduleLinkText']?> </a>
+	<a href="<?=$section['moduleLink']?>" target="<?=$section['moduleTitle']?>" class="link-font"> <?=$section['moduleLinkText']?> </a>
 </article>
 
 

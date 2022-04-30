@@ -9,14 +9,14 @@
 				"I want to find a company where I can continue to expand my skillset as a developer and designer. Because writing is such a big part of who I am, I also want to write 50 blog posts by the end of the year. Click below to learn more about my specific goals and stay up-to-date on my progress."
 			],
 			"moduleLink":"?page=goals",
-			"moduleLinkText":"Goals",
-			
+			"moduleLinkText":"Goals"
 		},
 
-		{	"slug":"writing",
-			"title":"writing",
-			"module":"modules/section-heading.php"
-			
+		{
+			"slug":"writing",
+			"module":"modules/section-heading.php",
+			"moduleTitle":"Writing",
+			"content":"I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music."		
 		},
 
 		{	"title":"Featured Projects & Exercises",

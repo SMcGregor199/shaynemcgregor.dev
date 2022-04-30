@@ -53,3 +53,47 @@
 				<?php include('modules/section-heading.php'); ?>
 			</inner-column>
 		</section>
+
+
+
+
+
+
+
+
+		<!-- break -->
+
+
+<!-- Home page sections as of April 30th, 2022 -->
+
+
+
+<section id="about" class="about">
+	<inner-column>
+		<?php 
+		$title = "My Story";
+		$contents = ["I am a web designer and  hold a Ph.D. in African American Studies and English from Yale University. Thinking about web design through the lens of race and literature, allows me to pursue questions related to user accessibility and legibility.","I want to find a company where I can continue to expand my skillset as a developer and designer. Because writing is such a big part of who I am, I also want to write 50 blog posts by the end of the year. Click below to learn more about my specific goals and stay up-to-date on my progress."];
+		$link = "?page=goals";
+		$linkText = "Goals";
+		?>
+		<?php include("modules/article.php");?>
+	</inner-column>
+	<space></space>
+</section>
+
+
+<section id="writing" class="writing">
+	<inner-column>
+		<?php 
+			$title = "Writing";
+			$content = "I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music.";
+		?>
+		<?php include("modules/section-heading.php"); ?>
+
+		<?php $blogsJson = file_get_contents('data/blogs.json');
+				$blogs = json_decode($blogsJson, true);
+		 ?>
+		<?php include("modules/blog-gallery.php") ?>
+	</inner-column>
+	<space></space>
+</section>
