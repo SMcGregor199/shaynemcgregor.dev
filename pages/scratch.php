@@ -97,3 +97,19 @@
 	</inner-column>
 	<space></space>
 </section>
+
+<section id="projects" class="projects">
+	<inner-column>
+		<?php 
+			$title = "Featured Projects & Exercises";
+			$content = "Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on.";
+		?>
+		<?php include("modules/section-heading.php"); ?>
+		<?php 
+			$projectsJson = file_get_contents("data/projects.json");
+			$projects = json_decode($projectsJson, true);
+		 ?>
+		<?php include("modules/project-gallery.php"); ?>
+	</inner-column>
+	<space></space>
+</section>

@@ -19,10 +19,11 @@
 			"content":"I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music."		
 		},
 
-		{	"title":"Featured Projects & Exercises",
-			"module":"section-heading",
-			"slug":"modules/projects-gallery.php"
-
+		{	
+			"slug":"projects",
+			"module":"modules/section-heading.php",
+			"moduleTitle":"Featured Projects & Exercises",
+			"content":"Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on."
 		},
 
 		{
