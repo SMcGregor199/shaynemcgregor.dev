@@ -21,7 +21,7 @@
 
 		{	
 			"slug":"projects",
-			"module":"modules/section-heading.php",
+			"module":"section-heading",
 			"moduleTitle":"Featured Projects & Exercises",
 			"content":"Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on."
 		},

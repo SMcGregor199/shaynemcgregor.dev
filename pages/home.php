@@ -13,7 +13,7 @@
 				$blogsJson = file_get_contents('data/blogs.json');
 				$blogs = json_decode($blogsJson, true);
 			 ?>
-			<?php include("modules/blog-gallery.php") ?>
+			<?php include("modules/blog-gallery.php"); ?>
 		<?php	} ?>
 
 		<?php if($section['slug'] == 'projects'){ ?>
@@ -21,7 +21,7 @@
 				$projectsJson = file_get_contents("data/projects.json");
 				$projects = json_decode($projectsJson, true);
 			 ?>
-			<?php include("modules/project-gallery.php") ?>
+			<?php include("modules/project-gallery.php"); ?>
 		<?php	} ?>
 	</inner-column>
 	<space></space>

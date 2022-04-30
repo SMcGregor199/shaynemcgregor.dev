@@ -8,6 +8,7 @@
 	} else {
 		$page = "home";
 	} 
+	include('functions/functions.php');
 ?>
 
 <?php include("modules/header.php");?>
