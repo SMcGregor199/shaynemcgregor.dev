@@ -105,6 +105,7 @@
 			$content = "Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on.";
 		?>
 		<?php include("modules/section-heading.php"); ?>
+
 		<?php 
 			$projectsJson = file_get_contents("data/projects.json");
 			$projects = json_decode($projectsJson, true);
@@ -160,3 +161,43 @@
 	 ?>
 	<?php include("modules/blog-gallery.php"); ?>
 <?php	} ?>
+
+
+
+<!-- SECTION HEADING FIRST DRAFT -->
+
+<section-heading>
+	<h2 class="section-heading-font">Heading Level 2</h2>
+	<p class="paragraph-font">This is some paragraph text that describes and contextualizes the content below it. Each section, representing a different aspect of the work I've done will prove important for site visitor's to get to know who I am.</p>
+</section-heading>
+
+<section-heading>
+	<h2 class="section-heading-font">Featured Projects and Exercises</h2>
+	<p class="paragraph-font">Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on.</p>
+</section-heading>
+
+<!-- SECTION HEADING SECOND DRAFT -->
+
+<section-heading>
+	<h2 class="section-heading-font"><?=$title?></h2>
+	<p class="paragraph-font"><?=$content?></p>
+</section-heading>
+
+
+<!-- IF STATEMENT DATABASE INCLUSION -->
+
+		<?php if($section['slug'] == 'projects'){ ?>
+			<?php 
+				$projectsJson = file_get_contents("data/projects.json");
+				$projects = json_decode($projectsJson, true);
+			 ?>
+			<?php include("modules/project-gallery.php"); ?>
+		<?php	} ?>
+
+		<?php if($section['slug'] == 'gardens'){ ?>
+			<?php 
+				$gardensJson = file_get_contents("data/gardens.json");
+				$gardens = json_decode($gardensJson, true);
+			 ?>
+			<?php include("modules/gardens-gallery.php"); ?>
+		<?php	} ?>	
