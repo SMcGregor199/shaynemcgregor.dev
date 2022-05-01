@@ -145,3 +145,18 @@
 	</inner-column>
 	<space></space>
 </section>
+
+<!-- Home sections as of May 1st -->
+
+<?php foreach($sections as $section) { ?>
+<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
+	<inner-column>
+		<?php include('modules/' . $section['module']); ?>
+
+<?php if($section['slug'] == 'writing'){ ?>
+	<?php 
+		$blogsJson = file_get_contents('data/blogs.json');
+		$blogs = json_decode($blogsJson, true);
+	 ?>
+	<?php include("modules/blog-gallery.php"); ?>
+<?php	} ?>

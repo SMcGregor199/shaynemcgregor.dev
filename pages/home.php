@@ -8,14 +8,6 @@
 	<inner-column>
 		<?php include('modules/' . $section['module']); ?>
 
-		<?php if($section['slug'] == 'writing'){ ?>
-			<?php 
-				$blogsJson = file_get_contents('data/blogs.json');
-				$blogs = json_decode($blogsJson, true);
-			 ?>
-			<?php include("modules/blog-gallery.php"); ?>
-		<?php	} ?>
-
 		<?php if($section['slug'] == 'projects'){ ?>
 			<?php 
 				$projectsJson = file_get_contents("data/projects.json");
