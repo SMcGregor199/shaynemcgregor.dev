@@ -93,7 +93,7 @@
 			];
 				$gardens = [$defaultGarden,];
 			?>
-			<?php include("modules/garden-gallery.php"); ?>
+			<?php include("modules/gardens-gallery.php"); ?>
 		</inner-column>
 	</section>
 

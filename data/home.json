@@ -2,7 +2,7 @@
 	"sections":[
 		{
 			"slug":"about",
-			"module":"modules/article.php",
+			"module":"article.php",
 			"moduleTitle":"My Story",
 			"contents":[
 				"I am a web designer and hold a Ph.D. in African American Studies and English from Yale University. Thinking about web design through the lens of race and literature, allows me to pursue questions related to user accessibility and legibility.",
@@ -14,29 +14,36 @@
 
 		{
 			"slug":"writing",
-			"module":"modules/section-heading.php",
+			"module":"section-heading.php",
 			"moduleTitle":"Writing",
 			"content":"I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music."		
 		},
 
 		{	
 			"slug":"projects",
-			"module":"section-heading",
+			"module":"section-heading.php",
 			"moduleTitle":"Featured Projects & Exercises",
 			"content":"Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on."
 		},
 
 		{
 			"slug":"gardens",
-			"title":"gardens",
-			"module":"modules/garden-gallery.php"
+			"module":"section-heading.php",
+			"moduleTitle":"Programming Gardens",
+			"content":"They’re not projects in the sense that they have a definitive end goal. These “gardens,” like their real life counterparts, are places that I manage, curate, and exercise my programming skills. At the moment, I have two gardens. One shows off the work I’ve been doing developing forms with PHP while the other shows off my work with the flexible layout module. More gardens are soon to come."
+			
 
 		},
 
 		{
 			"slug":"playlist",
-			"title":"playlist",
-			"module":"modules/article.php"
+			"module":"article.php",
+			"moduleTitle":"Playlist",
+			"contents":[
+				"This is a collection of tracks I've been listening to. It's a dope list of tracks if you're into a mix of lofi, drill, phonk remixes, and '90s era beats. I'm still wrapping my head around how the internet has changed rap music. If you have any thoughts on this topic, comment on my Substack."
+			],
+			"moduleLink":"https://shaynemcgregor.substack.com/p/what-rap-have-i-been-listening-to?s=w",
+			"moduleLinkText":"Gritty Internet Hip-Hop Vibes"
 		}
 	]
 
