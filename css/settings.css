@@ -4,9 +4,27 @@ html {
 	--white: #FFFFFF;
 	--highlight: #f59b0f;
 	--color: #38e2cc;
+	--blue: #a4d6e1;
+	--pink: #ff999a;
+	--orange: #ffcc99;
+	--yellow: #ffee99;
 }
 
+.blue-box {
+  background-color:var(--blue) ;
+}
 
+.pink-box {
+  background-color:var(--pink) ;
+}
+
+.orange-box {
+  background-color:var(--orange) ;
+}
+
+.yellow-box {
+  background-color:var(--yellow) ;
+}
 
 
 /* USAGE */

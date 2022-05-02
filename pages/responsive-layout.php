@@ -15,14 +15,6 @@
 
 
 
-<section class='layout-01'>
-<inner-column>
-
-	<?php include('modules/layout-01.php'); ?>
-
-</inner-column>
-</section>
-
 
 
 <section class='layout-02'>

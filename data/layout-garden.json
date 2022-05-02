@@ -7,7 +7,8 @@
 			"content":"Here is where you'll find me cultivating different layout ideas. At the moment, most of what you'll find here was made using the flexible layout module."
 		},
 		{
-			
+			"slug":"layout-01",
+			"module":"layout-01.php"
 		}
 	]
 }
