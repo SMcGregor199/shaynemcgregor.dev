@@ -1,3 +1,5 @@
+<?php $projects = getData('data/projects.json'); ?>
+
 <projects-gallery>
 	<?php foreach($projects as $projectID => $project) { ?>
 		<project-card>

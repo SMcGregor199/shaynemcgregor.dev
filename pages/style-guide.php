@@ -1,3 +1,17 @@
+<?php 
+	$homePage = getData('data/style-guide.json');
+	$sections = $homePage['sections'];
+ ?>
+
+<?php foreach($sections as $section) { ?>
+	<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
+		<inner-column>
+			<?php include('modules/' . $section['module']); ?>	
+		</inner-column>
+		<space></space>
+	</section>
+<?php } ?>	
+
 	<h1 class="page-title title-font">Style Guide</h1>
 
 	<section class="fonts">
@@ -97,7 +111,7 @@
 		</inner-column>
 	</section>
 
-	<section class="project-card-zone">
+	<section class="project-gallery-zone">
 		<inner-column>
 			<h2 class="section-heading-font">Project Cards</h2>
 			<hr>

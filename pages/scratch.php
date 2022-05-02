@@ -201,3 +201,6 @@
 			 ?>
 			<?php include("modules/gardens-gallery.php"); ?>
 		<?php	} ?>	
+
+
+		<!-- style guide -->
