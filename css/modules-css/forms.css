@@ -1,0 +1,62 @@
+
+
+	form {
+		position: relative;
+		border: 4px solid black;
+		background-color: #F8F4E4;
+		width: fit-content;
+		box-shadow: 
+			10px 10px 0 0 #ffa580, 
+			10px 10px 0 4px black;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	form:after {
+		border-right: 5px solid #FFA580;
+		padding: 20px;
+	}
+
+	form p {
+		color: #978374;
+		padding-top: 20px;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	
+	div.field {
+		padding-top: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	form button {
+		margin-bottom: 20px;
+		margin-top: 25px;
+		border: 2px solid black;
+		background-color: #ffa580;
+		box-shadow: 2px 2px 0 0 yellow, 2px 2px 0 2px black;
+	}
+	form label {
+		color: #978374;
+	}
+	form input[type='text'] {
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #000000;
+}
+	form input[type='number'] {
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #000000;
+}
+	form label + input {
+		margin-top: 20px;
+	}
+
+	form li {
+		padding: 10px;
+	}
