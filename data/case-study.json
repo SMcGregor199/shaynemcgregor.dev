@@ -15,7 +15,7 @@
 		},
 		{
 			"slug":"data-considerations",
-			"module":"bridge-post.php",
+			"module":"bridge-post-column-images.php",
 			"moduleTitle":"Data Considerations",
 			"contents":[
 				"What started as a site designed to allow me to further practice query strings and JSON file construction, ended up turning into a website in which the user can dynamically update the library database with books of their own. Furthermore, they can update any piece of information included in the book’s record as well as delete the book from the database entirely.",
@@ -38,6 +38,12 @@
 				"images/form-add-book.png",
 				"images/form-filled.png"
 			]
+		},
+		{
+			"slug":"conclusion",
+			"module":"section-heading.php",
+			"moduleTitle":"Conclusion",
+			"content":"Building lion-cub books was challenging, edifying, and, above all else, fun. Send me an email if you'd like to discuss this project more."
 		}
 
 
