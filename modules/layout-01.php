@@ -1,6 +1,6 @@
 <h1 class="paragraph-font">Layout-Module 01</h1>
 
-<layout-01 class=" container">
+<layout-01 class="container">
 	<div class="blue-box">
 		<p>one</p>
 	</div>
