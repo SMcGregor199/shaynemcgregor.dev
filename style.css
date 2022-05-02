@@ -9,12 +9,13 @@
 /*MODULES*/
 @import "css/modules-css/header.css";
 @import "css/modules-css/footer.css";
-@import "css/modules-css/blog-card.css";
 @import "css/modules-css/blog-gallery.css";
-@import "css/modules-css/writing-intro.css";
+@import "css/modules-css/blog-intro.css";
 @import "css/modules-css/project-gallery.css";
+@import "css/modules-css/projects-intro.css";
 @import "css/modules-css/case-study.css";
 @import "css/modules-css/gardens-gallery.css";
+@import "css/modules-css/gardens-intro.css";
 @import "css/modules-css/section-heading.css";
 @import "css/modules-css/style-guide.css";
 @import "css/modules-css/article.css";
@@ -47,7 +48,7 @@ body {
 
 }
 
-	main {
+main {
 		flex-grow:  1;
 	}
 
@@ -64,18 +65,6 @@ space {
 section {
 	min-height: 30vh;
 }
-
-.projects inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 80px;
-}
-.gardens inner-column {
-	display: flex;
-	flex-direction: column;
-	gap: 80px;
-}
-
 
 
 under-construction h1 {

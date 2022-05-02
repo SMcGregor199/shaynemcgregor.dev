@@ -14,25 +14,24 @@
 
 		{
 			"slug":"writing",
-			"module":"writing-intro.php",
+			"module":"blog-intro.php",
 			"moduleTitle":"Writing",
 			"content":"I mostly write on Substack. But you can find me on Codenewbie where I typically respost my writing. Here are some of the pieces I'm particularly proud of, and speak to what I've been learning about web development as well as my recent thinking on rap music."		
 		},
 
 		{	
 			"slug":"projects",
-			"module":"section-heading.php",
+			"module":"projects-intro.php",
 			"moduleTitle":"Featured Projects & Exercises",
 			"content":"Here's a list of some projects that I've been working on. You can find a full list of the stuff I've been working on in Github. These projects highlight three distinct areas of web design and development that I like to focus on."
 		},
 
 		{
 			"slug":"gardens",
-			"module":"section-heading.php",
+			"module":"gardens-intro.php",
 			"moduleTitle":"Programming Gardens",
 			"content":"They’re not projects in the sense that they have a definitive end goal. These “gardens,” like their real life counterparts, are places that I manage, curate, and exercise my programming skills. At the moment, I have two gardens. One shows off the work I’ve been doing developing forms with PHP while the other shows off my work with the flexible layout module. More gardens are soon to come."
 			
-
 		},
 
 		{
