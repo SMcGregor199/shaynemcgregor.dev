@@ -33,7 +33,7 @@
 		if($page == 'php-exercises') {
 			include('pages/php-exercises.php');
 		}
-		if($page == 'responsive-layout') {
+		if($page == 'layout-garden') {
 			include('pages/responsive-layout.php');
 		}
 ?>

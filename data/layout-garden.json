@@ -1,0 +1,10 @@
+{
+	"sections":[
+		{
+			"slug":"layout-garden-intro",
+			"module":"section-heading.php",
+			"moduleTitle":"Responsive Layout Garden",
+			"content":"Here is where you'll find me cultivating different layout ideas. At the moment, most of what you'll find here was made using the flexible layout module."
+		}
+	]
+}
