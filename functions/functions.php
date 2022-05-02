@@ -6,6 +6,5 @@ function getData($path){
 	}
 
 }
-$blogsJson = file_get_contents('data/blogs.json');
-json_decode($blogsJson, true);
+
 ?>

@@ -1,6 +1,5 @@
 <?php 
-	$case_studyPageJson = file_get_contents('data/case-study.json');
-	$case_studyPage = json_decode($case_studyPageJson, true);
+	$case_studyPage = getData('data/case-study.json');
 	$sections = $case_studyPage['sections'];
 	
 	$projects = getData('data/projects.json')
@@ -19,7 +18,6 @@
 				<space></space>
 			</section>
 		<?php	} ?>
-
 <!-- End of Current Case Study -->
 	<?php } else { ?>
 				<h1>This the Case Study of a different project</h1>

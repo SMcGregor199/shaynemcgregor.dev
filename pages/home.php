@@ -1,7 +1,6 @@
 <?php 
-		$homePageJson = file_get_contents('data/home.json');
-		$homePage = json_decode($homePageJson, true);
-		$sections = $homePage['sections'];
+	$homePage = getData('data/home.json');
+	$sections = $homePage['sections'];
  ?>
 
 <?php foreach($sections as $section) { ?>

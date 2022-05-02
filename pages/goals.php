@@ -1,6 +1,5 @@
 <?php 
-	$goalsPageJson = file_get_contents('data/goals.json');
-	$goalsPage = json_decode($goalsPageJson, true);
+	$goalsPage = getData('data/goals.json');
 	$sections = $goalsPage['sections'];
  ?>
 
