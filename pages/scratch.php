@@ -6,7 +6,7 @@
 				?>
 				<?php include("modules/section-heading.php"); ?>
 			</inner-column>
-		</section>
+</section>
 
 		<section class="overview">
 			<inner-column>

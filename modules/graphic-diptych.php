@@ -1,5 +1,5 @@
 
-<?php $pathExtension = pathinfo($linkPath, PATHINFO_EXTENSION); ?>
+<?php $pathExtension = pathinfo($section['linkPath'], PATHINFO_EXTENSION); ?>
 
 <graphic-diptych>
 
@@ -11,7 +11,7 @@
 			<img src="<?=$linkPath?>">
 
 		<?php	} if($pathExtension == 'svg') { ?>
-			<?php include($linkPath); ?>
+			<?php include($section['linkPath']); ?>
 		<?php } ?> 
 
 	</picture>
