@@ -1,8 +1,5 @@
-<?php 
+<?php
 	include('modules/section-heading.php');
+	include('modules/gardens-gallery.php'); 
 ?>
 
-<?php 
-	$gardens = getData('data/gardens.json');
-	include("modules/gardens-gallery.php"); 
-?>

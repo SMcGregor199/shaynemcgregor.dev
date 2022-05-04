@@ -14,6 +14,11 @@
 			"slug":"article-zone",
 			"title":"Article",
 			"module":"article.php"
+		},
+		{
+			"slug":"garden-card-zone",
+			"title":"Garden Cards",
+			"module":"gardens-gallery.php"
 		}
 
 	]

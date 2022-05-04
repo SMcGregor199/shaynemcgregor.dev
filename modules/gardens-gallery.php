@@ -1,3 +1,5 @@
+<?php $gardens = getData('data/gardens.json'); ?>
+
 <gardens-gallery>
 	<?php foreach($gardens as $garden) { ?>
 		<garden-card>
