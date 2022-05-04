@@ -24,22 +24,7 @@
 
 
 
-	<section class="garden-card-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Garden Cards</h2>
-			<hr>
-			<?php
-			$defaultGarden = [
-				'title' => 'Heading Level 3',
-				'content' => "This is a paragraph text that gives a brief overview of its content. It'll be really exciting content so I hope you check it out.",
-				'link' => '#',
-				'linkText' => 'Click Here',
-			];
-				$gardens = [$defaultGarden,];
-			?>
-			<?php include("modules/gardens-gallery.php"); ?>
-		</inner-column>
-	</section>
+
 
 	<section class="project-gallery-zone">
 		<inner-column>
