@@ -1,4 +1,4 @@
-<h1 class="paragraph-font">Layout-Module 01</h1>
+<h2 class="paragraph-font">Layout-Module 01</h2>
 
 <layout-01 class="container">
 	<div class="blue-box">

@@ -9,6 +9,22 @@
 		{
 			"slug":"layout-01",
 			"module":"layout-01.php"
+		},
+		{
+			"slug":"layout-02",
+			"module":"layout-02.php"
+		},
+		{
+			"slug":"layout-03",
+			"module":"layout-03.php"
+		},
+		{
+			"slug":"layout-04",
+			"module":"layout-04.php"
+		},
+		{
+			"slug":"layout-05",
+			"module":"layout-05.php"
 		}
 	]
 }
