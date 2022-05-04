@@ -1,8 +1,20 @@
 {
 	"sections":[
 		{
-			"slug":"fonts",
+			"slug":"section-home-header-zone",
+			"title":"Site-Menu",
+			"module":"general-site-header.php"
+		},
+		{
+			"slug":"section-heading-zone",
+			"title":"Section-Heading",
 			"module":"section-heading.php"
+		},
+		{
+			"slug":"article-zone",
+			"title":"Article",
+			"module":"article.php"
 		}
+
 	]
 }

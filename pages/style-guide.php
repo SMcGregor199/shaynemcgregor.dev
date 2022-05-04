@@ -3,96 +3,26 @@
 	$sections = $homePage['sections'];
  ?>
 
+		<h1 class="page-title title-font">Style Guide</h1>
+
+<?php include('modules/fonts-style-guide.php');?>
+<?php include('modules/type-patterns-style-guide.php'); ?>
+<?php include('modules/colors-style-guide.php'); ?>
+
 <?php foreach($sections as $section) { ?>
 	<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
 		<inner-column>
+			<?php if($_GET['page'] == 'style-guide') { ?>
+			<h2 class="section-heading-font"><?=$section['title']?></h2>
+			<hr>
+			<?php } ?>
 			<?php include('modules/' . $section['module']); ?>	
 		</inner-column>
 		<space></space>
 	</section>
 <?php } ?>	
 
-	<h1 class="page-title title-font">Style Guide</h1>
 
-	<section class="fonts">
-		<inner-column>
-			<h2 class="section-heading-font">Fonts</h2>
-			<hr>
-			<p class="paragraph-font">Red Hat Display</p>
-		</inner-column>
-	</section>
-	
-	<section class="type-patterns-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Type Patterns</h2>
-			<hr>
-			<h1 class="title-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</h1>
-			<h1 class="title-font">1234567890</h1>
-			<h2 class="section-heading-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</h2>
-			<h2 class="section-heading-font">1234567890</h2>
-			<p class="paragraph-font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-			<p class="paragraph-font">1234567890</p>
-		</inner-column>
-	</section>
-
-	<section class="colors-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Colors</h2>
-			<hr>
-
-			<colors-to-row>
-				<div class="black">
-					<p class="paragraph-font">#000000</p>
-				</div>
-
-				<div class="white">
-					<p class="paragraph-font">#FFFFFF</p>
-				</div>
-			</colors-to-row>
-		</inner-column>
-	</section>
-
-	<section class="links-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Links</h2>
-			<hr>
-			<a href="#" class="link-font">Read</a>
-		</inner-column>
-	</section>
-
-	<section class="section-home-header-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Site-Menu</h2>
-			<hr>
-			<?php include("modules/general-site-header.php"); ?>
-		</inner-column>
-	</section>
-	
-	<section class="section-heading-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Section-Heading</h2>			
-			<hr>
-			<?php 
-				$title = "Heading level 2";
-				$content = "This is some paragraph text that describes and contextualizes the content below it. Each section, representing a different aspect of the work I've done will prove important for site visitor's to get to know who I am.";
-			?>
-			<?php include("modules/section-heading.php"); ?>
-		</inner-column>
-	</section>
-
-	<section class="article-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Article</h2>
-			<hr>
-			<?php 
-				$title = "Article Title";
-				$contents = ["When I listen to another worker tell me that his factory has shut down, I remember all those men and women on the South Side of Chicago who I stood by and fought for two decades ago after the local steel plant closed. So I have known Islam on three continents before coming to the region where it was first revealed. There is no straight line to realize this promise.","The Internet and television can bring knowledge and information, but also offensive sexuality and mindless violence. The issues that I have described will not be easy to address. It's been several months now since I announced I was running for president. And we should close Guantanamo Bay and stop tolerating the torture of our enemies."];
-				$link = "#";
-				$linkText = "Link";
-			?>
-			<?php include("modules/article.php"); ?>
-		</inner-column>
-	</section>
 
 	<section class="garden-card-zone">
 		<inner-column>
