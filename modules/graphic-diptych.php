@@ -1,5 +1,10 @@
+<?php 
+	$heading = isset($section['moduleTitle'])  ? $section['moduleTitle'] : "Graphic Diptych Module";
+	$content = isset($section['content']) ? $section['content'] : "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups";
+	$linkPath = isset($section['linkPath']) ? $section['linkPath'] : "images/default.jpeg";
 
-<?php $pathExtension = pathinfo($section['linkPath'], PATHINFO_EXTENSION); ?>
+	$pathExtension = pathinfo($linkPath, PATHINFO_EXTENSION);
+?>
 
 <graphic-diptych>
 
@@ -11,7 +16,7 @@
 			<img src="<?=$linkPath?>">
 
 		<?php	} if($pathExtension == 'svg') { ?>
-			<?php include($section['linkPath']); ?>
+			<?php include($linkPath); ?>
 		<?php } ?> 
 
 	</picture>
