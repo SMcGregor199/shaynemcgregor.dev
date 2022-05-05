@@ -39,6 +39,11 @@
 			"slug":"graphic-diptych-zone",
 			"title":"Graphic Diptych",
 			"module":"graphic-diptych"
+		},
+		{
+			"slug":"bridge-post-zone",
+			"title":"Bridge Post",
+			"module":"bridge-post"
 		}
 
 	]

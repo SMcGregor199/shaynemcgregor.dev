@@ -22,3 +22,9 @@
 	</picture>
 
 </graphic-diptych>
+
+<?php 
+	unset($heading);
+	unset($content);
+	unset($linkPath);
+?>

@@ -26,16 +26,3 @@
 
 
 
-	<section class="bridge-post-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Bridge Post</h2>
-			<hr>
-			<?php
-				$images = ["images/default.jpeg","images/svgs/lion.svg"];
-				$baseContent = "This is some paragraph text that describes and contextualizes the content next and succeeding it. This module will usually be used at the beginning of case studies, and will be used to give an overview of the project.";
-				$horizontalImages = false;
-			 ?>
-			<?php include('modules/bridge-post.php'); ?>
-		</inner-column>
-	</section>
-
