@@ -3,7 +3,6 @@
 	"sections":[
 		{
 			"slug":"highest-priority",
-			"module":"list-module.php",
 			"listTitle":"Highest Priority",
 			"goalItems":[
 				"To earn a full-time job working in web development by the end of summer 2022"
@@ -11,7 +10,6 @@
 		},
 		{
 			"slug":"high-priority",
-			"module":"list-module.php",
 			"listTitle":"High Priority",
 			"goalItems":[
 				"To launch a Wordpress-built rap blog by the end of June, 2022.",
@@ -21,7 +19,6 @@
 		},
 		{
 			"slug":"medium-priority",
-			"module":"list-module.php",
 			"listTitle":"Medium Priority",
 			"goalItems":[
 				"To learn how to draw through the lessons on drawbox.com"

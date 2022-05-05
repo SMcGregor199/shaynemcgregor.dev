@@ -27,18 +27,6 @@
 
 
 
-	<section class="list-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Lists</h2>
-			<hr>
-			<?php 
-				$title = "List Name";
-				$goals = ["I will state the first item here","I will state the second item here","if there's a third item, I'll state it here. Should these be in a specific order?"];
-			?>
-			<?php include("modules/list-module.php"); ?>
-		</inner-column>
-	</section>
-
 	<section class="graphic-diptych-zone">
 		<inner-column>
 		<h2 class="section-heading-font">Section Heading W/ Graphic</h2>

@@ -7,7 +7,7 @@
 	foreach($sections as $section) { ?>
 	<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
 		<inner-column>
-			<?php include('modules/' . $section['module']); ?>	
+			<?php include('modules/list-module.php'); ?>	
 		</inner-column>
 		<space></space>
 	</section>

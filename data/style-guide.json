@@ -29,6 +29,11 @@
 			"slug":"blog-card-zone",
 			"title":"Blog Cards",
 			"module":"blog-gallery"
+		},
+		{
+			"slug":"list-zone",
+			"title":"Lists",
+			"module":"list-module"
 		}
 
 	]
