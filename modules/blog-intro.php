@@ -1,11 +1,9 @@
 <?php 
 	include('modules/section-heading.php');
+	include("modules/blog-gallery.php"); 
 ?>
 
-<?php 
-	$blogs = getData('data/blogs.json');
-	include("modules/blog-gallery.php"); 
- ?>
+
 
 
 

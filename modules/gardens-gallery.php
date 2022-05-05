@@ -1,16 +1,17 @@
-<?php $gardens = getData('data/gardens.json'); ?>
+<?php 
+	$gardens = getData('data/gardens.json'); 
 
-<?php if($_GET['page'] == 'style-guide') { ?> 
-	<?php 
+	if($page == 'style-guide') { 
+
 		$defaultGarden = [
 			"title" => "Heading Level 3",
 			"content" => "This is a paragraph text that gives a brief overview of its content. It'll be really exciting content so I hope you check it out.",
 			"link" => "#",
 			"linkText" => "Click Here",
 		];
-		$gardens = [$defaultGarden,];
-	?>
-<?php }?>
+		$gardens = [$defaultGarden];
+	}
+?>		
 
 <gardens-gallery>
 	<?php foreach($gardens as $garden) { ?>

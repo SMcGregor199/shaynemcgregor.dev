@@ -3,22 +3,32 @@
 		{
 			"slug":"section-home-header-zone",
 			"title":"Site-Menu",
-			"module":"general-site-header.php"
+			"module":"general-site-header"
 		},
 		{
 			"slug":"section-heading-zone",
 			"title":"Section-Heading",
-			"module":"section-heading.php"
+			"module":"section-heading"
 		},
 		{
 			"slug":"article-zone",
 			"title":"Article",
-			"module":"article.php"
+			"module":"article"
 		},
 		{
 			"slug":"garden-card-zone",
 			"title":"Garden Cards",
-			"module":"gardens-gallery.php"
+			"module":"gardens-gallery"
+		},
+		{
+			"slug":"project-gallery-zone",
+			"title":"Project Cards",
+			"module":"project-gallery"
+		},
+		{
+			"slug":"blog-card-zone",
+			"title":"Blog Cards",
+			"module":"blog-gallery"
 		}
 
 	]

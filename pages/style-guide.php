@@ -16,7 +16,7 @@
 			<h2 class="section-heading-font"><?=$section['title']?></h2>
 			<hr>
 			<?php } ?>
-			<?php include('modules/' . $section['module']); ?>	
+			<?php include('modules/' . $section['module'] . '.php'); ?>	
 		</inner-column>
 		<space></space>
 	</section>
@@ -26,43 +26,6 @@
 
 
 
-	<section class="project-gallery-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Project Cards</h2>
-			<hr>
-			<?php 
-				$defaultProject = [
-					"title" => 'Heading Level 3',
-					'image' => 'images/default.jpeg',
-					'content' => "This is Paragraph text that gives a brief description of the project. With each description I try my best to make clear the project's primary goal.",
-					"link" => "#",
-					"linkText" => "Case Study"
-				];
-				$projects = [$defaultProject];
-			?>
-			<?php include("modules/project-gallery.php"); ?>
-			
-		</inner-column>
-	</section>
-
-	<section class="blog-card-zone">
-		<inner-column>
-			<h2 class="section-heading-font">Blog Cards</h2>
-			<hr>
-			<?php 
-				$defaultBlog = [
-					'title' => "Heading Level 3",
-					'content' => "A Catchy sentence to earn your attention",
-					'link' => "#",
-					'linkTarget' => "default",
-					'linkText' => "Read",
-				];
-				$blogs = [$defaultBlog];
-
-			?>
-			<?php include("modules/blog-gallery.php"); ?>
-		</inner-column>
-	</section>
 
 	<section class="list-zone">
 		<inner-column>

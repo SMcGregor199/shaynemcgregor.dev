@@ -1,3 +1,11 @@
+<?php $blogs = getData('data/blogs.json');
+
+	if($page == 'style-guide') { 
+
+		$blogs = getData('data/default-blog.json');
+	}
+?>
+
 <blog-gallery>
 	<?php foreach ($blogs as $blog) {   ?>
 		<blog-card>

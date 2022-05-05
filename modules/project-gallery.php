@@ -1,4 +1,10 @@
-<?php $projects = getData('data/projects.json'); ?>
+<?php $projects = getData('data/projects.json'); 
+
+	if($page == 'style-guide') { 
+
+		$projects = getData('data/default-project.json');
+	}
+?>
 
 <projects-gallery>
 	<?php foreach($projects as $projectID => $project) { ?>
