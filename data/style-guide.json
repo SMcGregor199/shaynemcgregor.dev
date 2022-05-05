@@ -44,6 +44,11 @@
 			"slug":"bridge-post-zone",
 			"title":"Bridge Post",
 			"module":"bridge-post"
+		},
+		{
+			"slug":"bridge-post-with-images-zone",
+			"title":"Bridge Post with Column Images",
+			"module":"bridge-post-column-images"
 		}
 
 	]
