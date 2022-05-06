@@ -2,27 +2,11 @@ h1.page-title {
 	text-align: center;
 }
 
-.guide-spacing {
-	display: flex;
-	flex-direction: column;
-	gap: 150px;
-}
-h2.section-heading-font p {
-	padding-top: 20px;
-}
 
 hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
-.type-patterns h1+h2, h2+p {
-	margin-top: 20px;
-}
-
-
-
-
 
 
 .colors-zone colors-to-row {

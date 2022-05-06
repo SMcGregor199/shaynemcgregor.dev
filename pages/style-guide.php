@@ -11,8 +11,10 @@
 
 <?php foreach($sections as $section) { ?>
 	<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
+
 		<inner-column>
 			<?php if($_GET['page'] == 'style-guide') { ?>
+			<a class="link-font" href="?page=style-guide&type=<?=$section['title']?>">Detail Link</a>
 			<h2 class="section-heading-font"><?=$section['title']?></h2>
 			<hr>
 			<?php } ?>

@@ -14,8 +14,5 @@
 </article>
 
 <?php 
-	unset($heading);
-	unset($contents);
-	unset($link);
-	unset($linkText);
+	unset($heading,$contents,$link, $linkText);
 ?>
