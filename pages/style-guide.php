@@ -14,7 +14,7 @@
 
 		<inner-column>
 			<?php if($_GET['page'] == 'style-guide') { ?>
-			<a class="link-font" href="?page=style-guide&type=<?=$section['title']?>">Detail Link</a>
+			<a class="link-font" href="?page=module&type=<?=$section['slug']?>">Detail Link</a>
 			<h2 class="section-heading-font"><?=$section['title']?></h2>
 			<hr>
 			<?php } ?>

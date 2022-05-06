@@ -3,6 +3,7 @@
 <?php 
 	/* router */
 	$page = null;
+
 	if( isset($_GET["page"]) ) {
 		$page = $_GET["page"];
 	} else {
@@ -24,6 +25,10 @@
 
 		if($page == "style-guide") {
 			include('pages/style-guide.php');
+		}
+
+		if($page == 'module') {
+			include('pages/module.php');
 		}
 
 		if($page == "goals") {
