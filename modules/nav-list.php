@@ -1,5 +1,6 @@
 <?php 
 	$navTitle = isset($section['navTitle']) ? $section['navTitle'] : "Navigation List Name";
+
 	$Link1 = [
 		"navLink" => "#",
 		"navText" => "Link #1",
@@ -12,6 +13,7 @@
 		"navLink" => "#",
 		"navText" => "Link #3",
 	];
+	
 	$navItems = isset($section["navItems"]) ? $section["navItems"] : [$Link1,$Link2,$Link3];
 ?>
 
