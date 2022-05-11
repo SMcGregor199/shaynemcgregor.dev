@@ -6,5 +6,11 @@ function getData($path){
 	}
 
 }
-
+function renderPage($page){
+	if(isset($page['sections']) ) {
+		foreach($page['sections'] as $section) {
+			include('modules/page-template.php');
+		}
+	}
+}
 ?>
