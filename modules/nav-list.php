@@ -13,12 +13,12 @@
 		"navLink" => "#",
 		"navText" => "Link #3",
 	];
-	
+
 	$navItems = isset($section["navItems"]) ? $section["navItems"] : [$Link1,$Link2,$Link3];
 ?>
 
 <h2 class="section-heading-font"><?=$navTitle?></h2>
-<nav>
+<nav class="nav-list">
 	<ul class="link-font">
 	<?php foreach($navItems as $navItem) { ?>
 		<li><a href="<?=$navItem['navLink']?>"><?=$navItem['navText']?></a></li>
