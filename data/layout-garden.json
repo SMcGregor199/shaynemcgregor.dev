@@ -2,29 +2,29 @@
 	"sections":[
 		{
 			"slug":"layout-garden-intro",
-			"module":"section-heading.php",
+			"module":"section-heading",
 			"moduleTitle":"Responsive Layout Garden",
 			"content":"Here is where you'll find me cultivating different layout ideas. At the moment, most of what you'll find here was made using the flexible layout module."
 		},
 		{
 			"slug":"layout-01",
-			"module":"layout-01.php"
+			"module":"layout-01"
 		},
 		{
 			"slug":"layout-02",
-			"module":"layout-02.php"
+			"module":"layout-02"
 		},
 		{
 			"slug":"layout-03",
-			"module":"layout-03.php"
+			"module":"layout-03"
 		},
 		{
 			"slug":"layout-04",
-			"module":"layout-04.php"
+			"module":"layout-04"
 		},
 		{
 			"slug":"layout-05",
-			"module":"layout-05.php"
+			"module":"layout-05"
 		}
 	]
 }
