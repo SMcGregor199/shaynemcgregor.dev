@@ -1,7 +1,6 @@
-
 <?php 
-	$layoutGarden = getData('data/layout-garden.json');
-	renderPage($layoutGarden);
+	$layoutGardenPage = getData('data/layout-garden.json');
+	renderPage($layoutGardenPage);
  ?>
 
 

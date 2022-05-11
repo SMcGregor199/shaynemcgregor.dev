@@ -50,6 +50,11 @@
 			"slug":"bridge-post-with-images-zone",
 			"title":"Bridge Post with Column Images",
 			"module":"bridge-post-column-images"
+		},
+		{
+			"slug":"nav-list-zone",
+			"title":"Navigation List of Links",
+			"module":"nav-list"
 		}
 
 	]
