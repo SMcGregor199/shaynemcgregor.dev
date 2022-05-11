@@ -1,36 +1,28 @@
 <?php 
 	$case_studyPage = getData('data/case-study.json');
-	$sections = $case_studyPage['sections'];
-	
-	$projects = getData('data/projects.json')
-?>
-<?php 
+
+	$projects = getData('data/projects.json');
+
 	$current_project_id = $_GET["projectID"]; 
+
+	foreach($projects as $projectID => $project) { 
+ 		if($current_project_id == $projectID) { 
+			renderPage($case_studyPage);
+		} else {
+				echo "<h1>This the Case Study of a different project</h1>";
+			 } 
+	}
 ?>
-<?php foreach($projects as $projectID => $project) { ?>
-	<?php if($current_project_id == $projectID) { ?>
-<!-- Start of Current Case Study -->
-		<?php foreach($sections as $section) { ?>
-			<section id="<?=$section['slug']?>" class="<?=$section['slug']?>">
-				<inner-column>
-					<?php include('modules/' . $section['module']); ?>	
-				</inner-column>
-				<space></space>
-			</section>
-		<?php	} ?>
-<!-- End of Current Case Study -->
-	<?php } else { ?>
-				<h1>This the Case Study of a different project</h1>
-				<?php }?>
 
-		<inner-column>
-			<nav>
-				<a href="?page=home" class="link-font" rel="toggle">Go Back to Home</a>
-			</nav>
-		</inner-column>
 
-	
-<?php } ?>
+<section>
+	<inner-column>
+		<nav>
+			<a href="?page=home" class="link-font" rel="toggle">Go Back to Home</a>
+		</nav>
+	</inner-column>
+</section>
+
 
 
 

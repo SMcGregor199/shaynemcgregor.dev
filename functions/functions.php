@@ -13,4 +13,14 @@ function renderPage($page){
 		}
 	}
 }
+
+function isStyleGuide() {
+	if ( isset($_GET['page'])) {
+		if ($_GET['page'] == 'style-guide'){
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
 ?>
