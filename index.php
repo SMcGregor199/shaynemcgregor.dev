@@ -1,6 +1,6 @@
 
 
-<?php 
+<?php
 	/* router */
 	$page = null;
 
@@ -10,38 +10,11 @@
 		$page = "home";
 	} 
 	include('functions/functions.php');
-?>
 
-<?php include("modules/header.php");?>
+	include("modules/header.php");
 
-<?php	
-		if ($page == "home") {
-		include('pages/home.php');
-		} 
+	renderPage(getData('data/' . $page . '.json') );
 
-		if($page == "case-study") {
-			include('pages/case-study.php');
-		}
+ 	include("modules/footer.php");
 
-		if($page == "style-guide") {
-			include('pages/style-guide.php');
-		}
-
-		if($page == 'module') {
-			include('pages/module.php');
-		}
-
-		if($page == "goals") {
-			include('pages/goals.php');
-		}
-
-		if($page == 'php-exercises') {
-			include('pages/php-exercises.php');
-		}
-		if($page == 'layout-garden') {
-			include('pages/responsive-layout.php');
-		}
-?>
-
-		
-<?php include("modules/footer.php");?>
+ ?>
