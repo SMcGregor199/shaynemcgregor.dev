@@ -1,6 +1,10 @@
 
 <?php get_header(); ?>
 
-<h1>This is the index page</h1>
+<?php 
+	if ( is_page('home') ) {
+		include("templates/pages/home.php");
+	}
+?>
 
 <?php get_footer(); ?>

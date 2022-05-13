@@ -11,10 +11,11 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body>
+	<body <?php body_class(); ?> >
 
 		<header class='site-header'>
 			<inner-column>
+				<?php include('templates/components/site-menu.php'); ?>
 				<h1>This is the header</h1>
 			</inner-column>
 		</header>
