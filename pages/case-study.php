@@ -2,7 +2,6 @@
 	$case_studyPage = getData('data/case-study.json');
 
 	$projects = getData('data/projects.json');
-
 	$current_project_id = $_GET["projectID"]; 
 
 	foreach($projects as $projectID => $project) { 

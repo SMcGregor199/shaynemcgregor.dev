@@ -23,4 +23,15 @@ function isStyleGuide() {
 		}
 	}
 }
+
+
+function isCaseStudy() {
+	if ( isset($_GET['page'])) {
+		if ($_GET['page'] == 'case-study'){
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
 ?>
