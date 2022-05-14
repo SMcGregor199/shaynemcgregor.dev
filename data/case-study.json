@@ -44,6 +44,12 @@
 			"module":"section-heading",
 			"moduleTitle":"Conclusion",
 			"content":"Building lion-cub books was challenging, edifying, and, above all else, fun. Send me an email if you'd like to discuss this project more."
+		},
+		{
+			"slug":"home-link",
+			"module":"single-link",
+			"moduleLinkText":"Go Back to Home",
+			"moduleLink":"?page=home"
 		}
 
 

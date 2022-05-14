@@ -55,6 +55,11 @@
 			"slug":"nav-list-zone",
 			"title":"Navigation List of Links",
 			"module":"nav-list"
+		},
+		{
+			"slug":"nav-link-zone",
+			"title":"Single Link",
+			"module":"single-link"
 		}
 
 	]

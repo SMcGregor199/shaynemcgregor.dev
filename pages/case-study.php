@@ -15,15 +15,6 @@
 ?>
 
 
-<section>
-	<inner-column>
-		<nav>
-			<a href="?page=home" class="link-font" rel="toggle">Go Back to Home</a>
-		</nav>
-	</inner-column>
-</section>
-
-
 
 
 
