@@ -1,0 +1,23 @@
+/*
+Theme Name: Lion Cub Books 2022
+
+Author: Shayne McGregor
+Author URI: https://shaynemcgregor.dev
+Description: The wordpress version of my CRUD site
+
+Version: 0.1
+Requires at least: 5.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rap2022
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import "css/meyer-reset.css";
+@import "css/setup.css";
+@import "css/settings.css";
+@import "css/typography.css";
+h1	{
+	color: red;
+}
