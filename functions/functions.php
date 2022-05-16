@@ -35,5 +35,19 @@ function isCaseStudy() {
 	}
 }
 
+function getProjectPageById($id) {
+	$path = 'data/projects.json';
+	$projects = "";
+	if ( file_exists($path) ) {
+		$projects = getData($path);
+	}
+	foreach ($projects as $projectId => $project) {
+		if ( $id == $projectId ) {
+			renderPage(getData('data/case-study.json') );
+		} else {
+			echo "<h1>This the Case Study of a different project</h1>";
+		}
+	}
+}
 
 ?>

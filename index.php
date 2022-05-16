@@ -14,10 +14,12 @@
 	include("modules/header.php");
 
 	if( isCaseStudy() ) {
-		include('pages/case-study.php');
+		getProjectPageById($_GET['projectID']);
 	} else {
 		renderPage(getData('data/' . $page . '.json') );
 	}
+	
+	
 	
 
  	include("modules/footer.php");

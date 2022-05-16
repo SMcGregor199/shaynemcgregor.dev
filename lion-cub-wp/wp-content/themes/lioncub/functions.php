@@ -15,4 +15,9 @@ function register_my_menu() {
 }
 add_action( 'init', 'register_my_menu' );
 
+//Finds the file path
+function getFile($path) {
+  return dirname(__FILE__) . '/' . $path;
+}
+
 ?>

@@ -217,3 +217,7 @@
 			<li><a class="link-font" href="?page=">Simple Math</a></li>
 		</ul>
 </nav>
+<!--  -->
+else {
+				echo "<h1>This the Case Study of a different project</h1>";
+			 } 

@@ -1,0 +1,1 @@
+<h1>This file comes from the svg folder</h1>
