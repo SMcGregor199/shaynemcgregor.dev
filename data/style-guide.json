@@ -1,6 +1,26 @@
 {
 	"sections":[
 		{
+			"slug":"page-title-zone",
+			"title":"Page Title Module",
+			"module":"page-title"
+		},
+		{
+			"slug":"fonts",
+			"title":"Fonts",
+			"module":"fonts-style-guide"
+		},
+		{
+			"slug":"type-patterns-zone",
+			"title":"Type Patterns",
+			"module":"type-patterns-style-guide"
+		},
+		{
+			"slug":"colors-zone",
+			"title":"Colors",
+			"module":"colors-style-guide"
+		},
+		{
 			"slug":"section-home-header-zone",
 			"title":"Site-Menu",
 			"module":"general-site-header"
