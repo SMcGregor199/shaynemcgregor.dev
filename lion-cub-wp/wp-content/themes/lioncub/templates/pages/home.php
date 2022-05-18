@@ -1,6 +1,6 @@
 <section>
 	<inner-column>
 		<h1>This is the home page</h1>
-		<?php	include( getFile('images/example.php') ); ?>
+		<h1>This is where the svg is supposed to be</h1>
 	</inner-column>
 </section>
