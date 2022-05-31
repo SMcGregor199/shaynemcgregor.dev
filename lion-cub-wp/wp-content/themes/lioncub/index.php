@@ -9,6 +9,10 @@
 	if ( is_page('browse-genres') ) {
 		include("templates/pages/browse-genres.php");
 	}
+
+	if ( is_singular('genre') ) {
+		include('templates/pages/book-detail.php');
+	}
 ?>
 
 <?php get_footer(); ?>

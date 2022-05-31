@@ -3,4 +3,9 @@
 	$genre_link = get_permalink();
 ?>
 
-<a href="<?=$genre_link?>"><?=$genre_name?></a>
+
+<nav class="nav-list">
+	<ul class="link-font">
+		<li><a href="<?=$genre_link?>"><?=$genre_name?></a></li>
+	</ul>
+</nav>
