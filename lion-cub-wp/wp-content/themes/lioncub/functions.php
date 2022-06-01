@@ -21,7 +21,7 @@ function getFile($path) {
 }
 
 //loops through custom taxonomy 
-function createGenreLinks($customTax, $postType) {
+function createGenreLinks($customTax) {
   $genres = get_terms(
                 array($customTax),
                 array(
@@ -35,33 +35,13 @@ function createGenreLinks($customTax, $postType) {
 if( $genres ) :
 
     foreach( $genres as $term ) :
-
+        $url = $term->slug;
         //var_dump( $term );
-        echo "<a href=''>$term->name</a>";
+        echo "<a href='$url'>$term->name</a>";
 
-        $args = array(
-                'post_type'             => $postType,
-                'posts_per_page'        => 10, //specify yours
-                'post_status'           => 'publish',
-                'tax_query'             => array(
-                                            array(
-                                                'taxonomy' => 'category',
-                                                'field'    => 'slug',
-                                                'terms'    => $term->slug,
-                                            ),
-                                        ),
-                'ignore_sticky_posts'   => true //caller_get_posts is deprecated since 3.1
-            );
-        $_posts = new WP_Query( $args );
 
-        if( $_posts->have_posts() ) :
-            while( $_posts->have_posts() ) : $_posts->the_post();
 
-                echo '<h5>'. get_the_title() .'</h5>';
-
-            endwhile;
-        endif;
-        wp_reset_postdata(); //important
+      
 
     endforeach;
 

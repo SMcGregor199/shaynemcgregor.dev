@@ -6,7 +6,7 @@
 		include("templates/pages/home.php");
 	}
 
-	if ( is_page('browse-genres') ) {
+	if ( is_page('genre') ) {
 		include("templates/pages/browse-genres.php");
 	}
 
