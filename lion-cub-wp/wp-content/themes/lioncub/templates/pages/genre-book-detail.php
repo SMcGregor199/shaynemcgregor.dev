@@ -12,11 +12,12 @@ $genre_name = get_field('name');
     "post__not_in" => array(46),
     "orderby" => "ID",
     "order" => "ASC",
+    "genre" => $genre_name
   );
 
   $query = new WP_Query($parameters);
+ 
   while ($query->have_posts()) : $query->the_post();
-    
     include( getFile('templates/components/book-card.php') );
   endwhile;
 
@@ -24,9 +25,6 @@ $genre_name = get_field('name');
   //Allows looping of more items below this.
   wp_reset_postdata();
 
-?>
-<?php
-	
 ?>
 
 

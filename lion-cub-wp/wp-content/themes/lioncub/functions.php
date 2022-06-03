@@ -27,8 +27,7 @@ function createGenreLinks($customTax) {
                 array(
                         'hide_empty'    => false,
                         'orderby'       => 'name',
-                        'order'         => 'ASC',
-                        'number'        => 6 //specify yours
+                        'order'         => 'ASC'
                     )
             );
 
