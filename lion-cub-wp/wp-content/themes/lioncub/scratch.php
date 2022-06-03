@@ -37,3 +37,12 @@ if( $authors ): ?>
     //Allows looping of more items below this.
     wp_reset_postdata();
 ?>
+
+
+<?php
+  // show genres
+  $myGenres = get_terms( 'genre', array('hide_empty' => true) );
+  foreach($myGenres as $genre) {
+     echo 'test test';
+  }
+?>

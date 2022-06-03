@@ -1,29 +1,34 @@
 <?php 
 	$title = get_field('title');
 	$blurb = get_field('blurb');
-	$book_cover = get_field('book_cover')['url'];
+	$book_cover = get_field('book_cover')['url']; 
 ?>
+	
 
 <?php
-$authors = get_field('author');
-if( $authors ): ?>
-    <ul>
+	$authors = get_field('author');
+		if( $authors ): 
+?>
     <?php foreach( $authors as $author ): 
-        $permalink = get_permalink( $author->ID );
-        $name = get_field( 'name', $author->ID );
-        ?>
-        <li>
-        		<?php echo $name; ?>
-        </li>
+        		$permalink = get_permalink( $author->ID );
+        		$name = get_field( 'name', $author->ID );
+       ?>
+       
+   		<?php	 $author = $name   ?>       
+        
     <?php endforeach; ?>
-    </ul>
 <?php endif; ?>
+
+
 
 <book-card>
 	<div class="book-info">
 		<h2 class="title"><?=$title?></h2>
+
 		<address class="author">by <?=$author?> </address>
+
 		<p class="blurb"><?=$blurb?></p>
+
 		<nav class="book-card-nav">
 			<a href="#>">Read Now!</a>
 			<a href="#>">Update</a> 
@@ -35,3 +40,8 @@ if( $authors ): ?>
 		<img src="<?=$book_cover?>">
 	</picture>
 </book-card>
+
+
+
+
+

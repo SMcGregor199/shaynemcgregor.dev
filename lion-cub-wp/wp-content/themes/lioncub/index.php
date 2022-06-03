@@ -10,7 +10,7 @@
 		include("templates/pages/genres.php");
 	}
 
-	if ( is_singular('genres') ) {
+	if ( is_singular('genre') ) {
 		include('templates/pages/book-detail.php');
 	}
 ?>

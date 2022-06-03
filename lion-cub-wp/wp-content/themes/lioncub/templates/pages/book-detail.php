@@ -1,19 +1,34 @@
 <?php 
 $genre_name = get_field('name');
 ?>
-<h1>This is the detail page for <?=$genre_name?></h1>
+
+<h1>This is the <?=$genre_name?> books page</h1>
 
 
+<?php 
+
+  $parameters = array(
+    "post_type" => "book",
+    "post__not_in" => array(46),
+    "orderby" => "ID",
+    "order" => "ASC",
+  );
+
+  $query = new WP_Query($parameters);
+
+  while ($query->have_posts()) : $query->the_post();
+    include( getFile('templates/components/book-card.php') );
+  endwhile;
+
+  //reset what was done above.
+  //Allows looping of more items below this.
+  wp_reset_postdata();
+
+?>
 <?php
-	include( getFile('templates/components/book-card.php') );
+	
 ?>
 
 
-<?php
-  // show genres
-  $myGenres = get_terms( 'genre', array('hide_empty' => true) );
-  foreach($myGenres as $genre) {
-     echo 'test test';
-  }
-?>
+
 
