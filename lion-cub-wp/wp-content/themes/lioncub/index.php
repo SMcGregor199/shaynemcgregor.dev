@@ -11,7 +11,7 @@
 	}
 
 	if ( is_singular('genre') ) {
-		include('templates/pages/book-detail.php');
+		include('templates/pages/genre-book-detail.php');
 	}
 ?>
 

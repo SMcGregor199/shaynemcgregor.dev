@@ -15,8 +15,8 @@ $genre_name = get_field('name');
   );
 
   $query = new WP_Query($parameters);
-
   while ($query->have_posts()) : $query->the_post();
+    
     include( getFile('templates/components/book-card.php') );
   endwhile;
 
