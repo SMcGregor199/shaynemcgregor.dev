@@ -1,3 +1,15 @@
+<?php 
+	$terms = get_terms( array(
+    'taxonomy' => 'genre',
+    'hide_empty' => false,
+) );
+
+	foreach ($terms as $term){
+		showCode($term);
+		the_permalink($term->term_id);
+
+	}
+?>
 <section>
 	<inner-column>
 		<h1>This is the home page</h1>

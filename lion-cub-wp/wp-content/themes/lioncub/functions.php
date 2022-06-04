@@ -47,3 +47,11 @@ if( $genres ) :
 endif; 
 }
 
+  function showCode($thing) {
+    echo "<pre>";
+    echo "<code>";
+    echo print_r($thing);
+    echo "<code>";
+    echo "</pre>";
+  }
+
