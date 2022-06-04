@@ -5,6 +5,7 @@
     "post_type" => "book",
     "orderby" => "ID",
     "order" => "ASC",
+    "posts_per_page" => -1
   );
 
   $query = new WP_Query($parameters);
