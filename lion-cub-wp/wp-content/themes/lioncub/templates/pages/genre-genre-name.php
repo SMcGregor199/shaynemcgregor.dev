@@ -1,7 +1,6 @@
 <?php 
-  
+  $genre_name = get_field('name');
 ?>
-
 <h1>This is the <?=$genre_name?> books page</h1>
 
 

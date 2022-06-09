@@ -35,7 +35,6 @@ if( $genres ) :
 
     foreach( $genres as $term ) :
         $url = $term->slug;
-        //var_dump( $term );
         echo "<a href='$url'>$term->name</a>";
 
 
