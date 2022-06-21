@@ -36,16 +36,25 @@ var favoriteGames = [
 var ps4Games = favoriteGames.filter(function(game){
 	return game.system == 'PS4';
 });
-console.log(ps4Games);
 
-ps4Games.forEach( function(game) {
-	console.log(game.name);
-} ) 
 
-function generateMarkup(anArray) {
-	
+function generateMarkup(anArray,aHeading) {
+	var heading = document.createElement("h2");
+	heading.textContent = aHeading;
+	document.body.appendChild(heading);
+
+	var ol = document.createElement('ol');
+
+	anArray.forEach( function(item) {
+		var li = document.createElement('li');
+		li.textContent = item.name;
+		ol.appendChild(li);
+	} );
+
+	document.body.appendChild(ol);
 }
 
+generateMarkup(ps4Games, "Shayne's favorite PS4 games");
 
 
 
