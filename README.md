@@ -6,7 +6,7 @@ Yo what's up? Welcome to my repo, which mostly just contains the source files fo
 
 1. Well...beyond looking at how I like to organize my files, and how I like to write code, you can also check out my [daily thoughts folder](https://github.com/SMcGregor199/personal-website/tree/main/daily-thoughts), which contains my (mostly) cohesive daily thoughts as a web developer. Take peek. Check out the things I've been reading, coding, learning, writing etc.  
 
-2. You also might be interested in my [projects folder] (https://github.com/SMcGregor199/personal-website/tree/main/projects). Here you can check out the code for my projects, but..really...the more interesting thing might be my case studies which you can check out on my personal website. 
+2. You also might be interested in my [projects folder](https://github.com/SMcGregor199/personal-website/tree/main/projects). Here you can check out the code for my projects, but..really...the more interesting thing might be my case studies which you can check out on my personal website. 
 
 ## My hopes
 
