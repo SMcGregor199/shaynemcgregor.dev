@@ -4,8 +4,7 @@ We're now one day removed from independence day in the United States, and I'm st
 
 ## .svelte-kit and node-modules folders
 
-
-==highlight==The .svelte-kit and node-modules folders will necessarily be a part of any website that utilizes the svelte framework. .svelte-kit contains files that are particular to Svelte and the node-modules contain files that enable (?) svelte to work. Because these folders will necessarily be included in any project that decides to utilize svelte, it doesn't seem as if we'll be utilizing much or at all for development. 
+<mark>The .svelte-kit </mark> and node-modules folders will necessarily be a part of any website that utilizes the svelte framework. .svelte-kit contains files that are particular to Svelte and the node-modules contain files that enable (?) svelte to work. Because these folders will necessarily be included in any project that decides to utilize svelte, it doesn't seem as if we'll be utilizing much or at all for development. 
 
 ## .env
 
