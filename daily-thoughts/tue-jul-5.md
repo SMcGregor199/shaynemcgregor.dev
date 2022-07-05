@@ -12,4 +12,40 @@ The `.env` file contains environment variables that are sensitive and should not
 
 ## .eslintrc.cjs  
 
-The `eslintrc.cjs`, written in commonJS code, helps with analyzing JavaScript code to quickly find problems and resolve problems. While not necessary, it's useful because 
+The `eslintrc.cjs`, written in commonJS code, helps with analyzing JavaScript code to quickly find problems and resolve problems. While not necessary, it's useful because it keeps your JavaScript code consistent and bug free. 
+
+## .prettierrc
+
+The `prettierrc` file helps with formatting cod formatting. It's language agnostistic, which means while `.eslintrc` keeps its eye on JavaScript, `prettierrc`	keeps its eye on everything else. 
+
+## netlify.toml 
+
+The `netlify.toml` file specifics how netlify builds and deploys your website. 
+
+## .gitignore 
+
+The `gitignore` file specifies which files are to be ignored by GitHub inside the website's respective repo. 
+
+## jsconfig.json 
+
+The `jsconfig.json` indicates that the directory is the root of a JavaScript project. It can decide which files are to be included/excluded as well as compiled. It can also apprently...extend? 
+
+## package.json & package.lock.json
+
+These two files are connected to the npm. `package.json` contains all the metadata about the project and the functional dependencies. The `package.lock.json` allows other users who clone the project to have the exact same latest version of those packages. 
+
+## tailwind.config.cjs & postcss.config.cjs 
+
+Written in commonJS code,`tailwind.config.cjs` allows you set specific css related properties like screen width/ color, etc. You can think of it as a file for your custom css variables. `postcss.config.cjs` ...
+
+## svelte.config.js
+
+`svelte.config.js` is a file that comes with the svelte framework. You'll need to configure it to your specific project...
+
+## .nvmrc
+
+The `.nvmrc` file locks your application to a specific version of node. It seems like it only needs to be one line of code. 
+
+
+
+
