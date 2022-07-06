@@ -15,7 +15,7 @@ Pieces for my portfolio will consist 1 of either
 - A large graphic of the website
 - A collage of images related to the website 
 - a video of the site walkthrough
-**I'd also like there to be a cool graphic that combines the logo of the framework w/ the theme/mascot of the project** 
+- **I'd also like there to be a cool graphic that combines the logo of the framework w/ the theme/mascot of the project** 
 
 Pieces for my portfolio will also have 1-2 paragraphs describing what I was trying to accomplish as well as how I accomplished it. 
 
