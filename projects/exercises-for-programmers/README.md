@@ -11,7 +11,7 @@ Brian Hogan's *Exercises for Programmers* (2015) is a language-agnostic exercise
 ⚪️⚪️⚪️⚪️⚪️⚪️⚪️
 
 ## JavaScript 
-⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️
+🔵⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️
 ⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️
 ⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️
 ⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️⚪️
