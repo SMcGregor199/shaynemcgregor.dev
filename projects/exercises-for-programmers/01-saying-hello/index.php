@@ -24,7 +24,7 @@
 	<div class="field">
 		<p>Please enter your first name</p>
 		<label>First Name</label>
-		<input type="string" name="first-name" value="<?=$firstName?>" placeholder="..." required>
+		<input name="first-name" value="<?=$firstName?>" placeholder="..." required>
 	</div>
 
 	<button type="submit" name="submitted">Submit</button>
