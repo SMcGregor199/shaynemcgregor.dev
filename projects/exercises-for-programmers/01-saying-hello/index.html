@@ -1,0 +1,32 @@
+
+
+<a href="?"><h1>Saying Hello</h1></a>
+<p>A program that takes an input and builds a greeting message with JavaScript</p>
+
+<form name="sayHello" method="POST">
+	<div class="field">
+		<p>Please enter your first name</p>
+		<label>First Name</label>
+		<input type="string" name="first-name" value="" placeholder="..." required>
+	</div>
+
+	<button type="submit" name="submitted" onClick="createMessage()">Submit</button>
+</form>
+
+
+
+<script>
+	function createMessage() {
+		let name = document.forms["sayHello"]["first-name"].value;
+
+		if(name){
+			var message = "Hello " + name + ". It's nice to meet you!";
+		}
+		
+		if(name == "") {
+			var message = "First Name must be filled out";
+		}
+
+		alert (message);
+	}
+</script>

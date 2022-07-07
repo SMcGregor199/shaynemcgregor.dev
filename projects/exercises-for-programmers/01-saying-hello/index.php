@@ -18,7 +18,7 @@
 ?>
 <!-- Display Output -->
 <a href="?"><h1>Saying Hello</h1></a>
-<p>A program that takes an input and builds a greeting message</p>
+<p>A program that takes an input and builds a greeting message with PHP</p>
 
 <form method="POST">
 	<div class="field">
