@@ -1,44 +1,19 @@
 
 
 <?php include('header.php'); ?>
+<?php include('functions/functions.php'); ?>
+<?php 
+	$exerciseData = getData("exercises.json");
+	var_dump($exerciseData);
+?>
 
-
-
-<section class='welcome'>
+<section>
 <inner-column>
-
-	<?php include('modules/graphic-diptych.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<section class='get-involved'>
-	<inner-column>
-
-		<?php include('modules/call-to-action.php'); ?>
-
-	</inner-column>
-</section>
-
-
-
-<section class='stuff'>
-<inner-column>
-	
-	<?php include('modules/articles-intro.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<section class='help-us'>
-<inner-column>
-
-	<?php include('modules/call-to-action.php'); ?>
-
+	<?php 
+		foreach ($exerciseData['exercise-lists'] as $list) { ?>
+			<?php $listTitle = $list["language-name"]; ?>
+			<?php include("modules/list-w-emoji-circles.php"); ?>
+	<?php	} ?>
 </inner-column>
 </section>
 

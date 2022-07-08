@@ -36,7 +36,7 @@
 		<input name="author" value="<?=$author?>" placeholder="...">
 	</div>
 	<div class="field">
-		<label>Enter Quotation</label>
+		<label>Quotation</label>
 		<input type="string" name="quotation" value="<?=$quotation?>" placeholder="...">
 	</div>
 	<button type="submit" name="submitted">Submit</button>
