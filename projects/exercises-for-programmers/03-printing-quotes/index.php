@@ -5,15 +5,21 @@
 	$submitted = isset($_POST["submitted"]);
 
 	if($submitted) {
-		if( isset($_POST["author"]) ) {
+		if( isset($_POST["author"]) && isset($_POST["quotation"])  ) {
 			$author = $_POST["author"];
+			$quotation = $_POST["quotation"];
+			$output = "$author says \"$quotation\"";
+		} 
+		if( empty($_POST["author"]) ) {
+			$output = "Please include the author's name";
 		}
-		if( isset($_POST["quotation"]) ) {
-			$quotation = $_POST["quotation"];	
+		if( empty($_POST["quotation"]) ){
+			$output = "Please include the quotation";
 		}
-		if($author && $quotation) {
-			$output = $author . " says, " . $quotation;
+		if( empty($_POST["quotation"] ) && empty($_POST["author"])){
+			$output = "Please include the quotation and the author's name";
 		}
+
 	}
 ?>
 
@@ -27,11 +33,11 @@
 	<p>Please enter the name of an author and their quotation</p>
 	<div class="field">
 		<label>Author's name</label>
-		<input type="string" name="author" value="" placeholder="...">
+		<input name="author" value="<?=$author?>" placeholder="...">
 	</div>
 	<div class="field">
 		<label>Enter Quotation</label>
-		<input type="string" name="quotation" value="" placeholder="...">
+		<input type="string" name="quotation" value="<?=$quotation?>" placeholder="...">
 	</div>
 	<button type="submit" name="submitted">Submit</button>
 </form>
