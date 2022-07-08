@@ -15,10 +15,22 @@
 <script>
 	var form = document.querySelector("form");
 	var output = document.querySelector("output");
+	// var testInput = document.querySelector("input");
+	// function handleInput(input) {
+	// 		var message = "Input box was empty";
+	// 		if(input.length > 0) {
+	// 			 message = `${input} has ${input.length} characters in it`;
+	// 		}
+	// 		output.innerHTML = message;
+	// }
+
+	// testInput.addEventListener("input", function(event){
+	// 	handleInput(this.value);
+	// })
 
 	form.addEventListener("submit",function(event){
 		event.preventDefault();
-		var input = form.querySelector("input").value.trim();
+		var input = form.querySelector("input").value;
 		var inputLength = input.length;
 		if(inputLength > 0){
 			output.innerHTML = `${input} has ${inputLength} characters in it`;
