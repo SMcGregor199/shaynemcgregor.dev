@@ -1,0 +1,31 @@
+<a href="?"><h1>Counting the Number of Characters</h1></a>
+<p>A program that takes an input and displays the number of characters it contains with JavaScript</p>
+<form>
+	<div class="field">
+		<p>Please enter a string value</p>
+		<label>User Input</label>
+		<input placeholder="...">
+	</div>
+
+	<button>Submit</button>
+</form>
+
+<output></output>
+
+<script>
+	var form = document.querySelector("form");
+	var output = document.querySelector("output");
+
+	form.addEventListener("submit",function(event){
+		event.preventDefault();
+		var input = form.querySelector("input").value.trim();
+		var inputLength = input.length;
+		if(inputLength > 0){
+			output.innerHTML = `${input} has ${inputLength} characters in it`;
+		} else {
+			output.innerHTML = "Input box was empty. Please enter a string value and try again"
+		}
+		
+		
+	})
+</script>
