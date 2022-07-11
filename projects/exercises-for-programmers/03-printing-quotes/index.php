@@ -37,7 +37,7 @@
 	</div>
 	<div class="field">
 		<label>Quotation</label>
-		<input type="string" name="quotation" value="<?=$quotation?>" placeholder="...">
+		<input name="quotation" value="<?=$quotation?>" placeholder="...">
 	</div>
 	<button type="submit" name="submitted">Submit</button>
 </form>
