@@ -7,20 +7,19 @@
 	$submitted = isset($_POST["submitted"]); 
 
 	if($submitted){
-		if( isset($_POST['noun']) ){
-			$noun = $_POST['noun'];
+		$noun = empty($_POST["noun"]) ? "[noun]" : $_POST["noun"];
+		$verb = empty($_POST["verb"]) ? "[verb]" : $_POST["verb"];
+		$adjective = empty($_POST["adjective"]) ? "[adjective]" : $_POST["adjective"];
+		$adverb = $_POST["adverb"];
+		if (empty($adverb)) {
+			$adverb = "[adverb]";
 		}
-		if( isset($_POST['verb']) ){
-			$verb = $_POST['verb'];
-		}
-		if( isset($_POST['adjective']) ){
-			$adjective = $_POST['adjective'];
-		}
-		if( isset($_POST['adverb']) ){
-			$adverb = $_POST['adverb'];
-		}
+		$output = "Do you $verb your $adjective $noun $adverb? That's hilarious!";
+	}else {
+
 	}
 ?>
+
 
 <a href="?"><h1>Madlibs</h1></a>
 <p>A program that takes a noun, a verb, an adjective, and an adverb, to construct a story w/ with PHP</p>
