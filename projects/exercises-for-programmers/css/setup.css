@@ -19,6 +19,10 @@ p a {
 	text-decoration: underline;
 }
 
+li a {
+	display: inline;
+}
+
 picture {
 	display: block;
 }

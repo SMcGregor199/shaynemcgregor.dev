@@ -30,6 +30,7 @@
 @import 'modules/articles-intro.css';
 @import 'modules/article-card.css';
 @import 'modules/site-map.css';
+@import 'modules/list-w-emoji-cirlces.css';
 /* should everything/nothing be in it's own file? */
 
 
@@ -58,8 +59,10 @@ html {
 	padding: 14px;
 }
 
-
-
+.efp-all-exercises-list inner-column {
+	display: flex;
+	flex-direction: row;
+}
 
 
 

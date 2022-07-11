@@ -1,11 +1,36 @@
 {
 	"exercise-lists": [
 		{
-			"language-name": "PHP"
-			
+			"language-name": "PHP",
+			"exercise-names":{
+				"Saying Hello":"Completed",
+				"Counting the Number of Characters":"Completed",
+				"Printing Quotes":"Completed",
+				"Mad Lib":"Completed",
+				"Simple Math":"Incomplete",
+				"Retirement Calculator":"Incomplete",
+				"Area of a Rectangular Room":"Incomplete",
+				"Pizza Party":"Incomplete",
+				"Paint Calculator":"Incomplete",
+				"Self-Checkout":"Incomplete",
+				"Currency Conversion":"Incomplete"
+			}
 		},
 		{
-			"language-name": "JavaScript"
+			"language-name": "JavaScript",
+			"exercise-names":{
+				"Saying Hello":"Completed",
+				"Counting the Number of Characters":"Completed",
+				"Printing Quotes":"Completed",
+				"Mad Lib":"Incomplete",
+				"Simple Math":"Incomplete",
+				"Retirement Calculator":"Incomplete",
+				"Area of a Rectangular Room":"Incomplete",
+				"Pizza Party":"Incomplete",
+				"Paint Calculator":"Incomplete",
+				"Self-Checkout":"Incomplete",
+				"Currency Conversion":"Incomplete"
+			}
 		}
 	]
 }
