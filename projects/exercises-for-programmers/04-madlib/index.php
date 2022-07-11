@@ -16,7 +16,7 @@
 		}
 		$output = "Do you $verb your $adjective $noun $adverb? That's hilarious!";
 	}else {
-
+		$output = "Input different words, and we'll create a madlib";
 	}
 ?>
 
@@ -25,7 +25,7 @@
 <p>A program that takes a noun, a verb, an adjective, and an adverb, to construct a story w/ with PHP</p>
 
 <form method="POST">
-	<p>Please enter the name of an author and their quotation</p>
+	<p><?=$output?></p>
 
 	<div class="field">
 		<label>Noun</label>
@@ -49,5 +49,3 @@
 
 	<button type="submit" name="submitted">Submit</button>
 </form>
-
-<output><?=$output?></output>
