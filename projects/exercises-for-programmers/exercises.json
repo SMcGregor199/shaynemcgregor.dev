@@ -1,36 +1,37 @@
-{
-	"exercise-lists": [
-		{
-			"language-name": "PHP",
-			"exercise-names":{
-				"Saying Hello":"Completed",
-				"Counting the Number of Characters":"Completed",
-				"Printing Quotes":"Completed",
-				"Mad Lib":"Completed",
-				"Simple Math":"Incomplete",
-				"Retirement Calculator":"Incomplete",
-				"Area of a Rectangular Room":"Incomplete",
-				"Pizza Party":"Incomplete",
-				"Paint Calculator":"Incomplete",
-				"Self-Checkout":"Incomplete",
-				"Currency Conversion":"Incomplete"
-			}
-		},
-		{
-			"language-name": "JavaScript",
-			"exercise-names":{
-				"Saying Hello":"Completed",
-				"Counting the Number of Characters":"Completed",
-				"Printing Quotes":"Completed",
-				"Mad Lib":"Incomplete",
-				"Simple Math":"Incomplete",
-				"Retirement Calculator":"Incomplete",
-				"Area of a Rectangular Room":"Incomplete",
-				"Pizza Party":"Incomplete",
-				"Paint Calculator":"Incomplete",
-				"Self-Checkout":"Incomplete",
-				"Currency Conversion":"Incomplete"
-			}
+[
+	{
+		"id":"01",
+		"name":"Saying Hello",
+		"slug":"01-saying-hello",
+		"languages":{
+			"PHP":true,
+			"JavaScript":true
 		}
-	]
-}
+	},
+	{
+		"id":"02",
+		"name":"Counting the Number of Characters",
+		"slug":"02-counting-the-number-characters",
+		"languages":{
+			"PHP":true,
+			"JavaScript":true
+		}
+	},
+	{
+		"id":"00",
+		"name":"name",
+		"slug":"00-name",
+		"languages":{
+			"PHP":false,
+			"JavaScript":false
+		}
+	},
+	
+]
+
+
+
+
+	
+
+	
