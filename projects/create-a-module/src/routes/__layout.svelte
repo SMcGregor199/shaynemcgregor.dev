@@ -2,7 +2,13 @@
 	
 </script>
 
-<h1>Hello World</h1>
+<Header />
+
+<main>
+	<slot />
+</main>
+
+<Footer />
 
 <style global>
 
