@@ -1,10 +1,14 @@
+<script>
+	export let article;
+</script>
+
 <section>
 	<inner-column>
 
 		<article-card>
 
 			<div class="resource-info">
-				<h2 class="title">Obama Ipsum</h2>
+				<h2 class="title">{ article.title }</h2>
 				<address class="author">By Barak Obama</address>
 				<p class="blurb">She had this enormous capacity for wonder, and lived by the Golden Rule. When John McCain said we could just "muddle through" in Afghanistan, I argued for more resources and more troops to finish the fight against the terrorists who actually attacked us on 9/11, and made clear that we must take out Osama bin Laden and his lieutenants if we have them in our sights. On economic development, we will create a new corps of business volunteers to partner with counterparts in Muslim-majority countries.</p>
 

@@ -1,3 +1,6 @@
+<script>
+	 import data from "../lib/articles.js";
+</script>
 <section>
 	<inner-column>
 
@@ -8,18 +11,12 @@
 			</div>
 
 			<ul class="roundup-list">
+				{#each data as article}
 				<li>
-					<span><a href="?">Immigration from the Caribbean</a></span>
-					<p class="description">He does not say that he was there because of Barack Obama. It's been about you. So let me be clear: no system of government can or should be imposed upon one nation by any other.</p>
+					<span><a href="?">{ article.title }</a></span>
+					<p class="description">{ article.description }</p>
 				</li>
-				<li>
-					<span><a href="?">Immigration from Kenya</a></span>
-					<p class="description">He does not say that he was there because of Barack Obama. It's been about you. So let me be clear: no system of government can or should be imposed upon one nation by any other.</p>
-				</li>
-				<li>
-					<span><a href="?">Immigration from the Global South</a></span>
-					<p class="description">He does not say that he was there because of Barack Obama. It's been about you. So let me be clear: no system of government can or should be imposed upon one nation by any other.</p>
-				</li>
+				{/each}
 			</ul>
 
 			<blockquote cite="www.https://obamaipsum.com/">
