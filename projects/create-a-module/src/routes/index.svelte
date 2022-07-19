@@ -1,9 +1,10 @@
 <script>
-	import Card from "../../components/card.svelte";
-	import Roundup from "../../components/roundup-card.svelte";
+	import ArticleCard from "../../components/article-card.svelte";
+	import RoundupArticle from "../../components/roundup-article.svelte";
+	import RoundupCard from "../../components/roundup-card.svelte";
 </script>
 
-<!-- <Card /> -->
-<Roundup />
-
+<!-- <ArticleCard /> -->
+<!-- <RoundupArticle /> -->
+<!-- <RoundupCard /> -->
 

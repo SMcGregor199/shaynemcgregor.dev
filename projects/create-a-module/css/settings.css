@@ -6,9 +6,9 @@ html {
 }
 
 .test {
-	border: 1px solid var(--highlight); /* used as variable */
+	border: 5px solid var(--highlight); /* used as variable */
 }
 
-.test {
-	border: 1px solid var(--color);
+.test * {
+	border: 1px solid red;
 }
