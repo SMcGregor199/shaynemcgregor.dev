@@ -1,13 +1,12 @@
 <script>
-	import Reset from "../../css/meyer-reset.css";
-	import Setup from "../../css/setup.css";
-	import Settings from "../../css/settings.css"
-	import Structure from "../../css/structure.css"
-	import Typography from "../../css/typography.css"
-	import Header from '../../components/Header.svelte';
-	import Footer from '../../components/Footer.svelte';
+	import "../../css/meyer-reset.css";
+	import "../../css/setup.css";
+	import  "../../css/settings.css"
+	import  "../../css/structure.css"
+	import "../../css/typography.css"
+	import '../../components/Header.svelte';
+	import '../../components/Footer.svelte';
 </script>
-
 
 <Header />
 
