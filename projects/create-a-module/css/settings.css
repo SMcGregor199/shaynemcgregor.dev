@@ -1,0 +1,14 @@
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--color: #00596e;
+	--highlight: #aadee9;
+}
+
+.test {
+	border: 1px solid var(--highlight); /* used as variable */
+}
+
+.test {
+	border: 1px solid var(--color);
+}
