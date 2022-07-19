@@ -1,14 +1,34 @@
-<?php $listTitle = $list["language-name"]; 
+<?php 
+	if($listTitle == "PHP") { ?>
+		<ul>
+			<li 
+			<?php ?>
+			<?php 
+			if ($exercise['languages']['PHP'] == true) { ?>
+				class="completed" 
+			<?php	} ?>>
+			<a href="<?=$exercise['slug']?>">
+				<?=$exercise['name']?>
+				
+			</a></li>
+		</ul>	
+<?php	} ?>
 
-?>
+<?php 
+	if($listTitle == "JavaScript") { ?>
+		<ul>
+			<li 
+			<?php ?>
+			<?php 
+			if ($exercise['languages']['JavaScript'] == true) { ?>
+				class="completed" 
+			<?php	} ?>>
+			<a href="<?=$exercise['slug']?>">
+				<?=$exercise['name']?>
+				
+			</a></li>
+		</ul>	
+<?php	} ?>
 
-<div class="list-containers">
-	<h1><?=$listTitle?></h1>
-	<ul>
-		<?php foreach($list["exercise-names"] as $exerciseName => $status) { ?>
-			<li <?php if($status == "Completed"){?>class="completed"<?php } ?> ><a href="?"><?=$exerciseName?></a></li>
-		<?php } ?>
-	</ul>		
-</div>
 
 
