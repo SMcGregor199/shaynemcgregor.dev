@@ -5,9 +5,10 @@
 	var content = {
 		title: "HELLO BIG CATS",
 	};
+	import data from "../../lib/articles.js";
 </script>
 
 <!-- <ArticleCard article={content}/> -->
-<RoundupArticle /> 
+<RoundupArticle  articles={ data } /> 
 <!-- <RoundupCard /> -->
 

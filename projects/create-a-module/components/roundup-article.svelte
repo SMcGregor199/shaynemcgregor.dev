@@ -1,5 +1,5 @@
 <script>
-	 import data from "../lib/articles.js";
+	 export let articles;
 </script>
 <section>
 	<inner-column>
@@ -11,7 +11,7 @@
 			</div>
 
 			<ul class="roundup-list">
-				{#each data as article}
+				{#each articles as article}
 				<li>
 					<span><a href="?">{ article.title }</a></span>
 					<p class="description">{ article.description }</p>
