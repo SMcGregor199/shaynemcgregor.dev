@@ -1,8 +1,6 @@
-<section>
-	<inner-column>
+<script>
+	import Card from "../../components/card.svelte";
+</script>
 
-
-
-	</inner-column>
-</section>
+<Card />
 
