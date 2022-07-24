@@ -4,3 +4,18 @@ html {
 h1 {
 	color: var(--my-fav-color);
 }
+
+picture img {
+	max-width: 450px;
+
+
+
+filter: drop-shadow(0 0 0.75rem crimson);
+
+
+
+
+
+    
+        
+}

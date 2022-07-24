@@ -7,15 +7,12 @@
 	<link rel="stylesheet"  href="style.css">
 </head>
 <body>
-	<?php
-		include('php-practice.php'); 
-	?>
 	<header>
 		
 	</header>
 
 	<main>
-		<h1 class="just-added">Hello. My name is [empty string] and I'm a web developer with a Ph.D.</h1>
+		<?php include('algorithms.php');?>
 	</main>
 
 	<footer>
@@ -24,6 +21,6 @@
 </body>
 
 
-<script src='scripts.js'></script>
-
+<!-- <script src='scripts.js'></script>
+ -->
 </html>

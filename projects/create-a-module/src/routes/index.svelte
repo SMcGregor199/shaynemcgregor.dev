@@ -8,7 +8,7 @@
 	import data from "../../lib/articles.js";
 </script>
 
-<ArticleCard article={ content }/>
-<!-- <RoundupArticle  articles={ data }  />  -->
+<!-- <ArticleCard article={ content }/> -->
+<RoundupArticle  articles={ data }  /> 
 <!-- <RoundupCard /> -->
 
