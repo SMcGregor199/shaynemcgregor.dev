@@ -13,6 +13,9 @@
 
 	include("modules/header.php");
 
+	// 
+	include("modules/new-article.php");
+	// 
 	if( isCaseStudy() ) {
 		getProjectPageById($_GET['projectID']);
 	} else {

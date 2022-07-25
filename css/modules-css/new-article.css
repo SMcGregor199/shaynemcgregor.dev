@@ -1,0 +1,29 @@
+.new-about-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.new-about-title {
+	font-size: 2.5rem;
+}
+.new-about-text {
+	max-width: 70vw;
+	line-height: 1.5;
+}
+
+.new-about-text p {
+	font-family: sans-serif;
+	font-size: 1.25rem;
+	margin-bottom:  1rem;
+}
+
+.italic-text {
+	font-style:  italic;
+}
+ .new-about-text p b {
+ 	padding-inline: 0.2rem;
+ 	text-decoration: underline;
+  	text-decoration-style: dotted;
+   text-decoration-color: black;
+   text-underline-offset: 4px;
+ }
