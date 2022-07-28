@@ -12,6 +12,7 @@
 	</header>
 
 	<main>
+		<?php include('quote.svg'); ?>
 		<?php include('algorithms.php');?>
 	</main>
 
