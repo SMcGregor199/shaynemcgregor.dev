@@ -12,8 +12,7 @@
 	</header>
 
 	<main>
-		<?php include('quote.svg'); ?>
-		<?php include('algorithms.php');?>
+		<?php include('arrays/twoNumSum.php'); ?>
 	</main>
 
 	<footer>
@@ -22,6 +21,5 @@
 </body>
 
 
-<!-- <script src='scripts.js'></script>
- -->
+
 </html>
