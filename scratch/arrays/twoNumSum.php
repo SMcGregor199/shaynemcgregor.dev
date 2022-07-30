@@ -1,18 +1,18 @@
 <?php 
 //O(n^2)time | O(1) space
 
-function twoNumberSum($array,$targetSum) {
-	for($i = 0; $i < count($array); $i++) {
-		for($j = $i + 1; $j < count($array); $j++) {
-			if ($array[$i] + $array[$j] == $targetSum) {
-			 	print_r( [ $array[$i],$array[$j] ] ); 
-			}	
-		}
-	}
-	return [];
-}
+// function twoNumberSum($array,$targetSum) {
+// 	for($i = 0; $i < count($array); $i++) {
+// 		for($j = $i + 1; $j < count($array); $j++) {
+// 			if ($array[$i] + $array[$j] == $targetSum) {
+// 			 	print_r( [ $array[$i],$array[$j] ] ); 
+// 			}	
+// 		}
+// 	}
+// 	return [];
+// }
 // O(n*log(n)) | O(1) space
-function twoNumberSumWSort($array,$targetSum) {
+function twoNumberSum($array,$targetSum) {
  	sort($array);
  	$left = 0;
  	$right = count($array) - 1;
@@ -30,9 +30,9 @@ function twoNumberSumWSort($array,$targetSum) {
 }
 
 $numArray = [3,5,-4,8,11,1,-1,6];
-$targetValue = 4;
+$targetValue = 10;
 	
-// twoNumberSumWSort($numArray,$targetValue);
+// twoNumberSum($numArray,$targetValue);
 
 
 
