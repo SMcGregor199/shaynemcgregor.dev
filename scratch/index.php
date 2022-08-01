@@ -12,7 +12,7 @@
 	</header>
 
 	<main>
-		<?php include('arrays/twoNumSum.php'); ?>
+		<?php include('strings/isPalindrome.php'); ?>
 	</main>
 
 	<footer>
