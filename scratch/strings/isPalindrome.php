@@ -10,8 +10,6 @@ function isPalindrome($string) {
 	$chars = str_split($string);
 	$charsR = array_reverse($chars);
 
-	
-
 	if(array_values($charsR) === array_values($chars)) {
 		echo "This string is a palindrome";
 	} else {
