@@ -89,7 +89,9 @@ under-construction h1 {
 }
 
 
-
+h1 {
+	@apply text-blue-500;
+}
 
 
 
