@@ -8,27 +8,10 @@ html {
 	--pink: #ff999a;
 	--orange: #ffcc99;
 	--yellow: #ffee99;
+	--seaBlue:  #036896;
 }
 
-.blue-box {
-  background-color:var(--blue) ;
-}
 
-.pink-box {
-  background-color:var(--pink) ;
-}
-
-.orange-box {
-  background-color:var(--orange) ;
-}
-
-.yellow-box {
-  background-color:var(--yellow) ;
-}
-
-.container {
-	display: flex;
-}
 
 
 /* USAGE */
