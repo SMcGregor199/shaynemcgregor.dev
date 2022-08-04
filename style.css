@@ -36,7 +36,8 @@
 @import "css/modules-css/nav-list.css";
 @import "css/lion-svg.css";
 @import "css/modules-css/new-article.css";
-
+@import "css/modules-css/temphomepage.css";
+@import "css/modules-css/visual-flourish.css";
 html {
 	scroll-behavior: smooth;
 
@@ -79,9 +80,7 @@ section {
 	min-height: 30vh;
 }
 
-section div {
-	border-radius: 10px;
-}
+
 
 
 under-construction h1 {
@@ -89,9 +88,7 @@ under-construction h1 {
 }
 
 
-h1 {
-	@apply text-blue-500;
-}
+
 
 
 

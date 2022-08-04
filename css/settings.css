@@ -9,6 +9,8 @@ html {
 	--orange: #ffcc99;
 	--yellow: #ffee99;
 	--seaBlue:  #036896;
+	--slate: #3F4E5D;
+	--seaMint: #c4d5c3;
 }
 
 
@@ -20,6 +22,6 @@ html {
 	border: 5px solid var(--highlight); 
 }
 
-.test {
-	border: 3px solid var(--color);
+.test * {
+	border: 3px solid red;
 }

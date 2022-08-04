@@ -1,0 +1,17 @@
+.visual-flourish {
+	padding: 10px;
+}
+div.blue, div.green {
+	height:25px;
+	max-width: 200px;
+}
+
+.blue {
+	background-color: rgba(3, 104, 150, .25);
+	margin-bottom:-10px;
+	position:relative;
+	left:15px;
+}
+.green {
+	background-color: rgba(0, 85, 0, .25);
+}
