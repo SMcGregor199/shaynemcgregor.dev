@@ -1,4 +1,4 @@
-<?php 
+ma<?php 
 // O(n^2)time | O(1) space
 
 function twoNumberSum($array,$targetSum) {

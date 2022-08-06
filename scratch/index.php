@@ -12,7 +12,7 @@
 	</header>
 
 	<main>
-		<?php include('strings/isPalindrome.php'); ?>
+		<?php include('arrays/subsequence.php'); ?>
 	</main>
 
 	<footer>
