@@ -7,7 +7,7 @@
 		<header class='site-header'>
 		<inner-column>
 
-			<?php include('modules/masthead.php'); ?>
+			
 
 		</inner-column>
 		</header>
