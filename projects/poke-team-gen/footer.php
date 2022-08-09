@@ -30,7 +30,8 @@
 						`	<li class="pokemon">
 								<h2>${item.name}</h2>
 								<button class="button" id="${idx}">${item.name}'s abilities</button>
-							</li>`
+							</li>
+						`
 						;
 
 						template += listItem;
@@ -53,16 +54,19 @@
 						var abilitiesArray = data.abilities;
 
 						var nestedTemplate = `<ul>`;
-						for(abilityObject of abilitiesArray){
-							var abilityName = `
+							for(arrayItem of abilitiesArray){
+								var abilityName = `
 								<li>
-									${abilityObject.ability.name}
+									${arrayItem.ability.name}
 								</li>
-							`;
-							nestedTemplate += abilityName;
-						}
+								`;
+								nestedTemplate += abilityName;
+							}
+						
 						nestedTemplate += `</ul>`;
-						console.log(nestedTemplate);
+
+						 console.log(nestedTemplate);
+
 					})
 					.catch(function(error){
 						console.log('something went wrong');
@@ -72,7 +76,7 @@
 					})
 				}
 
-
+		
 				/*
 					This is where the promise is made using the fetch function
 				*/
