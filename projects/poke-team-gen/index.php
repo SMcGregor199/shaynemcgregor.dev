@@ -6,7 +6,9 @@
 
 <section>
 	<inner-column>
-		
+		<div class="output">
+			
+		</div>
 	</inner-column>
 </section>
 
