@@ -4,8 +4,8 @@ blog-gallery {
 	flex-direction: column;
 	gap: 20px;
 }
-@media(min-width: 1050px) {
-	card-gallery {
+@media(min-width: 800px) {
+	blog-gallery {
 		flex-direction: row;
 	}
 }

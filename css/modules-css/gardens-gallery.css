@@ -3,6 +3,14 @@ gardens-gallery {
 	flex-direction: column;
 	gap: 40px;
 }
+
+@media (min-width: 650px) {
+	gardens-gallery {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
 garden-card {
 	display: block;
 	display: flex;
@@ -13,10 +21,4 @@ garden-card {
 
 garden-card p {
 	max-width: 32ch;
-}
-@media (min-width: 650px) {
-	gardens-gallery {
-		flex-direction: row;
-		justify-content: center;
-	}
 }
