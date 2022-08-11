@@ -8,3 +8,46 @@
 
 var output = document.querySelector('.output');
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fetch('https://beta.pokeapi.co/graphql/v1beta', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    query: `
+
+      `
+  }),
+})
+  	.then(function(bodyOfResponse){
+			return bodyOfResponse.json();
+	})
+	.then(function(pokemonData){
+		let pokemon = pokemonData.data.pokemon_v2_pokemon;
+		console.log(pokemon);
+	})
+
+
+
+
