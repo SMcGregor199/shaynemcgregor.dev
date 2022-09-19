@@ -9,3 +9,5 @@
 # Java 
 - `public static void main(String[]args) { }` is the entry point for any java application 
 - `public class FileName { }` is a class that contains the main method, and it's name must be the same as the application, ie. `FileName.java` 
+- To compile a java application and check for errors you need to type in the terminal `javac FileName.java`
+- To execute a progame in Java you need to type in the terminal `java FileName` 
