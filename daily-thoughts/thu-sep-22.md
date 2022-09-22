@@ -8,6 +8,5 @@
 ## The Terminal 
 
 You can remove old node modules and lock files through 
-* `rm -rf node_modules package-lock.json` and you can reinstall them with the shorthand `npm i` 
-1. But this isn't ideal for maintaining dev pairty across a team. 
+- `rm -rf node_modules package-lock.json` and you can reinstall them with the shorthand `npm i` (But this isn't ideal for maintaining dev pairty across a team). 
 
