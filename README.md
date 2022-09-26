@@ -1,3 +1,4 @@
+[![Deployment status from DeployBot](https://perpetual-education.deploybot.com/badge/02267418067065/198557.svg)](https://deploybot.com)
 # Welcome to Shayne McGregor's Web Dev Repo
 
 Yo what's up? Welcome to my repo, which mostly just contains the source files for my personal website, which you can check out [here](https://www.shaynemcgregor.dev) if you'd like to learn more about what makes me tick. 
