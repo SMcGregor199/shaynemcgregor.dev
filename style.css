@@ -2,11 +2,7 @@
 @import "css/setup.css";
 @import "css/settings.css";
 @import "css/typography.css";
-@tailwind base;
 
-@tailwind components;
-
-@tailwind utilities;
 
 
 

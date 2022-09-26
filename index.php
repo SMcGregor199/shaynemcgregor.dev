@@ -13,7 +13,7 @@
 
 	include("modules/header.php");
 
-	// Testing GitHub Slack Integration 
+	
 
 	// 
 	include("pages/temphomepage.php");
