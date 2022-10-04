@@ -1,5 +1,3 @@
-
-
 <?php
 	/* router */
 	$page = null;
@@ -12,12 +10,21 @@
 	include('functions/functions.php');
 
 	include("modules/header.php");
+?>
+<section class="featured">
+	<inner-column>
+		<div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+		  <div class="carousel-cell" style="background-image: url('images/red-heart-01.png')"><h1>This is Shayne's Pixel Art</h1></div>
+		  <div class="carousel-cell" style="background-image: url('images/lion-cub-thumb.png')"></div>
+		  <div class="carousel-cell" style="background-image: url('images/lion.jpg')"></div>
+		  <div class="carousel-cell" style="background-image: url('images/shayne.jpg')"></div>
+		  <div class="carousel-cell" style="background-image: url('images/php-exercise.jpg')"></div>
+		</div>
+	</inner-column>
+</section>
 
-	
-
-	// 
-	include("pages/temphomepage.php");
-	//
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<?php
 
 	// OLD SITE LOGIC  
 	// if( isCaseStudy() ) {
