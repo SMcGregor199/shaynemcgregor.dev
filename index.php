@@ -10,6 +10,7 @@
 	include('functions/functions.php');
 
 	include("modules/header.php");
+
 ?>
 <section class="featured">
 	<inner-column>
@@ -25,6 +26,14 @@
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <?php
+
+
+	
+
+	// 
+	include("pages/temphomepage.php");
+	//
+
 
 	// OLD SITE LOGIC  
 	// if( isCaseStudy() ) {
