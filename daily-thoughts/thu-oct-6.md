@@ -9,3 +9,5 @@ On today's episode of getting 1% better, I
 - learned the importance of thinking out loud. 
 - `cd ..` lets you go 'up' in whatever directory you're in
 - `cd ~` lets you go all the way back to the root directory 
+
+## Between my personal projects and my work with CZ, can I get 2% every day? That would equal to roughly me being 75x better web developer than I am now.  

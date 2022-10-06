@@ -1,3 +1,6 @@
+<script>
+	
+</script>
 
 <a href="2022/january/january-01" class="roundup-card">
 		<div class="roundup-title">
@@ -14,7 +17,7 @@
 
 <style>
 	.roundup-card {
-		@apply block bg-beige-light w-fit border-solid border-4 border-black rounded-2xl flex flex-col gap-4 text-black p-4;
+		@apply block bg-beige-light w-fit border-solid border-4 border-black rounded-2xl flex flex-col gap-4 text-black p-[0.6rem] sm:p-4;
 	}
 	.roundup-title h2 {
 		@apply mb-0 font-[acuta] font-light;
