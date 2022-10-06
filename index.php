@@ -15,7 +15,9 @@
 <section class="featured">
 	<inner-column>
 		<div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-		  <div class="carousel-cell" style="background-image: url('images/red-heart-01.png')"><h1>This is Shayne's Pixel Art</h1></div>
+		  <div class="carousel-cell" style="background-image: url('images/red-heart-01.png'); background-repeat: space; position: relative;"><div class="carousel-background">
+		  	<p>I love pixel art, and I practice making them every day. If you want to keep up with what I've been working on, check out my pixel art gallery that I made in WordPress. <a href="#">Click Here</a> to take a look</p>
+		  </div></div>
 		  <div class="carousel-cell" style="background-image: url('images/lion-cub-thumb.png')"></div>
 		  <div class="carousel-cell" style="background-image: url('images/lion.jpg')"></div>
 		  <div class="carousel-cell" style="background-image: url('images/shayne.jpg')"></div>

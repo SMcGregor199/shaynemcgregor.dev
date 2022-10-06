@@ -27,11 +27,11 @@ a {
 }
 
 
-/*p a {
+p a {
 	display: inline;
 	color: blue;
 	text-decoration: underline;
-}*/
+}
 figure {
 	display: block;
 }
