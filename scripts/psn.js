@@ -1,5 +1,5 @@
 
-import { makeUniversalSearch } from "node_modules/psn-api";
+import { makeUniversalSearch } from "./psn-api";
 
 
 async function main(){
