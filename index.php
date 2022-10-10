@@ -31,7 +31,7 @@
 
 <h1 class="output">Shayne</h1>
 
-<script type="module" src="scripts/psn.js"></script>
+<script type="module" src="scripts/psn-api.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <?php
 
