@@ -12,6 +12,10 @@
 	include("modules/header.php");
 
 ?>
+<?php
+	 header("Access-Control-Allow-Origin: *"); 
+?>
+
 <section class="featured">
 	<inner-column>
 		<div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
@@ -31,28 +35,30 @@
 
 <h1 class="output">Shayne</h1>
 
-<script type="module" src="scripts/psn-api.js"></script>
+<script type="module">
+	
+  import {  exchangeNpssoForCode, exchangeCodeForAccessToken, makeUniversalSearch, getUserTitles,exchangeRefreshTokenForAuthTokens} from 'https://cdn.skypack.dev/psn-api';
+
+   const myNpsso = "uBpFWdWaBMVE0XnDAOQfVm7xOlJ5YCaxVLn336rr52EGsf2PJwgZDNTmGjkMiXV7";
+   const accessCode = await exchangeNpssoForCode(myNpsso);
+   const authorization = await exchangeCodeForAccessToken(accessCode);
+
+
+   const allAccountsSearchResults = await makeUniversalSearch(
+    authorization,
+    "me",
+    "SocialAllAccounts"
+  );
+
+   const targetAccountId = 
+      allAccountsSearchResults.domainResponses[0].results[0].socialMetadata
+      .accountId;
+
+   const titles = await getUserTitles(authorization, targetAccountId);
+   
+   console.log(titles);
+
+</script>
+
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<?php
 
-
-	
-
-	// 
-	include("pages/temphomepage.php");
-	//
-
-
-	// OLD SITE LOGIC  
-	// if( isCaseStudy() ) {
-	// 	getProjectPageById($_GET['projectID']);
-	// } else {
-	// 	renderPage(getData('data/' . $page . '.json') );
-	// }
-	
-	
-	
-	// OLD FOOTER
- 	// include("modules/footer.php");
-
- ?>

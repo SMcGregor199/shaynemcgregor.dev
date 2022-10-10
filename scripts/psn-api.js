@@ -5,7 +5,7 @@ import {
    makeUniversalSearch,
    getUserTitles
    
-} from "./psn-api";
+} from "psn-api";
 
 
 async function main(){
