@@ -12,9 +12,7 @@
 	include("modules/header.php");
 
 ?>
-<?php
-	 header("Access-Control-Allow-Origin: *"); 
-?>
+
 
 <section class="featured">
 	<inner-column>
@@ -35,30 +33,7 @@
 
 <h1 class="output">Shayne</h1>
 
-<script type="module">
-	
-  import {  exchangeNpssoForCode, exchangeCodeForAccessToken, makeUniversalSearch, getUserTitles,exchangeRefreshTokenForAuthTokens} from 'https://cdn.skypack.dev/psn-api';
 
-   const myNpsso = "uBpFWdWaBMVE0XnDAOQfVm7xOlJ5YCaxVLn336rr52EGsf2PJwgZDNTmGjkMiXV7";
-   const accessCode = await exchangeNpssoForCode(myNpsso);
-   const authorization = await exchangeCodeForAccessToken(accessCode);
-
-
-   const allAccountsSearchResults = await makeUniversalSearch(
-    authorization,
-    "me",
-    "SocialAllAccounts"
-  );
-
-   const targetAccountId = 
-      allAccountsSearchResults.domainResponses[0].results[0].socialMetadata
-      .accountId;
-
-   const titles = await getUserTitles(authorization, targetAccountId);
-   
-   console.log(titles);
-
-</script>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 

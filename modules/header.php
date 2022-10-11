@@ -1,7 +1,9 @@
 
 
 <!doctype html> 
-
+<!-- <?php
+	 header("Access-Control-Allow-Origin: *"); 
+?> -->
 <html lang="en">
 
 <?php include("head.php");?>
