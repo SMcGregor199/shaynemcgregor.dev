@@ -31,7 +31,7 @@
 	</inner-column>
 </section>
 
-<h1 class="output">Shayne</h1>
+<h1 class="output"></h1>
 
 
 
