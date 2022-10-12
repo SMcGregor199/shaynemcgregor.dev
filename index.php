@@ -33,7 +33,7 @@
 
 <h1 class="output"></h1>
 
-
-<script src="scripts/blkhistory.js"></script>
+<script src="scripts/blkhistory.js">
+</script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 

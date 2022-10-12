@@ -1,5 +1,9 @@
+curl 
+	-X 'GET' \ 'https://rest.blackhistoryapi.io/template/people' \
+	-H 'accept: application/json' \
+	-H 'x-api-key: c2hheW5lbWNncmVnb3IxVHVlIE9jdC';
 
-const apiKey = "c2hheW5lbWNncmVnb3IxVHVlIE9jdC";
+
 
 var promise = fetch("https://rest.blackhistoryapi.io/template/people");
 promise.then(function(bodyOfResponse){
