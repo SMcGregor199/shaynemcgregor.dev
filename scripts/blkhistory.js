@@ -1,11 +1,13 @@
-curl 
-	-X 'GET' \ 'https://rest.blackhistoryapi.io/template/people' \
-	-H 'accept: application/json' \
-	-H 'x-api-key: c2hheW5lbWNncmVnb3IxVHVlIE9jdC';
+const options = {
+  method: 'GET', 
+  headers: {
+    'accept': 'application/json',
+    'x-api-key':'c2hheW5lbWNncmVnb3IxVHVlIE9jdC'
+  },
+  // body: JSON.stringify(data),
+};
 
-
-
-var promise = fetch("https://rest.blackhistoryapi.io/template/people");
+var promise = fetch("https://rest.blackhistoryapi.io/template/people", options);
 promise.then(function(bodyOfResponse){
 	return bodyOfResponse.json();
 })

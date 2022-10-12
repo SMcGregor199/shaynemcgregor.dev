@@ -5,3 +5,4 @@
 - `cURL` is a utility for fetching api data
 - to create `categories` in WordPress, you need to go to the `POSTS` and click categories. To add categories to a custom post type, you need to go where you create that post type in `CPT UI` and under `taxonomies` add categories and tags if you'd like
 - you can enable users to switch between the classic and block editor by enabling the classic editor plugin and inside `settings -> writing` you can allow users to switch between the two
+- `fetch` allows a second parameter, in which you can specify how you want the data retrieved. 
