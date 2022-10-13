@@ -8,6 +8,7 @@
 		<title><?php echo wp_get_document_title();?></title>
 		<meta name="description" content="Welcome to Shayne's rap blog. Where all the good writing on rap lives">
 		<meta property="og:image" content="screenshot.png">
+		<link rel="stylesheet" href="https://use.typekit.net/hsy2cwu.css">
 		<?php wp_head(); ?>
 	</head>
 

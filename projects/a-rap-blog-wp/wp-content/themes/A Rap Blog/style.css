@@ -18,7 +18,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "css/setup.css";
 @import "css/settings.css";
 @import "css/typography.css";
+@import "css/blog-card.css";
 
 body {
 	background-color: #f5f5f5;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcome h1 {
+	font-family: acuta, serif;
+	font-size:  1.8rem;
+}
+
+.blog-card-grid {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
 }

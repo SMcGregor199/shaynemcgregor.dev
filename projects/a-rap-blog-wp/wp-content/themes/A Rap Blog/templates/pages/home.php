@@ -8,22 +8,24 @@
 
 <section class="posts-collection">
 	<inner-column>
-		<?php 
+		<div class="blog-card-grid">
+			<?php 
 
-		  $parameters = array(
-		    "post_type" => "post"
-		  );
+			  $parameters = array(
+			    "post_type" => "post"
+			  );
 
-		  $query = new WP_Query($parameters);
-		 
-		  while ($query->have_posts()) : $query->the_post();
-		    echo get_the_title();
-		  endwhile;
+			  $query = new WP_Query($parameters);
+			 
+			  while ($query->have_posts()) : $query->the_post();
+			   include( getFile('templates/components/blog-card.php') );
+			  endwhile;
 
-		  //reset what was done above.
-		  //Allows looping of more items below this.
-		  wp_reset_postdata();
-		?>
+			  //reset what was done above.
+			  //Allows looping of more items below this.
+			  wp_reset_postdata();
+			?>
+		</div>
 	</inner-column>
 </section>
 
