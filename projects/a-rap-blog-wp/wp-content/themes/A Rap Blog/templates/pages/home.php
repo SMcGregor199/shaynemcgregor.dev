@@ -1,8 +1,10 @@
 
-
+<?php
+	$welcomeMessage = get_field('welcome_message');
+?>
 <section class="welcome">
 	<inner-column>
-		<h1>Welcome to A Rap Blog</h1>
+		<h1><?=$welcomeMessage?></h1>
 	</inner-column>
 </section>
 
