@@ -1,10 +1,11 @@
+import { apiKey } from "./secret.js";
+
 const options = {
   method: 'GET', 
   headers: {
     'accept': 'application/json',
-    'x-api-key':'c2hheW5lbWNncmVnb3IxVHVlIE9jdC'
-  },
-  // body: JSON.stringify(data),
+    'x-api-key': apiKey
+  }
 };
 
 var promise = fetch("https://rest.blackhistoryapi.io/template/people", options);
