@@ -12,3 +12,6 @@
 - In order to `.gitignore` a file that was previously added to the repository you need to remove it from the cache using the command line `git rm --cached <FILENAME>` 
 - in the tailwind config file, when you see two values within the font-size key, the second values stands for line-height
 - pages in wordpress are for static content while content related to post types will be dynamically generated. 
+
+# Some Thoughts for October 14th
+-  
