@@ -15,6 +15,7 @@
 					$authors = get_sub_field('author');
 					if($authors):
 						foreach( $authors as $author ):
+							$permalink = get_permalink( $author->ID );
 							$name = get_field( 'name', $author->ID );
 							$author = $name;
 						endforeach;
