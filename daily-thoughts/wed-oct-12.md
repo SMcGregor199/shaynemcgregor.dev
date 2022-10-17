@@ -13,5 +13,6 @@
 - in the tailwind config file, when you see two values within the font-size key, the second values stands for line-height
 - pages in wordpress are for static content while content related to post types will be dynamically generated. 
 
-# Some Thoughts for October 14th
--  
+# Some Thoughts for October 17th
+-  `get_queried_object()` allows you to get the specific taxonomy term you're on in a wordpress project.
+- in wordpress, if and while states optionally can be written with the `:` instead of codeblocks `{}` which then corresponds with `endeach` `endwhile` and `endif`  
