@@ -1,19 +1,26 @@
-ul {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 book-card {
-	display: block;
+	padding: 1rem;
 	display: flex;
 	flex-direction: column;
+	gap: 1rem;
+}
+book-card .book-info {
+	display:  flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
-@media(min-width: 500px) {
-	book-card {
+.book-card-nav {
+	display: flex;
 	flex-direction: row;
-	align-items: center;
+	gap: 1rem;
+}
+
+@media(min-width: 600px){
+	book-card {
+		flex-direction: row-reverse;
+		gap: 5rem;
+		justify-content: center;
 	}
 }
 
@@ -36,13 +43,4 @@ book-card .book-info p {
 
 book-card .book-cover {
 	max-width: 200px;
-}
-
-book-card nav {
-	display: flex;
-	flex-direction: row;
-}
-
-book-card a {
-	text-decoration: underline;
 }

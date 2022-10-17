@@ -2,8 +2,10 @@
 
 .title-font {
 	font-family: 'Red Hat Display', sans-serif;
-	font-size: 48px;
+	font-size: 1.3rem;
 	font-weight: 700;
+	padding: 1rem;
+	text-align: center;
 }
 
 .section-heading-font {
@@ -26,35 +28,11 @@
 }
 
 
-@media(min-width: 600px) {
-	introduction h1.attention-voice {
-		font-size: 36px;
-	}
-	introduction h2.attention-sub-voice {
-		font-size: 24px;
-	}
-}
-
-@media(min-width: 1000px) {
-	introduction h1.attention-voice {
-		font-size: 48px;
-	}
-
-	introduction h2.attention-sub-voice {
-		font-size: 30px;
-	}
-}
-
 .paragraph-font {
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.5;
-}
-
-
-h1.important-voice {
-	font-size: 22px;
 }
 
 
@@ -65,12 +43,10 @@ h1.important-voice {
 	line-height: 1.5;
 }
 
-/*PRACTICE WITH PHILLY SANS FONT FACE*/
-
-
-.philly-sans {
-	font-family:'philly_sansregular';
+h1.important-voice {
+	font-size: 22px;
 }
+
 
 
 

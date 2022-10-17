@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<h1>This page list all the book profiles contained on this site.</h1>
+<h1 class="title-font"><?php the_field('welcome_heading') ?></h1>
 <?php 
 
   $parameters = array(

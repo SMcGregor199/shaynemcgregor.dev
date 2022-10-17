@@ -1,8 +1,6 @@
-
+<h1 class="title-font"> <?php the_field('welcome_heading') ?> </h1>
 <section>
 	<inner-column>
-		<h1>This is the home page</h1>
-		
 		<picture>
 			<?php include(getFile('lion.php')); ?>
 		</picture>

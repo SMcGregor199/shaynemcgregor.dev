@@ -4,4 +4,6 @@ html {
 	--white: #FFFFFF;
 	--color: #9ec9eb;
 	--highlight: #aadee9;
+	--background: rgba(255,255,226,1);
+	--background-dark: rgba(255,255,226,.4) ;
 }

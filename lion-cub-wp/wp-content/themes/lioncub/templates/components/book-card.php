@@ -24,15 +24,12 @@
 <book-card>
 	<div class="book-info">
 		<h2 class="title"><?=$title?></h2>
-
 		<address class="author">by <?=$author?> </address>
-
 		<p class="blurb"><?=$blurb?></p>
-
 		<nav class="book-card-nav">
-			<a href="#>">Read Now!</a>
-			<a href="#>">Update</a> 
-			<a href="#>">Delete</a>
+			<a class="link-font" href="#>">Read Now!</a>
+			<a class="link-font" href="#>">Update</a> 
+			<a class="link-font" href="#>">Delete</a>
 		</nav>
 	</div>
 
