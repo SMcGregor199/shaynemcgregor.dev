@@ -1,5 +1,9 @@
 <?php get_header(); ?> 
-
+<?php
+  $term = get_queried_object();
+  $genreTitle = $term->name;
+?>
+<h1 class="title-font">Welcome to the <?=$genreTitle?> page</h1>
 <section>
   <inner-column>
     <?php 
