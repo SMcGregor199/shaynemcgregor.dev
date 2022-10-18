@@ -1,4 +1,6 @@
 <?php 
+	$user = wp_get_current_user();
+	$allowed_roles = ['editor', 'administrator'];
 	$title = get_field('title');
 	$blurb = get_field('blurb');
 	$book_cover = get_field('book_cover')['url']; 
@@ -24,10 +26,11 @@
 		<h2 class="title"><?=$title?></h2>
 		<a class="link-font" href="<?php echo $permalink?>"><address class="author"><?=$author?> </address></a>
 		<p class="blurb"><?=$blurb?></p>
-		<nav class="book-card-nav">
-			<a class="link-font" href="#>">Update</a> 
-			<a class="link-font" href="#>">Delete</a>
-		</nav>
+		<?php if ( array_intersect( $allowed_roles, $user->roles ) ) { ?>
+			<nav class="book-card-nav">
+				<?=edit_post_link("Update","","",null,"link-font")?>
+			</nav>
+		<?php } ?>
 	</div>
 
 	<picture class="book-cover">
