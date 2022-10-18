@@ -16,3 +16,7 @@
 # Some Thoughts for October 17th
 -  `get_queried_object()` allows you to get the specific taxonomy term you're on in a wordpress project.
 - in wordpress, if and while states optionally can be written with the `:` instead of codeblocks `{}` which then corresponds with `endeach` `endwhile` and `endif`  
+# Some Thoughts for October 18th
+- you can add a sign up link in wordpress by creating a custom link in the menu under appearences 
+- you can use the `current_user_can()` function to determine if the logged in user has a certain capability (i.e. editor, administrator, etc.)
+- you can use the `wp_get_current_user()` function to get whoever the current user is and check it against an array of allowed users using the `array_intersection` function. 
