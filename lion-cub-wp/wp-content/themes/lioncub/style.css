@@ -35,7 +35,17 @@ main {
 
 /*MENU STYLES*/
 .menu {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media(min-width: 500px){
+	.menu{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+.home-page-image {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;	
 }

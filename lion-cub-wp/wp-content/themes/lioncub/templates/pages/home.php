@@ -3,10 +3,9 @@
 
 <section>
 	<inner-column>
-		<picture>
+		<picture class="home-page-image">
 			<?php include(getFile('lion.php')); ?>
 		</picture>
-		
 	</inner-column>
 </section>
 
