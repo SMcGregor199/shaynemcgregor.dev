@@ -20,3 +20,6 @@
 - you can add a sign up link in wordpress by creating a custom link in the menu under appearences 
 - you can use the `current_user_can()` function to determine if the logged in user has a certain capability (i.e. editor, administrator, etc.)
 - you can use the `wp_get_current_user()` function to get whoever the current user is and check it against an array of allowed users using the `array_intersection` function. 
+# Some Thoughts for October 20th
+- custom HTML is its own block in the WP block editor. You can also switch the block editor to a code editor via the three dots in the upper right hand corner
+- you use the `editor-style-block-custom.css` to determine the style of your block editor, and you use a special function to enque it into your project.
