@@ -2,14 +2,9 @@
 <?php
 	$welcomeMessage = get_field('welcome_message');
 ?>
-<section class="welcome">
+<section class="welcome posts-collection">
 	<inner-column>
 		<h1><?=$welcomeMessage?></h1>
-	</inner-column>
-</section>
-
-<section class="posts-collection">
-	<inner-column>
 		<div class="blog-card-grid">
 			<?php 
 

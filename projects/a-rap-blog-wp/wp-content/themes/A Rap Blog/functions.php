@@ -18,5 +18,15 @@ add_action( 'init', 'register_my_menu' );
 function getFile($path) {
   return dirname(__FILE__) . '/' . $path;
 }
+//Add Block Editor Stylesheet to Admin Side
+add_action( 'enqueue_block_editor_assets', function() {
+    wp_enqueue_style( 'a-rap-blog-custom-block-editor-styles',
+        get_theme_file_uri( "/css/editor-style-block-custom.css" ),
+        false, wp_get_theme()->get( 'Version' ));
+} );
+
+
+
+
 
 ?>
