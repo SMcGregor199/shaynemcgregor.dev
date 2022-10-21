@@ -23,3 +23,6 @@
 # Some Thoughts for October 20th
 - custom HTML is its own block in the WP block editor. You can also switch the block editor to a code editor via the three dots in the upper right hand corner
 - you use the `editor-style-block-custom.css` to determine the style of your block editor, and you use a special function to enque it into your project.
+# Some Thoughts for October 21th
+- `body * { }` selects every element in the css
+- In javaScript you can use `document.querySelector()` to grab anything you want from the dom. 
