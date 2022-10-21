@@ -1,1 +1,6 @@
-var body = document.querySelector('body');
+var bars = document.querySelectorAll('p');
+
+for (bar of bars){
+	bar.classList.add('MyClass');
+}
+

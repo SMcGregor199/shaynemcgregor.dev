@@ -26,6 +26,7 @@ html {
 p {
 	max-width: 70ch;
 	padding: 1rem;
+	cursor: text;
 }
 
 
