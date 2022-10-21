@@ -33,3 +33,4 @@
 	- You can give it a class with `.classList.add('MyClass');`
 - You can loop over arrays with the `forEach(function(x,y,z){ })` or if you're only using the element you can loop through with the `forEach(element =>{ //what to do with element })`
 - `cursor` is a css property that can be used to select the style of cursor that appears on the element on hover
+- components control the elements inside themselves. pages control how the components are positioned relative to eachother. 
