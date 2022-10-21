@@ -26,3 +26,10 @@
 # Some Thoughts for October 21th
 - `body * { }` selects every element in the css
 - In javaScript you can use `document.querySelector()` to grab anything you want from the dom. 
+- You can alternatively use `getElementById()` to grab any element with an id
+- You can alternatively grab all of a certain element by using the `.querySelectorAll('');` and from here you can loop over it.
+	- with this object you can `.addEventListener()`
+	- You can add to it with  `.innerHTML`
+	- You can give it a class with `.classList.add('MyClass');`
+- You can loop over arrays with the `forEach(function(x,y,z){ })` or if you're only using the element you can loop through with the `forEach(element =>{ //what to do with element })`
+- `cursor` is a css property that can be used to select the style of cursor that appears on the element on hover
