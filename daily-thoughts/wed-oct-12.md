@@ -37,3 +37,12 @@
 - in javaScript, you can use the `offsetWidth` property with console.log to display the size of an image. 
 # Some Thoughts for October 24th
 - A good reason to use teh `slot` component in Svelte is as an interator. So you have your resource card, but if you would like to iterate over it, then you would create another component called resource wrapper that utilizes the `slot` component. 
+- A single `<slot />` is able to take multiple components
+- In wordpress, you can create custom blocks using ACF. You do this by creating a block.json file that contains all the information relevant to the block. In the same blocks/block-name folder, you create what is essentially the module that you'll be calling in `the_content()` function. 
+- you also need to register the block using 
+`
+add_action( 'init', 'register_acf_blocks' );
+function register_acf_blocks() {
+    register_block_type( __DIR__ . '/blocks/[block-title]' );
+}`
+- On the admin side, when creating a custom field, in the location, you need to state that these fields are block, and attach them to the specific block title
