@@ -1,0 +1,14 @@
+{
+    "name": "acf/blog-header",
+    "title": "Blog Header",
+    "description": "A custom header block.",
+    "style": [ "file:./css/style.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["blog", "header"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "blog-header.php"
+    },
+    "align": "full"
+}

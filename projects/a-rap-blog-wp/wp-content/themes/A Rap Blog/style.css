@@ -32,17 +32,12 @@ main {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
-	background-image: url("images/background.jpeg");
 }
-.welcome {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+h1 {
+	color: red;
 }
-
-.welcome h1 {
-	font-family: acuta, serif;
-	font-size:  1.8rem;
+h3 {
+	color: blue;
 }
 
 .blog-card-grid {

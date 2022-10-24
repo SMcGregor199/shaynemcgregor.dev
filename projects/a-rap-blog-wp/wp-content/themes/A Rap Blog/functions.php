@@ -5,6 +5,17 @@ function mytheme_enqueue_style() {
 }
 add_action( 'wp_enqueue_scripts', 'mytheme_enqueue_style' );
 
+
+//Add Block Editor Stylesheet to Admin Side
+add_action( 'enqueue_block_editor_assets', function() {
+    wp_enqueue_style( 'a-rap-blog-custom-block-editor-styles',
+        get_theme_file_uri( "mytheme_enqueue_style" ),
+        false, wp_get_theme()->get( 'Version' ));
+} );
+
+
+
+
 // Removes Admin Bar from Live Site Page
 add_filter( 'show_admin_bar', '__return_false' );
 
@@ -18,15 +29,13 @@ add_action( 'init', 'register_my_menu' );
 function getFile($path) {
   return dirname(__FILE__) . '/' . $path;
 }
-//Add Block Editor Stylesheet to Admin Side
-add_action( 'enqueue_block_editor_assets', function() {
-    wp_enqueue_style( 'a-rap-blog-custom-block-editor-styles',
-        get_theme_file_uri( "/css/editor-style-block-custom.css" ),
-        false, wp_get_theme()->get( 'Version' ));
-} );
 
 
-
+//Add blog-header block
+add_action( 'init', 'register_acf_blocks' );
+function register_acf_blocks() {
+    register_block_type( __DIR__ . '/blocks/blog-header' );
+}
 
 
 ?>
