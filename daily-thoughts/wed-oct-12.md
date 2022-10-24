@@ -35,3 +35,5 @@
 - `cursor` is a css property that can be used to select the style of cursor that appears on the element on hover
 - components control the elements inside themselves. pages control how the components are positioned relative to eachother. 
 - in javaScript, you can use the `offsetWidth` property with console.log to display the size of an image. 
+# Some Thoughts for October 24th
+- A good reason to use teh `slot` component in Svelte is as an interator. So you have your resource card, but if you would like to iterate over it, then you would create another component called resource wrapper that utilizes the `slot` component. 
