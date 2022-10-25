@@ -49,6 +49,7 @@ function register_acf_blocks() {
 - `wp_enqueue_style` takes a custom file name and the location of the stylsheet. You can use `get_stylesheet_uri()` if it's in the root or `get_theme_file_uri()` if it's somewhere else. 
 - Following this you can use the `add_action()` to add your custom function to to a particular place in the system. To add a stylesheet you would use `wp_enqueue_scripts` or to add it to the editor you would use `enqueue_block_editor_assets` 
 - `the_author()` will only appear in the middle of a wp_loop
+- you would use `echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );` to get the author's post link. the `esc_url` is a way to add extra security to the url
 
 
 
