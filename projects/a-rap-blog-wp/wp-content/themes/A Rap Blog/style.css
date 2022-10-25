@@ -74,7 +74,24 @@ main {
 	color: var(--red);
 }
 
+.blog-body p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 0.5rem;
+	max-width: 65ch;
+}
 
+.blog-body blockquote {
+	border-left: 5px solid black;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.blog-body blockquote p {
+	margin-left: 1rem;
+}
+.blog-body blockquote cite a {
+	margin-left: 1rem;
+}
 
 
 
