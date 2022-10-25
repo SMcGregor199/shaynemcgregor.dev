@@ -50,6 +50,14 @@ function register_acf_blocks() {
 - Following this you can use the `add_action()` to add your custom function to to a particular place in the system. To add a stylesheet you would use `wp_enqueue_scripts` or to add it to the editor you would use `enqueue_block_editor_assets` 
 - `the_author()` will only appear in the middle of a wp_loop
 - you would use `echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );` to get the author's post link. the `esc_url` is a way to add extra security to the url
+-in Svelte you can use `import { onMount } from 'svelte';` if you want to use javascript in the browser. Once you import it, you can use 
+`  import { onMount } from 'svelte';
+  onMount(() => {
+    code goes here;
+    // ...
+  });`
+
+
 
 
 
