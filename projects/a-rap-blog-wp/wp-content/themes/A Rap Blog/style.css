@@ -28,24 +28,61 @@ body {
 	flex-direction: column;
 	gap: 1rem;
 }
+
 main {
 	display: flex;
 	flex-direction: column;
-	gap: 1.5rem;
-}
-h1 {
-	color: red;
-}
-h3 {
-	color: blue;
+	gap: 1rem;
 }
 
-.blog-card-grid {
-	display:  flex;
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.75rem;
+	gap: 1rem;
+}
+
+h1 {
+ 	font-family: montserrat, sans-serif;
+ 	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+.blog-header {
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
 }
-a {
-	color: var(--white);
+.blog-header h3 {
+	font-family: montserrat, sans-serif;
+ 	font-weight: 300;
+	font-size: 1.5rem;
+	color: var(--grey);
 }
+.blog-header time {
+	color: var(--light-grey);
+}
+.blog-header .date-and-attribution {
+	display: flex;
+	flex-direction: row;
+	gap: .5rem;
+}
+.blog-header a {
+	color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

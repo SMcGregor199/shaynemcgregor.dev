@@ -9,3 +9,6 @@
 	gap: 1rem;
 	justify-content: flex-start;
 }
+.menu a {
+	color: var(--white);
+}
