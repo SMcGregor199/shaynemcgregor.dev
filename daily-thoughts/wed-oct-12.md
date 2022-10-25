@@ -46,3 +46,35 @@ function register_acf_blocks() {
     register_block_type( __DIR__ . '/blocks/[block-title]' );
 }`
 - On the admin side, when creating a custom field, in the location, you need to state that these fields are block, and attach them to the specific block title
+- `wp_enqueue_style` takes a custom file name and the location of the stylsheet. You can use `get_stylesheet_uri()` if it's in the root or `get_theme_file_uri()` if it's somewhere else. 
+- Following this you can use the `add_action()` to add your custom function to to a particular place in the system. To add a stylesheet you would use `wp_enqueue_scripts` or to add it to the editor you would use `enqueue_block_editor_assets` 
+- `the_author()` will only appear in the middle of a wp_loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
