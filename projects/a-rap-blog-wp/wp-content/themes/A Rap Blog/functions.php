@@ -1,18 +1,43 @@
 <?php 
 // Connects Style Sheet to Index File
 
-function enqueue_main_style_css() {
-   wp_enqueue_style( 'style.css', get_stylesheet_uri() ); 
+// function enqueue_main_style_css() {
+//    wp_enqueue_style( 'style.css', get_stylesheet_uri() ); 
+// }
+// add_action( 'wp_enqueue_scripts', 'enqueue_main_style_css' );
+
+/**
+ * Enqueue front-end styles.
+ */
+function my_theme_styles() {
+
+    // Enqueue the same style sheet in the front-end.
+    wp_enqueue_style( 'my-theme', get_stylesheet_uri(), [], wp_get_theme()->get( 'Version' ) );
+
+    // Inline the contents of the style.css file, if possible.
+    // wp_style_add_data( 'my-theme', 'path', get_theme_file_path( 'style.css' ) );    
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_main_style_css' );
+   add_action( 'wp_enqueue_scripts', 'my_theme_styles' );
 
 
 //Add Block Editor Stylesheet to Admin Side
-function enqueue_editor_style_css() {
-   wp_enqueue_style('editor_style_css',
-   get_theme_file_uri( "css/editor-style.css" ));
-}
-add_action( 'enqueue_block_editor_assets', 'enqueue_editor_style_css' );
+// function enqueue_editor_style_css() {
+//    wp_enqueue_style('editor_style_css',
+//    get_theme_file_uri( "css/editor-style.css" ));
+// }
+// add_action( 'enqueue_block_editor_assets', 'enqueue_editor_style_css' );
+
+/**
+ * Enqueue editor styles.
+ */
+if ( ! function_exists( 'my_theme_setup' ) ) :
+    function my_theme_setup()  {
+
+        // Enqueue the style sheet in the editor.
+        add_editor_style( 'style.css' );
+    }
+    add_action( 'after_setup_theme', 'my_theme_setup' );
+endif;
 
 
 
