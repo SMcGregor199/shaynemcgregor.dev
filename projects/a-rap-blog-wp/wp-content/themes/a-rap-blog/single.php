@@ -7,7 +7,8 @@
 				the_post(); ?>
 				<h1><?=the_title();?></h1>
 
-				<?php the_content();?>	
+				<?php the_content();?>
+				</div> <!--  end of blog-body class kind of a hack 	   -->
 	<?php		} // end while
 		} // end if
 ?>

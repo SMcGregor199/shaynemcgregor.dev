@@ -14,25 +14,19 @@ Text Domain: A Rap Blog
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-@import "css/meyer-reset.css";
-@import "css/setup.css";
-@import "css/settings.css";
-@import "css/structure.css";
-@import "css/typography.css";
-@import "css/blog-card.css";
-@import "css/header.css";
+
 
 
 body {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
 }
 
 main {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	background-color: var(--grey);
 }
 
 .container {
@@ -40,7 +34,11 @@ main {
 	flex-direction: column;
 	align-items: center;
 	padding: 0.75rem;
-	gap: 1rem;
+	gap: 3rem;
+	max-width: 960px; /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+	background-color: var(--white);
 }
 
 .container h1 {
@@ -61,6 +59,7 @@ main {
  	font-weight: 300;
 	font-size: 1.5rem;
 	color: var(--grey);
+	text-align: center;
 }
 .blog-header time {
 	color: var(--light-grey);
