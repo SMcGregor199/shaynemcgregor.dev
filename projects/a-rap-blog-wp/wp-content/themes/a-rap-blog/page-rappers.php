@@ -5,3 +5,5 @@ foreach ( get_categories() as $category ) :
 endforeach;
 ?>
 <?php get_footer(); ?>
+
+//random comment
