@@ -56,7 +56,15 @@ function register_acf_blocks() {
     code goes here;
     // ...
   });`
-
+# Some Thoughts for November 8th
+- You can use Global Settings in WordPress to interact with elements within certain sections of the website. 
+- Some WordPress Plugins that are useful for building websites at scale include 
+    Disable Author Archives
+    Perfmatters 
+    Simple History
+    Redirection 
+    User Switching 
+    The SEO Framework 
 
 
 
