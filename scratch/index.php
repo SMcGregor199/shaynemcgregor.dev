@@ -8,11 +8,7 @@
 </head>
 <body>
 	<header>
-	<?php
-			$data = file_get_contents("https://pokeapi.co/api/v2/pokemon/pikachu");
-			$pokeData = json_decode($data, true);
-			print_r($pokeData);
-		?> 
+
 	</header>
 
 	<main>
@@ -22,11 +18,8 @@
 	</main>
 
 	<footer>
-		<script>
-				fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-				.then((response) => response.json())
-  				.then((json) => console.log(json));
-  	
+		<script src="js-objects-classes.js">
+			
 		</script>
 	</footer>
 </body>
