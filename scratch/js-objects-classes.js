@@ -27,7 +27,7 @@ var garfield = {
 	hates: "Mondays",
 	loves: ["sleeping","lasagna"],
 	owner_name: "Tom",
-	 sayQuote() {
+	sayQuote() {
 	 	var heading = document.createElement("h1");
 		heading.textContent = "I'm not known for my compassion";
 		document.body.appendChild(heading);
@@ -44,7 +44,7 @@ function CartoonCat(name, age) {
 	this.name = name;
 	this.age = age;
 
-	this.roar = function(){
+	this.roar = function() {
 		alert(`${name}!!!`);
 	}
 }
@@ -53,4 +53,12 @@ var Tom = new CartoonCat('TOM',"16");
 Tom.roar();
 
 
+//local storage
 
+localStorage.setItem('What I want','wholeness');
+
+const desire = localStorage.getItem('What I want');
+
+const message = `The thing I want most in this world is ${desire}`;
+
+document.body.textContent = message;
