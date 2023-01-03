@@ -31,8 +31,13 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('modules/project-grid.php');?>
+	<inner-column>
+</section>
 
 
-<script type="module" src="scripts/blkhistory.js"></script>
+<!-- <script type="module" src="scripts/blkhistory.js"></script> -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 

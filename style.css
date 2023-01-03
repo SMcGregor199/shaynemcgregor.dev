@@ -34,6 +34,8 @@
 @import "css/modules-css/new-article.css";
 @import "css/modules-css/temphomepage.css";
 @import "css/modules-css/visual-flourish.css";
+@import "css/modules-css/project-grid.css";
+@import "css/modules-css/blog-grid.css";
 html {
 	scroll-behavior: smooth;
 
