@@ -3,10 +3,10 @@
 	flex-direction: column;
 }
 
-li::before {
+.list-containers li::before {
 	content:"⚪";
 }
 
-li.completed::before {
+.list-containers li.completed::before {
 	content:"🟢";
 }

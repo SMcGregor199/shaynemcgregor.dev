@@ -1,7 +1,7 @@
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .25rem;
+    gap: 1rem;
 }
 .blog-card {
     background-color: #f4f5b9;

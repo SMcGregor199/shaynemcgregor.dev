@@ -4,7 +4,7 @@
             <picture>
                 <img src="images/lion-cub-home.jpg" alt="">
             </picture>
-            <h1>Lion Cub Books</h1>
+            <h1 class="title-voice">Lion Cub Books</h1>
         </div>
     </a>
 
@@ -61,7 +61,7 @@
             <picture>
                 <img src="images/lion-cub-home.jpg" alt="">
             </picture>
-            <h1>Lion Cub Books</h1>
+            <h1 class="title-voice">Lion Cub Books</h1>
         </div>
     </a>
 
@@ -70,7 +70,7 @@
             <picture>
                 <img src="images/lion-cub-home.jpg" alt="">
             </picture>
-            <h1>Lion Cub Books</h1>
+            <h1 class="title-voice">Lion Cub Books</h1>
         </div>
     </a>
 </div>

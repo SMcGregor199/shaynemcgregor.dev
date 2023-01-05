@@ -6,6 +6,7 @@
 
 <?php include("head.php");?>
 
+
 <body>
 	<!-- OLD HEADER LOGIC -->
 <!-- 	<?php if($page == "home") { ?>
