@@ -6,7 +6,7 @@
 			if ($exercise['languages']['PHP'] == true) { ?>
 				class="completed" 
 			<?php	} ?>>
-			<a href="<?=$exercise['slug']?>">
+			<a href="<?="efp/" . $exercise['slug'] . "/index.php"?>">
 				<?=$exercise['name']?>
 				
 			</a></li>	
@@ -20,7 +20,7 @@
 			if ($exercise['languages']['JavaScript'] == true) { ?>
 				class="completed" 
 			<?php	} ?>>
-			<a href="<?=$exercise['slug']?>">
+			<a href="<?="efp/" . $exercise['slug']?>">
 				<?=$exercise['name']?>
 				
 			</a></li>

@@ -173,6 +173,7 @@ section inner-column {
 	flex-direction: column;
 	gap:1rem;
 	padding:.75rem;
+	border:0.25rem solid black;
 }
 
 .list-containers a {
