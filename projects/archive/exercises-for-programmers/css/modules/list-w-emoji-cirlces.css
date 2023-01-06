@@ -1,0 +1,12 @@
+.list-containers {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-containers li::before {
+	content:"⚪";
+}
+
+.list-containers li.completed::before {
+	content:"🟢";
+}

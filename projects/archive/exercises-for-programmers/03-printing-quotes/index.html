@@ -1,0 +1,70 @@
+<a href="?"><h1>Printing Quotes</h1></a>
+<p>A program that takes the name of an author and a quotation and displays the author's name and quotation w/ with JavaScript</p>
+
+<form autocomplete="off">
+	<p>Please enter the name of an author and their quotation</p>
+	<div class="field">
+		<label>Author's name</label>
+		<input name="author" placeholder="...">
+	</div>
+	<div class="field">
+		<label>Quotation</label>
+		<input name="quotation" placeholder="...">
+	</div>
+	<button>Submit</button>
+</form>
+
+<output></output>
+
+<script>
+	const form = document.querySelector("form");
+	const output = document.querySelector("output");
+
+	const authorField = form.querySelector("input[name='author']");
+	const quotationField = form.querySelector("input[name='quotation']");
+
+	function buildMessage(author, quotation){
+		
+		var message = `${author} says "${quotation}."`;
+
+		//both values are empty
+		if(author.length == 0 && quotation.length == 0) {
+			return message = "Please include the quotation and the author's name";
+		}
+		//author value is empty 
+		if(author.length == 0 && quotation.length > 0) {
+			return message = "please input the name of the author";
+		}
+		//quotation value is empty 
+		if(quotation.length == 0 && author.length > 0) {
+			return message = "Please include the quotation";	
+		}
+	
+		 return message;
+	}
+
+	function test(condition,message){
+		if(condition) {
+			console.log(`%c ${message}`,`color:green`);
+		}else {
+			console.log(`%c ${message}`,`color:red`);
+		}
+	}
+	test(buildMessage("","") == "Please include the quotation and the author's name", "Handles empty strings");
+
+	test(buildMessage("Shayne","") == "Please include the quotation", "Handles empty quotation field");
+
+	test(buildMessage("","Practice Makes Perfect") == "please input the name of the author", "Handles empty author field");
+
+	test(buildMessage("Shayne","Practice Makes Perfect") == `Shayne says "Practice Makes Perfect."`, "Handles both inputed values");
+
+	
+
+	
+
+	form.addEventListener("submit", function(event){
+		event.preventDefault();
+		output.innerHTML = buildMessage(authorField.value,quotationField.value);
+	})
+</script>
+

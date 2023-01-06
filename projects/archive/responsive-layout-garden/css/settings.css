@@ -1,0 +1,41 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--color: #9ec9eb;
+	--highlight: #aadee9;
+	--blue: #a4d6e1;
+	--pink: #ff999a;
+	--orange: #ffcc99;
+	--yellow: #ffee99;
+	
+}
+/* you can make more! */
+
+
+
+/* USAGE */
+.blue-box {
+  background-color:var(--blue) ;
+}
+
+.pink-box {
+  background-color:var(--pink) ;
+}
+
+.orange-box {
+  background-color:var(--orange) ;
+}
+
+.yellow-box {
+  background-color:var(--yellow) ;
+}
+
+
+.test {
+	border: 1px solid var(--yellow); /* used as variable */
+}
+
+.test * {
+	border: 2px solid var(--orange);
+}
