@@ -1,0 +1,66 @@
+
+<a href="?"><h1>Saying Hello</h1></a>
+<p>A program that takes an input and builds a greeting message with JavaScript</p>
+
+<form>
+	<div class="field">
+		<p>Please enter your first name</p>
+		<label>First Name</label>
+		<input placeholder="...">
+	</div>
+
+	<button>Submit</button>
+</form>
+<!-- 
+		ask for user name 
+		create message 
+		display message
+-->
+<output></output>
+
+
+<script>
+	var form = document.querySelector("form");
+	var output = document.querySelector("output");
+	
+	form.addEventListener("submit",function(event){
+		event.preventDefault();
+		var input = form.querySelector("input").value;
+		if(input) {
+			output.innerHTML = `Hello ${input}. It's nice to meet you`;
+		}else {
+			output.innerHTML = "there was no input";
+		}
+	})
+
+
+	// function prompt4Name() {
+	// 	var name = prompt("Put in your name");
+	// 	var message = "please enter a name";
+
+	// 	if(name) {
+	// 		message = `Hello ${name}. It's nice to meet you!`;
+	// 		alert(message);
+	// 	} else {
+	// 		prompt4Name();
+	// 	}
+	// }
+	// var button = document.querySelector("button");
+	// button.addEventListener("click", function(){ 
+	// 	prompt4Name();
+	// } )
+ 	
+	// function createMessage() {
+	// 	let name = document.forms["sayHello"]["first-name"].value;
+
+	// 	if(name){
+	// 		var message = "Hello " + name + ". It's nice to meet you!";
+	// 	}
+		
+	// 	if(name == "") {
+	// 		var message = "First Name must be filled out";
+	// 	}
+
+	// 	alert (message);
+	// }
+</script>
