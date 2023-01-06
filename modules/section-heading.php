@@ -4,7 +4,7 @@
  ?>
 
 <section-heading>
-	<h2 class="section-heading-font"><?=$heading?></h2>
+	<h2 class="super-title-voice"><?=$heading?></h2>
 	<p class="paragraph-font"><?=$content?></p>
 </section-heading>
 
