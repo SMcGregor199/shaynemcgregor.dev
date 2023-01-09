@@ -1,6 +1,6 @@
 <header class="home-header">
 	<inner-column>
-		<nav class="link-font site-nav">
+		<nav class="link-voice site-nav">
 			<a href="?page=home">Home</a>
 			<a href="#">Blogging</a>
 			<a href="#">Project Archive</a>	

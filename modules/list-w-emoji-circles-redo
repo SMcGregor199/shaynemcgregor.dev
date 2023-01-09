@@ -1,0 +1,12 @@
+<?php $completed = ''; ?>
+<?php  if($listTitle == "PHP") { ?>
+
+    <?php if ($exercise['languages']['PHP'] == true) { 
+            $completed = 'completed'
+        	} ?>
+
+    <a href="<?="efp/" . $exercise['slug'] . "/index.php"?>" class="link-voice <?=$completed?>">
+        <li><?=$exercise['name']?></li>
+    </a>
+
+<?php } ?>

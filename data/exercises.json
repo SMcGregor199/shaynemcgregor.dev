@@ -10,7 +10,7 @@
 	},
 	{
 		"id":"02",
-		"name":"Counting the Number of Characters",
+		"name":"Counting Characters",
 		"slug":"02-counting-the-number-characters",
 		"languages":{
 			"PHP":true,

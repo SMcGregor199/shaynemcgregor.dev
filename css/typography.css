@@ -5,12 +5,10 @@
 	font-family: acuta, serif;
 	font-size: 1.7rem;
 	font-weight: 700;
-	padding: 10px;
 }
 .title-voice {
 	font-family: acuta, serif;
 	font-size: 1.1rem;
-	padding: 10px;
 }
 
 @media(min-width:480px){
@@ -18,12 +16,10 @@
 		font-size:1.7rem;
 	}
 }
-
-.sub-title-voice {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size:  2.5rem;
-	font-weight: 700;
-	color: var(--seaBlue);
+.link-voice {
+	font-family: acuta, serif;
+	font-size: 1rem;
+	font-weight:300;
 }
 
 .base-voice {
@@ -33,8 +29,4 @@
 	max-width: 65ch;
 } 
 
-.link-voice {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 1rem;
-	text-decoration: underline;
-}
+
