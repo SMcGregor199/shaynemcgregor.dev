@@ -10,7 +10,9 @@
 	font-family: acuta, serif;
 	font-size: 1.1rem;
 }
-
+.title-voice:hover {
+	color:var(--seaBlue);
+}
 @media(min-width:480px){
 	.title-voice {
 		font-size:1.7rem;

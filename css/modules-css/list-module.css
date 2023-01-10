@@ -1,16 +1,15 @@
 list-card {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 1.5rem;
 }
 
 ul {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	list-style-type: disc;
+	gap: 1.5rem;
 }
 
 ul li {
-	padding-left: 10px
+	padding-left: .5rem;
 }

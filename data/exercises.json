@@ -52,15 +52,6 @@
 			"PHP":false,
 			"JavaScript":false
 		}
-	},
-	{
-		"id":"00",
-		"name":"name",
-		"slug":"00-name",
-		"languages":{
-			"PHP":false,
-			"JavaScript":false
-		}
 	}
 	
 ]

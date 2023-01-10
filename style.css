@@ -32,7 +32,6 @@
 @import "css/modules-css/nav-list.css";
 @import "css/lion-svg.css";
 @import "css/modules-css/new-article.css";
-@import "css/modules-css/temphomepage.css";
 @import "css/modules-css/visual-flourish.css";
 @import "css/modules-css/project-grid.css";
 @import "css/modules-css/blog-grid.css";
@@ -177,6 +176,9 @@ h1.title-voice {
 	}
 }
 
+
+
+
 .list-containers {
 	display: flex;
 	flex-direction: column;
@@ -184,17 +186,24 @@ h1.title-voice {
 	padding:.75rem;
 	border:0.25rem solid black;
 }
+.list-containers li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap:1rem;
+}
 
 .list-containers a {
-	display:inline;
+	width:100%;
+	padding:0.625rem;
 }
-
+.list-containers a:hover {
+	background-color:rgba(255, 255, 255, 0.4);
+	text-decoration: underline;
+}
 .list-containers li::before {
-
 	content:"⚪";
-
 }
-
 .list-containers li.completed::before {
 	content:"🟢";
 }
@@ -205,11 +214,5 @@ h1.title-voice {
 .list-containers:nth-of-type(2) {
 	background-color: var(--burntOrange);
 }
-ul a {
-	padding:0.625rem;
-}
-ul a:hover {
-    background-color:rgba(255, 255, 255, 0.4);
-	text-decoration: underline;
-}
+
 
