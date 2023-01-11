@@ -51,6 +51,6 @@
 </section>
 
 
-<!-- <script type="module" src="scripts/blkhistory.js"></script> -->
+<script type="module" src="scripts/blkhistory.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 

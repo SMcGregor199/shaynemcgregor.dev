@@ -1,10 +1,10 @@
 <div class="project-grid">
     <a href="#">
         <div class="project-card">
-            <picture>
-                <img src="images/lion-cub-home.jpg" alt="">
+            <picture style="background-color:#FFFFE0">
+                <img src="images/lion-project-card-image-V.png" alt="">
             </picture>
-            <h1 class="title-voice">Lion Cub Books</h1>
+            <h1 class="title-voice">Lion Cub Books (WordPress)</h1>
         </div>
     </a>
 

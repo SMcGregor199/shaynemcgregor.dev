@@ -5,7 +5,9 @@
 			<span>/</span>
 			<a class="link-voice" href="#">Blogging</a>
 			<span>/</span>
-			<a class="link-voice" href="#">Project Archive</a>	
+			<a class="link-voice" href="#">Project Archive</a>
+			<span>/</span>
+			<a class="link-voice" href="#">Resume</a>	
 		</nav>
 	</inner-column>
 </header>

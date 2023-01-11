@@ -8,6 +8,11 @@ const options = {
   }
 };
 
+var $projectCard = document.querySelector('picture');
+console.log($projectCard.offsetWidth,$projectCard.offsetHeight);
+
+
+
 var promise = fetch("https://rest.blackhistoryapi.io/template/people", options);
 promise.then(function(bodyOfResponse){
 	return bodyOfResponse.json();
