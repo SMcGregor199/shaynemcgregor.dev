@@ -15,14 +15,15 @@
 
 ?>
 
+<?php if($page == 'home') { ?>
 
 <section class="featured">
 	<inner-column>
 		<div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
 		  	<div class="carousel-cell" style="background-image: url('images/red-heart-01.png'); background-repeat: space; position: relative;">
 		  		<div class="carousel-background">
-		  			<h1>Pixel Art Gallery(WordPress)</h1>
-			  		<p>I love pixel art, and I practice making them every day. If you want to keep up with what I've been working on, check out my pixel art gallery that I made in WordPress. <a href="#">Click Here</a> to take a look</p>
+		  			<h1 class="super-title-voice">Pixel Art Gallery(WordPress)</h1>
+			  		<p class="base-voice">I love pixel art! If you want to keep up with what I've been working on, check out my pixel art gallery that I made in WordPress. <a href="#">Click Here</a> to take a look</p>
 		  	  	</div>
 			</div>
 			
@@ -49,8 +50,11 @@
 		<?php include('modules/efp-section-content.php'); ?>
 	</inner-column>
 </section>
+<?php } ?>
 
-
+<?php if($page == 'projects') { ?>
+	<?php include('pages/projects/lion-cub.php'); ?>
+<?php } ?>
 <script type="module" src="scripts/blkhistory.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 

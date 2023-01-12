@@ -1,6 +1,6 @@
 <div class="project-grid">
-    <a href="#">
-        <div class="project-card">
+    <a href="?page=projects&&id=0">
+        <div class="project-card featured-project">
             <picture style="background-color:#FFFFE0">
                 <img src="images/lion-project-card-image-V.png" alt="">
             </picture>

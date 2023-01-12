@@ -11,9 +11,12 @@
 	font-size: 1.1rem;
 }
 
-@media(min-width:480px){
+@media(min-width:551px){
 	.title-voice {
 		font-size:1.7rem;
+	}
+	.super-title-voice {
+		font-size: 2.3rem;
 	}
 }
 .link-voice {
@@ -23,10 +26,10 @@
 }
 
 .base-voice {
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 1rem;
+	font-family: halyard-display, sans-serif;
+	max-width: 64ch;
+	font-size: 1.01rem;
 	line-height: 1.5;
-	max-width: 65ch;
 } 
 
 

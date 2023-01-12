@@ -55,29 +55,23 @@ body {
   border-radius: 5px;
 }
 .carousel-background h1 {
-	font-size: 1.1rem;
 	max-width: 64ch;
-	font-family: acuta, serif;
 	color: var(--white);
 	padding: 10px;
 }
-@media(min-width: 480px){
-	.carousel-background h1 {
-		font-size: 1.7rem;
-	}
-}
+
 @media(min-width: 1000px){
 	.carousel-background h1 {
 		padding: 15px;
 	}
 }
 .carousel-background p {
-	font-size: 1.01rem;
-	max-width: 64ch;
-	font-family: halyard-display, sans-serif;
 	color: var(--white);
-	line-height: 1.5;
 	padding: 10px;
+}
+.carousel-background p a {
+	text-decoration: none;
+	color:var(--seaBlue);
 }
 @media(min-width:  480px){
 	.carousel-background p {
