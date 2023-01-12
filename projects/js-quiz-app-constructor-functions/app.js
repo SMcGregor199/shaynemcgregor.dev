@@ -40,6 +40,7 @@ function GamesList(name){
 
 const playStationGames = new GamesList('PlayStation Games');
 const xBoxGames = new GamesList('XBox Games');
+const pcGames = new GamesList('PC Games');
 
 console.log(playStationGames.listName);
 playStationGames.add('God of War'); 
