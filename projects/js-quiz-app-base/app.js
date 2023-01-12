@@ -20,21 +20,26 @@ function add(content){
 }
 
 function remove(id){
-    print(`Removed ${games[id].title}`);
-    games.splice(id,1);
+   const filtered = games.filter(function(game){
+        return game.id != id;
+    })
+    games = [...filtered];
+    renderGames(games);
 }
 
 function complete(id){
     games[id].complete = true;
     print(`Completed ${games[id].title}`);
+    renderGames(games);
 }
 function udpate(id,property,value){
     games[id][property] = value;
     print(`Updated the ${property} of ${games[id].title}`);
+    renderGames(games);
 }
 function renderGame(game){
 return `
-    <li>
+    <li data-id="${game.id}">
         <game-card>
             <h2>${game.title}</h2>
             <actions>
@@ -67,6 +72,12 @@ $form.addEventListener('submit',function(event){
     $input.value = "";
 })
 
+$output.addEventListener('click',function(event){
+    if(event.target.textContent == 'Remove'){
+        const id = event.target.closest('li').dataset.id;
+        remove(id);
+    }
+})
 
 
 
