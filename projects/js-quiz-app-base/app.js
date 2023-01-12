@@ -10,10 +10,13 @@ function print(note = ""){
 function add(content){
     const game = {
         id:`a${gamesIdMaker++}`,
-        title: content
-    }
-    games.push(game);
+        title: content,
+        complete: false
+    };
+    games = [...games,game];
     print(`Added ${content}`);
+    renderGames(games);
+
 }
 
 function remove(id){
@@ -29,13 +32,40 @@ function udpate(id,property,value){
     games[id][property] = value;
     print(`Updated the ${property} of ${games[id].title}`);
 }
+function renderGame(game){
+return `
+    <li>
+        <game-card>
+            <h2>${game.title}</h2>
+            <actions>
+                <button>Remove</button>
+            </actions>
+        </game-card>
+    </li>
+`
+}
 
-add('God of War');
-add('Uno');
-add(`Monopoly`);
+function renderGames(games) {
+    var template = "<ul>";
+    games.forEach(function(game){
+        template += renderGame(game); 
+    });
+    template += "</ul>";
+    $output.innerHTML = template;
+}
 
-udpate(0, "title", "Super Mario");
-udpate(1, "id", "b57");
+
+
+//rendering the data 
+const $form = document.querySelector('form');
+const $input = $form.querySelector('input');
+const $output = document.querySelector('output');
+
+$form.addEventListener('submit',function(event){
+    event.preventDefault();
+    add($input.value);
+    $input.value = "";
+})
 
 
 

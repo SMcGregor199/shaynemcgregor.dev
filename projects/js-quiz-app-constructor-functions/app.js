@@ -1,18 +1,3 @@
-// function Person(name, age){
-//     this.name = name;
-//     this.number = age;
-//     this.roar = function(){
-//         alert(`${this.number}!!!!`);
-//     }
-// }
-
-// const shayne = new Person('Shayne',30);
-
-// Person.prototype.whisper = function(){
-//     console.log(`...Hello, my name is ${this.name}`);
-// }
-// shayne.whisper();
-
 
 function GamesList(name){
     this.listName = name;
