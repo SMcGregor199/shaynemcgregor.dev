@@ -14,7 +14,6 @@ function add(content){
         complete: false
     };
     games = [...games,game];
-    print(`Added ${content}`);
     renderGames(games);
 
 }
@@ -29,12 +28,10 @@ function remove(id){
 
 function complete(id){
     games[id].complete = true;
-    print(`Completed ${games[id].title}`);
     renderGames(games);
 }
 function udpate(id,property,value){
     games[id][property] = value;
-    print(`Updated the ${property} of ${games[id].title}`);
     renderGames(games);
 }
 function renderGame(game){
