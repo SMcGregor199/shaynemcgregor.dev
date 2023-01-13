@@ -9,14 +9,14 @@
     </a>
 
     <div class="blog-grid">
-        <a href="#" class="blog-card">
+        <a href="https://shaynemcgregor.substack.com/p/how-the-power-rangers-taught-me-php" target="substack" class="blog-card">
             <div class="blog-date">
-                <p>January 01</p>
+                <p>January 04</p>
             </div>
 
             <div class="blog-title">
-                <p>Weekly Roundup</p>
-                <time datetime='01.01.2022'>01.01.2022</time>
+                <p>How the Power Rangers taught me PHP</p>
+                <time datetime='01.04.2022'>01.04.2022</time>
             </div>
         </a>
 
