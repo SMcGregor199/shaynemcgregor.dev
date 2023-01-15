@@ -1,7 +1,13 @@
+//Selecting the HTML Elements
+const $form = document.querySelector('form');
+const $input = $form.querySelector('input');
+const $output = document.querySelector('output');
 
+// app set up 
 var games = [];
 var gamesIdMaker = 0;
 
+//app functions
 function print(note = ""){
     console.log(`-----------${note}`);
     console.log(`games`, games);
@@ -15,7 +21,6 @@ function add(content){
     };
     games = [...games,game];
     renderGames(games);
-
 }
 
 function remove(id){
@@ -30,10 +35,13 @@ function complete(id){
     games[id].complete = true;
     renderGames(games);
 }
+
 function udpate(id,property,value){
     games[id][property] = value;
     renderGames(games);
 }
+
+// render the data
 function renderGame(game){
 return `
     <li data-id="${game.id}">
@@ -57,12 +65,7 @@ function renderGames(games) {
 }
 
 
-
-//rendering the data 
-const $form = document.querySelector('form');
-const $input = $form.querySelector('input');
-const $output = document.querySelector('output');
-
+// Form functions 
 $form.addEventListener('submit',function(event){
     event.preventDefault();
     add($input.value);

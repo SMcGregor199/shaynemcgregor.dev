@@ -1,4 +1,4 @@
-
+<h1>JavaScript To-Do App with Global Functions</h1>
 <form>
 	<p></p>
 
