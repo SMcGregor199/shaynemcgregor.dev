@@ -43,13 +43,6 @@
 		<?php include('modules/project-grid.php');?>
 	</inner-column>
 </section>
-
-<section class="efp-all-exercises-list">
-	<inner-column>
-		<h1 class="super-title-voice">Exercises for Programmers</h1>
-		<?php include('modules/efp-section-content.php'); ?>
-	</inner-column>
-</section>
 <?php } ?>
 
 <?php if($page == 'projects') { ?>
