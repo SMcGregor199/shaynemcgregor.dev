@@ -1,35 +1,7 @@
-@import url("https://use.typekit.net/hsy2cwu.css");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* importing fonts with Adobe Fonts */
+ @import url("https: //use.typekit.net/nrd6yoq.css");
 
-.super-title-voice {
-	font-family: acuta, serif;
-	font-size: 1.7rem;
-	font-weight: 700;
-}
-.title-voice {
-	font-family: acuta, serif;
-	font-size: 1.1rem;
-}
-
-@media(min-width:551px){
-	.title-voice {
-		font-size:1.7rem;
-	}
-	.super-title-voice {
-		font-size: 2.3rem;
-	}
-}
-.link-voice {
-	font-family: acuta, serif;
-	font-size: 1rem;
-	font-weight:300;
-}
-
-.base-voice {
-	font-family: halyard-display, sans-serif;
-	max-width: 64ch;
-	font-size: 1.01rem;
-	line-height: 1.5;
-} 
-
-
+ .base-voice {
+ 	font-family: playfair-display, serif;
+ 	font-size: 1.3rem;
+ }

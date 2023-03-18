@@ -9,15 +9,18 @@ body {
 }
 
 main {
-	flex-grow:  1; /* push the footer down */
+	flex-grow: 1;
+	/* push the footer down */
 }
 
 inner-column {
 	display: block;
-	max-width: 1100px; /* could be a variable in settings */
+	max-width: 1100px;
+	/* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 30px 14px; /* a default */
+	padding: 30px 14px;
+	/* a default */
 }
 
 a {
@@ -26,20 +29,21 @@ a {
 	color: inherit;
 }
 
-
 p a {
 	display: inline;
 	color: blue;
 	text-decoration: underline;
 }
+
 figure {
 	display: block;
 }
+
 picture {
 	display: block;
 }
 
-img {  
+img {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -47,8 +51,7 @@ img {
 
 
 svg {
-  display: block;
-  width: 100%;
-  /* may need height: 100%; Check all browsers */
+	display: block;
+	width: 100%;
+	/* may need height: 100%; Check all browsers */
 }
-

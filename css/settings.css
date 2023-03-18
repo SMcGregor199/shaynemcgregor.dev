@@ -1,22 +1,10 @@
-
 html {
-	--black:#000000;
+	--black: #000000;
 	--white: #FFFFFF;
-	--highlight: #f59b0f;
-	--color: #38e2cc;
-	--blue: #a4d6e1;
-	--pink: #ff999a;
-	--orange: #ffcc99;
-	--yellow: #ffee99;
-	--seaBlue:  #036896;
-	--slate: #3F4E5D;
-	--green: #8C8;
-	--seaMint: #c4d5c3;
-	--background:#e0decf;
-	--background-dark:#c9c8ba;
-	--background-light:#e9e8dd;
-	--purple:#d67fff;
-	--burntOrange:#e77a58;
+	--background: #f6f2eb;
+	--accent: #CE5353;
+	--accent-light: #fcf0e7;
+	--highlight: #f70fe8;
 }
 
 
@@ -25,7 +13,7 @@ html {
 /* USAGE */
 
 .test {
-	border: 5px solid var(--highlight); 
+	border: 5px solid var(--highlight);
 }
 
 .test * {

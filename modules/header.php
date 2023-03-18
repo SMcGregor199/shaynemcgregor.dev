@@ -8,7 +8,7 @@
 
 
 <body>
-	<?php include("modules/nav-bar.php"); ?>
+	<?php include("modules/site-header.php"); ?>
 
 
 	<main>

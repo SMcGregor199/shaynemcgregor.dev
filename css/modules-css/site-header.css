@@ -1,0 +1,19 @@
+.site-icon {
+  width: 100px;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: .3rem;
+}
+
+.site-nav a+a:before {
+  content: "/";
+  padding: 0 5px;
+}
+
+.site-nav a:hover {
+  border-bottom: 5px solid var(--accent);
+  cursor: pointer;
+}
