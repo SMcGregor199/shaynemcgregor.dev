@@ -1,5 +1,6 @@
 .site-icon {
   width: 100px;
+  display: none;
 }
 
 .site-nav {
@@ -13,7 +14,15 @@
   padding: 0 5px;
 }
 
-.site-nav a:hover {
+.site-nav span:hover {
   border-bottom: 5px solid var(--accent);
   cursor: pointer;
+}
+
+@media(min-width:640px) {
+  .site-header inner-column {
+    display: flex;
+    flex-direction: row;
+
+  }
 }
