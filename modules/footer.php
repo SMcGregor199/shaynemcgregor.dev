@@ -1,13 +1,21 @@
 	</main>
 
 	<footer class="site-footer">
-		<inner-column>
-			<p class = "paragraph-font">Thanks for checking out my website. If you'd like to talk about web design and rap music, you can contact me directly at <span>shayne.mcgregor@yale.edu</span>.</p>
-
-			<p class="paragraph-font">If you're curious , I'll also include a link to my <a href="https://github.com/SMcGregor199" class="link-font">Github</a>.</p>
-			<p class="paragraph-font" target="github">Additionally, you can also follow me on <a href="https://community.codenewbie.org/smcgregor199" class="link-font" target="codenewbie">Codenewbie</a> where I repost most of my work from Substack</p> 
+		<inner-column  style="border-top:1px solid var(--outlines); border-width:">
+			<picture class="site-icon">
+				<img src="images/pixel-lion.jpeg" alt="a pixelated image of a cartoon lion">
+			</picture>
+			<nav class="site-nav">
+				<a class="base-voice" href="?page=home"><span>home</span></a>
+				<a class="base-voice" href="#"><span>articles</span></a>
+				<a class="base-voice" href="#"><span>projects</span></a>
+				<a class="base-voice" href="#"><span>contacts</span></a>	
+			</nav>
 		</inner-column>
 	</footer>
+	
+
+
 
 	<script>
 		var page = document.querySelector('body');

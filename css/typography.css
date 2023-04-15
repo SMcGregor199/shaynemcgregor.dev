@@ -2,8 +2,12 @@
  @import url("https: //use.typekit.net/nrd6yoq.css");
 
  .base-voice {
- 	font-family: playfair-display, serif;
- 	font-size: 1.3rem;
+ 	font-family: "Times New Roman", Times, serif;
+ 	font-size: 24px;
  }
 
- .minor-voice {}
+ .minor-voice {
+ 	font-family: roboto, sans-serif;
+ 	font-size: 16px;
+ 	font-weight: 300;
+ }
