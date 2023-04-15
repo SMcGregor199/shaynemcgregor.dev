@@ -5,15 +5,18 @@
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	gap: 1rem;
 }
 
 main {
 	flex-grow: 1;
+	flex-direction: column;
+	gap: 1rem;
 	/* push the footer down */
 }
 
 inner-column {
+	/* Explicitly definining the container between small and large desktop  */
 	display: block;
 	max-width: 1512px;
 	margin-right: auto;
@@ -23,9 +26,19 @@ inner-column {
 }
 
 @media(min-width:1512px) {
+
+	/* Explicitly definining the container at max-width  */
 	inner-column {
 		padding-left: 320.5px;
 		padding-right: 320.5px;
+	}
+}
+
+@media(max-width:1024px) {
+
+	/* Explicitly definining the container below small desktop  */
+	inner-column {
+		padding: 10px 10px;
 	}
 }
 

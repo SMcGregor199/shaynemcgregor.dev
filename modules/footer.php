@@ -2,8 +2,8 @@
 
 
 	<footer>
-		<inner-column style="border-top:1px solid var(--outlines); border-width:">
-			<div class="site-footer">
+		<inner-column>
+			<div class="site-footer" style="border-top:1px solid var(--outlines); padding-top:25px;">
 				<picture class="site-icon">
 					<img src="images/pixel-lion.jpeg" alt="a pixelated image of a cartoon lion">
 				</picture>

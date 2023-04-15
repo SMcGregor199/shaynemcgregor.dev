@@ -3,7 +3,13 @@
 
  .base-voice {
  	font-family: "Times New Roman", Times, serif;
- 	font-size: 24px;
+ 	font-size: 22px;
+ }
+
+ @media(min-width:1512px) {
+ 	.base-voice {
+ 		font-size: 24px;
+ 	}
  }
 
  .minor-voice {
