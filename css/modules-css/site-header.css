@@ -1,11 +1,22 @@
 .site-header {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .site-icon {
-  width: 100px;
+  width: 50px;
   display: none;
+}
+
+@media(min-width:500px) {
+  .site-icon {
+    display: block;
+  }
+
+  .site-header {
+    justify-content: space-between;
+  }
 }
 
 .site-nav {

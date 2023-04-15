@@ -2,7 +2,7 @@
 	<inner-column>
 		<div class="site-header">
 			<picture class="site-icon">
-				<img src="images/pixel-lion.jpeg" alt="a pixelated image of a cartoon lion">
+				<img src="images/pixel-lion.jpg" alt="a pixelated image of a cartoon lion">
 			</picture>
 			<nav class="site-nav">
 				<a class="base-voice" href="?page=home"><span>home</span></a>
