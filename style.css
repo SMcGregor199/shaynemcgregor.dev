@@ -72,20 +72,9 @@ space {
 }
 
 
-section {
-	min-height: 30vh;
-}
 
 
 
-
-under-construction h1 {
-	line-height: 1.5;
-}
-
-li {
-	list-style: none;
-}
 
 section inner-column {
 	display: flex;

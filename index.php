@@ -19,7 +19,7 @@
 
 <section>
 	<inner-column>
-		<h1 class="super-title-voice">Projects and Articles</h1>
+		<h1 class="base-voice">Projects and Articles</h1>
 		<?php include('modules/project-grid.php');?>
 	</inner-column>
 </section>

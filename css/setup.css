@@ -15,12 +15,18 @@ main {
 
 inner-column {
 	display: block;
-	max-width: 1100px;
-	/* could be a variable in settings */
+	max-width: 1512px;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 30px 14px;
-	/* a default */
+	padding-left: 21.197vw;
+	padding-right: 21.197vw;
+}
+
+@media(min-width:1512px) {
+	inner-column {
+		padding-left: 320.5px;
+		padding-right: 320.5px;
+	}
 }
 
 a {
