@@ -1,6 +1,11 @@
  /* importing fonts with Adobe Fonts */
  @import url("https: //use.typekit.net/nrd6yoq.css");
 
+ .major-voice {
+ 	font-family: "Times New Roman", Times, serif;
+ 	font-size: 40px;
+ }
+
  .base-voice {
  	font-family: "Times New Roman", Times, serif;
  	font-size: 22px;
