@@ -1,3 +1,9 @@
+<div>
+    <h1 class="base-voice">Project: Flagship WordPress Project</h1>
+    
+</div>
+<div></div>
+
 <div class="project-grid">
     <a href="?page=projects&&id=0">
         <div class="project-card featured-project">
