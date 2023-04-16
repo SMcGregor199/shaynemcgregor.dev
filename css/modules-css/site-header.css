@@ -9,7 +9,7 @@
   display: none;
 }
 
-@media(min-width:640px) {
+@media(min-width:500px) {
   .site-icon {
     display: block;
   }
