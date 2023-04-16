@@ -16,10 +16,15 @@
 
 <?php if($page == 'home') { ?>
 
+<section>
+	<inner-column>
+		<?php include('modules/hero.php');?>
+	</inner-column>
+</section>
+
 
 <section>
 	<inner-column>
-		<h1 class="base-voice">Projects and Articles</h1>
 		<?php include('modules/project-grid.php');?>
 	</inner-column>
 </section>
