@@ -35,13 +35,6 @@
 	include("modules/footer.php"); 
 ?>
 
-<!-- This is the Projects Page -->
-<?php if($page == 'projects') { ?>
-	<?php include('pages/projects/lion-cub.php'); ?>
-<?php } ?>
 
 
-<!-- This is API work that I will eventually move to another project -->
-<!-- <script type="module" src="scripts/blkhistory.js"></script>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
 

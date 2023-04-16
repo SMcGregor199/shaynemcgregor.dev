@@ -15,22 +15,6 @@
 	</footer>
 	
 
-
-
-	<script>
-		var page = document.querySelector('body');
-		
-
-		window.addEventListener('click', function(event){
-			if(event.target.matches('[rel="toggle"]')) {
-				page.classList.toggle('menu-open');
-				console.log('menu-toggled');
-			}
-
-			console.log(event.target);
-		} );
-
-	</script>
 </body>
 
 </html>
