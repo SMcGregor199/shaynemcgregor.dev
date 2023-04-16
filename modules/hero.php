@@ -6,7 +6,7 @@
         <div class="minor-voice button" style="color: var(--white);background-color:var(--accent)">
             <a href="">View Projects</a>
         </div>
-        <div class="minor-voice button" style="color: var(--accent); background-color:var(--accent-mid)">
+        <div class="minor-voice button" style="color: var(--accent-dark); background-color:var(--accent-mid)">
             <a href="">Contact Me</a>
         </div>
     </div>
