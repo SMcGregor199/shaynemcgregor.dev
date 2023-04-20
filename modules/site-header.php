@@ -8,7 +8,7 @@
 				<a class="base-voice" href="?page=home"><span>home</span></a>
 				<a class="base-voice" href="#"><span>articles</span></a>
 				<a class="base-voice" href="#"><span>projects</span></a>
-				<a class="base-voice" href="#"><span>contact</span></a>	
+				<a class="base-voice" target="new_window" href="https://www.linkedin.com/in/shayne-mcgregor/"><span>contact</span></a>	
 			</nav>
 		</div>
 	</inner-column>

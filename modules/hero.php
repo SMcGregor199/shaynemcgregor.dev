@@ -7,7 +7,7 @@
             <a href="">View Projects</a>
         </div>
         <div class="minor-voice button"">
-            <a href="">Contact Me</a>
+            <a target="new_window" href="https://www.linkedin.com/in/shayne-mcgregor/">Contact Me</a>
         </div>
     </div>
 </div>
