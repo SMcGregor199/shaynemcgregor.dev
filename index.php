@@ -25,7 +25,7 @@
 
 <section>
 	<inner-column>
-		<?php include('modules/project-grid.php');?>
+		<?php include('modules/project-article-grid.php');?>
 	</inner-column>
 </section>
 
