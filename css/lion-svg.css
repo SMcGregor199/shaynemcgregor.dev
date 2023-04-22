@@ -1,6 +1,6 @@
-svg {
+/* svg {
   max-width: 250px;
-}
+} */
 
 @keyframes wag {
   50% {
@@ -9,23 +9,27 @@ svg {
 }
 
 @keyframes blink2 {
-  0%, 48% {
+
+  0%,
+  48% {
     transform: scaleY(1);
   }
 
   50% {
     transform: scaleY(0.01);
   }
-  
-  52%, 62% {
+
+  52%,
+  62% {
     transform: scaleY(1);
   }
-  
+
   64% {
     transform: scaleY(0.01);
   }
-  
-  68%, 100% {
+
+  68%,
+  100% {
     transform: scaleY(1);
   }
 }
@@ -62,5 +66,5 @@ svg {
 #eyes ellipse {
   transform-box: fill-box;
   transform-origin: center;
-  animation: 4s blink2 infinite ;
+  animation: 4s blink2 infinite;
 }
