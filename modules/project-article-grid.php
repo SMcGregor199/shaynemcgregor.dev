@@ -14,33 +14,41 @@
 
     <div style="max-width:50%; display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Articles</h2>
-        <div>
+        <div class="articles-grid" style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
             <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
             
-            <h2 class="base-voice">
+            <h2 class="base-voice" style="padding:25px";>
               This is click bait title for your projects! Click here. Click
             </h2>
+            <div class="border"></div>
+            
             
             </a>
             <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
             
-            <h2 class="base-voice">
+            <h2 class="base-voice" style="padding:25px";>
               This is click bait title for your projects! Click here. Click
             </h2>
+            <div class="border"></div>
+            
             
             </a>
             <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
                 
-                <h2 class="base-voice">
-                This is click bait title for your projects! Click here. Click
+                <h2 class="base-voice" style="padding:25px";>
+                This is click bait title for your projects! Click here. Click    
                 </h2>
+                <div class="border"></div>
+                
                 
             </a>
             <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
                 
-                <h2 class="base-voice">
-                This is click bait title for your projects! Click here. Click
+                <h2 class="base-voice" style="padding:25px";>
+                This is click bait title for your projects! Click here. Click    
                 </h2>
+                <div class="border"></div>
+                
                 
             </a>
         </div>
