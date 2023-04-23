@@ -2,7 +2,7 @@
 <div class="container">
 
 
-    <div style="max-width:50%; display:flex; flex-direction:column; gap:30px;">
+    <div class="flag-ship-project" style="display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Project: Flagship WordPress Project</h2>
         <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
                 <picture class="graphic" style="padding:25px"; >
@@ -12,9 +12,9 @@
         </a> 
     </div>
 
-    <div style="max-width:50%; display:flex; flex-direction:column; gap:30px;">
+    <div class="articles" style="display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Articles</h2>
-        <div class="articles-grid" style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
+        <div class="articles-grid" style="gap:20px;">
             <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
             
             <h2 class="base-voice" style="padding:25px";>

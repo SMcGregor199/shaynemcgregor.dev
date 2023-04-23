@@ -1,8 +1,35 @@
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
 }
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media(min-width:768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media(min-width:768px) {
+
+    .flag-ship-project,
+    .articles {
+        max-width: 50%;
+    }
+
+}
+
+@media(max-width:420px) {
+    .articles-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 .articles-grid a {
     display: flex;
