@@ -4,7 +4,7 @@
 
     <div class="flag-ship-project" style="display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Project: Flagship WordPress Project</h2>
-        <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
+        <a href="#">
                 <picture class="graphic" style="padding:25px"; >
                     <?php include('images/svgs/lion.svg'); ?>
                 </picture>
@@ -15,7 +15,7 @@
     <div class="articles" style="display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Articles</h2>
         <div class="articles-grid" style="gap:20px;">
-            <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
+            <a href="#">
             
             <h2 class="base-voice" style="padding:25px";>
               This is click bait title for your projects! Click here. Click
@@ -24,7 +24,7 @@
             
             
             </a>
-            <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
+            <a href="#">
             
             <h2 class="base-voice" style="padding:25px";>
               This is click bait title for your projects! Click here. Click
@@ -33,7 +33,7 @@
             
             
             </a>
-            <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
+            <a href="#">
                 
                 <h2 class="base-voice" style="padding:25px";>
                 This is click bait title for your projects! Click here. Click    
@@ -42,7 +42,7 @@
                 
                 
             </a>
-            <a href="#" style="border:1px solid var(--outlines); border-radius:15px;">
+            <a href="#">
                 
                 <h2 class="base-voice" style="padding:25px";>
                 This is click bait title for your projects! Click here. Click    
