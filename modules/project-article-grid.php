@@ -1,12 +1,12 @@
 
-<div class="container">
+<div class="container grid">
 
 
     <div class="flag-ship-project" style="display:flex; flex-direction:column; gap:30px;">
-        <h2 class="base-voice">Project: Flagship WordPress Project</h2>
+        <h2 class="base-voice">Flagship WordPress Project</h2>
         <a href="#">
                 <picture class="graphic" style="padding:25px"; >
-                    <?php include('images/svgs/lion.svg'); ?>
+                   <img src="images/pixel-lion.jpg" alt="">
                 </picture>
                 <h2 class="base-voice" style="padding-left:43px; padding-right:43px; padding-bottom:10px;" >This is click bait title for your projects! Click here. Click</h2>
         </a> 

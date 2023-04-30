@@ -38,6 +38,9 @@
 .flag-ship-project a {
     border: 1px solid var(--outlines);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .articles-grid a {
@@ -62,10 +65,47 @@
     color: var(--accent);
 }
 
+.flag-ship-project a:hover {
+    background-color: var(--accent-light);
+    border-color: var(--accent);
+}
+
+.flag-ship-project a:hover .border {
+    border-color: var(--accent);
+}
+
+.flag-ship-project a:hover h2 {
+    color: var(--accent);
+}
+
 .articles-grid .border {
     padding-left: 10%;
     padding-right: 10%;
     border-top: 2px solid black;
     padding-bottom: 20px;
 
+}
+
+@media(min-width:768px) {
+    .graphic {
+        max-width: 332px;
+    }
+}
+
+@media(min-width:992px) {
+    .graphic {
+        max-width: 288px;
+    }
+}
+
+@media(min-width:1024px) {
+    .graphic {
+        max-width: 245px;
+    }
+}
+
+@media(min-width:1280px) {
+    .graphic {
+        max-width: 350px;
+    }
 }
