@@ -25,7 +25,7 @@
 
 <section>
 	<inner-column>
-		<h1>Testing automatic updates</h1>
+		<h1>Testing #2</h1>
 		<?php include('modules/project-article-grid.php');?>
 	</inner-column>
 </section>
