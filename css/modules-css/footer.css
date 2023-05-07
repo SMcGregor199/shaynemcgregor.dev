@@ -2,4 +2,8 @@ footer {
     margin-bottom: 15px;
 }
 
-/* Just a comment */
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

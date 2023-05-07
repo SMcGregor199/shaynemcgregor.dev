@@ -31,6 +31,7 @@
 @import "css/modules-css/blog-grid.css";
 @import "css/modules-css/site-header.css";
 @import "css/modules-css/hero.css";
+@import "css/modules-css/attribution.css";
 
 html {
 	scroll-behavior: smooth;
