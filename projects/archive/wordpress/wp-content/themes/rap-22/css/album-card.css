@@ -1,8 +1,0 @@
-album-card {
-	display: block;
-	background-color: mediumpurple;
-	border: 2px solid black;
-}
-album-card .album-cover {
-	max-width: 500px;
-}
