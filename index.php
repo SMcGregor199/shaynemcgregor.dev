@@ -25,7 +25,7 @@
 
 <section>
 	<inner-column>
-		<h1>Hello We just updated</h1>
+		<h1>Hello We just updated! We're on Digital Ocean!</h1>
 		<?php include('modules/project-article-grid.php');?>
 	</inner-column>
 </section>
