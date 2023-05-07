@@ -4,7 +4,7 @@
 
 	<title>Shayne McGregor's Developer Website</title>
 	<meta name="description" content="Shayne McGregor's Developer Portfolio">
-	<meta property="og:image" content="images/pixel-lion.jpg">
+	<meta property="og:image" content="/images/pixel-lion.jpg">
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://use.typekit.net/hsy2cwu.css">
