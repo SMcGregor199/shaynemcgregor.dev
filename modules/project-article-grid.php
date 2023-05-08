@@ -15,10 +15,10 @@
     <div class="articles" style="display:flex; flex-direction:column; gap:30px;">
         <h2 class="base-voice">Articles</h2>
         <div class="articles-grid" style="gap:20px;">
-            <a href="#">
+            <a href="https://community.codenewbie.org/smcgregor199/setting-up-a-live-site-with-digital-ocean-3c76">
             
             <h2 class="base-voice" style="padding:25px";>
-              This is click bait title for your projects! Click here. Click
+              Setting up a live Site with Digital Ocean
             </h2>
             <div class="border"></div>
             
