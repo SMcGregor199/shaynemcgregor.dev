@@ -3,12 +3,12 @@
 
 
     <div class="flag-ship-project" style="display:flex; flex-direction:column; gap:30px;">
-        <h2 class="base-voice">Flagship WordPress Project</h2>
+        <h2 class="base-voice">A Rap Blog - WP</h2>
         <a href="#">
                 <picture class="graphic" style="padding:25px"; >
-                   <img src="images/brooklyn-cat.png" alt="">
+                   <img src="images/brooklyn-cat-nobg.png" alt="">
                 </picture>
-                <h2 class="base-voice" style="padding-left:43px; padding-right:43px; padding-bottom:10px;" >This is click bait title for your projects! Click here. Click</h2>
+                <h2 class="base-voice" style="padding-left:43px; padding-right:43px; padding-bottom:10px;" >Where is all the good writing about rap music?</h2>
         </a> 
     </div>
 
