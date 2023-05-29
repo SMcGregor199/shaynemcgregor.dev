@@ -8,7 +8,7 @@
 					<a class="base-voice" href="?page=home"><span>home</span></a>
 					<a class="base-voice" target="new_window" href="https://community.codenewbie.org/smcgregor199"><span>articles</span></a>
 					<a class="base-voice" target="new_window" href="https://github.com/SMcGregor199/personal-website"><span>projects</span></a>
-					<a class="base-voice" target="new_window" href="https://www.linkedin.com/in/shayne-mcgregor/"><span>contact</span></a>	
+					<a class="base-voice" target="new_window" href="https://github.com/SMcGregor199"><span>contact</span></a>	
 				</nav>
 				<?php include('attribution.php') ?> 
 			</div>

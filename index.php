@@ -29,6 +29,12 @@
 	</inner-column>
 </section>
 
+<section>
+	<inner-column>
+		<?php include('modules/project-grid.php');?>
+	</inner-column>
+</section>
+
 <?php } ?>
 
 <?php

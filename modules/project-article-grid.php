@@ -27,10 +27,10 @@
             
             </a>
             
-            <a href="#">
+            <a href="https://community.codenewbie.org/smcgregor199/the-navigational-header-problem-solving-w-css-1h0n" target="new-window">
             
             <h2 class="base-voice" style="padding:25px";>
-              This is click bait title for your projects! Click here. Click
+              The Navigational Header: Problem Solving W/ CSS
             </h2>
             <div class="border"></div>
             
