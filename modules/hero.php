@@ -4,7 +4,7 @@
     <p class="minor-voice">The Hip Hop Web Developer</p>
     <div class="button-group">
         <div class="minor-voice button">
-            <a target="new_window" href="https://github.com/SMcGregor199/personal-website">View Projects</a>
+            <a target="new_window" href="https://github.com/SMcGregor199">View Projects</a>
         </div>
         <div class="minor-voice button"">
             <a target="new_window" href="https://www.linkedin.com/in/shayne-mcgregor/">Contact Me</a>
