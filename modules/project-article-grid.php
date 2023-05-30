@@ -36,19 +36,19 @@
             
             
             </a>
-            <a href="#">
+            <a href="https://community.codenewbie.org/smcgregor199/creating-a-platform-for-rap-annotations-part-1-5ab3" target="new-window">
                 
                 <h2 class="base-voice" style="padding:25px";>
-                This is click bait title for your projects! Click here. Click    
+                Creating a Platform for Rap Annotations Part 1 
                 </h2>
                 <div class="border"></div>
                 
                 
             </a>
-            <a href="#">
+            <a href="https://community.codenewbie.org/smcgregor199/javascript-quiz-app-pt1-planning-1aml" target="new-window">
                 
                 <h2 class="base-voice" style="padding:25px";>
-                This is click bait title for your projects! Click here. Click    
+                JavaScript Quiz App Pt1: Planning  
                 </h2>
                 <div class="border"></div>
                 
