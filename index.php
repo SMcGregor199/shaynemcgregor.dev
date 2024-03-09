@@ -15,7 +15,7 @@
 ?>
 
 <?php if($page == 'home') { ?>
-
+<!-- Test -->
 <section>
 	<inner-column>
 		<?php include('modules/hero.php');?>
