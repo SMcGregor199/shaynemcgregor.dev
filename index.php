@@ -14,7 +14,12 @@
 
 ?>
 
-<?php if($page == 'home') { ?>
+<?php if($page == 'home') { 
+	include("testAPI.php");
+
+?>
+
+
 <section>
 	<inner-column>
 		<?php include('modules/hero.php');?>
