@@ -17,7 +17,7 @@ $postData = [
 	]
 ];
 
-$data = json_encode($userData);
+$data = json_encode($postData);
 
 $ch = curl_init($url);
 
