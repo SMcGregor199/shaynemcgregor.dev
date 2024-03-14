@@ -48,8 +48,3 @@ print_r($userData);
 
 
 ?>
-<?php
-        curl_setopt($ch, CURLOPT_URL, 'https://graph.facebook.com/v18.0/'.$fb_pixel.'/events');
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
