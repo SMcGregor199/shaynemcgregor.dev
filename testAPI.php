@@ -1,11 +1,20 @@
 <?php 
+$fb_pixel;
+$fb_token;
+
 $url = 'https://jsonplaceholder.typicode.com/posts';
 
-$userData = [
-  'email' => 'test@example.com',
-  'phone' => '1234567890',
-  'client_user_agent' => $_SERVER['HTTP_USER_AGENT'],
-  'event_time' => $_POST['event_time']
+$postData = [
+	'event_name' => '',
+	'event_time'=> '',
+	'userData' => [
+	  'client_user_agent' => $_SERVER['HTTP_USER_AGENT'],
+	  'client_ip_address' => $_SERVER['REMOTE_ADDR'],
+	  'e_mail' => '' ,
+	  'phone_number' => '', 
+	  'client_id' => '',
+	  'location_data' => ''
+	]
 ];
 
 $data = json_encode($userData);
@@ -39,3 +48,8 @@ print_r($userData);
 
 
 ?>
+<?php
+        curl_setopt($ch, CURLOPT_URL, 'https://graph.facebook.com/v18.0/'.$fb_pixel.'/events');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $query);
