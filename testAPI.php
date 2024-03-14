@@ -3,7 +3,8 @@ $url = 'https://jsonplaceholder.typicode.com/posts';
 
 $userData = [
   'email' => 'test@example.com',
-  'phone' => '1234567890'
+  'phone' => '1234567890',
+  'client_user_agent' => $_SERVER['HTTP_USER_AGENT']
 ];
 
 $data = json_encode($userData);
