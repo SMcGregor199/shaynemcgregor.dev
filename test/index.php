@@ -29,7 +29,7 @@ $userData = [
 $ch = curl_init();
 
 //establishes the connection with the specific url
-
+curl_setopt($ch, CURLOPT_URL, 'https://arapblog.com/');
 
 //lets the cURL know that we're posting data
 curl_setopt($ch, CURLOPT_POST, true);
