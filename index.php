@@ -15,7 +15,7 @@
 ?>
 
 <?php if($page == 'home') { 
-	include("testAPI.php");
+	include("scratch.php");
 
 ?>
 
