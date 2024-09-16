@@ -16,7 +16,7 @@ html {
 /* USAGE */
 
 .test {
-	border: 5px solid var(--highlight);
+	border: 1px solid red;
 }
 
 .test * {

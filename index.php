@@ -19,7 +19,7 @@
 
 ?>
 
-
+<h1>Hello</h1>
 <section>
 	<inner-column>
 		<?php include('modules/hero.php');?>
