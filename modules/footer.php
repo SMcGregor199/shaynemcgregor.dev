@@ -14,7 +14,8 @@
 			</div>
 		</inner-column>
 	</footer>
-	
+	<script src="scripts/blkhistory.js" type='module'>
+	</script>
 
 </body>
 

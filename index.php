@@ -1,50 +1,46 @@
 <?php
-	/* router */
-	$page = null;
+/* router */
+$page = null;
 
-	if( isset($_GET["page"]) ) {
-		$page = $_GET["page"];
-	} else {
-		$page = "home";
-	} 
-	include('functions/functions.php');
+if (isset($_GET["page"])) {
+	$page = $_GET["page"];
+} else {
+	$page = "home";
+}
+include('functions/functions.php');
 
 
-	include("modules/header.php");
+include("modules/header.php");
 
 ?>
 
-<?php if($page == 'home') { 
+<?php if ($page == 'home') {
 	include("scratch.php");
 
 ?>
 
-<h1>Hello</h1>
+<h1>Hello TEST</h1>
 <section>
-	<inner-column>
-		<?php include('modules/hero.php');?>
-	</inner-column>
+    <inner-column>
+        <?php include('modules/hero.php'); ?>
+    </inner-column>
 </section>
 
 
 <section>
-	<inner-column>
-		<?php include('modules/project-article-grid.php');?>
-	</inner-column>
+    <inner-column>
+        <?php include('modules/project-article-grid.php'); ?>
+    </inner-column>
 </section>
 
 <section>
-	<inner-column>
-		<?php include('modules/project-grid.php');?>
-	</inner-column>
+    <inner-column>
+        <?php include('modules/project-grid.php'); ?>
+    </inner-column>
 </section>
 
 <?php } ?>
 
 <?php
-	include("modules/footer.php"); 
+include("modules/footer.php");
 ?>
-
-
-
-
